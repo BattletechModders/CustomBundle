@@ -1,0 +1,22 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_FGAUSS",
+      "Name" : "Боеприпасы рельсотрона",
+      "UIName" : "buck",
+      "Details" : null,
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Type" : "Normal",
+   "Category" : "HGAUSS",
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "ProjectilesPerShot" : 5,
+   "BallisticDamagePerPallet":true,
+   "CriticalDamageModifier" : 1,
+   "statusEffects": [ {} ]
+}

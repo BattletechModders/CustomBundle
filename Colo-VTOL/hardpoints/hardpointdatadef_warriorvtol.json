@@ -1,0 +1,47 @@
+{
+    "ID" : "hardpointdatadef_warriorvtol",
+    "HardpointData" : [
+        {
+            "location" : "front",
+            "weapons" : [
+                [
+                    "chrprfweap_warriorvtol_turret_generic_eh1"
+                ]
+            ],
+            "blanks" : [
+                
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },
+        {
+            "location" : "right",
+            "weapons" : [
+                [
+                    "chrprfweap_warriorvtol_turret_generic_eh1"
+                ]
+            ],
+            "blanks" : [
+                
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },
+        {
+            "location" : "left",
+            "weapons" : [
+                [
+                    "chrprfweap_warriorvtol_turret_generic_eh1"
+                ]
+            ],
+            "blanks" : [
+                
+            ],
+            "mountingPoints" : [
+                
+            ]
+        }
+    ]
+}

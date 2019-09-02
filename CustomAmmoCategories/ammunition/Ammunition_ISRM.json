@@ -1,0 +1,27 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_ISRM",
+      "Name" : "Inferno SRM Ammo",
+      "UIName" : "Inf.SRM",
+      "Details" : "Short range missiles, inferno.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Type" : "Normal",
+   "Category" : "SRM",
+   "DamagePerShot": -8.0,
+   "HeatDamagePerShot": 8.0,
+   "AIBattleValue":90,
+   "AccuracyModifier": 0.0,
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1,
+   "FireTerrainChance":1,
+   "FireDurationWithoutForest":0,
+   "FireTerrainStrength":0,
+   "FireOnSuccessHit" : true
+}

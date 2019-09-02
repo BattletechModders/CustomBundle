@@ -1,0 +1,11 @@
+[
+{"Id":"LGAUSS","BaseCategory":"GAUSS"},
+{"Id":"HGAUSS","BaseCategory":"GAUSS"},
+{"Id":"LBX10","BaseCategory":"AC10"},
+{"Id":"LaserAmmo","BaseCategory":"Flamer"},
+{"Id":"AC20AOE","BaseCategory":"AC20"},
+{"Id":"MORTAR","BaseCategory":"AC20"},
+{"Id":"Thunder","BaseCategory":"LRM"},
+{"Id":"WIRLWIND","BaseCategory":"LRM"},
+{"Id":"LaserAmmo2","BaseCategory":"Flamer"}
+]

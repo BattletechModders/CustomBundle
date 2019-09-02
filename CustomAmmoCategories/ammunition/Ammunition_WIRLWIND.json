@@ -1,0 +1,22 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_WIRLWIND",
+      "Name" : "WIRLWIND Ammo",
+      "UIName" : "frag",
+      "Details" : "Oсколочные ракеты к пусковым установкам 'Вихрь'.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Type" : "Normal",
+   "Category" : "WIRLWIND",
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "HasShells":true,
+   "ProjectilesPerShot" : 5,
+   "DamagePerShot": 40, 
+   "CriticalDamageModifier" : 1
+}

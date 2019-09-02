@@ -1,0 +1,66 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "LRM20",
+    "MinRange" : 180,
+    "MaxRange" : 660,
+    "RangeSplit" : [
+        360,
+        360,
+        660
+    ],
+    "AmmoCategory" : "MORTAR",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 24,
+    "Damage" : 120,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : true,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 4,
+    "Instability" : 60,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Single",
+    "Description" : {
+        "Cost" : 230000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "Diamat",
+        "Model" : "Hellhammer Siege Cannon",
+        "UIName" : "Hellhammer",
+        "Id" : "Weapon_MORTAR_3-Hellhammer",
+        "Name" : "Hellhammer",
+        "Details" : "A Hellhammer Siege Cannon is a massive artillery piece deployed by the Imperial Guard that fires large rocket-propelled shells that are capable of destroying most fortified buildings in a single shot. The weapon is very similar in form and function to the Imperial Demolisher Cannon found on the Thunderer Siege Tank and Space Marine Vindicator tanks, with the exception that it is much larger, with a single shell weighing over 180 kilograms. The most common use of the Hellhammer Siege Cannon is as the main weapon on the Stormsword super-heavy tank of the Imperial Guard. ",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC20",
+    "BattleValue" : 0,
+    "InventorySize" : 6,
+    "Tonnage" : 10,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+	"ImprovedBallistic":true,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

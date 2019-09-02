@@ -1,0 +1,36 @@
+{
+    "AmmoID" : "Ammunition_WIRLWIND_E",
+    "Capacity" : 40,
+    "Description" : {
+        "Cost" : 10000,
+        "Rarity" : 99,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "SRM",
+        "UIName" : "Wirlwind Ammo High Explosion",
+        "Id" : "Ammo_AmmunitionBox_Generic_Wirlwind_E",
+        "Name" : "Wirlwind Ammo HE",
+        "Details" : "Боеприпасы для пусковых установок 'Вихрь'. Боеголовки объемного горения. 40 ракет.",
+        "Icon" : "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

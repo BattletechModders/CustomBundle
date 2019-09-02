@@ -1,0 +1,36 @@
+{
+    "AmmoID" : "Ammunition_WIRLWIND",
+    "Capacity" : 40,
+    "Description" : {
+        "Cost" : 10000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "SRM",
+        "UIName" : "Wirlwind Ammo",
+        "Id" : "Ammo_AmmunitionBox_Generic_Wirlwind",
+        "Name" : "Wirlwind Ammo",
+        "Details" : "Боеприпасы для пусковых установок 'Вихрь'. 120 ракет.",
+        "Icon" : "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
