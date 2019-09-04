@@ -35,10 +35,10 @@
         "Purchasable" : false,
         "Manufacturer" : "Sperry Browning",
         "Model" : "Phalanx CIWS",
-        "UIName" : "AMS",
+        "UIName" : "__/Weapon.AMS.Hydra.Name/__",
         "Id" : "Weapon_MachineGun_AMS_3-Hydra",
         "Name" : "AMS",
-        "Details" : "Зенитный артелерийский комплекс предназначен для борьбы с ракетами с дозвуковой и сверхзвуковой скоростью полёта, до 2 скоростей звука",
+        "Details" : "__/Weapon.AMS.Hydra.Details/__",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",

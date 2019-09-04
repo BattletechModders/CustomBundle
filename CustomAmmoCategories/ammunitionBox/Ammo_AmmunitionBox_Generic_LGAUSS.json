@@ -23,7 +23,7 @@
 	"Tonnage" : 1,
 	"AllowedLocations" : "All",
 	"DisallowedLocations" : "None",
-	"CriticalComponent" : false
+	"CriticalComponent" : false,
     "statusEffects" : [
         
     ],

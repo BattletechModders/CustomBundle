@@ -1,235 +1,224 @@
 {
-    "Custom":{
-		"ActivatableComponent":{
-			"ButtonName":"ECM",
-			"CanNotBeActivatedManualy": false,
-			"Linkage":{
-				"OnActivate":{
-					"Deactivate":["SpeedUp"]
-				}
-			},
-      "statusEffects" : [
-            {
-          "durationData" : {
-                    "duration": -1,
-                    "stackLimit": 1
-                },
-                "targetingData" : {
-                    "effectTriggerType" : "Passive",
-                    "specialRules" : "Aura",
-            "auraEffectType" : "ECM_GENERAL",
-                    "effectTargetType" : "AlliesWithinRange",
-                    "range" : 100.0,
-                    "forcePathRebuild" : false,
-                    "forceVisRebuild" : false,
-                    "showInTargetPreview" : false,
-                    "showInStatusPanel" : false
-                },
-          "effectType" : "StatisticEffect",
-          "Description" :
-          {
-            "Id" : "ECMEffect_IndirectImmunity",
-            "Name" : "ECM MISSILE DEFENSE",
-            "Details" : "Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
-            "Icon" : "uixSvgIcon_status_ECM-missileDef"
+  "Custom": {
+    "ActivatableComponent": {
+      "ButtonName": "ECM",
+      "CanNotBeActivatedManualy": false,
+      "Linkage": {
+        "OnActivate": {
+          "Deactivate": [
+            "SpeedUp"
+          ]
+        }
+      },
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
           },
-          "statisticData" : 
-          {
-            "statName" : "IsIndirectImmune",
-            "operation" : "Set",
-            "modValue" : "true",
-            "modType" : "System.Boolean"
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "specialRules": "Aura",
+            "auraEffectType": "ECM_GENERAL",
+            "effectTargetType": "AlliesWithinRange",
+            "range": 100.0,
+            "forcePathRebuild": false,
+            "forceVisRebuild": false,
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
           },
-          "nature" : "Buff"
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "ECMEffect_IndirectImmunity",
+            "Name": "__/CustomActivatableEquipment.Gear_ECM.ECMEffect_IndirectImmunity.CAE0.Name/__",
+            "Details": "__/CustomActivatableEquipment.Gear_ECM.ECMEffect_IndirectImmunity.CAE0.Details/__",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "statisticData": {
+            "statName": "IsIndirectImmune",
+            "operation": "Set",
+            "modValue": "true",
+            "modType": "System.Boolean"
+          },
+          "nature": "Buff"
         },
         {
-          "durationData" : {
-                    "duration": -1,
-                    "stackLimit": 1
-                },
-                "targetingData" : {
-                    "effectTriggerType" : "Passive",
-                    "specialRules" : "Aura",
-            "auraEffectType" : "ECM_GENERAL",
-                    "effectTargetType" : "AlliesWithinRange",
-                    "range" : 100.0,
-                    "forcePathRebuild" : false,
-                    "forceVisRebuild" : false,
-                    "showInTargetPreview" : true,
-                    "showInStatusPanel" : true
-                },
-          "effectType" : "StatisticEffect",
-          "Description" :
-          {
-            "Id" : "ECMEffect_MissileDefense",
-            "Name" : "ECM MISSILE DEFENSE",
-            "Details" : "Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
-            "Icon" : "uixSvgIcon_status_ECM-missileDef"
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
           },
-          "statisticData" : 
-          {
-            "statName" : "ToHitThisActorMissile",
-            "operation" : "Float_Add",
-                    "modValue" : "4.0",
-                    "modType" : "System.Single"
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "specialRules": "Aura",
+            "auraEffectType": "ECM_GENERAL",
+            "effectTargetType": "AlliesWithinRange",
+            "range": 100.0,
+            "forcePathRebuild": false,
+            "forceVisRebuild": false,
+            "showInTargetPreview": true,
+            "showInStatusPanel": true
           },
-          "nature" : "Buff"
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "ECMEffect_MissileDefense",
+            "Name": "__/CustomActivatableEquipment.Gear_ECM.ECMEffect_MissileDefense.CAE1.Name/__",
+            "Details": "__/CustomActivatableEquipment.Gear_ECM.ECMEffect_MissileDefense.CAE1.Details/__",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "statisticData": {
+            "statName": "ToHitThisActorMissile",
+            "operation": "Float_Add",
+            "modValue": "4.0",
+            "modType": "System.Single"
+          },
+          "nature": "Buff"
         },
         {
-          "durationData" : {
-                    "duration": -1,
-                    "stackLimit": 1
-                },
-                "targetingData" : {
-                    "effectTriggerType" : "Passive",
-                    "specialRules" : "Aura",
-            "auraEffectType" : "ECM_GHOST",
-                    "effectTargetType" : "AlliesWithinRange",
-                    "range" : 100.0,
-                    "forcePathRebuild" : false,
-                    "forceVisRebuild" : true,
-                    "showInTargetPreview" : false,
-                    "showInStatusPanel" : false
-                },
-          "effectType" : "StatisticEffect",
-          "Description" :
-          {
-            "Id" : "ECMStealth_GhostEffect_Allies",
-            "Name" : "STEALTH CHARGE",
-            "Details" : "Units within an ECM field gain a Stealth Charge and cannot be targeted.\n\nFiring a weapon, using an activated ability, or an enemy penetrating the ECM field removes a Stealth Charge. Being Sensor Locked removes all Stealth Charges.",
-            "Icon" : "uixSvgIcon_status_ECM-ghost"
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
           },
-          "statisticData" : 
-          {
-            "statName" : "GhostEffectStacks",
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "specialRules": "Aura",
+            "auraEffectType": "ECM_GHOST",
+            "effectTargetType": "AlliesWithinRange",
+            "range": 100.0,
+            "forcePathRebuild": false,
+            "forceVisRebuild": true,
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "ECMStealth_GhostEffect_Allies",
+            "Name": "__/CustomActivatableEquipment.Gear_ECM.ECMStealth_GhostEffect_Allies.CAE2.Name/__",
+            "Details": "__/CustomActivatableEquipment.Gear_ECM.ECMStealth_GhostEffect_Allies.CAE2.Details/__",
+            "Icon": "uixSvgIcon_status_ECM-ghost"
+          },
+          "statisticData": {
+            "statName": "GhostEffectStacks",
             "operation": "Int_Add",
             "modValue": "1",
             "modType": "System.Int32"
           },
-          "nature" : "Buff"
+          "nature": "Buff"
         },
         {
-          "durationData" : {
-                    "duration": -1,
-                    "stackLimit": 1
-                },
-                "targetingData" : {
-                    "effectTriggerType" : "Passive",
-                    "specialRules" : "NotSet",
-                    "effectTargetType" : "Creator",
-                    "range" : 0.0,
-                    "forcePathRebuild" : false,
-                    "forceVisRebuild" : true,
-                    "showInTargetPreview" : true,
-                    "showInStatusPanel" : true
-                },
-          "effectType" : "StatisticEffect",
-          "Description" :
-          {
-            "Id" : "ECMStealth_GhostEffect",
-            "Name" : "ECM CARRIER",
-            "Details" : "PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.\n\nECM carriers also receive a bonus Stealth Charge.",
-            "Icon" : "uixSvgIcon_status_ECM-ghost"
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
           },
-          "statisticData" : 
-          {
-            "statName" : "GhostEffectStacks",
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "specialRules": "NotSet",
+            "effectTargetType": "Creator",
+            "range": 0.0,
+            "forcePathRebuild": false,
+            "forceVisRebuild": true,
+            "showInTargetPreview": true,
+            "showInStatusPanel": true
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "ECMStealth_GhostEffect",
+            "Name": "__/CustomActivatableEquipment.Gear_ECM.ECMStealth_GhostEffect.CAE3.Name/__",
+            "Details": "__/CustomActivatableEquipment.Gear_ECM.ECMStealth_GhostEffect.CAE3.Details/__",
+            "Icon": "uixSvgIcon_status_ECM-ghost"
+          },
+          "statisticData": {
+            "statName": "GhostEffectStacks",
             "operation": "Int_Add",
             "modValue": "1",
             "modType": "System.Int32"
           },
-          "nature" : "Buff"
+          "nature": "Buff"
         },
         {
-          "durationData" : {
-                    "duration": -1,
-                    "stackLimit": -1,
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1,
             "uniqueEffectIdStackLimit": 1
-                },
-                "targetingData" : {
-                    "effectTriggerType" : "Passive",
-                    "specialRules" : "Aura",
-            "auraEffectType" : "ECM_COUNTER",
-                    "effectTargetType" : "EnemiesWithinRange",
-                    "range" : 100.0,
-                    "forcePathRebuild" : false,
-                    "forceVisRebuild" : true,
-                    "showInTargetPreview" : false,
-                    "showInStatusPanel" : false
-                },
-          "effectType" : "StatisticEffect",
-          "Description" :
-          {
-            "Id" : "ECMCounter_GhostSpotterEffect",
-            "Name" : "STEALTH SPOTTER",
-            "Details" : "This unit is spotting against an enemy ECM field, reducing Stealth Charges by 1 each round for all visible enemies within the field.",
-            "Icon" : "uixSvgIcon_action_sensorlock"
           },
-          "statisticData" : 
-          {
-            "statName" : "HasGhostSpotter",
-            "operation" : "Set",
-            "modValue" : "true",
-            "modType" : "System.Boolean"
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "specialRules": "Aura",
+            "auraEffectType": "ECM_COUNTER",
+            "effectTargetType": "EnemiesWithinRange",
+            "range": 100.0,
+            "forcePathRebuild": false,
+            "forceVisRebuild": true,
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
           },
-          "nature" : "Debuff"
-        },		
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "ECMCounter_GhostSpotterEffect",
+            "Name": "__/CustomActivatableEquipment.Gear_ECM.ECMCounter_GhostSpotterEffect.CAE4.Name/__",
+            "Details": "__/CustomActivatableEquipment.Gear_ECM.ECMCounter_GhostSpotterEffect.CAE4.Details/__",
+            "Icon": "uixSvgIcon_action_sensorlock"
+          },
+          "statisticData": {
+            "statName": "HasGhostSpotter",
+            "operation": "Set",
+            "modValue": "true",
+            "modType": "System.Boolean"
+          },
+          "nature": "Debuff"
+        },
         {
-                "targetingData" : {
-                    "effectTriggerType" : "OnActivation",
-                    "effectTargetType" : "EnemiesWithinRange",
-            "alsoTargetsCreator" : true,
-                    "forceVisRebuild" : true
-                },
-          "effectType" : "ActiveAbility",
-          "Description" :
-          {
-            "Id" : "ActiveProbe_Ping",
-            "Name" : "ACTIVE PROBE PING",
-            "Details" : "Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
-            "Icon" : "uixSvgIcon_action_sensorlock"
+          "targetingData": {
+            "effectTriggerType": "OnActivation",
+            "effectTargetType": "EnemiesWithinRange",
+            "alsoTargetsCreator": true,
+            "forceVisRebuild": true
           },
-          "activeAbilityEffectData" : 
-          {
-            "abilityName" : "AbilityDef_ActiveProbe_Ping"
+          "effectType": "ActiveAbility",
+          "Description": {
+            "Id": "ActiveProbe_Ping",
+            "Name": "__/CustomActivatableEquipment.Gear_ECM.ActiveProbe_Ping.CAE5.Name/__",
+            "Details": "__/CustomActivatableEquipment.Gear_ECM.ActiveProbe_Ping.CAE5.Details/__",
+            "Icon": "uixSvgIcon_action_sensorlock"
+          },
+          "activeAbilityEffectData": {
+            "abilityName": "AbilityDef_ActiveProbe_Ping"
           }
-        }	
+        }
       ]
-		}
-	},
-	"StatName" : null,
-    "RelativeModifier" : 0,
-    "AbsoluteModifier" : 0,
-    "Description" : {
-        "Cost" : 20000,
-        "Rarity" : 1,
-        "Purchasable" : true,
-        "Manufacturer" : "Coventry",
-        "Model" : "IS",
-        "UIName" : "ECM",
-        "Id" : "Gear_ECM",
-        "Name" : "ECM",
-        "Details" : "ECM",
-        "Icon" : "uixSvgIcon_equipment_Gyro"
-    },
-    "BonusValueA" : "ECM",
-    "BonusValueB" : "",
-    "ComponentType" : "Upgrade",
-    "ComponentSubType" : "NotSet",
-    "PrefabIdentifier" : "",
-    "BattleValue" : 0,
-    "InventorySize" : 2,
-    "Tonnage" : 0,
-    "AllowedLocations" : "All",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "statusEffects" : [
-    ],
-    "ComponentTags" : {
-        "items" : [
-            "component_type_variant",
-            "component_type_variant1"
-        ],
-        "tagSetSourceFile" : ""
     }
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 20000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "Coventry",
+    "Model": "IS",
+    "UIName": "__/CustomActivatableEquipment.Gear_ECM.UIName/__",
+    "Id": "Gear_ECM",
+    "Name": "__/CustomActivatableEquipment.Gear_ECM.Name/__",
+    "Details": "__/CustomActivatableEquipment.Gear_ECM.Details/__",
+    "Icon": "uixSvgIcon_equipment_Gyro"
+  },
+  "BonusValueA": "ECM",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant",
+      "component_type_variant1"
+    ],
+    "tagSetSourceFile": ""
+  }
 }
