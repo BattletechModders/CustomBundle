@@ -11,6 +11,9 @@
 	"CustomResourceTypes": ["CCCategories", "CCDefaults", "CCTagRestrictions"],
 	
 	"Settings" : {
+		"LogLevel": "Debug",
+		"DebugInfo" : "NONE",
+
 		"Categories": [ ],
 		"TagRestrictions": [ ],
 		"ColorTags" : [ ],
