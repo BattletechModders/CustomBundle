@@ -2,7 +2,7 @@
 	"Name": "CustomActivatableEquipment",
 	"Enabled": true,
 
-	"Version": "0.0.34",
+	"Version": "0.0.35",
 	"PackagedOn": "2019-01-31T00:00:00Z",
 	"DLL": "CustomActivatableEquipment.dll",
 	"DLLEntryPoint": "CustomActivatableEquipment.Core.Init",
@@ -13,7 +13,7 @@
 	"Author": "KMiSSioN",
     "Website": "https://www.nexusmods.com/battletech/mods/381",
 	"Settings": {
-		"debug": false,
+		"debug": true,
     "ToolTipWarningFailChance": 0.2,
     "ToolTipAlertFailChance": 0.4,
 		"AIComponentUsefullModifyer":0.2,
@@ -27,7 +27,10 @@
     "StoodUpPilotingRoll":true,
     "StoodUpPilotingRollCoeff":0.1,
     "DefaultArmsAbsenceStoodUpMod":-0.1,
-    "LegAbsenceStoodUpMod":-0.1
+    "LegAbsenceStoodUpMod":-0.1,
+    "auraUpdateFix":"Position",
+    "auraUpdateMinTimeDelta":2,
+    "auraUpdateMinPosDelta":20
 	},
 	"Manifest": [
 		{ "Type": "UpgradeDef", "Path": "upgrades\\" }
