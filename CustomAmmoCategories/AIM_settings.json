@@ -96,7 +96,7 @@
 
   /* Show alpha/melee&dfa damage in weapon loadout list in targeting computer.  Default "Damage {2} + Long {3}". */
 
-  "ShowAlphaDamageInLoadout": "Damage {2} + Long {3}",
+  "ShowAlphaDamageInLoadout": "__/AIM.Damage/__ {2} + __/AIM.Long/__ {3}",
 
   /* Show melee & dfa damage in weapon loadout list in targeting computer.  Default . */
 
@@ -110,7 +110,7 @@
   /* Format of short mechwarrior hint that shows up when you mouseover/right-click the portrait.
    * Default "G:{3} P:{4} G:{5} T:{6}" which summarise his/her stats.  Set to empty to leave at game default. */
 
-  "ShortPilotHint": "G:{3} P:{4} G:{5} T:{6}",
+  "ShortPilotHint": "__/AIM.GunneryShort/__:{3} __/AIM.PilotingShort/__:{4} __/AIM.GutsShort/__:{5} __/AIM.TacticsShort/__:{6}",
 
   /* Apply damage reduction to damage numbers in weapon panel.  Default true. */
 
@@ -130,7 +130,7 @@
 
   /* Show weapon range in meters instead of "Short" or "Very Long" in weapon mouseover.  Default "Min {0} : Long {2} : Max {4}". */
 
-  "WeaponRangeFormat": "Min {0} : Long {2} : Max {4}",
+  "WeaponRangeFormat": "__/AIM.Min/__ {0} : __/AIM.Long/__ {2} : __/AIM.Max/__ {4}",
 
   /* Show only one cheevon per weapon subtype.  Same as CombatConstants.CombatUIConstants.collapseWeaponTypesInTickMarks.  Default true. */
 
@@ -143,9 +143,9 @@
   /* Format pilot name to show wounds (enemies) and health (non-enemy) after their names.
    * {1} is injury, {2} is health - injury, and {3} is health.  Set to empty to not change game default. */
 
-  "ShowPlayerHealth": ", HP {2}/{3}",
-  "ShowEnemyWounds": ", Wounds {1}",
-  "ShowAllyHealth": ", HP {2}/{3}",
+  "ShowPlayerHealth": ", __/AIM.HP/__ {2}/{3}",
+  "ShowEnemyWounds": ", __/AIM.Wounds/__ {1}",
+  "ShowAllyHealth": ", __/AIM.HP/__ {2}/{3}",
 
   /* Set name colour of overhead nameplate of Player / Enemy / Ally.  Default "#CFC", "#FBB", "#8FF".  Set to empty to not change (leave at white). */
 
