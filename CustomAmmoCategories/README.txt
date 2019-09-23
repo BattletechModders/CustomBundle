@@ -968,6 +968,8 @@ public class DamagePredictionRecord {
   public float ToHit { get; set; } - To hit chance for this ammo/mode/target. Note: LoS/Range not checked, if damage is AoE ToHit always 1.0
 }
 
+NOTE! To disable internal ammo/mode choose CustomAmmoCategories.DisableInternalWeaponChoose can be set to true. It will prevent all internal AI ammo/mode alterations.
+
 audio enums:
 NOTE: I certainly don't know how they sounds like, you are welcome to try. 
 usage "enum:<enum class name>.<enum value>" (example "enum:AudioEventList_ac10.ac10_auto_single")
