@@ -929,6 +929,45 @@ Ammo definition
     ]
 }
 
+
+Notes for external AI (CleverGirl):
+weapon.gatherDamagePrediction(Vector3 attackPos, ICombatant target) - returns Dictionary<AmmoModePair, WeaponFirePredictedEffect>
+AmmoModePair can be used in weapon.ApplyAmmoMode(AmmoModePair ammoMode) to switch weapon to this specific ammo and mode 
+                                      (no checking performed, eg. you can switch to ammo/mode not available for weapon)
+result will contain only valid for this weapon mode/ammo pairs with respect to mode locking subsystem and ammo boxes state and available ammo count.
+                                      
+public class WeaponFirePredictedEffect {
+  public AmmunitionDef ammo { get; set; } 
+  public ExtAmmunitionDef exAmmo { get; set; }
+  public Weapon weapon { get; set; }
+  public WeaponMode mode { get; set; }
+  public bool isAMS { get; set; }
+  public bool isAAMS { get; set; }
+  public float JammChance { get; set; }
+  public int Cooldown { get; set; }
+  public bool DamageOnJamm { get; set; }
+  public bool DestroyOnJamm { get; set; }
+  public int ammoUsage { get; set; } - is literally ShotsWhenFire for this ammo/mode
+  public int avaibleAmmo { get; set; } - if weapon not use ammo value will be -1. Calculated with respect to ammo boxes state and ammo count.
+  public List<DamagePredictionRecord> predictDamage { get; set; } - if weapon have stray, shells stray or AoE damage this list will be filled accordingly 
+}                                      
+
+public class DamagePredictionRecord {
+  public float Normal { get; set; } - normal damage
+  public float AP { get; set; } - damage penetrates armor
+  public float Heat { get; set; }
+  public float Instability { get; set; }
+                               NOTE: all damage values filled with respect to variance, attacker and target current design masks 
+                               (note, design mask and sticky effects on path from current position to attack position are not predicted)
+                               All damage to meant to be inflicted by one hit.
+  public float HitsCount { get; set; } - Actual hits count. Can be not integer cause of stray/shells range calculation
+  public bool isAoE { get; set; } - Flag for AoE damage. If damage is AoE AP is always 0. Normal, Heat, Instability - full damage with distance falloff. 
+  public List<int> PossibleHitLocations { get; set; } - List of possible hit locations
+  public List<EffectData> ApplyEffects { get; set; } - List of effects applied on hit
+  public ICombatant Target { get; set; } 
+  public float ToHit { get; set; } - To hit chance for this ammo/mode/target. Note: LoS/Range not checked, if damage is AoE ToHit always 1.0
+}
+
 audio enums:
 NOTE: I certainly don't know how they sounds like, you are welcome to try. 
 usage "enum:<enum class name>.<enum value>" (example "enum:AudioEventList_ac10.ac10_auto_single")
