@@ -2,7 +2,7 @@
 	"Name": "CustomActivatableEquipment",
 	"Enabled": true,
 
-	"Version": "0.0.35",
+	"Version": "0.0.37",
 	"PackagedOn": "2019-01-31T00:00:00Z",
 	"DLL": "CustomActivatableEquipment.dll",
 	"DLLEntryPoint": "CustomActivatableEquipment.Core.Init",
@@ -28,7 +28,7 @@
     "StoodUpPilotingRollCoeff":0.1,
     "DefaultArmsAbsenceStoodUpMod":-0.1,
     "LegAbsenceStoodUpMod":-0.1,
-    "auraUpdateFix":"Position",
+    "auraUpdateFix":"Never",
     "auraUpdateMinTimeDelta":2,
     "auraUpdateMinPosDelta":20
 	},

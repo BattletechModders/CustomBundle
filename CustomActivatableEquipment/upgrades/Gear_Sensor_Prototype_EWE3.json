@@ -3,7 +3,7 @@
     "ActivatableComponent": {
       "ButtonName": "AECM",
       "CanNotBeActivatedManualy": false,
-      "ActiveByDefault": false,
+      "ActiveByDefault": true,
       "statusEffects": [
         {
           "durationData": {

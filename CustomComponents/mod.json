@@ -12,7 +12,7 @@
 	
 	"Settings" : {
 		"LogLevel": "Debug",
-		"DebugInfo" : "NONE",
+		"DebugInfo" : "Color",
 
 		"Categories": [ ],
 		"TagRestrictions": [ ],

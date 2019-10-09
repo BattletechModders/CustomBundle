@@ -205,6 +205,8 @@ CustomAmmoCategories.json
 
 Weapon definition
 new fields
+  "AOEEffectsFalloff": false, if true and weapon inflicts AoE damage, random roll will be permitted before onHit effect apply. 
+                              Example: aoe range = 100m, projectile hits ground in 30m from combatant - onHits effects will be applied with 0.7 chance ((100 - 30) / 100).
   "isHeatVariation": true, - if true heat damage will be altered using DamageVariance/DistantVariance/DistantVarianceReversed values. Per mode/ammo/weapon.
   "isStabilityVariation": true, - if true stability damage will be altered using DamageVariance/DistantVariance/DistantVarianceReversed values. Per mode/ammo/weapon.
   "isDamageVariation": true, - if true normal damage will be altered using DamageVariance/DistantVariance/DistantVarianceReversed values. Per mode/ammo/weapon.
@@ -347,7 +349,7 @@ new fields
 							       example 2 trajectory length 100, min 80, max 100 - missile will separate 20m from end cause it have to fly 80m until separation. 
 								   example 3 trajectory length 100 min 120, max 200 - missile will not separate at all. 
   "Unguided": false, for missiles effect only. If true missile trajectory will be strait line instead of curvy. Like it is unguided as old WW2 rockets. 
-					True value tied IndirectCapablea and AlwaysIndirectVisuals to false. 
+          Have no influence to indirect fire curvy
 					logic: if ammo unguided is true - launch will be unguided no matter mode and weapon settings, 
 					if ammo unguided is false or not set i'm looking at mode. if mode unguided is true launch will be unguided, 
 					if mode unguided is false or not set i'm looking at weapon. 
@@ -498,7 +500,7 @@ new fields
 									   example 2 trajectory length 100, min 80, max 100 - missile will separate 20m from end cause it have to fly 80m until separation. 
 									   example 3 trajectory length 100 min 120, max 200 - missile will not separate at all. 
 	  "Unguided": false, for missiles effect only. If true missile trajectory will be strait line instead of curvy. Like it is unguided as old WW2 rockets. 
-						True value tied IndirectCapablea and AlwaysIndirectVisuals to false
+          Have no influence to indirect fire curvy
 					logic: if ammo unguided is true - launch will be unguided no matter mode and weapon settings, 
 					if ammo unguided is false or not set i'm looking at mode. if mode unguided is true launch will be unguided, 
 					if mode unguided is false or not set i'm looking at weapon. 
@@ -716,7 +718,7 @@ Ammo definition
 								Example: ammo box has capacity 10, ammo has CanBeExhaustedAt - 0.5, current ammo upon check - 4. Exhaustion chance = (0.5 - 0.4)/0.5 = 0.2
 								Note: if current ammo is 0, Exhaustion chance become 1. One ammo box checked once per attack. Ammo ejections initiates exhaustion check too. 
     "Unguided": false, for missiles effect only. If true missile trajectory will be strait line instead of curvy. Like it is unguided as old WW2 rockets. 
-	               True value tied IndirectCapablea and AlwaysIndirectVisuals to false
+          Have no influence to indirect fire curvy
 					logic: if ammo unguided is true - launch will be unguided no matter mode and weapon settings, 
 					if ammo unguided is false or not set i'm looking at mode. if mode unguided is true launch will be unguided, 
 					if mode unguided is false or not set i'm looking at weapon. 
