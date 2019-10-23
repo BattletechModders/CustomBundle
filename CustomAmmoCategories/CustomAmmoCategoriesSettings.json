@@ -1,5 +1,5 @@
 {
-"debugLog":false,
+"debugLog":true,
 "modHTTPServer":true,
 "modHTTPListen":"http://localhost:65080/",
 "WeaponRealizerStandalone": "WeaponRealizer.dll",
@@ -32,7 +32,7 @@
 "BurningOffsetX":0,
 "BurningOffsetY":1,
 "BurningOffsetZ":0,
-"DontShowNotDangerouceJammMessages": true,
+"DontShowNotDangerouceJammMessages": false,
 "MineFieldPathingMods":{
   "pathingdef_light":0.5,
 	"pathingdef_medium":0.7
@@ -134,5 +134,9 @@
 "AdvancedCirtProcessing": true,
 "DestroyedComponentsCritTrap": true,
 "CritLocationTransfer": true,
-"APMinCritChance": 0.1
+"APMinCritChance": 0.1,
+"PatchWeaponSlotsOverflowCultures": ["CULTURE_RU_RU"],
+"FiringPreviewRecalcTrottle":0,
+"SelectionStateMoveBaseProcessMousePosTrottle": 4,
+"UpdateReticleTrottle":8
 }
