@@ -447,6 +447,7 @@ AI related mod settings
 
   
   AURAS RELATED SETTINGS
+  Hotkey - you can use LCtrl + A to toggle aura's circle show
 COMPOPNENT 
 
   "Auras": [
@@ -462,6 +463,7 @@ COMPOPNENT
                                                     Online - aura enabled if component is actived
                                                     Offline - aura enabled if component is deactivated
                                                     Persistent - aura no matter component activation state
+      "HideOnNotSelected": false,                 - if true aura circle will be hidden while unit not selected. NOTE! cause enemies can't be selected for them aura reticle will never been shown. 
       "ApplySelf": true,                          - if true aura effects will be applied to component's owner
               Next variables is used to make AI and preview calculations faster. 
               their values not tied to actual effects. They just should be set correct by moder to make AI and preview calculations correct.
