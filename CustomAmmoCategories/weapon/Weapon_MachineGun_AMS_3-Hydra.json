@@ -1,85 +1,98 @@
 {
-    "Category" : "AntiPersonnel",
-    "Type" : "MachineGun",
-    "WeaponSubType" : "MachineGun",
-    "MinRange" : 0,
-    "MaxRange" : 90,
-    "RangeSplit" : [
-        90,
-        90,
-        90
-    ],
-    "AmmoCategory" : "MG",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 0,
-    "Damage" : 0,
-    "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 0,
-    "HeatDamage" : 0,
-    "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1.5,
-    "AOECapable" : false,
-    "IndirectFireCapable" : false,
-    "RefireModifier" : 0,
-    "ShotsWhenFired" : 0,
-    "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 0,
-    "Instability" : 0,
-    "NotUseInMelee": true,
-    "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
-    "Description" : {
-        "Cost" : 10000,
-        "Rarity" : 99,
-        "Purchasable" : false,
-        "Manufacturer" : "Sperry Browning",
-        "Model" : "Phalanx CIWS",
-        "UIName" : "__/Weapon.AMS.Hydra.Name/__",
-        "Id" : "Weapon_MachineGun_AMS_3-Hydra",
-        "Name" : "AMS",
-        "Details" : "__/Weapon.AMS.Hydra.Details/__",
-        "Icon" : "uixSvgIcon_weapon_Support"
-    },
-    "BonusValueA" : "",
-    "BonusValueB" : "",
-    "ComponentType" : "Weapon",
-    "ComponentSubType" : "Weapon",
-    "PrefabIdentifier" : "MachineGun",
-    "BattleValue" : 0,
-    "InventorySize" : 1,
-    "Tonnage" : 0.5,
-    "AllowedLocations" : "All",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "Modes":[
-      {
-        "Id":"ams",
-        "UIName":"ams",
-        "isBaseMode":true,
-        "ShotsWhenFired" : 10,
-        "AMSHitChance": 0.8,
-        "IsAMS" : true,
-        "IsAAMS" : true,
-      },
-      {
-        "Id":"mg",
-        "UIName":"mg",
-        "DamagePerShot" : 3,
-        "isBaseMode":false,
-        "ShotsWhenFired" : 3,
-        "IsAMS" : false,
-        "IsAAMS" : false,
-      }
-    ],
-    "statusEffects" : [
-        
-    ],
-    "ComponentTags" : {
-        "items" : [
-            "component_type_stock",
-            "range_close"
-        ],
-        "tagSetSourceFile" : ""
+  "Category": "AntiPersonnel",
+  "Type": "MachineGun",
+  "WeaponSubType": "MachineGun",
+  "MinRange": 0,
+  "MaxRange": 90,
+  "RangeSplit": [
+    90,
+    90,
+    90
+  ],
+  "Auras": [
+    {
+      "Id": "AMS",
+      "Name": "AMS",
+      "ReticleColor": "#ff0040",
+      "Range": 10,
+      "RemoveOnSensorLock": true,
+      "State": "Persistent",
+      "ApplySelf": false,
+      "HideOnNotSelected": true,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": false
     }
+  ],
+  "ammoCategoryID": "MG",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 0,
+  "Damage": 0,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1.5,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 0,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 0,
+  "Instability": 0,
+  "NotUseInMelee": true,
+  "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+  "Description": {
+    "Cost": 10000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Sperry Browning",
+    "Model": "Phalanx CIWS",
+    "UIName": "__/Weapon.AMS.Hydra.Name/__",
+    "Id": "Weapon_MachineGun_AMS_3-Hydra",
+    "Name": "__/Custom_Ammo_Categories.Weapon_MachineGun_AMS_3-Hydra.Name/__",
+    "Details": "__/Weapon.AMS.Hydra.Details/__",
+    "Icon": "uixSvgIcon_weapon_Support"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "MachineGun",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Modes": [
+    {
+      "Id": "ams",
+      "UIName": "ams",
+      "isBaseMode": true,
+      "ShotsWhenFired": 10,
+      "AMSHitChance": 0.8,
+      "IsAMS": true,
+      "IsAAMS": true
+    },
+    {
+      "Id": "mg",
+      "UIName": "mg",
+      "DamagePerShot": 3,
+      "isBaseMode": false,
+      "ShotsWhenFired": 3,
+      "IsAMS": false,
+      "IsAAMS": false
+    }
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_close"
+    ],
+    "tagSetSourceFile": ""
+  }
 }
