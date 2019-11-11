@@ -1,106 +1,104 @@
 {
-    "Category" : "Ballistic",
-    "Type" : "Autocannon",
-    "WeaponSubType" : "AC10",
-    "MinRange" : 0,
-    "MaxRange" : 450,
-    "RangeSplit" : [
-        300,
-        300,
-        450
-    ],
-    "AmmoCategory" : "AC10",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 12,
-    "Damage" : 60,
-    "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 0,
-    "HeatDamage" : 0,
-    "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1,
-    "AOECapable" : false,
-    "IndirectFireCapable" : false,
-    "RefireModifier" : 2,
-    "ShotsWhenFired" : 1,
-    "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 3,
-    "Instability" : 20,
-    "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
-    "Description" : {
-        "Cost" : 140000,
-        "Rarity" : 0,
-        "Purchasable" : true,
-        "Manufacturer" : "Western",
-        "Model" : "Heavy Autocannon",
-        "UIName" : "RAC/10",
-        "Id" : "Weapon_Autocannon_RAC10_0-STOCK",
-        "Name" : "RAC/10",
-        "Details" : "One of the most powerful and efficient weapons mounted in combat, AC/10s are known for their heavy damage and ability to stagger opponents. Like all Autocannon weaponry, AC/10s suffer from recoil effects from continuous fire.",
-        "Icon" : "uixSvgIcon_weapon_Ballistic"
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC10",
+  "MinRange": 0,
+  "MaxRange": 450,
+  "RangeSplit": [
+    300,
+    300,
+    450
+  ],
+  "ammoCategoryID": "AC10",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 12,
+  "Damage": 60,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 2,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 3,
+  "Instability": 20,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
+  "Description": {
+    "Cost": 140000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Western",
+    "Model": "Heavy Autocannon",
+    "UIName": "__/Custom_Ammo_Categories.Weapon_Autocannon_RAC10_0-STOCK.UIName/__",
+    "Id": "Weapon_Autocannon_RAC10_0-STOCK",
+    "Name": "__/Custom_Ammo_Categories.Weapon_Autocannon_RAC10_0-STOCK.Name/__",
+    "Details": "__/Custom_Ammo_Categories.Weapon_Autocannon_RAC10_0-STOCK.Details/__",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "AC10",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 12,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Modes": [
+    {
+      "Id": "x1",
+      "UIName": "x1",
+      "isBaseMode": false,
+      "AIHitChanceCap": 0.1,
+      "ShotsWhenFired": 0
     },
-    "BonusValueA" : "",
-    "BonusValueB" : "",
-    "ComponentType" : "Weapon",
-    "ComponentSubType" : "Weapon",
-    "PrefabIdentifier" : "AC10",
-    "BattleValue" : 0,
-    "InventorySize" : 3,
-    "Tonnage" : 12,
-    "AllowedLocations" : "All",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-	"Modes":[
-		{
-			"Id":"x1",
-			"UIName":"x1",
-			"isBaseMode":false,
-			"AIHitChanceCap": 0.1,
-			"ShotsWhenFired":0
-		},
-		{
-			"Id":"x2",
-			"UIName":"x2",
-			"isBaseMode":false,
-			"AIHitChanceCap": 0.2,
-			"ShotsWhenFired":1
-		},
-		{
-			"Id":"x3",
-			"UIName":"x3",
-			"isBaseMode":true,
-			"ShotsWhenFired":2,
-			"AIHitChanceCap": 0.3,
-			"Cooldown": 2
-		},
-		{
-			"Id":"x4",
-			"UIName":"x4",
-			"isBaseMode":false,
-			"ShotsWhenFired":3,
-			"FlatJammingChance": 1.0,
-			"DamageVariance": 20,
-			"DistantVariance": 0.4,
-			"AIHitChanceCap": 0.3,
-			"DistantVarianceReversed": false
-		},
-		{
-			"Id":"x5",
-			"UIName":"x5",
-			"isBaseMode":false,
-			"AIHitChanceCap": 0.5,
-			"ShotsWhenFired":4
-		}
-	],
-    "statusEffects" : [
-        
-    ],
-    "ComponentTags" : {
-        "items" : [
-            "component_type_stock",
-            "range_long"
-        ],
-        "tagSetSourceFile" : ""
+    {
+      "Id": "x2",
+      "UIName": "x2",
+      "isBaseMode": false,
+      "AIHitChanceCap": 0.2,
+      "ShotsWhenFired": 1
+    },
+    {
+      "Id": "x3",
+      "UIName": "x3",
+      "isBaseMode": true,
+      "ShotsWhenFired": 2,
+      "AIHitChanceCap": 0.3,
+      "Cooldown": 2
+    },
+    {
+      "Id": "x4",
+      "UIName": "x4",
+      "isBaseMode": false,
+      "ShotsWhenFired": 3,
+      "FlatJammingChance": 1.0,
+      "DamageVariance": 20,
+      "DistantVariance": 0.4,
+      "AIHitChanceCap": 0.3,
+      "DistantVarianceReversed": false
+    },
+    {
+      "Id": "x5",
+      "UIName": "x5",
+      "isBaseMode": false,
+      "AIHitChanceCap": 0.5,
+      "ShotsWhenFired": 4
     }
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_long"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

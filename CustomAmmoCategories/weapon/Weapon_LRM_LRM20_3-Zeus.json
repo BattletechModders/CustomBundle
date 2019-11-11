@@ -1,102 +1,136 @@
 {
-    "Category" : "Missile",
-    "Type" : "LRM",
-    "WeaponSubType" : "LRM20",
-    "MinRange" : 180,
-    "MaxRange" : 630,
-    "RangeSplit" : [
-        420,
-        420,
-        630
-    ],
-    "AmmoCategory" : "LRM",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 18,
-    "Damage" : 8,
-    "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 0,
-    "HeatDamage" : 0,
-    "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1.5,
-    "AOECapable" : true,
-    "AOERange" : 30,
-    "AOEDamage" : 2,
-    "AOEHeatDamage" : 2,
-    "AOEInstability" : 2,
-    "APDamage" : 8,
-    "APCriticalChanceMultiplier": 2,
-    "IndirectFireCapable" : true,
-    "RefireModifier" : 0,
-    "ShotsWhenFired" : 20,
-    "ProjectilesPerShot" : 4,
-    "AttackRecoil" : 1,
-    "Instability" : 4,
-    "MissileFiringIntervalMultiplier": 0.5,
-    "MissileVolleyIntervalMultiplier": 20,
-    "ProjectileSpeedMultiplier": 1,
-    "ColorsTable": [{"C":"red","I":2},{"C":"orange","I":2},{"C":"yellow","I":2},{"C":"green","I":2},{"C":"aqua","I":2},{"C":"blue","I":2},{"C":"purple","I":2}],
-    "ColorSpeedChange": 0,
-    "ColorChangeRule": "Random",
-    "ImprovedBallistic":true,
-    "HasShells": true,
-    "ShellsRadius": 90,
-    "MissileVolleySize": 5,
-    "ProjectileScale": {"x":2,"y":2,"z":2},
-    "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
-    "Description" : {
-        "Cost" : 370000,
-        "Rarity" : 5,
-        "Purchasable" : true,
-        "Manufacturer" : "Zeus",
-        "Model" : "Long-Range Missile Launcher",
-        "UIName" : "LRM20 + + +",
-        "Id" : "Weapon_LRM_LRM20_3-Zeus",
-        "Name" : "LRM20 + + +",
-        "Details" : "Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
-        "Icon" : "uixSvgIcon_weapon_Missile"
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM20",
+  "MinRange": 180,
+  "MaxRange": 630,
+  "RangeSplit": [
+    420,
+    420,
+    630
+  ],
+  "ammoCategoryID": "LRM",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 18,
+  "Damage": 8,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1.5,
+  "AOECapable": true,
+  "AOERange": 30,
+  "AOEDamage": 2,
+  "AOEHeatDamage": 2,
+  "AOEInstability": 2,
+  "APDamage": 8,
+  "APCriticalChanceMultiplier": 2,
+  "IndirectFireCapable": true,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 20,
+  "ProjectilesPerShot": 4,
+  "AttackRecoil": 1,
+  "Instability": 4,
+  "MissileFiringIntervalMultiplier": 0.5,
+  "MissileVolleyIntervalMultiplier": 20,
+  "ProjectileSpeedMultiplier": 1,
+  "ColorsTable": [
+    {
+      "C": "red",
+      "I": 2
     },
-    "BonusValueA" : "+ 50% Crit.",
-    "BonusValueB" : "+ 4 Dmg.",
-    "ComponentType" : "Weapon",
-    "ComponentSubType" : "Weapon",
-    "PrefabIdentifier" : "lrm20",
-    "BattleValue" : 0,
-    "InventorySize" : 4,
-    "Tonnage" : 10,
-    "AllowedLocations" : "All",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "statusEffects" : [
-        
-    ],
-    "Modes":[
-      {
-        "Id":"b",
-        "UIName":"b",
-        "isBaseMode":true
-      },
-      {
-        "Id":"streak",
-        "UIName":"streak",
-        "Streak":true,
-        "HitGenerator":"Streak",
-        "AccuracyModifier" : 0,
-        "HasShells": false,
-        "ProjectilesPerShot" : -3,
-        "isBaseMode":false,
-        "Lock":{
-          "HeatLevel":{"Low":20,"High":500}
+    {
+      "C": "orange",
+      "I": 2
+    },
+    {
+      "C": "yellow",
+      "I": 2
+    },
+    {
+      "C": "green",
+      "I": 2
+    },
+    {
+      "C": "aqua",
+      "I": 2
+    },
+    {
+      "C": "blue",
+      "I": 2
+    },
+    {
+      "C": "purple",
+      "I": 2
+    }
+  ],
+  "ColorSpeedChange": 0,
+  "ColorChangeRule": "Random",
+  "ImprovedBallistic": true,
+  "HasShells": true,
+  "ShellsRadius": 90,
+  "MissileVolleySize": 5,
+  "ProjectileScale": {
+    "x": 2,
+    "y": 2,
+    "z": 2
+  },
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+  "Description": {
+    "Cost": 370000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "Zeus",
+    "Model": "Long-Range Missile Launcher",
+    "UIName": "__/Custom_Ammo_Categories.Weapon_LRM_LRM20_3-Zeus.UIName/__",
+    "Id": "Weapon_LRM_LRM20_3-Zeus",
+    "Name": "__/Custom_Ammo_Categories.Weapon_LRM_LRM20_3-Zeus.Name/__",
+    "Details": "__/Custom_Ammo_Categories.Weapon_LRM_LRM20_3-Zeus.Details/__",
+    "Icon": "uixSvgIcon_weapon_Missile"
+  },
+  "BonusValueA": "+ 50% Crit.",
+  "BonusValueB": "+ 4 Dmg.",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "lrm20",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 10,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "Modes": [
+    {
+      "Id": "b",
+      "UIName": "b",
+      "isBaseMode": true
+    },
+    {
+      "Id": "streak",
+      "UIName": "streak",
+      "Streak": true,
+      "HitGenerator": "Streak",
+      "AccuracyModifier": 0,
+      "HasShells": false,
+      "ProjectilesPerShot": -3,
+      "isBaseMode": false,
+      "Lock": {
+        "HeatLevel": {
+          "Low": 20,
+          "High": 500
         }
       }
-    ],
-    "ComponentTags" : {
-        "items" : [
-            "component_type_variant",
-            "component_type_variant3",
-            "range_extreme"
-        ],
-        "tagSetSourceFile" : ""
     }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant",
+      "component_type_variant3",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

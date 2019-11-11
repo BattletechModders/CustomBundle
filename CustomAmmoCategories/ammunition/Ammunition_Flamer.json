@@ -1,19 +1,19 @@
 {
-   "Description" : {
-      "Id" : "Ammunition_Flamer",
-      "Name" : "Flamer Ammo",
-      "UIName" : "Norm.",
-      "Details" : "Flamer Ammo. SHOULD NOT BE PURCHASABLE OR AVAILABLE!!! Flamers should have internal ammo only.",
-      "Icon" : null,
-      "Cost" : 0,
-      "Rarity" : 0,
-      "Purchasable" : false
-   },
-   "Type" : "Normal",
-   "Category" : "Flamer",
-   "HeatGenerated" : 0,
-   "HeatGeneratedModifier" : 1,
-   "ArmorDamageModifier" : 1,
-   "ISDamageModifier" : 1,
-   "CriticalDamageModifier" : 1
+  "Description": {
+    "Id": "Ammunition_Flamer",
+    "Name": "__/Custom_Ammo_Categories.Ammunition_Flamer.Name/__",
+    "UIName": "__/Custom_Ammo_Categories.Ammunition_Flamer.UIName/__",
+    "Details": "__/Custom_Ammo_Categories.Ammunition_Flamer.Details/__",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "Flamer",
+  "HeatGenerated": 0,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1
 }

@@ -1,20 +1,22 @@
 {
-   "Description" : {
-      "Id" : "Ammunition_LGAUSS",
-      "Name" : "Light Gauss Ammo",
-      "UIName" : "Normal",
-      "Details" : null,
-      "Icon" : null,
-      "Cost" : 0,
-      "Rarity" : 0,
-      "Purchasable" : false
-   },
-   "Type" : "Normal",
-   "Category" : "LGAUSS",
-   "HeatGenerated" : 0,
-   "HeatGeneratedModifier" : 1,
-   "ArmorDamageModifier" : 1,
-   "ISDamageModifier" : 1,
-   "CriticalDamageModifier" : 1,
-   "statusEffects": [ {} ]
+  "Description": {
+    "Id": "Ammunition_LGAUSS",
+    "Name": "__/Custom_Ammo_Categories.Ammunition_LGAUSS.Name/__",
+    "UIName": "__/Custom_Ammo_Categories.Ammunition_LGAUSS.UIName/__",
+    "Details": null,
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "LGAUSS",
+  "HeatGenerated": 0,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "statusEffects": [
+    {}
+  ]
 }

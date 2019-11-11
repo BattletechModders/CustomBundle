@@ -1,74 +1,72 @@
 {
-    "Category" : "Ballistic",
-    "Type" : "Autocannon",
-    "WeaponSubType" : "LRM20",
-    "MinRange" : 90,
-    "MaxRange" : 630,
-    "RangeSplit" : [
-        420,
-        420,
-        630
-    ],
-    "AmmoCategory" : "AC20AOE",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 4,
-    "Damage" : 100,
-    "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 0,
-    "HeatDamage" : 10,
-    "AccuracyModifier" : -10,
-    "CriticalChanceMultiplier" : 1,
-    "IndirectFireCapable" : true,
-    "AlwaysIndirectVisuals" : true,
-    "RefireModifier" : 0,
-    "ShotsWhenFired" : 1,
-	"NotUseInMelee" : true,
-    "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 1,
-	"AMSImmune" : true,
-    "Instability" : 3,
-	"Modes": [
-		{
-			"Id":"Base",
-			"UIName":"B",
-			"isBaseMode":true,
-			"Cooldown": 1
-		}
-	],
-    "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
-    "Description" : {
-        "Cost" : 20000,
-        "Rarity" : 0,
-        "Purchasable" : true,
-        "Manufacturer" : "Holly",
-        "Model" : "Short-Range Missile Launcher",
-        "UIName" : "MORTAIR",
-        "Id" : "Weapon_MORTAIR_0-STOCK",
-        "Name" : "MORTAIR",
-        "Details" : "MORTAIR",
-        "Icon" : "uixSvgIcon_weapon_Missile"
-    },
-    "BonusValueA" : "",
-    "BonusValueB" : "",
-    "ComponentType" : "Weapon",
-    "ComponentSubType" : "Weapon",
-    "PrefabIdentifier" : "srm6",
-    "BattleValue" : 0,
-    "InventorySize" : 3,
-    "Tonnage" : 6,
-    "AllowedLocations" : "All",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "statusEffects" : [
-        
-    ],
-    "ComponentTags" : {
-        "items" : [
-            "component_type_stock",
-            "range_standard"
-        ],
-        "tagSetSourceFile" : ""
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "LRM20",
+  "MinRange": 90,
+  "MaxRange": 630,
+  "RangeSplit": [
+    420,
+    420,
+    630
+  ],
+  "ammoCategoryID": "AC20AOE",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 4,
+  "Damage": 100,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 10,
+  "AccuracyModifier": -10,
+  "CriticalChanceMultiplier": 1,
+  "IndirectFireCapable": true,
+  "AlwaysIndirectVisuals": true,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "NotUseInMelee": true,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "AMSImmune": true,
+  "Instability": 3,
+  "Modes": [
+    {
+      "Id": "Base",
+      "UIName": "B",
+      "isBaseMode": true,
+      "Cooldown": 1
     }
+  ],
+  "WeaponEffectID": "WeaponEffect-Weapon_SRM6",
+  "Description": {
+    "Cost": 20000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Holly",
+    "Model": "Short-Range Missile Launcher",
+    "UIName": "__/Custom_Ammo_Categories.Weapon_MORTAIR_0-STOCK.UIName/__",
+    "Id": "Weapon_MORTAIR_0-STOCK",
+    "Name": "__/Custom_Ammo_Categories.Weapon_MORTAIR_0-STOCK.Name/__",
+    "Details": "__/Custom_Ammo_Categories.Weapon_MORTAIR_0-STOCK.Details/__",
+    "Icon": "uixSvgIcon_weapon_Missile"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "srm6",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 6,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_standard"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

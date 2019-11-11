@@ -1,88 +1,88 @@
 {
-    "StatName" : null,
-    "RelativeModifier" : 0,
-    "AbsoluteModifier" : 0,
-    "Description" : {
-        "Cost" : 3080000,
-        "Rarity" : 99,
-        "Purchasable" : true,
-        "Manufacturer" : "Kallon",
-        "Model" : "Omni",
-        "UIName" : "TTS Omni",
-        "Id" : "Gear_TargetingTrackingSystem_Kallon_Omni",
-        "Name" : "Kallon Omni TTS",
-        "Details" : "All 'Mechs come equipped with a stock targeting and tracking system\u2014or TTS\u2014which can be upgraded for improved performance. Upgrades increase accuracy when attacking with Ballistic, Energy, and Missile weaponry.",
-        "Icon" : "uixSvgIcon_equipment_TTS"
-    },
-    "BonusValueA" : "+ 3 Acc.",
-    "BonusValueB" : "",
-    "ComponentType" : "Upgrade",
-    "ComponentSubType" : "NotSet",
-    "PrefabIdentifier" : "",
-    "BattleValue" : 0,
-    "InventorySize" : 2,
-    "Tonnage" : 1,
-    "AllowedLocations" : "All",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "statusEffects" : [
-        {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : -1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-Attack_ToHit-T3",
-                "Name" : "WEAPON HIT CHANCE IMPROVED",
-                "Details" : "All weapon attacks have their hit improved by [AMT].",
-                "Icon" : "uixSvgIcon_equipment_TTS"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-3.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        }
-    ],
-    "ComponentTags" : {
-        "items" : [
-            "component_type_variant",
-            "component_type_variant3"
-        ],
-        "tagSetSourceFile" : ""
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 3080000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Kallon",
+    "Model": "Omni",
+    "UIName": "__/Custom_Ammo_Categories.Gear_TargetingTrackingSystem_Kallon_Omni.UIName/__",
+    "Id": "Gear_TargetingTrackingSystem_Kallon_Omni",
+    "Name": "__/Custom_Ammo_Categories.Gear_TargetingTrackingSystem_Kallon_Omni.Name/__",
+    "Details": "__/Custom_Ammo_Categories.Gear_TargetingTrackingSystem_Kallon_Omni.Details/__",
+    "Icon": "uixSvgIcon_equipment_TTS"
+  },
+  "BonusValueA": "+ 3 Acc.",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 1,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": -1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Attack_ToHit-T3",
+        "Name": "__/Custom_Ammo_Categories.Gear_TargetingTrackingSystem_Kallon_Omni.StatusEffect-Attack_ToHit-T3.effect0.Name/__",
+        "Details": "__/Custom_Ammo_Categories.Gear_TargetingTrackingSystem_Kallon_Omni.StatusEffect-Attack_ToHit-T3.effect0.Details/__",
+        "Icon": "uixSvgIcon_equipment_TTS"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-3.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      },
+      "tagData": null,
+      "floatieData": null,
+      "actorBurningData": null,
+      "vfxData": null,
+      "instantModData": null,
+      "poorlyMaintainedEffectData": null
     }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant",
+      "component_type_variant3"
+    ],
+    "tagSetSourceFile": ""
+  }
 }
