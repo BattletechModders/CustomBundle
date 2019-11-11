@@ -2,7 +2,7 @@
 	"Name": "CustomActivatableEquipment",
 	"Enabled": true,
 
-	"Version": "0.0.40",
+	"Version": "0.0.46",
 	"PackagedOn": "2019-01-31T00:00:00Z",
 	"DLL": "CustomActivatableEquipment.dll",
 	"DLLEntryPoint": "CustomActivatableEquipment.Core.Init",
@@ -38,6 +38,7 @@
       "Range": 60,
       "RangeStatistic" : "CAE_SENSORS_RANGE",
       "ApplySelf": false,
+      "HideOnNotSelected": false,
       "EnemyStealthAffection": "NegativeOne",
       "IsNegativeToEnemy": true,
       "ownerVFX": [ ],
