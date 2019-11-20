@@ -25,6 +25,12 @@
           "fire1",
           "fire2"
         ]
+      },
+      {
+        "prefab": "chainsaw_hardpoint_prefab",
+        "shaderSrc": "chrPrfWeap_kingcrab_leftarm_ac10_bh1",
+        "keepShaderIn": ["chain"],
+        "emitters": [ "chainsaw" ]
       }
     ],
     "aliases": {
@@ -38,7 +44,7 @@
       },
       "chrPrfWeap_kingcrab_leftarm_rotategauss_bh1":{
         "location": "leftarm",
-        "prefab": "chrprfweap_kingcrab_leftarm_rotatelaser_eh1"
+        "prefab": "chainsaw_hardpoint_prefab"
       }
     }
   },
