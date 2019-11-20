@@ -44,7 +44,7 @@
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
-  "PrefabIdentifier": "Gauss",
+  "PrefabIdentifier": "rotategauss",
   "BattleValue": 0,
   "InventorySize": 6,
   "Tonnage": 10,
@@ -54,23 +54,50 @@
   "ImprovedBallistic": true,
   "Modes": [
     {
-      "Id": "x1",
-      "UIName": "x1",
+      "Id": "g",
+      "UIName": "g",
       "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
-      "isBaseMode": true
+      "isBaseMode": true,
+      "ShotsWhenFired": 2,
+      "ProjectileSpeedMultiplier": 0.5,
+      "FireAnimationSpeedMod": 2
     },
     {
-      "Id": "x2",
-      "UIName": "x2",
+      "Id": "l",
+      "UIName": "l",
       "isBaseMode": false,
-      "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
-      "ShotsWhenFired": 1
+      "WeaponEffectID": "WeaponEffect-Weapon_Laser_Medium",
+      "ShotsWhenFired": 2,
+      "FireAnimationSpeedMod": 1,
+      "FireDelayMultiplier": 0.1
     },
     {
-      "Id": "x3",
-      "UIName": "x3",
+      "Id": "p",
+      "UIName": "p",
       "isBaseMode": false,
-      "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+      "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+      "ShotsWhenFired": 2,
+      "FireAnimationSpeedMod": 0.5,
+      "FireDelayMultiplier": 0.5
+    },
+    {
+      "Id": "a",
+      "UIName": "a",
+      "isBaseMode": false,
+      "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
+      "ShotsWhenFired": 2,
+      "ProjectileSpeedMultiplier": 1,
+      "FireAnimationSpeedMod": 3,
+      "FireDelayMultiplier": 0.5
+    },
+    {
+      "Id": "m",
+      "UIName": "m",
+      "isBaseMode": false,
+      "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+      "Unguided": true,
+      "ProjectileSpeedMultiplier": 0.5,
+      "MissileFiringIntervalMultiplier": 5,
       "ShotsWhenFired": 2
     }
   ],
