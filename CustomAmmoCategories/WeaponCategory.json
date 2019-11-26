@@ -1,0 +1,31 @@
+{
+  "enumerationValueList": [
+    {
+      "ID": 1000,
+      "Name": "Test",
+      "FriendlyName": "Test",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "IsMelee": false,
+      "CanUseInMelee": false,
+      "IsAffectedByEvasive": true,
+      "ForceLightHitReact": false,
+      "DamageReductionMultiplierStat": "DamageReductionMultiplierBallistic",
+      "ToBeHitStat": "ToHitThisActorBallistic",
+      "DesignMaskString": "Ballistic",
+      "TurretDamageMultiplier": 1,
+      "VehicleDamageMultiplier": 1,
+      "MinHorizontalAngle": 5,
+      "MaxHorizontalAngle": 15,
+      "MinVerticalAngle": 15,
+      "MaxVerticalAngle": 15,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "HardpointPrefabText": "_bh",
+      "UseHardpointPrefabTextAsSuffix": true
+    }
+  ]
+}

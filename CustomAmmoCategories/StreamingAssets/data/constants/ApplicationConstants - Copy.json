@@ -20,6 +20,11 @@
    "DefaultSinglePlayerMoodName" : "FoggyDay",
    "PrewarmRequests": [
 	{
+		"ResourceType": "BaseDescriptionDef",
+		"ResourceID": "All",
+		"Priority": "Foreground"
+	},
+	{
 		"ResourceType": "AmmunitionDef",
 		"ResourceID": "All",
 		"Priority": "Background"
@@ -33,6 +38,26 @@
 		"ResourceType": "WeaponDef",
 		"ResourceID": "All",
 		"Priority": "Background"
+	},
+	{
+		"ResourceType": "VehicleDef",
+		"ResourceID": "All",
+		"Priority": "Background"
+	},
+	{
+		"ResourceType": "VehicleChassisDef",
+		"ResourceID": "All",
+		"Priority": "Background"
+	},
+	{
+		"ResourceType": "HeatSinkDef",
+		"ResourceID": "All",
+		"Priority": "Background"
+	},
+	{
+		"ResourceType": "PilotDef",
+		"ResourceID": "All",
+		"Priority": "Foreground"
 	}
 	]
 }

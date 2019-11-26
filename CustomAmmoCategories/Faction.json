@@ -1,0 +1,27 @@
+{
+  "enumerationValueList" : [
+		{
+			"ID" : 1001,
+			"Name" : "Test",
+			"FriendlyName" : "Test",
+			"Description" : "",
+			"FactionDefID" : "faction_Test",
+			"IsRealFaction" : true,
+			"IsGreatHouse" : true,
+			"IsClan" : false,
+			"IsMercenary" : false,
+			"IsPirate" : false,
+			"DoesGainReputation" : true,
+			"CanAlly" : true,
+			"IsProceduralContractFaction" : true,
+			"IsPossibleNeutralToAllFaction" : true,
+			"IsPossibleHostileToAllFaction" : true,
+			"IsPossibleAllyFallbackFaction" : true,
+			"IsCareerScoringFaction" : true,
+			"IsCareerIgnoredContractTarget" : false,
+			"IsCareerStartingDisplayFaction" : true,
+			"IsStoryStartingDisplayFaction" : true,
+			"HasAIBehaviorVariableScope" : false
+		}
+	]
+}
