@@ -1,3 +1,6 @@
+Special thanks to janxious, LadyAlekto, MpStark, Morphyum, m22spencer, bloodydoves, Colobos, CptMoore, Danadan, LtShade, CWolf and many others make this mod possible
+
+CharlesB cannibalized. Readme in CharlesB_README.md. Settings in CharlesB_settings.json 
 Unpack to Mods folder
 CustomAmmoCategories settings 
 CustomAmmoCategoriesSettings.json
@@ -6,7 +9,8 @@ WeaponRealizerSettings.json (for description look at the WR-README)
 AttackImprovementMod settings
 AIM_settings.json (for description look at the AIM-README)
 
-WARNING! Shipped versions of AIM and WR can't be loaded by ModTek and can't be used standalone.
+WARNING! Shipped versions of AIM can't be loaded by ModTek and can't be used standalone.
+WARNING! This version of CAC can be used only with ModTek 0.7.6.5+ cause it utilizes dynamic enums for subsystem for AmmoCategory 
 
 click on right side of HUD weapon slot to switch mode (near hit chance)
 click on center of HUD weapon slot to switch ammo (near ammo count)
@@ -205,6 +209,26 @@ CustomAmmoCategories.json
 
 Weapon definition
 new fields
+  "evasivePipsMods": {  - list of modifiers for values by current evasive pips count. Additive per weapon/ammo/mode. \
+                          Overall formula value = [base value] * ([evasive pips count]^[mod value]). Example base damage = 35, evasive pips count = 7, mod value = -1
+                          damage = 35 * (7^-1) = 35 * 0.142857(142857) = 5.
+                          NOTE: of evasive pips count = 0, value will not been altered. If mod value = 0 same behavior.
+      "Damage":0,
+      "APDamage":0,
+      "Heat":0,
+      "Instablility":0,
+      "GeneratedHeat":0,
+      "FlatJammingChance":0,
+      "MinRange":0,
+      "ShortRange":0,
+      "MediumRange":0,
+      "LongRange":0,
+      "MaxRange":0,
+      "AOERange":0,
+      "AOEDamage":0,
+      "AOEHeatDamage":0,
+      "AOEInstability":0
+  },
   "AOEEffectsFalloff": false, if true and weapon inflicts AoE damage, random roll will be permitted before onHit effect apply. 
                               Example: aoe range = 100m, projectile hits ground in 30m from combatant - onHits effects will be applied with 0.7 chance ((100 - 30) / 100).
   "isHeatVariation": true, - if true heat damage will be altered using DamageVariance/DistantVariance/DistantVarianceReversed values. Per mode/ammo/weapon.

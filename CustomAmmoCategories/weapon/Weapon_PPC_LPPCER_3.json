@@ -12,7 +12,8 @@
   "ammoCategoryID": "NotSet",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 90,
-  "Damage": 30,
+  "Damage": 20,
+  "APDamage": 10,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -100,14 +101,20 @@
       "FireDelayMultiplier": 1,
       "WeaponEffectID": "WeaponEffect-Weapon_PPC",
       "ProjectileScale": {
-        "x": 10,
-        "y": 10,
-        "z": 10
+        "x": 3,
+        "y": 3,
+        "z": 3
       },
       "ColorChangeRule": "Linear",
       "ProjectileSpeedMultiplier": 0.1,
       "ShotsWhenFired": 1,
-      "ColorSpeedChange":7
+      "ColorSpeedChange":7,
+      "evasivePipsMods":{
+        "Damage": -0.5,
+        "Heat": -0.5,
+        "GeneratedHeat": -0.5,
+        "FlatJammingChance": -0.5
+      }
     }
   ],
   "statusEffects": [

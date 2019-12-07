@@ -12,6 +12,7 @@
     "Icon": "uixTxrIcon_kingcrab"
   },
   "CustomParts": {
+    "FiringArc":360,
     "Unaffected": {
       "DesignMasks": "false",
       "Pathing": "false",

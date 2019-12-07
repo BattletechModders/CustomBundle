@@ -28,7 +28,8 @@ VehicleChassis/Chassis
 "CustomParts":{
     "AOEHeight": 55,  - this value will be added to y-coordinate of current position in AoE damage calculations (weapon/landmines/component's explosions). 
                         Can be altered runtime via CUAOEHeight actor's statistic value (float)
-    "FiringArc":60, - if set and > 10 means vehicle firing arc in degrees and vehicle have to rotate toward target to fire.  
+    "FiringArc":60, - if set and > 10 means vehicle firing arc in degrees and vehicle have to rotate toward target to fire. 
+                      Working for mechs too, but you should note - direction decal will not been changed. 
     "Unaffected":{  
       "DesignMasks":"true",   - if true chassis will be unaffected to all terrain design masks effects except move cost. Can be altered runtime via CUDesignMasksUnaffected actor's statistic value (boolean)
       "Pathing":"true",       - if true chassis will be unaffected by pathing limitations 
