@@ -49,6 +49,16 @@
   "DecalScale":40,
   "DecalTexture":"envTxrDecl_terrainDmgSmallBlack_alb"
 },
+"bloodSettings":{
+  "DecalScales":{
+    "smallVehicle":10,
+    "mediumVehicle":20,
+    "largeVehicle":30,
+    "vehicleFiery":15
+  },
+  "DecalTexture": "envTxrDecl_terrainDmgSmallBlood_alb",
+  "DrawBloodChance": 0.3
+},
 "DontShowBurnedTrees":false,
 "DontShowScorchTerrain":false,
 "AAMSAICoeff":0.2,
