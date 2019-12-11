@@ -1,77 +1,97 @@
 {
-	"Name": "CustomComponents",
-	"Author": "Denadan",
-	"Website": "https://github.com/Denadan/CustomComponents",
-
-	"Enabled": true,
-	"DependsOn": [],
-	"DLL": "CustomComponents.dll",
-	"DLLEntryPoint": "CustomComponents.Control.Init",
-
-	"CustomResourceTypes": ["CCCategories", "CCDefaults", "CCTagRestrictions"],
-	
-	"Settings" : {
-		"LogLevel": "Debug",
-		"DebugInfo" : "NONE",
-
-		"Categories": [ ],
-		"TagRestrictions": [ ],
-		"ColorTags" : [ ],
-		
-		"TagRestrictionDropValidateRequiredTags":  false,
-		"TagRestrictionDropValidateIncompatibleTags":  true,
-		"UseDefaultFixedColor": false,
-		"DefaultFlagBackgroundColor": "UpgradeColor",
-		"InvalidFlagBackgroundColor" : "Red",
-		"PreinstalledOverlayCColor": {
-			"R": 180,
-			"G": 255,
-			"B": 180,
-			"A": 40
-		},
-		"DefaultFlagOverlayCColor": {
-			"R": 180,
-			"G": 180,
-			"B": 180,
-			"A": 40
-		},
-		
-		"CategoryDescriptionColor" : "#008000", 
-		 
-		"TestEnableAllTags": true,
-		"OmniTechFlag": "cc_omnitech",
-        "OmniTechCostBySize": false,
-        "OmniTechInstallCost": 1,
-		
-		"OverrideSalvageGeneration" : true,
-		"NoLootCTDestroyed" : false,
-
-		"OverrideRecoveryChance" : true,
-		"SalvageUnrecoveredMech" : true,
-		"BaseRecoveryChance" : 0.6,
-	    "LimbRecoveryPenalty" : 0.05,
-		"TorsoRecoveryPenalty" : 0.1,
-		"HeadRecoveryPenaly" : 0,
-		"EjectRecoveryBonus" : 0.25,
-
-		"OverrideMechPartCalculation" : true,
-		"CenterTorsoDestroyedParts" : 1,
-		"SalvageArmWeight" : 0.75,
-		"SalvageLegWeight" : 0.75,
-		"SalvageTorsoWeight" : 1,
-		"SalvageHeadWeight" : 0.5,
-	},	
-		
-	"Manifest": [
-        {
-            "Type": "CCCategories",
-            "Path": "disabled test/categories/",
-            "ShouldMergeJSON": false
-        },
-        {
-            "Type": "CCDefaults",
-            "Path": "disabled test/defaults/",
-            "ShouldMergeJSON": false
-        }
-    ]
+  "Name": "CustomComponents",
+  "Description": null,
+  "Author": "Denadan",
+  "Website": "https://github.com/Denadan/CustomComponents",
+  "Contact": null,
+  "Version": null,
+  "PackagedOn": null,
+  "BattleTechVersionMin": null,
+  "BattleTechVersionMax": null,
+  "BattleTechVersion": null,
+  "Enabled": true,
+  "Hidden": true,
+  "DependsOn": [],
+  "ConflictsWith": [],
+  "OptionallyDependsOn": [],
+  "IgnoreLoadFailure": true,
+  "DLL": "CustomComponents.dll",
+  "DLLEntryPoint": "CustomComponents.Control.Init",
+  "EnableAssemblyVersionCheck": false,
+  "LoadImplicitManifest": true,
+  "CustomResourceTypes": [
+    "CCCategories",
+    "CCDefaults",
+    "CCTagRestrictions"
+  ],
+  "DataAddendumEntries": [],
+  "Manifest": [
+    {
+      "Path": "disabled test/categories/",
+      "Type": "CCCategories",
+      "Id": null,
+      "AddToAddendum": null,
+      "AssetBundleName": null,
+      "AssetBundlePersistent": null,
+      "ShouldMergeJSON": false,
+      "ShouldAppendText": false,
+      "AddToDB": true
+    },
+    {
+      "Path": "disabled test/defaults/",
+      "Type": "CCDefaults",
+      "Id": null,
+      "AddToAddendum": null,
+      "AssetBundleName": null,
+      "AssetBundlePersistent": null,
+      "ShouldMergeJSON": false,
+      "ShouldAppendText": false,
+      "AddToDB": true
+    }
+  ],
+  "RemoveManifestEntries": [],
+  "Settings": {
+    "LogLevel": "Debug",
+    "DebugInfo": "NONE",
+    "Categories": [],
+    "TagRestrictions": [],
+    "ColorTags": [],
+    "TagRestrictionDropValidateRequiredTags": false,
+    "TagRestrictionDropValidateIncompatibleTags": true,
+    "UseDefaultFixedColor": false,
+    "DefaultFlagBackgroundColor": "UpgradeColor",
+    "InvalidFlagBackgroundColor": "Red",
+    "PreinstalledOverlayCColor": {
+      "R": 180,
+      "G": 255,
+      "B": 180,
+      "A": 40
+    },
+    "DefaultFlagOverlayCColor": {
+      "R": 180,
+      "G": 180,
+      "B": 180,
+      "A": 40
+    },
+    "CategoryDescriptionColor": "#008000",
+    "TestEnableAllTags": true,
+    "OmniTechFlag": "cc_omnitech",
+    "OmniTechCostBySize": false,
+    "OmniTechInstallCost": 1,
+    "OverrideSalvageGeneration": true,
+    "NoLootCTDestroyed": false,
+    "OverrideRecoveryChance": true,
+    "SalvageUnrecoveredMech": true,
+    "BaseRecoveryChance": 0.6,
+    "LimbRecoveryPenalty": 0.05,
+    "TorsoRecoveryPenalty": 0.1,
+    "HeadRecoveryPenaly": 0,
+    "EjectRecoveryBonus": 0.25,
+    "OverrideMechPartCalculation": true,
+    "CenterTorsoDestroyedParts": 1,
+    "SalvageArmWeight": 0.75,
+    "SalvageLegWeight": 0.75,
+    "SalvageTorsoWeight": 1,
+    "SalvageHeadWeight": 0.5
+  }
 }

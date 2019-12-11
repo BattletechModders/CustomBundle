@@ -207,7 +207,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_FGAUSS",
+      "ComponentDefID": "Ammo_AmmunitionBox_FGAUSS",
       "SimGameUID": "",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -218,7 +218,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
+      "ComponentDefID": "Ammo_AmmunitionBox_HGAUSS",
       "SimGameUID": "",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,

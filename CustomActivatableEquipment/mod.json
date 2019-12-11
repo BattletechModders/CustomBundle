@@ -11,7 +11,13 @@
 
 	"Description": "Activatable equipment",
 	"Author": "KMiSSioN",
-    "Website": "https://www.nexusmods.com/battletech/mods/381",
+  "Website": "https://www.nexusmods.com/battletech/mods/381",
+  "DataAddendumEntries":[
+    {
+      "name": "BattleTech.AmmoCategoryEnumeration",
+      "path": "AmmoCategory.json"
+    }
+  ],
 	"Settings": {
 		"debug": true,
     "ToolTipWarningFailChance": 0.2,
@@ -84,6 +90,7 @@
     }
 	},
 	"Manifest": [
-		{ "Type": "UpgradeDef", "Path": "upgrades\\" }
+		{ "Type": "UpgradeDef", "Path": "upgrades\\" },
+    { "Type": "WeaponDef", "Path": "weapons\\" }
   ]
 }

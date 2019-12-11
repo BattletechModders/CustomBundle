@@ -1,0 +1,113 @@
+{
+  "Category": "Ballistic",
+  "Type": "Gauss",
+  "WeaponSubType": "Gauss",
+  "MinRange": 0,
+  "MaxRange": 660,
+  "RangeSplit": [
+    360,
+    360,
+    660
+  ],
+  "ammoCategoryID": "HGAUSS",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 5,
+  "Damage": 50,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": -1,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 4,
+  "Instability": 20,
+  "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+  "Description": {
+    "Cost": 4440000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Fal'shia",
+    "Model": "KV138",
+    "UIName": "__/Custom_Ammo_Categories.Weapon_Gauss_IGauss.UIName/__",
+    "Id": "Weapon_Gauss_IGauss",
+    "Name": "__/Custom_Ammo_Categories.Weapon_Gauss_IGauss.Name/__",
+    "Details": "__/Custom_Ammo_Categories.Weapon_Gauss_IGauss.Details/__",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "rotategauss",
+  "BattleValue": 0,
+  "InventorySize": 6,
+  "Tonnage": 10,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "Modes": [
+    {
+      "Id": "g",
+      "UIName": "g",
+      "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+      "isBaseMode": true,
+      "ShotsWhenFired": 2,
+      "ProjectileSpeedMultiplier": 0.5,
+      "FireAnimationSpeedMod": 2
+    },
+    {
+      "Id": "l",
+      "UIName": "l",
+      "isBaseMode": false,
+      "WeaponEffectID": "WeaponEffect-Weapon_Laser_Medium",
+      "ShotsWhenFired": 2,
+      "FireAnimationSpeedMod": 1,
+      "FireDelayMultiplier": 0.1
+    },
+    {
+      "Id": "p",
+      "UIName": "p",
+      "isBaseMode": false,
+      "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+      "ShotsWhenFired": 2,
+      "FireAnimationSpeedMod": 0.5,
+      "FireDelayMultiplier": 0.5
+    },
+    {
+      "Id": "a",
+      "UIName": "a",
+      "isBaseMode": false,
+      "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
+      "ShotsWhenFired": 2,
+      "ProjectileSpeedMultiplier": 1,
+      "FireAnimationSpeedMod": 3,
+      "FireDelayMultiplier": 0.5
+    },
+    {
+      "Id": "m",
+      "UIName": "m",
+      "isBaseMode": false,
+      "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+      "Unguided": true,
+      "ProjectileSpeedMultiplier": 0.5,
+      "MissileFiringIntervalMultiplier": 5,
+      "ShotsWhenFired": 2
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_extreme",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

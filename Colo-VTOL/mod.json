@@ -1,6 +1,6 @@
 {
     "Name": "Colo-VTOL",
-    "Enabled": true,
+    "Enabled": false,
     "Version": "0.99",
 	"DependsOn": [ "CustomUnits" ],
     "Manifest": [

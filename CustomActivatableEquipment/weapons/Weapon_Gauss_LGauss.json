@@ -1,0 +1,194 @@
+{
+  "Custom": {
+    "ActivatableComponent": {
+      "NoUniqueCheck": true,
+      "CanNotBeActivatedManualy": true,
+      "presistantVFX": {
+        "VFXPrefab": "vfxPrfPrtl_miningSmokePlume_lrg_loop"
+      }
+    }
+  },
+  "Category": "Ballistic",
+  "Type": "Gauss",
+  "WeaponSubType": "Gauss",
+  "MinRange": 180,
+  "MaxRange": 660,
+  "RangeSplit": [
+    360,
+    360,
+    660
+  ],
+  "ammoCategoryID": "LGAUSS",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 2,
+  "Damage": 50,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 10,
+  "AccuracyModifier": -1,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 4,
+  "Instability": 20,
+  "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+  "Description": {
+    "Cost": 4440000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "PIRATES",
+    "Model": "Light Gauss Rifle",
+    "UIName": "__/Custom_Ammo_Categories.Weapon_Gauss_LGauss.UIName/__",
+    "Id": "Weapon_Gauss_LGauss",
+    "Name": "__/Custom_Ammo_Categories.Weapon_Gauss_LGauss.Name/__",
+    "Details": "__/Custom_Ammo_Categories.Weapon_Gauss_LGauss.Details/__",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Gauss",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 6,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "None",
+  "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "StatusEffectsPerHit": true,
+  "Modes": [
+    {
+      "Id": "b",
+      "UIName": "b",
+      "isBaseMode": true
+    },
+    {
+      "Id": "2s1p",
+      "UIName": "2s1p",
+      "isBaseMode": false,
+      "ShotsWhenFired": 1,
+      "ProjectilesPerShot": 0
+    },
+    {
+      "Id": "1s10p",
+      "UIName": "1s10p",
+      "isBaseMode": false,
+      "ShotsWhenFired": 0,
+      "ProjectilesPerShot": 9
+    },
+    {
+      "Id": "3s10p",
+      "UIName": "3s10p",
+      "isBaseMode": false,
+      "ShotsWhenFired": 2,
+      "ProjectilesPerShot": 9,
+      "BallisticDamagePerPallet": true
+    },
+    {
+      "Id": "1s10pFR",
+      "UIName": "1s10pFR",
+      "isBaseMode": false,
+      "ShotsWhenFired": 0,
+      "ProjectilesPerShot": 9,
+      "HasShells": true,
+      "MaxShellsDistance": 90,
+      "MinShellsDistance": 90
+    },
+    {
+      "Id": "3s10pFR",
+      "UIName": "3s10pFR",
+      "isBaseMode": false,
+      "ShotsWhenFired": 2,
+      "ProjectilesPerShot": 9,
+      "HasShells": true,
+      "MaxShellsDistance": 90,
+      "MinShellsDistance": 90
+    },
+    {
+      "Id": "1s2pFR",
+      "UIName": "1s2pFR",
+      "isBaseMode": false,
+      "ShotsWhenFired": 0,
+      "ProjectilesPerShot": 1,
+      "HasShells": true,
+      "MaxShellsDistance": 90,
+      "MinShellsDistance": 90
+    },
+    {
+      "Id": "3s2pFR",
+      "UIName": "3s2pFR",
+      "isBaseMode": false,
+      "ShotsWhenFired": 2,
+      "ProjectilesPerShot": 1,
+      "HasShells": true,
+      "MaxShellsDistance": 90,
+      "MinShellsDistance": 90
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 5,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": 0,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "NotSet",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityDefPPC",
+        "Name": "__/Custom_Ammo_Categories.Weapon_Gauss_LGauss.AbilityDefPPC.effect0.Name/__",
+        "Details": "__/Custom_Ammo_Categories.Weapon_Gauss_LGauss.AbilityDefPPC.effect0.Details/__",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "5.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetammoCategoryID": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      },
+      "tagData": null,
+      "floatieData": null,
+      "actorBurningData": null,
+      "vfxData": null,
+      "instantModData": null,
+      "poorlyMaintainedEffectData": null
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

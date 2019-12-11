@@ -1,0 +1,32 @@
+{
+  "enumerationValueList": [
+    {
+      "ID": 100,
+      "Name": "LGAUSS",
+      "FriendlyName": "Light Gauss",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
+    },
+    {
+      "ID": 101,
+      "Name": "HGAUSS",
+      "FriendlyName": "Heavy Gauss",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
+    }
+  ]
+}
