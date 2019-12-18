@@ -67,7 +67,7 @@
 				},
         "VehicleChassisLocation":"Front",
 				"AnimationType":"SimpleRotator",
-				"AnimationData":{"speed":5,"axis":"y","sound":"AudioEventList_motor_motor_buzzy_start"}
+				"AnimationData":{"speed":5,"axis":"y","sound_start_event":"helicopter_start","sound_stop_event":"helicopter_stop"}
 			},
 			{
 				"prefab":"warrior_rotor_bottom_x10_brass",

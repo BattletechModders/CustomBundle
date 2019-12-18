@@ -13,6 +13,7 @@
     { "Type": "Prefab", "Path": "assets/rotor/warrior_turret_x10_red.prefab", "AssetBundleName": "warrior_parts" },
 
 	
+    { "Type": "SoundBankDef", "Path": "soundbanks" },
     { "Type": "HardpointDataDef", "Path": "hardpoints" },
     { "Type": "MovementCapabilitiesDef", "Path": "movement" },
     { "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
