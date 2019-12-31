@@ -17,7 +17,7 @@
       "DesignMasks": "false",
       "Pathing": "false",
       "Fire": "false",
-      "Landmines": "true"
+      "Landmines": "false"
     },
     "MoveCostModPerBiome": {
       "DesignMaskBiomeMartianVacuum": 1.0,
@@ -285,7 +285,7 @@
   ],
   "VariantName": "KGC-A",
   "ChassisTags": {
-    "items": [],
+    "items": [ ],
     "tagSetSourceFile": ""
   },
   "StockRole": "__/Custom_Ammo_Categories.chassisdef_kingcrab_KGC-A.StockRole/__",

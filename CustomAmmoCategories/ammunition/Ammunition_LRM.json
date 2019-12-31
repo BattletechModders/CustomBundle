@@ -1,8 +1,8 @@
 {
   "Description": {
     "Id": "Ammunition_LRM",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_LRM.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_LRM.UIName/__",
+    "Name": "LRM",
+    "UIName": "LRM",
     "Details": "__/Custom_Ammo_Categories.Ammunition_LRM.Details/__",
     "Icon": null,
     "Cost": 0,

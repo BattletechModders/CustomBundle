@@ -30,7 +30,7 @@
   "AdditionalImpactVFXScaleX": 1,
   "AdditionalImpactVFXScaleY": 1,
   "AdditionalImpactVFXScaleZ": 1,
-  "AdditionalAudioEffect": "enum:AudioEventList_explosion.explosion_propane_tank",
+  "AdditionalAudioEffect": "big_explosion",
   "FireDurationWithoutForest": 0,
   "FireTerrainStrength": 0,
   "FireTerrainCellRadius": 12,

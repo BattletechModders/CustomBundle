@@ -1,0 +1,145 @@
+{
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM20",
+  "MinRange": 180,
+  "MaxRange": 630,
+  "RangeSplit": [
+    420,
+    420,
+    630
+  ],
+  "ammoCategoryID": "LRM",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 18,
+  "Damage": 0,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1.5,
+  "AOECapable": false,
+  "AOERange": 0,
+  "AOEDamage": 0,
+  "AOEHeatDamage": 0,
+  "AOEInstability": 0,
+  "APDamage": 0,
+  "APCriticalChanceMultiplier": 0,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 9,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 4,
+  "MissileFiringIntervalMultiplier": 0.5,
+  "MissileVolleyIntervalMultiplier": 20,
+  "ProjectileSpeedMultiplier": 1,
+  "ColorsTable": [
+    {
+      "C": "red",
+      "I": 2
+    },
+    {
+      "C": "orange",
+      "I": 2
+    },
+    {
+      "C": "yellow",
+      "I": 2
+    },
+    {
+      "C": "green",
+      "I": 2
+    },
+    {
+      "C": "aqua",
+      "I": 2
+    },
+    {
+      "C": "blue",
+      "I": 2
+    },
+    {
+      "C": "purple",
+      "I": 2
+    }
+  ],
+  "ColorSpeedChange": 0,
+  "ColorChangeRule": "Random",
+  "ImprovedBallistic": true,
+  "HasShells": false,
+  "ShellsRadius": 0,
+  "MissileVolleySize": 2,
+  "ProjectileScale": {
+    "x": 2,
+    "y": 2,
+    "z": 2
+  },
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+  "Description": {
+    "Cost": 370000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "Zeus",
+    "Model": "Long-Range Missile Launcher",
+    "UIName": "ATM9",
+    "Id": "Weapon_ATM_ATM9_3-Zeus",
+    "Name": "ATM9",
+    "Details": "ATM9 details",
+    "Icon": "uixSvgIcon_weapon_Missile"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "srm2",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 10,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "Modes": [
+    {
+      "Id": "LRM",
+      "UIName": "LRM",
+      "AmmoCategory": "LRM",
+      "DamagePerShot": 4,
+      "HitGenerator": "Cluster",
+      "IndirectFireCapable": true,
+      "MinRange": 0,
+      "ShortRange": 0,
+      "MediumRange": 0,
+      "LongRange": 0,
+      "MaxRange": 0,
+      "isBaseMode": true,
+      "ColorChangeRule":"t0"
+    },
+    {
+      "Id": "SRM",
+      "UIName": "SRM",
+      "AmmoCategory": "SRM",
+      "DamagePerShot": 8,
+      "HitGenerator": "Streak",
+      "IndirectFireCapable": false,
+      "MinRange": -180,
+      "ShortRange": -240,
+      "MediumRange": -240,
+      "LongRange": -360,
+      "MaxRange": -360,
+      "isBaseMode": false,
+      "ColorChangeRule":"t5"
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant",
+      "component_type_variant3",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

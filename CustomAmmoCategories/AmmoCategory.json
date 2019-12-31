@@ -111,6 +111,48 @@
       "FallbackUIColor": null,
       "Icon": "EnergyHardpointIcon",
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
+    },
+    {
+      "ID": 109,
+      "Name": "intSRM",
+      "FriendlyName": "SRM",
+      "IsBallistic": false,
+      "IsMissile": true,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": true,
+      "UIColorRef": "Missile",
+      "FallbackUIColor": null,
+      "Icon": "MissileHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+    },
+    {
+      "ID": 110,
+      "Name": "intLRM",
+      "FriendlyName": "LRM",
+      "IsBallistic": false,
+      "IsMissile": true,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": true,
+      "UIColorRef": "Missile",
+      "FallbackUIColor": null,
+      "Icon": "MissileHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+    },
+    {
+      "ID": 111,
+      "Name": "intBeacon",
+      "FriendlyName": "Beacon",
+      "IsBallistic": false,
+      "IsMissile": true,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": true,
+      "UIColorRef": "Missile",
+      "FallbackUIColor": null,
+      "Icon": "MissileHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
     }
   ]
 }
