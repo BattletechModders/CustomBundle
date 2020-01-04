@@ -1,0 +1,231 @@
+{
+  "name": "tex_voicepack_voicepack",
+  "vobank": "tex_voicepack_soundbank",
+  "baseVoice": "m_bear01",
+  "stop_event": "tex_stop_all",
+  "gender": "Male",
+  "dark_phrases": {
+    "generic": [
+      "Play_tex_generic_bad_"
+    ]
+  },
+  "light_phrases": {
+    "overheat_shutdown": [
+      "Play_tex_overheat_shutdown_"
+    ],
+    "enemy_presence_first": [
+      "Play_tex_enemy_presence_first_"
+    ],
+    "target_structure": [
+      "Play_tex_target_structure_"
+    ],
+    "ammo_gone_ac10": [
+      "Play_tex_ammo_gone_ac10_"
+    ],
+    "friendly_killed": [
+      "Play_tex_friendly_killed_"
+    ],
+    "overheat_warning": [
+      "Play_tex_overheat_warning_"
+    ],
+    "target_melee": [
+      "Play_tex_target_melee_"
+    ],
+    "generic": [
+      "Play_tex_generic_",
+      "Play_tex_generic_good_"
+    ],
+    "ammo_gone_generic": [
+      "Play_tex_ammo_gone_generic_"
+    ],
+    "ammo_gone_ac2": [
+      "Play_tex_ammo_gone_ac2_"
+    ],
+    "ammo_gone_ac5": [
+      "Play_tex_ammo_gone_ac5_"
+    ],
+    "target_dfa": [
+      "Play_tex_target_dfa_"
+    ],
+    "building_destroyed": [
+      "Play_tex_building_destroyed_"
+    ],
+    "mech_powerup": [
+      "Play_tex_mech_powerup_"
+    ],
+    "target_fire": [
+      "Play_tex_target_fire_"
+    ],
+    "target_rear": [
+      "Play_tex_target_rear_"
+    ],
+    "airstrike_us": [
+      "Play_tex_airstrike_us_"
+    ],
+    "hit_internal": [
+      "Play_tex_hit_internal_"
+    ],
+    "chosen": [
+      "Play_tex_chosen_"
+    ],
+    "turret_destroyed": [
+      "Play_tex_turret_destroyed_"
+    ],
+    "ammo_gone_flamer": [
+      "Play_tex_ammo_gone_flamer_"
+    ],
+    "mech_up": [
+      "Play_tex_mech_up_"
+    ],
+    "hit_critical": [
+      "Play_tex_hit_critical_"
+    ],
+    "sensor_lock_onthem": [
+      "Play_tex_sensor_lock_onthem_"
+    ],
+    "weapon_lost": [
+      "Play_tex_weapon_lost_"
+    ],
+    "hit_barely": [
+      "Play_tex_hit_barely_"
+    ],
+    "weapon_lost_all": [
+      "Play_tex_weapon_lost_all_"
+    ],
+    "sensor_lock_onus": [
+      "Play_tex_sensor_lock_onus_"
+    ],
+    "jump": [
+      "Play_tex_jump_"
+    ],
+    "chatter": [
+      "Play_tex_chatter_"
+    ],
+    "chatter_frozen": [
+      "Play_tex_chatter_frozen_"
+    ],
+    "reserve": [
+      "Play_tex_reserve_"
+    ],
+    "airstrike_them": [
+      "Play_tex_airstrike_them_"
+    ],
+    "chatter_jungle": [
+      "Play_tex_chatter_jungle_"
+    ],
+    "retreat": [
+      "Play_tex_retreat_"
+    ],
+    "ammo_gone_mg": [
+      "Play_tex_ammo_gone_mg_"
+    ],
+    "mech_down": [
+      "Play_tex_mech_down_"
+    ],
+    "pilot_wakes": [
+      "Play_tex_pilot_wakes_"
+    ],
+    "pilot_ejecting": [
+      "Play_tex_pilot_ejecting_"
+    ],
+    "chatter_urban": [
+      "Play_tex_chatter_urban_"
+    ],
+    "artillery_them": [
+      "Play_tex_artillery_them_"
+    ],
+    "chatter_martian": [
+      "Play_tex_chatter_martian_"
+    ],
+    "acquired_vip": [
+      "Play_tex_acquired_vip_"
+    ],
+    "mech_limping": [
+      "Play_tex_mech_limping_"
+    ],
+    "warning_flank": [
+      "Play_tex_warning_flank_"
+    ],
+    "ammo_gone_multiple": [
+      "Play_tex_ammo_gone_multiple_"
+    ],
+    "move": [
+      "Play_tex_move_"
+    ],
+    "pvp_start": [
+      "Play_tex_pvp_start_"
+    ],
+    "ammo_gone_ac20": [
+      "Play_tex_ammo_gone_ac20_"
+    ],
+    "done": [
+      "Play_tex_done_"
+    ],
+    "enemy_critical": [
+      "Play_tex_enemy_critical_"
+    ],
+    "enemy_kill": [
+      "Play_tex_enemy_kill_"
+    ],
+    "ammo_gone_srm": [
+      "Play_tex_ammo_gone_srm_"
+    ],
+    "ammo_gone_guass": [
+      "Play_tex_ammo_gone_guass_"
+    ],
+    "target_alpha": [
+      "Play_tex_target_alpha_"
+    ],
+    "target_missed": [
+      "Play_tex_target_missed_"
+    ],
+    "ammo_gone_lrm": [
+      "Play_tex_ammo_gone_lrm_"
+    ],
+    "acquired_object": [
+      "Play_tex_acquired_object_"
+    ],
+    "enemy_vehicle_kill": [
+      "Play_tex_enemy_vehicle_kill_"
+    ],
+    "enemy_presence_more": [
+      "Play_tex_enemy_presence_more_"
+    ],
+    "friendly_destroyed": [
+      "Play_tex_friendly_destroyed_"
+    ],
+    "support_used": [
+      "Play_tex_support_used_"
+    ],
+    "pilot_hit": [
+      "Play_tex_pilot_hit_"
+    ],
+    "pilot_death": [
+      "Play_tex_pilot_death_"
+    ],
+    "pilot_demoralized": [
+      "Play_tex_pilot_demoralized_"
+    ],
+    "drone_deployed": [
+      "Play_tex_drone_deployed_"
+    ],
+    "chatter_arid": [
+      "Play_tex_chatter_arid_"
+    ],
+    "pilot_inspired": [
+      "Play_tex_pilot_inspired_"
+    ],
+    "artillery_us": [
+      "Play_tex_artillery_us_"
+    ],
+    "chatter_verdant": [
+      "Play_tex_chatter_verdant_"
+    ],
+    "hit_hard": [
+      "Play_tex_hit_hard_"
+    ],
+    "sprint": [
+      "Play_tex_sprint_"
+    ]
+  }
+}
