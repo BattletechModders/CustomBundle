@@ -10,7 +10,7 @@
     630
   ],
   "ammoCategoryID": "intLRM",
-  "StartingAmmoCapacity": 15,
+  "StartingAmmoCapacity": 0,
   "HeatGenerated": 18,
   "Damage": 0,
   "OverheatedDamageMultiplier": 0,
@@ -103,7 +103,8 @@
   "CriticalComponent": false,
   "statusEffects": [],
   "InternalAmmo":{
-    "intSRM":20
+    "Ammunition_intLRM":15,
+    "Ammunition_intSRM":20
   },
   "Modes": [
     {
