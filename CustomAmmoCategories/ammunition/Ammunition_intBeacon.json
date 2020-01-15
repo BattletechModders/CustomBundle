@@ -33,6 +33,7 @@
       "C": "#00FF00",
       "I": 1.5
     },
+    "sticky": true,
     "FireTerrainChance": 0.8,
     "FireDurationWithoutForest": 0,
     "FireTerrainStrength": 30,
