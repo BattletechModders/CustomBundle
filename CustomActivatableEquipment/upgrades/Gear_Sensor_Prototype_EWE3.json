@@ -1,7 +1,7 @@
 {
   "Custom": {
     "ActivatableComponent": {
-      "ButtonName": "AECM",
+      "ButtonName": "ECM",
       "CanNotBeActivatedManualy": false,
       "ActiveByDefault": true,
       "statusEffects": [
@@ -80,7 +80,7 @@
         "Icon": "uixSvgIcon_action_sensorlock"
       },
       "activeAbilityEffectData": {
-        "abilityName": "AbilityDef_ActiveProbe_Ping"
+        "abilityName": "AbilityDef_EWS_Ping"
       }
     }
   ],
