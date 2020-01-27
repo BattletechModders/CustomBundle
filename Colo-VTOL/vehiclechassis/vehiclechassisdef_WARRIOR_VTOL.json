@@ -15,7 +15,8 @@
       "DesignMasks":"true",
       "Pathing":"true",
       "Fire":"true",
-      "Landmines":"true"
+      "Landmines":"true",
+      "MoveClamp": 0.3
     },
     "TieToGroundOnDeath":"true",
 		"HighestLOSPosition":{"x":0,"y":60,"z":0},
