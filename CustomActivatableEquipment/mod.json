@@ -2,7 +2,7 @@
 	"Name": "CustomActivatableEquipment",
 	"Enabled": true,
 
-	"Version": "0.0.56",
+	"Version": "0.0.60",
 	"PackagedOn": "2019-01-31T00:00:00Z",
 	"DLL": "CustomActivatableEquipment.dll",
 	"DLLEntryPoint": "CustomActivatableEquipment.Core.Init",
@@ -39,9 +39,11 @@
     "auraUpdateMinPosDelta":20,
     "sensorsAura":{
       "ReticleColor" : "white",
+      "LineType": "Dots",
+      "isSpining": false,
       "Id": "Sensors",
       "Name": "Sensors",
-      "Range": 60,
+      "Range": 90,
       "RangeStatistic" : "CAE_SENSORS_RANGE",
       "ApplySelf": false,
       "HideOnNotSelected": false,

@@ -1,9 +1,9 @@
 {
   "enumerationValueList": [
     {
-      "ID": 1000,
-      "Name": "Test",
-      "FriendlyName": "Test",
+      "ID": 1,
+      "Name": "Ballistic",
+      "FriendlyName": "Ballistic",
       "IsBallistic": true,
       "IsMissile": false,
       "IsEnergy": false,
@@ -23,8 +23,34 @@
       "MaxVerticalAngle": 15,
       "UIColorRef": "Ballistic",
       "FallbackUIColor": null,
-      "Icon": "BallisticHardpointIcon",
+      "Icon": "blade",
       "HardpointPrefabText": "_bh",
+      "UseHardpointPrefabTextAsSuffix": true
+    },
+    {
+      "Name": "PlasmaLance",
+      "FriendlyName": "PlasmaLance",
+      "IsBallistic": false,
+      "IsMissile": false,
+      "IsEnergy": true,
+      "IsSupport": false,
+      "IsMelee": false,
+      "CanUseInMelee": true,
+      "IsAffectedByEvasive": false,
+      "ForceLightHitReact": false,
+      "DamageReductionMultiplierStat": "DamageReductionMultiplierEnergy",
+      "ToBeHitStat": "ToHitThisActorEnergy",
+      "DesignMaskString": "Energy",
+      "TurretDamageMultiplier": 1,
+      "VehicleDamageMultiplier": 1,
+      "MinHorizontalAngle": 6,
+      "MaxHorizontalAngle": 9,
+      "MinVerticalAngle": 5,
+      "MaxVerticalAngle": 5,
+      "UIColorRef": "Energy",
+      "FallbackUIColor": null,
+      "Icon": "settings",
+      "HardpointPrefabText": "_eh",
       "UseHardpointPrefabTextAsSuffix": true
     }
   ]
