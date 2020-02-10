@@ -150,5 +150,8 @@
 "SelectionStateMoveBaseProcessMousePosTrottle": 4,
 "UpdateReticleTrottle":8,
 "showMissBehavior":"Default",
-"extendedBraceBehavior":true
+"extendedBraceBehavior":true,
+"DefaultAoEDamageMult":{
+  "Building": { "Range": 1.2, "Damage": 5}
+}
 }
