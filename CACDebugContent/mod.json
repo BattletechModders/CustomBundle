@@ -1,0 +1,49 @@
+{
+	"Name": "CustomBundleDebugContent",
+	"Enabled": false,
+  "Locked": false,
+	"Version": "0.1.101",
+	"PackagedOn": "2019-05-20T00:00:00Z",
+	"DependsOn": ["Custom Ammo Categories","CustomUnits","CustomVoices","CustomActivatableEquipment"],
+	"ConflictsWith": [ ],
+	"Description": "Demo debug content for custom bundle",
+	"Author": "KMiSSioN",
+  "Website": "https://www.nexusmods.com/battletech/mods/381",
+  "DataAddendumEntries":[
+    {
+      "name": "BattleTech.FactionEnumeration",
+      "path": "Faction.json"
+    },
+    {
+      "name": "BattleTech.WeaponCategoryEnumeration",
+      "path": "WeaponCategory.json"
+    },
+    {
+      "name": "BattleTech.AmmoCategoryEnumeration",
+      "path": "AmmoCategory.json"
+    }
+  ],
+	"Manifest": [
+		{ "Type": "AbilityDef", "Path": "abilities\\" },
+    { "Type": "AssetBundle", "Path": "assetbundles" },	
+		{ "Type": "AmmunitionDef", "Path": "ammunition\\" },
+		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox\\" },
+		{ "Type": "WeaponDef", "Path": "weapon\\" },
+		{ "Type": "WeaponDef", "Path": "weapons\\" },
+		{ "Type": "UpgradeDef", "Path": "upgrades\\" },
+		{ "Type": "ChassisDef", "Path": "chassis\\" },
+		{ "Type": "MechDef", "Path": "mech\\" },
+		{ "Type": "PilotDef", "Path": "pilot\\" },
+		{ "Type": "FactionDef", "Path": "Factions" },
+		{ "Type": "HeatSinkDef", "Path": "heatsinks\\" },
+		{ "Type": "HardpointDataDef", "Path": "hardpoints\\" },
+		{ "Type": "SVGAsset", "Path": "icons\\" },
+    { "Type": "VoicePackDef", "Path": "voicepacks", "ShouldMergeJSON": false },
+    { "Type": "SoundBankDef", "Path": "soundbanks", "ShouldMergeJSON": false }, 
+    { "Type": "Prefab", "Path": "assets/circlesaw/circle_saw_gringer.prefab", "AssetBundleName": "circle_saw" },
+    { "Id": "chrprfweap_kingcrab_leftarm_laser_eh1", "Type": "Prefab", "Path": "assets/chrprfweap_kingcrab_leftarm_laser_eh1.prefab", "AssetBundleName": "custom_kingkrab_hardpoints" },
+    { "Id": "chrprfweap_kingcrab_leftarm_rotatelaser_eh1", "Type": "Prefab", "Path": "assets/chrprfweap_kingcrab_leftarm_rotatelaser_eh1.prefab", "AssetBundleName": "custom_kingkrab_hardpoints" },
+    { "Id": "chainsaw_prefab", "Type": "Prefab", "Path": "assets/chainsaw_prefab.prefab", "AssetBundleName": "custom_kingkrab_hardpoints" },
+    { "Id": "chainsaw_hardpoint_prefab", "Type": "Prefab", "Path": "assets/chainsaw_hardpoint_prefab.prefab", "AssetBundleName": "custom_kingkrab_hardpoints" }
+  ]
+}

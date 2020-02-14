@@ -91,9 +91,5 @@
       ]
     }
 	},
-	"Manifest": [
-		{ "Type": "AbilityDef", "Path": "abilities\\" },
-		{ "Type": "UpgradeDef", "Path": "upgrades\\" },
-    { "Type": "WeaponDef", "Path": "weapons\\" }
-  ]
+	"Manifest": []
 }

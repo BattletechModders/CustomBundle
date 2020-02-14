@@ -1,0 +1,181 @@
+{
+  "Category": "Energy",
+  "Type": "PPC",
+  "WeaponSubType": "PPCER",
+  "MinRange": 0,
+  "MaxRange": 690,
+  "RangeSplit": [
+    510,
+    510,
+    690
+  ],
+  "ammoCategoryID": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 10,
+  "Damage": 1,
+  "APDamage": 0,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "isHeatVariation": true,
+  "DistantVariance": 0.3,
+  "AccuracyModifier": -5,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "FlatJammingChance": 0,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 3,
+  "Instability": 100,
+  "ColorsTable": [
+    {
+      "C": "red",
+      "I": 5
+    },
+    {
+      "C": "orange",
+      "I": 5
+    },
+    {
+      "C": "yellow",
+      "I": 5
+    },
+    {
+      "C": "green",
+      "I": 5
+    },
+    {
+      "C": "aqua",
+      "I": 5
+    },
+    {
+      "C": "blue",
+      "I": 5
+    },
+    {
+      "C": "purple",
+      "I": 5
+    }
+  ],
+  "ColorSpeedChange": 0,
+  "ImprovedBallistic": true,
+  "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+  "Description": {
+    "Cost": 2790000,
+    "Rarity": 100,
+    "Purchasable": false,
+    "Manufacturer": "Fal'shia",
+    "Model": "XV88",
+    "UIName": "__/Custom_Ammo_Categories.Weapon_PPC_LPPCER_3.UIName/__",
+    "Id": "Weapon_PPC_LPPCER_3",
+    "Name": "__/Custom_Ammo_Categories.Weapon_PPC_LPPCER_3.Name/__",
+    "Details": "__/Custom_Ammo_Categories.Weapon_PPC_LPPCER_3.Details/__",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "PPC",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 1.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Modes": [
+    {
+      "Id": "base",
+      "UIName": "original",
+      "isBaseMode": true
+    },
+    {
+      "Id": "overload",
+      "UIName": "purple",
+      "isBaseMode": false,
+      "DamagePerShot": 15,
+      "FireDelayMultiplier": 1,
+      "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+      "ProjectileScale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "preFireSFX":"Play_PPC3",
+      "ColorChangeRule": "Linear",
+      "ProjectileSpeedMultiplier": 0.1,
+      "ShotsWhenFired": 1,
+      "ColorSpeedChange":7,
+      "evasivePipsMods":{
+        "Damage": -0.5,
+        "Heat": -0.5,
+        "GeneratedHeat": -0.5,
+        "FlatJammingChance": -0.5
+      }
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": 0,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "NotSet",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityDefPPC",
+        "Name": "__/Custom_Ammo_Categories.Weapon_PPC_LPPCER_3.AbilityDefPPC.effect0.Name/__",
+        "Details": "__/Custom_Ammo_Categories.Weapon_PPC_LPPCER_3.AbilityDefPPC.effect0.Details/__",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetammoCategoryID": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      },
+      "tagData": null,
+      "floatieData": null,
+      "actorBurningData": null,
+      "vfxData": null,
+      "instantModData": null,
+      "poorlyMaintainedEffectData": null
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

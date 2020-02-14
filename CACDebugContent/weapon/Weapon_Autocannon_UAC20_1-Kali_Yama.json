@@ -1,0 +1,100 @@
+{
+    "Custom": {
+        "Category": {
+            "CategoryID": "UAC20"
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Ultra",
+                "WpnRecoil: 2",
+                "WeaponJAM: 5"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "01104"
+        }
+    },
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "UAC20",
+    "MinRange" : 0,
+    "MaxRange" : 270,
+    "RangeSplit" : [
+        180,
+        180,
+        270
+    ],
+    "AmmoCategory" : "UAC20",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 20,
+    "Damage" : 110,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "StructureDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 4,
+    "Instability" : 40,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Ultra",
+    "Description" : {
+        "Cost" : 270000,
+        "Rarity" : 68,
+        "Purchasable" : true,
+        "Manufacturer" : "Kali Yama",
+        "Model" : "Shredder Autocannon",
+        "UIName" : "UAC/20 +",
+        "Id" : "Weapon_Autocannon_UAC20_1-Kali_Yama",
+        "Name" : "UAC/20 +",
+        "Details" : "Delivering unparalleled damage output, Ultra AC/20s issue nightmarish volleys of devastation. Like all Ultra Autocannon weaponry, UAC/20s suffer from substantial recoil effects from firing and consume two ammo per attack.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "+ 10 Dmg.",
+    "BonusValueB" : "- 1.5 Tons",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC20",
+	"BattleValue" : 0,
+    "InventorySize" : 8,
+    "Tonnage" : 13.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+	"Modes":[
+		{
+			"Id":"x1",
+			"UIName":"x1",
+			"isBaseMode":false,
+			"ShotsWhenFired":0
+		},
+		{
+			"Id":"x2",
+			"UIName":"x2",
+			"isBaseMode":true,
+			"ShotsWhenFired":1,
+			"RefireModifier" : 2,
+			"HeatGenerated" : 17,
+			"FlatJammingChance": 0.05
+		}
+	],
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_variant1",
+            "range_standard",
+            "wr-jammable_weapon",
+            "wr-jam_chance_multiplier-5"					
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

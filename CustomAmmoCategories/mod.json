@@ -2,49 +2,23 @@
 	"Name": "Custom Ammo Categories",
 	"Enabled": true,
   "Locked": true,
-	"Version": "0.1.98",
+	"Version": "0.1.92",
 	"PackagedOn": "2019-05-20T00:00:00Z",
 	"DLL": "CustomAmmoCategories.dll",
 	"DLLEntryPoint": "CACMain.Core.Init",
 	"DependsOn": [ ],
 	"ConflictsWith": [ "WeaponRealizer", "AIM: Attack Improvement Mod", "CharlesB" ],
-
 	"Description": "Custom Ammo Categories - weapon rework. Adding ammo/mode switching mechanics, various fire effects and much more. Special versions of WeaponRalizer and AttackImprovementMod included with permission from their authors",
-	"Author": "CustomAmmoCategories - KMiSSioN; WeaponRealizer, CharlesB - janxious; AttackImprovementMod - Sheepy",
+	"Author": "CustomAmmoCategories - KMiSSioN; WeaponRealizer - janxious; AttackImprovementMod - Sheepy",
     "Website": "https://www.nexusmods.com/battletech/mods/381",
 	"Settings": {
 		"debug": true
 	},
   "DataAddendumEntries":[
-    {
-      "name": "BattleTech.FactionEnumeration",
-      "path": "Faction.json"
-    },
-    {
-      "name": "BattleTech.WeaponCategoryEnumeration",
-      "path": "WeaponCategory.json"
-    },
-    {
-      "name": "BattleTech.AmmoCategoryEnumeration",
-      "path": "AmmoCategory.json"
-    }
   ],
 	"Manifest": [
-    { "Type": "AssetBundle", "Path": "assetbundles" },	
-		{ "Type": "AmmunitionDef", "Path": "ammunition\\" },
-		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox\\" },
-		{ "Type": "WeaponDef", "Path": "weapon\\" },
 		{ "Type": "DesignMaskDef", "Path": "designmask\\" },
 		{ "Type": "AbilityDef", "Path": "abilities\\" },
-		{ "Type": "UpgradeDef", "Path": "upgrades\\" },
-		{ "Type": "ChassisDef", "Path": "chassis\\" },
-		{ "Type": "MechDef", "Path": "mech\\" },
-		{ "Type": "PilotDef", "Path": "pilot\\" },
-		{ "Type": "FactionDef", "Path": "Factions" },
-		{ "Type": "HeatSinkDef", "Path": "heatsinks\\" },
-		{ "Type": "HardpointDataDef", "Path": "hardpoints\\" },
-		{ "Type": "SoundBankDef", "Path": "soundBanks\\" },
-		{ "Type": "SVGAsset", "Path": "icons\\" },
-    { "Type": "Prefab", "Path": "assets/circlesaw/circle_saw_gringer.prefab", "AssetBundleName": "circle_saw" }
+		{ "Type": "SoundBankDef", "Path": "soundBanks\\" }
   ]
 }

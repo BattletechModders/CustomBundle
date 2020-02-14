@@ -1,0 +1,20 @@
+{
+  "Description": {
+    "Id": "Ammunition_intSRM",
+    "Name": "SRM",
+    "UIName": "SRM",
+    "Details": "__/Custom_Ammo_Categories.Ammunition_SRM.Details/__",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "intSRM",
+  "HeatGenerated": 0,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "HideIfOnlyVariant":false
+}

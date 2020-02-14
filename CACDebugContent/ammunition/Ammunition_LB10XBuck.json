@@ -1,0 +1,28 @@
+{
+  "Description": {
+    "Id": "Ammunition_LB10XBuck",
+    "Name": "__/Custom_Ammo_Categories.Ammunition_LBX10Buck.Name/__",
+    "UIName": "__/Custom_Ammo_Categories.Ammunition_LBX10Buck.UIName/__",
+    "Details": "__/Custom_Ammo_Categories.Ammunition_LBX10Buck.Details/__",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "LB10X",
+  "AccuracyModifier": -1,
+  "CriticalChanceMultiplier": 0.5,
+  "DamagePerShot": 0.0,
+  "DamageMultiplier": 1.0,
+  "ShotsWhenFired": 0,
+  "ProjectilesPerShot": 10,
+  "HeatGenerated": 0,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 0.5,
+  "ISDamageModifier": 2,
+  "CriticalDamageModifier": 1,
+  "HasShells": false,
+  "IndirectFireCapable": false,
+  "AlwaysIndirectVisuals": false
+}
