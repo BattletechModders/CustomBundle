@@ -1,0 +1,267 @@
+{
+    "simGameSubstitutionList" : [
+	
+        {
+            "name" : "rep_loathed_min",
+            "value" : "-100",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_loathed_max",
+            "value" : "-80",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_hated_min",
+            "value" : "-79",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_hated_max",
+            "value" : "-40",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_disliked_min",
+            "value" : "-39",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_disliked_max",
+            "value" : "-20",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_indifferent_min",
+            "value" : "-19",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_indifferent_max",
+            "value" : "19",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_liked_min",
+            "value" : "20",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_liked_max",
+            "value" : "39",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_friendly_min",
+            "value" : "40",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_friendly_max",
+            "value" : "79",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_allied_min",
+            "value" : "80",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_allied_max",
+            "value" : "100",
+            "comment" : ""
+        },
+
+	
+        {
+            "name" : "rep_loss_large",
+            "value" : "-3",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_loss_medium",
+            "value" : "-2",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_loss_small",
+            "value" : "-1",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_gain_small",
+            "value" : "1",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_gain_medium",
+            "value" : "2",
+            "comment" : ""
+        },
+        {
+            "name" : "rep_gain_large",
+            "value" : "3",
+            "comment" : ""
+        },
+
+		
+        {
+            "name" : "budget_spartan",
+            "value" : "-2",
+            "comment" : ""
+        },
+        {
+            "name" : "budget_restricted",
+            "value" : "-1",
+            "comment" : ""
+        },
+        {
+            "name" : "budget_normal",
+            "value" : "0",
+            "comment" : ""
+        },
+        {
+            "name" : "budget_generous",
+            "value" : "1",
+            "comment" : ""
+        },
+        {
+            "name" : "budget_extravagant",
+            "value" : "2",
+            "comment" : ""
+        },
+
+		
+        {
+            "name" : "money_loss_extravagant",
+            "value" : "-500000",
+            "comment" : ""
+        },
+        {
+            "name" : "money_loss_huge",
+            "value" : "-100000",
+            "comment" : ""
+        },
+        {
+            "name" : "money_loss_large",
+            "value" : "-50000",
+            "comment" : ""
+        },
+        {
+            "name" : "money_loss_medium",
+            "value" : "-10000",
+            "comment" : ""
+        },
+        {
+            "name" : "money_loss_small",
+            "value" : "-1000",
+            "comment" : ""
+        },
+        {
+            "name" : "money_loss_tiny",
+            "value" : "-100",
+            "comment" : ""
+        },
+        {
+            "name" : "money_gain_tiny",
+            "value" : "100",
+            "comment" : ""
+        },
+        {
+            "name" : "money_gain_small",
+            "value" : "1000",
+            "comment" : ""
+        },
+        {
+            "name" : "money_gain_medium",
+            "value" : "10000",
+            "comment" : ""
+        },
+        {
+            "name" : "money_gain_large",
+            "value" : "50000",
+            "comment" : ""
+        },
+        {
+            "name" : "money_gain_huge",
+            "value" : "100000",
+            "comment" : ""
+        },
+        {
+            "name" : "money_gain_extravagant",
+            "value" : "500000",
+            "comment" : ""
+        },
+
+		
+        {
+            "name" : "morale_loss_large",
+            "value" : "-4",
+            "comment" : ""
+        },
+        {
+            "name" : "morale_loss_medium",
+            "value" : "-2",
+            "comment" : ""
+        },
+        {
+            "name" : "morale_loss_small",
+            "value" : "-1",
+            "comment" : ""
+        },
+        {
+            "name" : "morale_gain_small",
+            "value" : "1",
+            "comment" : ""
+        },
+        {
+            "name" : "morale_gain_medium",
+            "value" : "2",
+            "comment" : ""
+        },
+        {
+            "name" : "morale_gain_large",
+            "value" : "4",
+            "comment" : ""
+        },
+		
+		
+        {
+            "name" : "temp_short",
+            "value" : "7",
+            "comment" : ""
+        },
+        {
+            "name" : "temp_medium",
+            "value" : "14",
+            "comment" : ""
+        },
+        {
+            "name" : "temp_long",
+            "value" : "30",
+            "comment" : ""
+        },
+        {
+            "name" : "temp_verylong",
+            "value" : "90",
+            "comment" : ""
+        },
+
+		
+        {
+            "name" : "exp_small",
+            "value" : "25",
+            "comment" : ""
+        },
+        {
+            "name" : "exp_medium",
+            "value" : "50",
+            "comment" : ""
+        },
+        {
+            "name" : "exp_large",
+            "value" : "100",
+            "comment" : ""
+        }
+    ]
+}
