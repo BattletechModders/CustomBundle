@@ -241,18 +241,6 @@ if set as true all AP effects (damage and crits) will not affect unit.
                                    All - show all miss floaties with miss margin
 }
 
-now CustomAmmoCategories.dll searching CustomAmmoCategories.json in every subfolder of Mods folder. 
-CustomAmmoCategories.json
-[
-{
-	"Id":"LGAUSS", - new ammo category name, precessed for WeaponDef.AmmoCategory and AmmunitionDef.Category fields, using it in other AmmoCategory field will lead load error
-	"BaseCategory":"GAUSS" - base category name. Must bt in (AC2/AC5/AC10/AC20/GAUSS/Flamer/AMS/MG/SRM/LRM), 
-	                         needed for backward compatibility. 
-							 All other game mechanic (for example status effect targeting), except ammo count in battle and mech validator in mech lab will use this value.
-							 !Flamer - is base category for energy ammo (plasma, chemical lasers etc)
-},
-]
-
 Weapon definition
 new fields
   "evasivePipsMods": {  - list of modifiers for values by current evasive pips count. Additive per weapon/ammo/mode. \
