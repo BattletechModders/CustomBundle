@@ -10,6 +10,9 @@ main settings in mod.json
                               this needed for two things - hovers should not be affected by water cell steepness and not hovers should not be able to pass through this cell
     "waterFlatDepth":2, - if underwater cell have depth grater than this value x2 it will be lifted up.
     "deepWaterDepth":5  - if underwater cell have depth grater than this it will be marked as deep water. (Note: 5 it is greater than almost game's vehicle height)
+    "LancesIcons": [ "one", "two", "three" ], - icons for lance selector 
+    "overallDeploySize": 6,  - deploy size for skirmish or without bigger drops 
+    "Lances": [ {"size":6,"allow":5,"is_vehicle":false},{"size":4,"allow":3,"is_vehicle":true} ] - lances layout for skirmish or without bigger drops 
 
 MechResizer has beed devoured
 ## Settings
