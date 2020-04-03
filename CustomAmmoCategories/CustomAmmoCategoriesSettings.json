@@ -18,7 +18,8 @@
     "impact",
     "nuka",
     "glow",
-    "burnedtrees"
+    "burnedtrees",
+	"floatiemessage"
   ],
   "NoForestBiomes": [
     "DesignMaskBiomeMartianVacuum",
