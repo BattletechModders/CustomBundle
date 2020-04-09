@@ -6,13 +6,15 @@
     "Manifest": [
     { "Type": "AssetBundle", "Path": "assetbundles" },	
 
-    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfvhcl_warriorvtol.prefab", "AssetBundleName": "chrprfvhcl_warriorvtol" },
-    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/weapons/warriorvtol/chrprfweap_warriorvtol_turret_generic_eh1.prefab", "AssetBundleName": "chrprfvhcl_warriorvtol" },
-    { "Type": "Prefab", "Path": "assets/rotor/warrior_rotor_bottom_x10_brass.prefab", "AssetBundleName": "warrior_parts" },
-    { "Type": "Prefab", "Path": "assets/rotor/warrior_rotor_top_x10_brass.prefab", "AssetBundleName": "warrior_parts" },
-    { "Type": "Prefab", "Path": "assets/rotor/warrior_turret_x10_red.prefab", "AssetBundleName": "warrior_parts" },
-
-	
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/warrior_body.prefab", "AssetBundleName": "warrior_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/warrior_front_weapon_cannon.prefab", "AssetBundleName": "warrior_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/warrior_front_weapon_gauss.prefab", "AssetBundleName": "warrior_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/warrior_front_weapon_laser_large.prefab", "AssetBundleName": "warrior_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/warrior_front_weapon_laser_small.prefab", "AssetBundleName": "warrior_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/warrior_front_weapon_missile.prefab", "AssetBundleName": "warrior_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/warrior_front_weapon_small.prefab", "AssetBundleName": "warrior_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/warrior_left_empty.prefab", "AssetBundleName": "warrior_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/warrior_right_empty.prefab", "AssetBundleName": "warrior_body" },
     { "Type": "SoundBankDef", "Path": "soundbanks" },
     { "Type": "HardpointDataDef", "Path": "hardpoints" },
     { "Type": "MovementCapabilitiesDef", "Path": "movement" },

@@ -1,0 +1,49 @@
+{
+    "Name": "LTS-YellowJacket",
+    "Enabled": true,
+    "DependsOn": [ "CustomUnits", "Colo-VTOL" ],
+    "Description": "Thump thump thump, thwack",
+    "Author": "LtShade",
+
+  "Manifest": [
+    { "Type": "AssetBundle", "Path": "assetbundles" },
+
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_body.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_ac10.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_ac2.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_ac20.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_ac5.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_gauss.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_laser_large.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_laser_small.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_lrm10.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_lrm15.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_lrm20.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_lrm5.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_small.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_front_weapon_srm.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_left_weapon_ac10.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_left_weapon_ac2.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_left_weapon_ac5.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_left_weapon_laser_large.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_left_weapon_laser_small.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_left_weapon_lrm10.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_left_weapon_lrm5.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_left_weapon_small.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_left_weapon_srm.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_right_weapon_ac10.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_right_weapon_ac2.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_right_weapon_ac5.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_right_weapon_laser_large.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_right_weapon_laser_small.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_right_weapon_lrm10.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_right_weapon_lrm5.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_right_weapon_small.prefab", "AssetBundleName": "yellowjacket_body" },
+    { "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/yellowjacket_right_weapon_srm.prefab", "AssetBundleName": "yellowjacket_body" },
+
+    { "Type": "HardpointDataDef", "Path": "hardpoints" },
+    { "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
+    { "Type": "VehicleDef", "Path": "vehicle" }
+
+  ]
+}
