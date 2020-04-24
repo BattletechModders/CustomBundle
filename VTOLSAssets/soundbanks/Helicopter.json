@@ -1,0 +1,9 @@
+{
+  "name": "Helicopter",
+  "filename": "Helicopter.bnk",
+  "type": "Combat",
+  "events":{
+    "helicopter_start":3945084603,
+    "helicopter_end":2235900128
+  }
+}

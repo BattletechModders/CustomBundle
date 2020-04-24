@@ -96,7 +96,7 @@
 
   /* Show alpha/melee&dfa damage in weapon loadout list in targeting computer.  Default "Damage {2} + Long {3}". */
 
-  "ShowAlphaDamageInLoadout": "__/AIM.Damage/__ {2} + __/AIM.Long/__ {3}",
+  "ShowAlphaDamageInLoadout": "Damage {2} + Long {3}",
 
   /* Show melee & dfa damage in weapon loadout list in targeting computer.  Default . */
 
@@ -110,7 +110,7 @@
   /* Format of short mechwarrior hint that shows up when you mouseover/right-click the portrait.
    * Default "G:{3} P:{4} G:{5} T:{6}" which summarise his/her stats.  Set to empty to leave at game default. */
 
-  "ShortPilotHint": "__/AIM.GunneryShort/__:{3} __/AIM.PilotingShort/__:{4} __/AIM.GutsShort/__:{5} __/AIM.TacticsShort/__:{6}",
+  "ShortPilotHint": "G:{3} P:{4} G:{5} T:{6}",
 
   /* Apply damage reduction to damage numbers in weapon panel.  Default true. */
 
@@ -130,7 +130,7 @@
 
   /* Show weapon range in meters instead of "Short" or "Very Long" in weapon mouseover.  Default "Min {0} : Long {2} : Max {4}". */
 
-  "WeaponRangeFormat": "__/AIM.Min/__ {0} : __/AIM.Long/__ {2} : __/AIM.Max/__ {4}",
+  "WeaponRangeFormat": "Min {0} : Long {2} : Max {4}",
 
   /* Show only one cheevon per weapon subtype.  Same as CombatConstants.CombatUIConstants.collapseWeaponTypesInTickMarks.  Default true. */
 
@@ -143,9 +143,9 @@
   /* Format pilot name to show wounds (enemies) and health (non-enemy) after their names.
    * {1} is injury, {2} is health - injury, and {3} is health.  Set to empty to not change game default. */
 
-  "ShowPlayerHealth": ", __/AIM.HP/__ {2}/{3}",
-  "ShowEnemyWounds": ", __/AIM.Wounds/__ {1}",
-  "ShowAllyHealth": ", __/AIM.HP/__ {2}/{3}",
+  "ShowPlayerHealth": ", HP {2}/{3}",
+  "ShowEnemyWounds": ", Wounds {1}",
+  "ShowAllyHealth": ", HP {2}/{3}",
 
   /* Set name colour of overhead nameplate of Player / Enemy / Ally.  Default "#CFC", "#FBB", "#8FF".  Set to empty to not change (leave at white). */
 
@@ -361,7 +361,7 @@
 
   /* Show the % margin of a missed attack in damage floatie. Smaller % = closer miss.  Default true. */
 
-  "ShowMissMargin": true,
+  "ShowMissMargin": false,
 
   //
   // Modifiers Preview
@@ -431,8 +431,8 @@
 
   /* Critical rate on vehicles and turrets, relative to mech.  Set to 0 to disable. */
 
-  "CriChanceVsVehicle": 1.5,
-  "CritChanceVsTurret": 2,
+  "CriChanceVsVehicle": 1.3,
+  "CritChanceVsTurret": 1.6,
 
   /* Should turrets and vehicles be killed when their ammo explodes?  Default true. */
 
@@ -451,7 +451,7 @@
    * A number between 0 and 1 (exclusive) means a fraction of max armour, 0 and -1 means a fraction of current armour,
    * while 1 and above means a fixed damage threshold. */
 
-  "ThroughArmorCritThreshold": 0.55,
+  "ThroughArmorCritThreshold": 0.45,
 
   /* Base crit chance of a location with zero armour but full structure.  Works by fully replacing mech crit system.
    * Set to 0 to disable through armour critical.  Default 0.  Can be 0 to 1, e.g. 0.2 for 20%.
@@ -463,20 +463,20 @@
    * Actual through armour crit rate is between this and zero armour chance.  Default 0.  Can be -1 to 1, e.g. 0.1 for 10%.
    * If negative, crits will not happen until armour is sufficiently weakened. */
 
-  "CritChanceFullArmor": -0.5,
+  "CritChanceFullArmor": -0.45,
 
   /* Base crit chance of a structurally hit location if it is at zero structure, can be 0 to 1.  Default 1, same as game. */
 
-  "CritChanceZeroStructure": 0.6,
+  "CritChanceZeroStructure": 0.7,
 
   /* Base crit chance of a structurally hit location if it is at full structure, can be -1 to 1.  Default 0, same as game. */
 
-  "CritChanceFullStructure": -0.1,
+  "CritChanceFullStructure": -0.15,
 
   /* Min crit chance of a structurally hit location, after factoring structure% but before multiplier.  Default 0.5, same as game.
    * This setting simply overrides ResolutionConstants.MinCritChance in CombatGameConstants.json. */
 
-  "CritChanceMin": 0.5,
+  "CritChanceMin": 0.56,
 
   /* Max crit chance of a structurally hit location, after factoring structure% but before multiplier.  Default 1, same as game. */
 
@@ -488,7 +488,7 @@
 
   /* Ignore (reroll) empty slots when rolling crit.  Default false. */
 
-  "CritIgnoreEmptySlots": false,
+  "CritIgnoreEmptySlots": true,
 
   /* Roll on next damage transfer location if a location has nothing to crit.  Default false. */
 
@@ -496,7 +496,7 @@
 
   /* Deduce rolled crit from crit% and keep rolling crit until crit% is zero.  Default true. */
 
-  "MultipleCrits": true,
+  "MultipleCrits": false,
 
   //
   // Hit Resolution

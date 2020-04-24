@@ -34,11 +34,7 @@
       "leftVFXTransform": { "offset": { "x": -2, "y": 2, "z": 0 } },
       "rightVFXTransform": { "offset": { "x": 2, "y": 2, "z": 0 } },
       "rearVFXTransform": { "offset": { "x": 0, "y": 2, "z": -7 } },
-      "thisTransform": { "offset": { "x": 0, "y": 0, "z": 0 } },
-      "lightsTransforms": [ 
-        { "offset": { "x": -1.1, "y": 3, "z": 4.7 }, "rotate": { "x": 60, "y": 0, "z": 0 } },
-        { "offset": { "x": 1.2, "y": 3, "z": 4.7 }, "rotate": { "x": 60, "y": 0, "z": 0 } }
-      ],
+      "thisTransform": { "offset": { "x": 0, "y": 0, "z": 0 } }
     },
     "TurretAttach": { "offset": { "x": 0.0, "y": 52.3, "z": 8.5 } },
     "BodyAttach": { "offset": { "x": 0, "y": 54, "z": 0 } },
@@ -49,10 +45,6 @@
     "rightVFXTransform": { "offset": { "x": 2, "y": 54, "z": 0 } },
     "rearVFXTransform": { "offset": { "x": 0, "y": 54, "z": -7 } },
     "thisTransform": { "offset": { "x": 0, "y": 52, "z": 0 } },
-    "lightsTransforms": [ 
-		{ "offset": { "x": -1.1, "y": 103.8, "z": 4.7 }, "rotate": { "x": 60, "y": 0, "z": 0 } },
-		{ "offset": { "x": 1.2, "y": 103.8, "z": 4.7 }, "rotate": { "x": 60, "y": 0, "z": 0 } }
-    ],
     "CustomParts": [
       {
         "prefab": "warrior_body",
@@ -85,6 +77,14 @@
             "shader": "battletechstandartshader",
             "shaderKeyWords":["_DETAIL_OVERLAY","_EMISSION","_METALLICGLOSSMAP","_NORMALMAP"]
           },
+          "ModularSci-FiWeapons_Camouflage01":{
+            "shader": "battletechstandartshader",
+            "shaderKeyWords":["_DETAIL_OVERLAY","_EMISSION","_METALLICGLOSSMAP","_NORMALMAP"]
+          },
+          "white":{
+            "shader": "battletechstandartshader",
+            "shaderKeyWords":["_DETAIL_OVERLAY","_EMISSION","_METALLICGLOSSMAP","_NORMALMAP"]
+          },
           "warrior":{
             "shader": "chrPrfVhcl_apc",
             "shaderKeyWords":[]
@@ -94,8 +94,30 @@
             "shaderKeyWords":[]
           }
         }, 
-        "AnimationData": { "sound_start_event":"helicopter_start","sound_stop_event":"helicopter_stop","explode_sound":"AudioEventList_vehicle_vehicle_explosion_a" }
-      },
+        "AnimationData": {
+          "sound_start_event":"helicopter_start",
+          "sound_stop_event":"helicopter_end",
+          "explode_sound":"AudioEventList_explosion_explosion_large",
+          "bodyAnimator":"body",
+          "engineAnimator":"rotor",
+          "bodyAttach":"bodyAttach",
+          "lights": ["light1","light2"],
+          "attachInfo":{
+            "Front":{
+              "Body":{
+                "visuals":"front_rail",
+                "attach":"front_hardpoint",
+                "hideIfEmpty":true
+              },
+              "Turret":{
+                "visuals":"front_turret",
+                "attach":"front_hardpoint",
+                "hideIfEmpty":true
+              }
+            }
+          }
+        }
+      }
     ]
   },
   "MovementCapDefID": "movedef_warriorvtol",
@@ -103,7 +125,7 @@
   "HardpointDataDefID": "hardpointdatadef_warriorvtol",
   "PrefabIdentifier": "chrPrfVhcl_apc",
   "PrefabBase": "warriorvtol",
-  "Tonnage": 10,
+  "Tonnage": 20,
   "weightClass": "LIGHT",
   "BattleValue": 564,
   "TopSpeed": 25,

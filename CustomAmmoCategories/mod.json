@@ -2,7 +2,7 @@
 	"Name": "Custom Ammo Categories",
 	"Enabled": true,
   "Locked": true,
-	"Version": "0.1.104",
+	"Version": "0.1.102",
 	"PackagedOn": "2019-05-20T00:00:00Z",
 	"DLL": "CustomAmmoCategories.dll",
 	"DLLEntryPoint": "CACMain.Core.Init",
@@ -17,8 +17,8 @@
   "DataAddendumEntries":[
   ],
 	"Manifest": [
-		{ "Type": "DesignMaskDef", "Path": "designmask\\" },
-		{ "Type": "AbilityDef", "Path": "abilities\\" },
-		{ "Type": "SoundBankDef", "Path": "soundBanks\\" }
+		{ "Type": "DesignMaskDef", "Path": "designmask" },
+		{ "Type": "AbilityDef", "Path": "abilities" },
+		{ "Type": "SoundBankDef", "Path": "soundBanks" }
   ]
 }

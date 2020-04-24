@@ -64,8 +64,8 @@
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
          "HardpointSlot" : 0,
-         "prefabName": null,
-         "hasPrefabName": false,
+         "prefabName": "yj_front_turret_mg_1",
+         "hasPrefabName": true,
          "DamageLevel" : "Functional"
         },
         {
@@ -73,8 +73,8 @@
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Left",
          "HardpointSlot" : 0,
-         "prefabName": null,
-         "hasPrefabName": false,
+         "prefabName": "warrior_left_none_2x",
+         "hasPrefabName": true,
 		     "DamageLevel" : "Functional"
         },
         {
@@ -82,8 +82,8 @@
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Right",
          "HardpointSlot" : 0,
-         "prefabName": null,
-         "hasPrefabName": false,
+         "prefabName": "warrior_right_none_2x",
+         "hasPrefabName": true,
 		     "DamageLevel" : "Functional"
         },
         {
