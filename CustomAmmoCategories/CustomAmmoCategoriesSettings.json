@@ -231,5 +231,9 @@
     "Play_Panic20",
     "Play_Panic23",
     "Play_Panic22"
-  ]
+  ],
+  "uiIcons":[ "weapon_up", "weapon_down" ],
+  "WeaponPanelWidthScale": 1.1,
+  "OrderButtonWidthScale": 0.5,
+  "OrderButtonPaddingScale": 0.3
 }

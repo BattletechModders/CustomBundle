@@ -243,6 +243,9 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
 "NullifyDestoryedLocationDamage": true - if true damage to destroyed locations will be nullified 
 "DestoryedLocationCriticalAllow": true - if false and on hit locations had 0 structure criticals will not be rolled 
 "uiIcons": [ "weapon_up", "weapon_down" ] - some prewarm icons 
+  "WeaponPanelWidthScale": 1.1,   - width scale for weapon panel background
+  "OrderButtonWidthScale": 0.5,   - width scale for order switch buttons
+  "OrderButtonPaddingScale": 0.3
 }
 
 Weapon definition
