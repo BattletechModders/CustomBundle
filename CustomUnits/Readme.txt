@@ -19,6 +19,8 @@ main settings in mod.json
     "ShowVehicleBays": false, - if false user can't access vehicle bays
     "CanPilotVehicleTag": "pilot_vehicle_crew", - name of tag showing pilot can control vehicles
     "CannotPilotMechTag": "pilot_nomech_crew", - name of tag showing pilot CAN NOT control mech
+    "BaysCountExternalControl":false - if true mechbays count controlled by external mod via API
+    "ArgoBaysFix":1, -               - if BaysCountExternalControl is true and player controls Argo, active bays count is modified by this value.
 MechResizer has beed devoured
 ## Settings
 
