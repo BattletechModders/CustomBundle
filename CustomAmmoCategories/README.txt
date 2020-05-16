@@ -245,7 +245,13 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
 "uiIcons": [ "weapon_up", "weapon_down" ] - some prewarm icons 
   "WeaponPanelWidthScale": 1.1,   - width scale for weapon panel background
   "OrderButtonWidthScale": 0.5,   - width scale for order switch buttons
-  "OrderButtonPaddingScale": 0.3
+  "OrderButtonPaddingScale": 0.3,
+  "SidePanelInfoSelfExternal": false, - if true info side panel panel content about selected unit is controlled by external mod
+  "SidePanelInfoTargetExternal": true - if true info side panel panel content about selected target is controlled by external mod
+  there two methods in API 
+    CustAmmoCategories.CombatHUDInfoSidePanelHelper.SetSelfInfo(AbstractActor actor, Text text) 
+    CustAmmoCategories.CombatHUDInfoSidePanelHelper.SetTargetInfo(AbstractActor actor,ICombatant target, Text text)
+  on each invocation side panel refreshing. 
 }
 
 Weapon definition
