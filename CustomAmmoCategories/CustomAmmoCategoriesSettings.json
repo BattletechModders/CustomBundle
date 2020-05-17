@@ -237,5 +237,7 @@
   "OrderButtonWidthScale": 0.5,
   "OrderButtonPaddingScale": 0.3,
   "SidePanelInfoSelfExternal": false,
-  "SidePanelInfoTargetExternal": true
+  "SidePanelInfoTargetExternal": true,
+  "MechHasNoStabilityTag": ["mech_no_stability"],
+  "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"]
 }
