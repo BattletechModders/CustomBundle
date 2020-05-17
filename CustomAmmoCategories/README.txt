@@ -252,6 +252,8 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
     CustAmmoCategories.CombatHUDInfoSidePanelHelper.SetSelfInfo(AbstractActor actor, Text text) 
     CustAmmoCategories.CombatHUDInfoSidePanelHelper.SetTargetInfo(AbstractActor actor,ICombatant target, Text text)
   on each invocation side panel refreshing. 
+  "MechHasNoStabilityTag": "mech_no_stability", - if mech chassis have this tag no instability damage applied by incoming attacks, land mines, components explosions.
+  "TransferHeatDamageToNormalTag": "heat_damage_to_normal", - if mech chassis have this tag incoming heat damage from attacks, land mines, burning terrain, components explosions transferred to normal damage instead.
 }
 
 Weapon definition
