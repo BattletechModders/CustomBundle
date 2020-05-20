@@ -1063,6 +1063,32 @@ Ammo definition
     ]
 }
 
+Note for Explosion API
+CustAmmoCategories.ExplosionAPIHelper.AoEExplode(
+string VFX - VFX name
+, Vector3 vfxScale - VFX scale
+, float vfxDuration - VFX playing duration in seconds
+, string SFX - sound effect
+, Vector3 pos - position
+, float radius - AoE radius in meters
+, float damage - AoE damage
+, float heat - AoE heat
+, float stability - AoE stability damage
+, List<EffectData> effects - list of applying effects
+, bool effectsFalloff - not used
+, int fireRadius - fire radius in cells
+, int fireStrength - fire strength
+, float fireChance - fire chance
+, int fireDurationNoForest - fire duration in turns if no forest in affected hex
+   (all values allied with respect to biome)
+, string LongVFX - long VFX prefab
+, Vector3 longVFXScale - long VFX scale
+, string designMask - design mask to apply
+, int dmRadius - radius in cells to apply design mask
+, int turns - duration of design mask and long VFX if set
+)
+example
+ExplosionAPIHelper.AoEExplode("WFX_Nuke", Vector3.one * 50f, 20f, "big_explosion", this.targetPosition, 100f, 2000f, 100f, 100f, new List<EffectData>(), false, 3, 40, 1f, 5, string.Empty, Vector3.zero, string.Empty, 0, 0);
 
 Notes for external AI (CleverGirl):
 weapon.gatherDamagePrediction(Vector3 attackPos, ICombatant target) - returns Dictionary<AmmoModePair, WeaponFirePredictedEffect>
@@ -1626,264 +1652,4 @@ public enum AudioEventList_whoosh
 
 
 overriden methods
-
-!!!BattleTech.AttackDirector.AttackSequence.GenerateHitInfo
-	Prefix
-Implement HitGenerator choosing. Original method completely rewritten and never invoking. 
-
-!!!BattleTech.AttackDirector.AttackSequence.OnAttackSequenceResolveDamage:
-	Prefix
-add per ammo modification to applying status effects. Original method completely rewritten and never invoking
-
-!!!BattleTech.Weapon.DecrementAmmo:
-	Prefix
-method completely rewritten to make weapon use only selected ammo and implement streak ammo decremental (decrement only success hits)
-	
-!!!BattleTech.AbstractActor.CalcAndSetAlphaStrikesRemaining:
-	Prefix:
-Method completely rewritten to make AI calc remaining alpha strikes correctly base on real weapon ammo category. Original method never invoking
-	
-!!!BattleTech.Weapon.SetAmmoBoxes
-	Prefix
-Method completely rewritten to make weapon use right ammo. Original method never invoking.
-
-!!!BattleTech.Weapon.CurrentAmmo
-	Prefix
-Method completely rewritten to make weapon use right ammo. Original method never invoking.
-
-!!!BattleTech.MechValidationRules.ValidateMechHasAppropriateAmmo:
-	Prefix
-Method completely rewritten to make mechlab validator functioning correctly.
-
-!!!BattleTech.WeaponRepresentation.PlayWeaponEffect:
-	Prefix
-Method completely rewritten to play correct effect for each ammo. Original method never invoking.
-	
-!!!WeaponEffect.PlayProjectile:
-	Prefix
-Method completely rewritten to make correct AttackRecoil. Original method never invoking.
-
-!BattleTech.ToHit.GetEvasivePipsModifier
-	Prefix
-add per ammo modification. If modification is done original method not invoked.
-
-!BattleTech.WeaponDef.FromJSON
-	Prefix
-method make some modification on json. Original method always invoking.
-
-!BattleTech.AmmunitionDef.FromJSON
-	Prefix
-method make some modification on json. Original method always invoking.
-
-!BattleTech.UI.CombatHUDWeaponSlot.OnPointerDown
-	Prefix
-add trigger to ammo cycling. If click detected on right side of weapon slot original method not invoking.
-
-!BattleTech.UI.CombatHUDWeaponSlot.OnPointerUp
-	Prefix
-add trigger to ammo cycling. If click detected on right side of weapon slot original method not invoking.
-
-!BattleTech.UI.CombatHUDWeaponSlot.RefreshHighlighted
-	Prefix
-add check on DisplayWeapon == null if so original method not invoking.
-
-BattleTech.Weapon.DamagePerShot getter
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.HeatDamagePerShot getter
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_ShotsWhenFired
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_ProjectilesPerShot:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_CriticalChanceMultiplier:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_AccuracyModifier:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_MinRange:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_MaxRange:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_ShortRange:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_MediumRange:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_LongRange:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_HeatGenerated:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_IndirectFireCapable:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_AOECapable:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.Instability:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_WillFire:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.RefireModifier getter
-	Postfix
-add per ammo/mode modification
-	
-BattleTech.MechComponent.UIName getter:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.WeaponRepresentation.Init:
-	Postfix
-Registering additional weapon visual effects.
-
-BattleTech.WeaponRepresentation.ResetWeaponEffect:
-	Postfix
-resetting additional per ammo visual effects
-
-BattleTech.CombatGameState.ShutdownCombatState:
-	Postfix
-make some cleaning
-
-BattleTech.AttackDirector.AttackSequence.Cleanup:
-	Postfix
-helps AI to cycle ammo on depletion 
-
-BattleTech.UI.CombatHUDWeaponSlot.RefreshDisplayedWeapon:
-	Transpiler
-needed show real projectiles count when ProjectilesPerShot > 1
-
-BattleTech.CombatGameState.RebuildAllLists
-	Postfix
-registering all weapon and ammo on battlefield.
-
-BattleTech.CombatGameState.OnCombatGameDestroyed:
-	Postfix
-make some cleaning
-
-BattleTech.UI.CombatHUD.Init:
-	Prefix
-registering all weapon and ammo on battlefield. Original method always invoking
-
-AttackEvaluator.MakeAttackOrderForTarget
-	Prefix
-AI make decision what ammo he must use to hit target. Original method invoking always
-	
-AttackEvaluator.MakeAttackOrder
-	Postfix
-AI make decision what ammo he must use to hit target.
-
-AIUtil.UnitHasLOFToTargetFromPosition:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-AIUtil.UnitHasLOFToUnit:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.AIRoleAssignment.EvaluateSniper:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.AbstractActor.GetLongestRangeWeapon:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.AbstractActor.HasIndirectLOFToTargetUnit:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.AbstractActor.HasLOFToTargetUnit:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.HostileDamageFactor.expectedDamageForShooting:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.MultiAttack.FindWeaponToHitTarget:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.MultiAttack.GetExpectedDamageForMultiTargetWeapon:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.MultiAttack.PartitionWeaponListToKillTarget:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.MultiAttack.ValidateMultiAttackOrder:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.PreferExposedAlonePositionalFactor.InitEvaluationForPhaseForUnit:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.PreferFiringSolutionWhenExposedAllyPositionalFactor.EvaluateInfluenceMapFactorAtPosition:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.PreferLethalDamageToRearArcFromHostileFactor.expectedDamageForShooting:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.PreferNotLethalPositionFactor.expectedDamageForShooting:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.ToHit.GetAllModifiers:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-	Postfix
-add per ammo or weapon modificator if direct fire detected.
-
-BattleTech.ToHit.GetAllModifiersDescription:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-	Postfix
-add per ammo or weapon modificator if direct fire detected.
-
-BattleTech.UI.CombatHUDWeaponSlot.UpdateToolTipsFiring:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.UI.CombatHUDWeaponTickMarks.GetValidSlots:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.Weapon.WillFireAtTargetFromPosition:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-LOFCache.UnitHasLOFToTarget:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
 
