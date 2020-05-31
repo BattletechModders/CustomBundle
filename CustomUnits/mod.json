@@ -27,7 +27,6 @@
     "turretSizePrefabMultipliers": {},
     "projectileSizePrefabMultipliers": {},
     "MaxVehicleRandomPilots": 2,
-    "ShowVehicleBays":true,
     "CanPilotVehicleProbability": 0.5,
     "CanPilotAlsoMechProbability": 0.5,
     "LancesIcons": [ "one", "two", "three" ],

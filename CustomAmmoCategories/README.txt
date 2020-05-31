@@ -254,6 +254,10 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
   on each invocation side panel refreshing. 
   "MechHasNoStabilityTag": ["mech_no_stability"], - if mech chassis have this tag no instability damage applied by incoming attacks, land mines, components explosions.
   "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"], - if mech chassis have this tag incoming heat damage from attacks, land mines, burning terrain, components explosions transferred to normal damage instead.
+  "InfoPanelDefaultState": false, - if true side info panel is shown by default
+  "AttackLogWrite": false - if true csv attack log will be created in CustomAmmoCatogories/AttacksLogs
+  "ShowAttackGroundButton": false - if false no attack ground button will be shown,
+  "ShowWeaponOrderButtons": false - if false no weapon order buttons will be shown
 }
 
 Weapon definition
