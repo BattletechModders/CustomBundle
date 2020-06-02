@@ -240,5 +240,7 @@
   "SidePanelInfoTargetExternal": false,
   "MechHasNoStabilityTag": ["mech_no_stability"],
   "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"],
-  "AttackLogWrite": true
+  "AttackLogWrite": true,
+  "ShowAttackGroundButton": true,
+  "ShowWeaponOrderButtons": false
 }
