@@ -418,8 +418,27 @@ new fields
 								  if weapon define has tag "wr-clustered_shots", "Cluster" hit generator will be forced. 
   "DirectFireModifier" : -10.0, Accuracy modifier if weapon can strike directly
   "DamageVariance": 20, - Simple damage variance as implemented in WeaponRealizer
-  "DistantVariance": 0.3, - Distance damage variance as implemented in WeaponRealizer
-  "DistantVarianceReversed": false, - Set is distance damage variance is reversed
+  "DistantVariance": 0.3, - Distance damage variance addiditve per ammo/mode/weapon
+  "DistantVarianceReversed": false, - Set is distance damage variance is reversed (mode have priority, than ammo, than weapon)
+	Distance variance logic:
+	1. If DistantVarianceReversed false
+	  a) if DistantVariance > 1.0 - (0 <= distance <= MediumRange) damage coeff = DistantVariance
+	                       (MediumRange < distance < MaxRange) damage coeff decrease from DistantVariance(at MiddleRange) to 1(at MaxRange)
+	  b) if DistantVariance < 1.0 - (0 <= distance <= MediumRange) damage coeff = 1
+	                       (MediumRange < distance < MaxRange) damage coeff decrease from 1(at MiddleRange) to DistantVariance(at MaxRange)
+	2. If DistantVarianceReversed true
+	  a) if DistantVariance > 1.0 - (0 <= distance <= MinRange) damage coeff = 1
+	                       (MinRange < distance < MediumRange) damage coeff grow from 1(at MinRange) to DistantVariance(at MediumRange)
+						   (MediumRange <= distance < MaxRange) damage coeff = DistantVariance
+	  b) if DistantVariance < 1.0 - (0 <= distance <= MinRange) damage coeff = DistantVariance
+	                       (MinRange < distance < MediumRange) damage coeff grow from DistantVariance(at MinRange) to 1(at MediumRange)
+						   (MediumRange <= distance < MaxRange) damage coeff = DistantVariance
+  "RangedDmgFalloffType": "Linear", - function to recalculate distance ratio to damage in distance variance
+                           Posible values: "Quadratic", "Cubic", "SquareRoot", "Log10", "LogE", "Exp", "Linear"
+						   mode have priority, than ammo, than weapon. Default value Quadratic
+  "AoEDmgFalloffType": "Linear", - function to distance ratio to damage in AoE damage processing
+                           Posible values: "Quadratic", "Cubic", "SquareRoot", "Log10", "LogE", "Exp", "Linear"
+						   mode have priority, than ammo, than weapon. Default value Linear
   "DamageOnJamming": true/false, - if true on jamming weapon will be damaged
   "DestroyOnJamming": true/false, - if true on jamming weapon will be destroyed (need DamageOnJamming to be set true also)
   "FlatJammingChance": 1.0, - Chance of jamming weapon after fire. 1.0 is jamm always. Unjamming logic implemented as in WeaponRealizer
@@ -601,8 +620,6 @@ new fields
 									  result = 1.0 + (6-10)*0.1 = 0.6
 								      GunneryJammingBase if omitted in weapon def., ammo def. and mode def. assumed as 5. 
 		"DamageVariance": 20, - Simple damage variance as implemented in WeaponRealizer
-		"DistantVariance": 0.3, - Distance damage variance as implemented in WeaponRealizer
-		"DistantVarianceReversed": false, - Set is distance damage variance is reversed
 		"Cooldown": 2, - number of rounds weapon will be unacceptable after fire this mode
 		"AIHitChanceCap": 0.3, - not used any more
 		"DamageOnJamming": true/false, - if true on jamming weapon will be damaged
@@ -775,8 +792,6 @@ Ammo definition
    "DirectFireModifier" : -10.0, Accuracy modifier if weapon can strike directly
    "FlatJammingChance": 1.0, - Chance of jamming weapon after fire. 1.0 is jamm always. Unjamming logic implemented as in WeaponRealizer
    "DamageVariance": 20, - Simple damage variance as implemented in WeaponRealizer
-   "DistantVariance": 0.3, - Distance damage variance as implemented in WeaponRealizer
-   "DistantVarianceReversed": false - Set is distance damage variance is reversed
 		"DamageMultiplier":2.0, - damage multiplier for this mode. Multiplicative per ammo/mode. If omitted assumed to be 1.0.
 		"HeatMultiplier":2.0, - heat multiplier for this mode. Multiplicative per ammo/mode. If omitted assumed to be 1.0.
 		"InstabilityMultiplier":2.0, - instability multiplier for this mode. Multiplicative per ammo/mode. If omitted assumed to be 1.0.
@@ -901,9 +916,13 @@ Ammo definition
                                        Damage inflicted to vehicle that way are not cause critical damage to internal components only armor and structure.
                                        Fired cell not saved on battle save/reload.
        "FireTerrainCellRadius":6, - radius in in-game cells to fire check roll. On impact each hex cell containing at least one map cell with in radius will have chance to be burned
+	  "AoEDmgFalloffType": "Linear", - function to distance ratio to damage in AoE damage processing
+                           Posible values: "Quadratic", "Cubic", "SquareRoot", "Log10", "LogE", "Exp", "Linear"
+						   Default value - "Linear"
       "statusEffects" : [ - status effects applying on landmine explosion
       ]
-      NOTE! For moving landmine hit roll performed every terrain cell, but only one landmine can explode. Moving and melee sequence will be interrupted after armor breach. 
+      NOTE! For moving landmine hit roll performed every terrain cell, but only one landmine can explode. Moving and melee sequence will be interrupted after armor breach.
+            But if armor has been breached already move sequence will ne interrupted only on location destroy.
             For jumping every landmine in target hex cell rolling for explode.
             Original unit triggered landmine receive only MineField.Damage. MineField.AOEDamage all other targets in MineField.AOERange
    }
@@ -1093,6 +1112,7 @@ string VFX - VFX name
 )
 example
 ExplosionAPIHelper.AoEExplode("WFX_Nuke", Vector3.one * 50f, 20f, "big_explosion", this.targetPosition, 100f, 2000f, 100f, 100f, new List<EffectData>(), false, 3, 40, 1f, 5, string.Empty, Vector3.zero, string.Empty, 0, 0);
+CustAmmoCategories.ExplosionAPIHelper.LayMineField(MineFieldDef def, Vector3 pos)
 
 Notes for external AI (CleverGirl):
 weapon.gatherDamagePrediction(Vector3 attackPos, ICombatant target) - returns Dictionary<AmmoModePair, WeaponFirePredictedEffect>
