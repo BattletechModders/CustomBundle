@@ -418,21 +418,31 @@ new fields
 								  if weapon define has tag "wr-clustered_shots", "Cluster" hit generator will be forced. 
   "DirectFireModifier" : -10.0, Accuracy modifier if weapon can strike directly
   "DamageVariance": 20, - Simple damage variance as implemented in WeaponRealizer
+  "DamageFalloffStartDistance": 0, - distance where damage starts to change, additive per ammo/mode/weapon.
+  "DamageFalloffEndDistance": 0, - distance where damage stops to change, additive per ammo/mode/weapon.
   "DistantVariance": 0.3, - Distance damage variance addiditve per ammo/mode/weapon
   "DistantVarianceReversed": false, - Set is distance damage variance is reversed (mode have priority, than ammo, than weapon)
 	Distance variance logic:
 	1. If DistantVarianceReversed false
-	  a) if DistantVariance > 1.0 - (0 <= distance <= MediumRange) damage coeff = DistantVariance
-	                       (MediumRange < distance < MaxRange) damage coeff decrease from DistantVariance(at MiddleRange) to 1(at MaxRange)
-	  b) if DistantVariance < 1.0 - (0 <= distance <= MediumRange) damage coeff = 1
-	                       (MediumRange < distance < MaxRange) damage coeff decrease from 1(at MiddleRange) to DistantVariance(at MaxRange)
+	  a) if DistantVariance > 1.0 - (0 <= distance <= DamageFalloffStartDistance) damage coeff = DistantVariance
+	                       (DamageFalloffStartDistance < distance < DamageFalloffEndDistance)
+						   damage coeff decrease from DistantVariance(at DamageFalloffStartDistance) to 1(at DamageFalloffEndDistance)
+	  b) if DistantVariance < 1.0 - (0 <= distance <= DamageFalloffStartDistance) damage coeff = 1
+	                       (DamageFalloffStartDistance < distance < DamageFalloffEndDistance)
+						   damage coeff decrease from 1(at DamageFalloffStartDistance) to DistantVariance(at DamageFalloffEndDistance)
+						   if DamageFalloffStartDistance is 0 assumed to be MediumRange
+						   if DamageFalloffEndDistance is less than DamageFalloffStartDistance assumed to be MaxRange
 	2. If DistantVarianceReversed true
-	  a) if DistantVariance > 1.0 - (0 <= distance <= MinRange) damage coeff = 1
-	                       (MinRange < distance < MediumRange) damage coeff grow from 1(at MinRange) to DistantVariance(at MediumRange)
-						   (MediumRange <= distance < MaxRange) damage coeff = DistantVariance
-	  b) if DistantVariance < 1.0 - (0 <= distance <= MinRange) damage coeff = DistantVariance
-	                       (MinRange < distance < MediumRange) damage coeff grow from DistantVariance(at MinRange) to 1(at MediumRange)
-						   (MediumRange <= distance < MaxRange) damage coeff = DistantVariance
+	  a) if DistantVariance > 1.0 - (0 <= distance <= DamageFalloffStartDistance) damage coeff = 1
+	                       (DamageFalloffStartDistance < distance < DamageFalloffEndDistance) 
+						   damage coeff grow from 1(at DamageFalloffStartDistance) to DistantVariance(at DamageFalloffEndDistance)
+						   (DamageFalloffEndDistance <= distance < MaxRange) damage coeff = DistantVariance
+	  b) if DistantVariance < 1.0 - (0 <= distance <= DamageFalloffStartDistance) damage coeff = DistantVariance
+	                       (DamageFalloffStartDistance < distance < DamageFalloffEndDistance) 
+						   damage coeff grow from DistantVariance(at DamageFalloffStartDistance) to 1(at DamageFalloffEndDistance)
+						   (DamageFalloffEndDistance <= distance < MaxRange) damage coeff = 1
+						   if DamageFalloffStartDistance is 0 assumed to be MinRange
+						   if DamageFalloffEndDistance is less than DamageFalloffStartDistance assumed to be MediumRange						   
   "RangedDmgFalloffType": "Linear", - function to recalculate distance ratio to damage in distance variance
                            Posible values: "Quadratic", "Cubic", "SquareRoot", "Log10", "LogE", "Exp", "Linear"
 						   mode have priority, than ammo, than weapon. Default value Quadratic
