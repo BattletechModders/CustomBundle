@@ -242,5 +242,6 @@
   "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"],
   "AttackLogWrite": true,
   "ShowAttackGroundButton": true,
-  "ShowWeaponOrderButtons": false
+  "ShowWeaponOrderButtons": true,
+  "InfoPanelDefaultState": true
 }
