@@ -251,6 +251,6 @@
   "ToHitVehicleFromFront":0,
   "ToHitVehicleFromSide":-1,
   "ToHitVehicleFromRear":-2,
-  "WeaponPanelWidthScale":0.7,
-  "WeaponPanelHeightScale":0.7
+  "WeaponPanelWidthScale":1,
+  "WeaponPanelHeightScale":1
 }
