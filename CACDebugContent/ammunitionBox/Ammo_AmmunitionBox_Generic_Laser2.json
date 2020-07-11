@@ -12,10 +12,10 @@
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "SRM",
-    "UIName": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_Laser2.UIName/__",
+    "UIName": "Cryo Laser Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_Laser",
-    "Name": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_Laser2.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_Laser2.Details/__",
+    "Name": "Cryo Laser Ammo",
+    "Details": "An ammo bin modified to be a chemical resevoir for a laser that obtains its energy from a chemical reaction. Chemical laser ammo bins each contain <color=#F79232><b>25 rounds</b></color> and may feed multiple weapons.\r\n\r\nTargets hit by these lasers will have reduced movement speed for 2 turns.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the center of the weapons activation panel during combat.</b></color>.",
     "Icon": "uixSvgIcon_designMask_mineral"
   },
   "BonusValueA": "Slow Move",

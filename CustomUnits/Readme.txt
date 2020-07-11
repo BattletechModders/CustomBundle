@@ -55,6 +55,8 @@ Setting | Type | Default | Description
 `vehicleSizePrefabMultipliers` | json hash | {} | change the size of any set of vehicles that share a common `PrefabBase` in their vehicle chassis definition files.
 `turretSizePrefabMultipliers` | json hash | {} | change the size of any set of turrets that share a common `PrefabBase` in their turret chassis definition files.
 `projectileSizePrefabMultipliers` | json hash | {} | change the size of any set of projectiles that share a common `PrefabBase` in their weapon firing them's weapon definition files.
+"MechScaleJRoot": false - if true for while resizing mech MR will try to resize j_Root transfrom instead of whole game object. Which can help to avoid floating mechs
+                          default is false. 
 
 ### Deprecated `mod.json` Settings - please use the size change options above i
 Setting | Type | Default | Description

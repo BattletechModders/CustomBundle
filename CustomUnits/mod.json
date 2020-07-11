@@ -18,7 +18,8 @@
     "deepWaterSteepness":41,
     "deepWaterDepth":10,
     "waterFlatDepth":2,
-    "defaultMechSizeMultiplier": 0.9,
+    "MechScaleJRoot": true,
+    "defaultMechSizeMultiplier": 1.0,
     "defaultVehicleSizeMultiplier": 1,
     "defaultTurretSizeMultiplier": 1,
     "defaultProjectileSizeMultiplier": 1,
@@ -33,7 +34,7 @@
     "overallDeploySize": 6,
     "Lances": [ {"size":6,"allow":5,"is_vehicle":false},{"size":4,"allow":3,"is_vehicle":true} ],
     "ArgoBaysFix":1,
-    "ShowVehicleBays":false,
+    "ShowVehicleBays":true,
     "BaysCountExternalControl":false
 	},
 	"Manifest": [

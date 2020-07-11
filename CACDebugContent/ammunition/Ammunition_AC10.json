@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_AC10",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_AC10.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_AC10.UIName/__",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_AC10.Details/__",
+    "Name": "AC/10 Ammo",
+    "UIName": "Norm.",
+    "Details": "Large caliber rounds capable of dealing heavy damage, and designed to be used in an AC/10.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

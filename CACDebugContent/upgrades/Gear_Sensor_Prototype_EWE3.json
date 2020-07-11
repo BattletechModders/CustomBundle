@@ -4,6 +4,7 @@
       "ButtonName": "ECM",
       "CanNotBeActivatedManualy": false,
       "ActiveByDefault": true,
+      "FailFlatChance": 0.5,
       "statusEffects": [
         {
           "durationData": {
@@ -47,10 +48,10 @@
     "Purchasable": false,
     "Manufacturer": "Ceres Arms",
     "Model": "Gen 3 EWE",
-    "UIName": "__/CustomActivatableEquipment.Gear_Sensor_Prototype_EWE3.UIName/__",
+    "UIName": "X-3 EW Equipment",
     "Id": "Gear_Sensor_Prototype_EWE3",
-    "Name": "__/CustomActivatableEquipment.Gear_Sensor_Prototype_EWE3.Name/__",
-    "Details": "__/CustomActivatableEquipment.Gear_Sensor_Prototype_EWE3.Details/__",
+    "Name": "EW SUITE (Prototype)",
+    "Details": "Prototype Electronic Warfare component. Adds an ECM field that provides a passive defence against missiles and immunity to indirect fire. Friendly units in the ECM field also gain Stealth Charges and cannot be targeted by direct fire unless spotted by enemy units within the ECM field or sensor locked. The ECM carrier gains an additional Stealth Charge.\n\nThe EW Suite also adds the Active Probe ability to unit's weapons panel. Active Probe is a triggered ability that uses the firing action and performs a Sensor Lock against all enemies within range. Note: you can only equip one Prototype component on most Mechs.",
     "Icon": "UixSvgIcon_specialEquip_Sensors"
   },
   "BonusValueA": "+ ECM Field",
@@ -75,8 +76,8 @@
       "effectType": "ActiveAbility",
       "Description": {
         "Id": "ActiveProbe_Ping",
-        "Name": "__/CustomActivatableEquipment.Gear_Sensor_Prototype_EWE3.ActiveProbe_Ping.effect0.Name/__",
-        "Details": "__/CustomActivatableEquipment.Gear_Sensor_Prototype_EWE3.ActiveProbe_Ping.effect0.Details/__",
+        "Name": "ACTIVE PROBE PING",
+        "Details": "Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
         "Icon": "uixSvgIcon_action_sensorlock"
       },
       "activeAbilityEffectData": {
@@ -202,7 +203,7 @@
           "Description": {
             "Id": "ECMStealth_GhostEffect_Allies",
             "Name": "STEALTH CHARGE",
-            "Details": "Units within an ECM field gain a Stealth Charge and cannot be targeted.\n\nFiring a weapon, using an activated ability, or an enemy penetrating the ECM field removes a Stealth Charge. Being Sensor Locked removes all Stealth Charges.",
+            "Details": "Units within an ECM field gain a Stealth Chargeï¿½and cannot be targeted.\n\nFiring a weapon, using an activated ability, or an enemy penetrating the ECM field removes a Stealth Charge. Being Sensor Locked removes all Stealth Charges.",
             "Icon": "uixSvgIcon_status_ECM-ghost"
           },
           "statisticData": {

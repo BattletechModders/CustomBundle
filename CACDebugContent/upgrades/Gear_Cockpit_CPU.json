@@ -8,10 +8,10 @@
     "Purchasable": false,
     "Manufacturer": "Lucius",
     "Model": "T-80",
-    "UIName": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.UIName/__",
+    "UIName": "Machine Spirit",
     "Id": "Gear_Cockpit_CPU",
-    "Name": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.Name/__",
-    "Details": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.Details/__",
+    "Name": "Machine Spirit",
+    "Details": "English description",
     "Icon": "uixSvgIcon_special_Equipment"
   },
   "BonusValueA": "+2 Инициатива.+Пилот Ас.+4 Храбрость",
@@ -51,8 +51,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Initiative-CPU",
-        "Name": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-Initiative-CPU.effect0.Name/__",
-        "Details": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-Initiative-CPU.effect0.Details/__",
+        "Name": "INITIATIVE",
+        "Details": "����� [INVERSE_AMT] ����������.",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -102,8 +102,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-AcePilot-CPU",
-        "Name": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-AcePilot-CPU.effect1.Name/__",
-        "Details": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-AcePilot-CPU.effect1.Details/__",
+        "Name": "ACE PILOT",
+        "Details": "��������� ��������� ����� ��������, ���� �������� � ���� ���� �� ����.",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -153,8 +153,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Bulwark-CPU",
-        "Name": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-Bulwark-CPU.effect2.Name/__",
-        "Details": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-Bulwark-CPU.effect2.Details/__",
+        "Name": "BULWARK",
+        "Details": "PASSIVE: COVER and GUARDED states both provide 40% damage reduction rather than 20% damage reduction. COVER and GUARDED together provide 60% damage reduction.",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -204,8 +204,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Spotting_Gain-T3",
-        "Name": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-Spotting_Gain-T3.effect3.Name/__",
-        "Details": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-Spotting_Gain-T3.effect3.Details/__",
+        "Name": "SPOTTING DISTANCE INCREASED",
+        "Details": "Increases spotting distance by [AMT]m.",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -255,8 +255,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Morale_Gain-T3",
-        "Name": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-Morale_Gain-T3.effect4.Name/__",
-        "Details": "__/CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-Morale_Gain-T3.effect4.Details/__",
+        "Name": "MORALE GENERATION INCREASED",
+        "Details": "Provides a [AMT] bonus to actions that generate Morale.",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",

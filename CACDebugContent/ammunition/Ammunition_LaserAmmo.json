@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_LaserAmmo",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_LaserAmmo.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_LaserAmmo.UIName/__",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_LaserAmmo.Details/__",
+    "Name": "Laser Ammo",
+    "UIName": "Acid",
+    "Details": "Chemical Laser Ammo",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
@@ -43,8 +43,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "Effect_ChemicalDMG",
-        "Name": "__/Custom_Ammo_Categories.Ammunition_LaserAmmo.Effect_ChemicalDMG.effect0.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Ammunition_LaserAmmo.Effect_ChemicalDMG.effect0.Details/__",
+        "Name": "Chemical",
+        "Details": "This unit is coated with corrosive Chemical. It will take 20% increased Damage.",
         "Icon": "uixSvgIcon_designMask_mineral"
       },
       "statisticData": {

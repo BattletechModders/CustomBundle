@@ -1,8 +1,8 @@
 {
   "Description": {
     "Id": "Ammunition_AMS",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_AMS.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_AMS.UIName/__",
+    "Name": "AMS Ammo",
+    "UIName": "Norm.",
     "Details": null,
     "Icon": null,
     "Cost": 0,

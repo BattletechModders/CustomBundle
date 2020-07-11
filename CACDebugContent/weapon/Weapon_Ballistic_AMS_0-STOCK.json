@@ -36,10 +36,10 @@
     "Purchasable": true,
     "Manufacturer": "Sperry Browning",
     "Model": "Machine Gun",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_Ballistic_AMS_0-STOCK.UIName/__",
+    "UIName": "AMS(b)",
     "Id": "Weapon_Ballistic_AMS_0-STOCK",
-    "Name": "__/Custom_Ammo_Categories.Weapon_Ballistic_AMS_0-STOCK.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_Ballistic_AMS_0-STOCK.Details/__",
+    "Name": "AMS(b)",
+    "Details": "AMS ballistics",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "BonusValueA": "",

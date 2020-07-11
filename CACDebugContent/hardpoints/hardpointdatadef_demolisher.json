@@ -1,0 +1,15 @@
+{
+  "ID": "hardpointdatadef_demolisher",
+  "HardpointData": [
+    {
+      "location": "front",
+      "weapons": [
+        [
+          "chrprfweap_bollagauss_turret_generic_mh1"
+        ]
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

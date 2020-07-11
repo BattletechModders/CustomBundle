@@ -60,8 +60,8 @@
             "effectType": "StatisticEffect",
             "Description": {
               "Id": "Effect_MortarAttackInitiativeReduced",
-              "Name": "__/CustomActivatableEquipment.Gear_EngineCore.Effect_MortarAttackInitiativeReduced.Expl0.Name/__",
-              "Details": "__/CustomActivatableEquipment.Gear_EngineCore.Effect_MortarAttackInitiativeReduced.Expl0.Details/__",
+              "Name": "NUCLEAR BLAST AFFECTING INITIATIVE",
+              "Details": "English description",
               "Icon": "uixSvgIcon_ability_mastertactician"
             },
             "nature": "Debuff",
@@ -111,8 +111,8 @@
             "effectType": "StatisticEffect",
             "Description": {
               "Id": "Effect_MortarAttackAccuracyReduced",
-              "Name": "__/CustomActivatableEquipment.Gear_EngineCore.Effect_MortarAttackAccuracyReduced.Expl1.Name/__",
-              "Details": "__/CustomActivatableEquipment.Gear_EngineCore.Effect_MortarAttackAccuracyReduced.Expl1.Details/__",
+              "Name": "NUCLEAR BLAST AFFECTING ACCURACY",
+              "Details": "English description",
               "Icon": "uixSvgIcon_status_sensorsImpaired"
             },
             "nature": "Debuff",
@@ -162,8 +162,8 @@
             "effectType": "StatisticEffect",
             "Description": {
               "Id": "DesignMaskRadiation",
-              "Name": "__/CustomActivatableEquipment.Gear_EngineCore.DesignMaskRadiation.Expl2.Name/__",
-              "Details": "__/CustomActivatableEquipment.Gear_EngineCore.DesignMaskRadiation.Expl2.Details/__",
+              "Name": "RADIATION",
+              "Details": "��������� �������� �� ������ �������� �������� � ������� ����������. ����� � ����������� ���������������� [AMT].",
               "Icon": "uixSvgIcon_designMask_mineral"
             },
             "nature": "Debuff",
@@ -202,10 +202,10 @@
     "Purchasable": true,
     "Manufacturer": "Coventry",
     "Model": "IS A",
-    "UIName": "__/CustomActivatableEquipment.Gear_EngineCore.UIName/__",
+    "UIName": "TestEngineCore",
     "Id": "Gear_EngineCore",
-    "Name": "__/CustomActivatableEquipment.Gear_EngineCore.Name/__",
-    "Details": "__/CustomActivatableEquipment.Gear_EngineCore.Details/__",
+    "Name": "Test Engine Core",
+    "Details": "Test Engine Core",
     "Icon": "uixSvgIcon_equipment_Gyro"
   },
   "BonusValueA": "",

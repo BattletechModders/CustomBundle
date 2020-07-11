@@ -8,10 +8,10 @@
     "Purchasable": true,
     "Manufacturer": "Majesty M M",
     "Model": "Magestrix Alpha",
-    "UIName": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.UIName/__",
+    "UIName": "Rangefinder + + +",
     "Id": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
-    "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.Details/__",
+    "Name": "Majesty M M Magestrix Rangefinder",
+    "Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. Rangefinders increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.",
     "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "BonusValueA": "+ 120m View Dist.",
@@ -51,8 +51,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Morale_Gain-T3",
-        "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Morale_Gain-T3.effect0.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Morale_Gain-T3.effect0.Details/__",
+        "Name": "MORALE GENERATION INCREASED",
+        "Details": "Provides a [AMT] bonus to actions that generate Morale.",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -102,8 +102,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Spotting_Gain-T3",
-        "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Spotting_Gain-T3.effect1.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Spotting_Gain-T3.effect1.Details/__",
+        "Name": "SPOTTING DISTANCE INCREASED",
+        "Details": "Increases spotting distance by [AMT]m.",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -153,8 +153,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Initiative_Gain-B2000",
-        "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Initiative_Gain-B2000.effect2.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Initiative_Gain-B2000.effect2.Details/__",
+        "Name": "LANCE INITIATIVE INCREASED",
+        "Details": "Provides a [INVERSE_AMT] bonus to Lance Initiative.",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -204,8 +204,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Morale_Gain-T3",
-        "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Morale_Gain-T3.effect3.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Morale_Gain-T3.effect3.Details/__",
+        "Name": "INITIATIVE INCREASED",
+        "Details": "+1 to base Initiative",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -255,8 +255,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Morale_Gain-T3",
-        "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Morale_Gain-T3.effect4.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Morale_Gain-T3.effect4.Details/__",
+        "Name": "RUN SPEED INCREASED",
+        "Details": "x2 Run Speed",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -306,8 +306,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Morale_Gain-T3",
-        "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Morale_Gain-T3.effect5.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.StatusEffect-Morale_Gain-T3.effect5.Details/__",
+        "Name": "WALK SPEED INCREASED",
+        "Details": "x2 Walk Speed",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -357,8 +357,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "AbilityDefP8",
-        "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.AbilityDefP8.effect6.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.AbilityDefP8.effect6.Details/__",
+        "Name": "ACE PILOT",
+        "Details": "PASSIVE: A 'Mech piloted by this MechWarrior can move after shooting if it has not moved yet.",
         "Icon": "uixSvgIcon_run_n_gun"
       },
       "nature": "Buff",
@@ -408,8 +408,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "AbilityDefP5",
-        "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.AbilityDefP5.effect7.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.AbilityDefP5.effect7.Details/__",
+        "Name": "SURE FOOTING",
+        "Details": "PASSIVE: This unit generates an extra EVASIVE charge from normal movement actions (can exceed the unit's maximum).",
         "Icon": "uixSvgIcon_ability_sureFooting"
       },
       "nature": "Buff",
@@ -459,8 +459,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "AbilityDefP5",
-        "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.AbilityDefP5.effect8.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.AbilityDefP5.effect8.Details/__",
+        "Name": "SURE FOOTING",
+        "Details": "PASSIVE: This unit gains ENTRENCHED from normal movement actions.",
         "Icon": "uixSvgIcon_ability_sureFooting"
       },
       "nature": "Buff",
@@ -510,8 +510,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "AbilityDefGu5",
-        "Name": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.AbilityDefGu5.effect9.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_Cockpit_Majesty_M_M_MagestrixAlpha.AbilityDefGu5.effect9.Details/__",
+        "Name": "BULWARK",
+        "Details": "PASSIVE: COVER and GUARDED states both provide 40% damage reduction rather than 20% damage reduction. COVER and GUARDED together provide 60% damage reduction.",
         "Icon": "uixSvgIcon_ability_fortify"
       },
       "nature": "Buff",

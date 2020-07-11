@@ -70,10 +70,10 @@
     "Purchasable": false,
     "Manufacturer": "Fal'shia",
     "Model": "XV88",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_PPC_LPPCER_3.UIName/__",
+    "UIName": "Ion Cannon--\n",
     "Id": "Weapon_PPC_LPPCER_3",
-    "Name": "__/Custom_Ammo_Categories.Weapon_PPC_LPPCER_3.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_PPC_LPPCER_3.Details/__",
+    "Name": "Ion Cannon",
+    "Details": "Это оружие стреляет ионным лучом, взрывающимся при контакте с целью. Оно идеально подходит против легкой техники и тяжелобронированной пехоты. Ионная пушка может стрелять в усиленном режиме, производя мощный взрыв, способный нанести больший урон, хотя при этом есть риск перегрузки.",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA": "",
@@ -97,7 +97,7 @@
       "Id": "overload",
       "UIName": "purple",
       "isBaseMode": false,
-      "DamagePerShot": 15,
+      "DamagePerShot": 30,
       "FireDelayMultiplier": 1,
       "WeaponEffectID": "WeaponEffect-Weapon_PPC",
       "ProjectileScale": {
@@ -105,15 +105,15 @@
         "y": 3,
         "z": 3
       },
-      "preFireSFX":"Play_PPC3",
+      "preFireSFX": "Play_PPC3",
       "ColorChangeRule": "Linear",
-      "ProjectileSpeedMultiplier": 0.1,
+      "ProjectileSpeedMultiplier": 0.5,
       "ShotsWhenFired": 1,
-      "ColorSpeedChange":7,
-      "evasivePipsMods":{
+      "ColorSpeedChange": 7,
+      "HeatGenerated": 1,
+      "evasivePipsMods": {
         "Damage": -0.5,
         "Heat": -0.5,
-        "GeneratedHeat": -0.5,
         "FlatJammingChance": -0.5
       }
     }
@@ -144,8 +144,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "AbilityDefPPC",
-        "Name": "__/Custom_Ammo_Categories.Weapon_PPC_LPPCER_3.AbilityDefPPC.effect0.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Weapon_PPC_LPPCER_3.AbilityDefPPC.effect0.Details/__",
+        "Name": "SENSORS IMPAIRED",
+        "Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
         "Icon": "uixSvgIcon_status_sensorsImpaired"
       },
       "nature": "Debuff",

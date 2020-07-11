@@ -102,9 +102,9 @@
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "statusEffects": [],
-  "InternalAmmo":{
-    "Ammunition_intLRM":15,
-    "Ammunition_intSRM":20
+  "InternalAmmo": {
+    "Ammunition_intLRM": 15,
+    "Ammunition_intSRM": 20
   },
   "Modes": [
     {
@@ -120,7 +120,7 @@
       "LongRange": 0,
       "MaxRange": 0,
       "isBaseMode": true,
-      "ColorChangeRule":"t0"
+      "ColorChangeRule": "t0"
     },
     {
       "Id": "SRM",
@@ -135,7 +135,7 @@
       "LongRange": -360,
       "MaxRange": -360,
       "isBaseMode": false,
-      "ColorChangeRule":"t5"
+      "ColorChangeRule": "t5"
     }
   ],
   "ComponentTags": {

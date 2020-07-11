@@ -34,10 +34,10 @@
     "Purchasable": true,
     "Manufacturer": "Hellion",
     "Model": "Medium Laser",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_Laser_ChemicalLaser_0-STOCK.UIName/__",
+    "UIName": "ChemLaser",
     "Id": "Weapon_Laser_ChemicalLaser_0-STOCK",
-    "Name": "__/Custom_Ammo_Categories.Weapon_Laser_ChemicalLaser_0-STOCK.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_Laser_ChemicalLaser_0-STOCK.Details/__",
+    "Name": "Chemical Laser",
+    "Details": "A chemical laser is a laser that obtains its energy from a chemical reaction. This weapon uses an ammo bin for an internal resevoir to hold the chemicals.\r\n\r\nIt can also be used as a normal medium laser without ammo.\r\n\r\n<b>Firing modes:</b>\r\n<b>B:</b> <i>default mode (no ammo needed)</i>\r\n   <color=#ffcc00>+1 Accuracy <i>(normal for all lasers)</i>.</color>\r\n<b>Rust:</b><i> this mode needs ammo.</i>\r\n   <color=#ffcc00>+4 Accuracy</color>\r\n   <color=#ffcc00>damage on the target is increased 20% for 2 turns.\r\n   will not stack but can be refreshed on the next hit.</color>\r\n<b>Cryo:</b><i> this mode needs ammo.</i>\r\n<color=#ffcc00>   +4 Accuracy</color>\r\n<color=#ffcc00>   +10% chance to jam <i>(for a 5 GunnerySkill pilot)</i></color>\r\n   <color=#ffcc00>leaves behind a cryogenic substance on the target\r\n   slows movement to 10%\r\n   reduces inititive for 2 turns</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.</b></color>",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "Modes": [

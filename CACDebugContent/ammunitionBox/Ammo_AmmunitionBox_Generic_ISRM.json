@@ -9,8 +9,8 @@
     "Model": "SRM",
     "UIName": "iSRM",
     "Id": "Ammo_AmmunitionBox_Generic_ISRM",
-    "Name": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_ISRM.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_ISRM.Details/__",
+    "Name": "Inferno SRM Ammo",
+    "Details": "Inferno SRM",
     "Icon": "uixSvgIcon_ammoBox_Missile"
   },
   "BonusValueA": "",

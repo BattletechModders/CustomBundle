@@ -3,7 +3,7 @@
     "Id": "Ammunition_ILRM",
     "Name": "iLRM",
     "UIName": "iLRM",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_ILRM.Details/__",
+    "Details": "Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

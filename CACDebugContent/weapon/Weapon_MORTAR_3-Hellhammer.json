@@ -34,10 +34,10 @@
     "Purchasable": true,
     "Manufacturer": "Diamat",
     "Model": "Hellhammer Siege Cannon",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_MORTAR_3-Hellhammer.UIName/__",
+    "UIName": "Hellhammer",
     "Id": "Weapon_MORTAR_3-Hellhammer",
-    "Name": "__/Custom_Ammo_Categories.Weapon_MORTAR_3-Hellhammer.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_MORTAR_3-Hellhammer.Details/__",
+    "Name": "Hellhammer",
+    "Details": "A Hellhammer Siege Cannon is a massive artillery piece deployed by the Imperial Guard that fires large rocket-propelled shells that are capable of destroying most fortified buildings in a single shot. The weapon is very similar in form and function to the Imperial Demolisher Cannon found on the Thunderer Siege Tank and Space Marine Vindicator tanks, with the exception that it is much larger, with a single shell weighing over 180 kilograms. The most common use of the Hellhammer Siege Cannon is as the main weapon on the Stormsword super-heavy tank of the Imperial Guard. ",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",

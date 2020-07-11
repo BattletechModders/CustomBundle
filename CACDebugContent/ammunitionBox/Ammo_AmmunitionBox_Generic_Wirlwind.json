@@ -7,10 +7,10 @@
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "SRM",
-    "UIName": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_Wirlwind.UIName/__",
+    "UIName": "Wirlwind Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_Wirlwind",
-    "Name": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_Wirlwind.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_Wirlwind.Details/__",
+    "Name": "Wirlwind Ammo",
+    "Details": "Боеприпасы для пусковых установок 'Вихрь'. 120 ракет.",
     "Icon": "uixSvgIcon_ammoBox_Missile"
   },
   "BonusValueA": "",

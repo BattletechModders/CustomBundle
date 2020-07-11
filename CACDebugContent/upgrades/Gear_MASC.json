@@ -61,8 +61,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-MASC-WalkSpeedDouble",
-            "Name": "__/CustomActivatableEquipment.Gear_MASC.StatusEffect-MASC-WalkSpeedDouble.CAE0.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_MASC.StatusEffect-MASC-WalkSpeedDouble.CAE0.Details/__",
+            "Name": "MASC DOUBLE SPEED",
+            "Details": "Speed doubled",
             "Icon": "uixSvgIcon_equipment_Gyro"
           },
           "nature": "Buff",
@@ -112,8 +112,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-MASC-RunSpeedDouble",
-            "Name": "__/CustomActivatableEquipment.Gear_MASC.StatusEffect-MASC-RunSpeedDouble.CAE1.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_MASC.StatusEffect-MASC-RunSpeedDouble.CAE1.Details/__",
+            "Name": "MASC DOUBLE SPEED",
+            "Details": "Speed doubled",
             "Icon": "uixSvgIcon_equipment_Gyro"
           },
           "nature": "Buff",
@@ -150,10 +150,10 @@
     "Purchasable": true,
     "Manufacturer": "Coventry",
     "Model": "IS A",
-    "UIName": "__/CustomActivatableEquipment.Gear_MASC.UIName/__",
+    "UIName": "M.A.S.C.(IS) Assault",
     "Id": "Gear_MASC",
-    "Name": "__/CustomActivatableEquipment.Gear_MASC.Name/__",
-    "Details": "__/CustomActivatableEquipment.Gear_MASC.Details/__",
+    "Name": "M.A.S.C.(IS) Assault",
+    "Details": "Myomer Accelerator Signal Circuitry Inner Sphere Assault",
     "Icon": "uixSvgIcon_equipment_Gyro"
   },
   "BonusValueA": "MASC",

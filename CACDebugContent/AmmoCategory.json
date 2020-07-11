@@ -14,7 +14,7 @@
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_AC10"
     },
     {
-      "ID":100,
+      "ID": 100,
       "Name": "LBX10",
       "FriendlyName": "LB 10-X",
       "IsBallistic": true,

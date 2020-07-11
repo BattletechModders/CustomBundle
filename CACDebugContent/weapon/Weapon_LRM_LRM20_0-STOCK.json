@@ -48,10 +48,10 @@
     "Purchasable": true,
     "Manufacturer": "Jackson",
     "Model": "Long-Range Missile Launcher",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_LRM_LRM20_0-STOCK.UIName/__",
+    "UIName": "LRM20",
     "Id": "Weapon_LRM_LRM20_0-STOCK",
-    "Name": "__/Custom_Ammo_Categories.Weapon_LRM_LRM20_0-STOCK.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_LRM_LRM20_0-STOCK.Details/__",
+    "Name": "LRM20",
+    "Details": "Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
   "BonusValueA": "",

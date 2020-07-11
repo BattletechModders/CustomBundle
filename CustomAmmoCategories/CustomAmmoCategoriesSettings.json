@@ -233,7 +233,7 @@
     "Play_Panic22"
   ],
   "uiIcons":[ "weapon_up", "weapon_down" ],
-  "WeaponPanelWidthScale": 1.1,
+  "WeaponPanelBackWidthScale": 1.1,
   "OrderButtonWidthScale": 0.5,
   "OrderButtonPaddingScale": 0.3,
   "SidePanelInfoSelfExternal": false,
@@ -243,5 +243,14 @@
   "AttackLogWrite": true,
   "ShowAttackGroundButton": true,
   "ShowWeaponOrderButtons": true,
-  "InfoPanelDefaultState": true
+  "InfoPanelDefaultState": true,
+  "ToHitSelfJumped":2,
+  "ToHitMechFromFront":0,
+  "ToHitMechFromSide":-1,
+  "ToHitMechFromRear":-2,
+  "ToHitVehicleFromFront":0,
+  "ToHitVehicleFromSide":-1,
+  "ToHitVehicleFromRear":-2,
+  "WeaponPanelWidthScale":0.7,
+  "WeaponPanelHeightScale":0.7
 }

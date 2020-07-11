@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_AC20",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_AC20.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_AC20.UIName/__",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_AC20.Details/__",
+    "Name": "AC/20 Ammo",
+    "UIName": "Norm.",
+    "Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

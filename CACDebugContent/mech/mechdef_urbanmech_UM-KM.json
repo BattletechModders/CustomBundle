@@ -23,10 +23,10 @@
     "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "__/Custom_Ammo_Categories.mechdef_urbanmech_UM-KM.UIName/__",
+    "UIName": "SuburbanMech UM-KM",
     "Id": "mechdef_urbanmech_UM-KM",
-    "Name": "__/Custom_Ammo_Categories.mechdef_urbanmech_UM-KM.Name/__",
-    "Details": "__/Custom_Ammo_Categories.mechdef_urbanmech_UM-KM.Details/__",
+    "Name": "UrbanMech",
+    "Details": "The UM-KM 'SuburbanMech' adapts the traditional UrbanMech R60 into an energy weapon platform for higher performance. Because its weapons aren't limited by ammunition concerns, the R90 is better-suited to longer engagements.",
     "Icon": "uixTxrIcon_urbanmech"
   },
   "simGameMechPartCost": 270000,

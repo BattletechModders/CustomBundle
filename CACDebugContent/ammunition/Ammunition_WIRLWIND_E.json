@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_WIRLWIND_E",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_WIRLWIND_E.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_WIRLWIND_E.UIName/__",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_WIRLWIND_E.Details/__",
+    "Name": "WIRLWIND Ammo",
+    "UIName": "expl",
+    "Details": "Oсколочные ракеты к пусковым установкам 'Вихрь'.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

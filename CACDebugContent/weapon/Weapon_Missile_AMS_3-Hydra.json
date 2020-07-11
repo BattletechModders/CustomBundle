@@ -36,10 +36,10 @@
     "Purchasable": true,
     "Manufacturer": "Sperry Browning",
     "Model": "Machine Gun",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_Missile_AMS_3-Hydra.UIName/__",
+    "UIName": "AMS",
     "Id": "Weapon_Ballistic_AMS_3-Hydra",
-    "Name": "__/Custom_Ammo_Categories.Weapon_Missile_AMS_3-Hydra.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_Missile_AMS_3-Hydra.Details/__",
+    "Name": "AMS",
+    "Details": "AMS ballistics",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "BonusValueA": "",

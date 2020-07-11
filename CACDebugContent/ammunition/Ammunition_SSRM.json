@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_SSRM",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_SSRM.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_SSRM.UIName/__",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_SSRM.Details/__",
+    "Name": "Separated SRM Ammo",
+    "UIName": "Shells",
+    "Details": "Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

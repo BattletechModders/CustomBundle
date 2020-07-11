@@ -1,6 +1,6 @@
 {
   "ID": "tournament_a1_3wayBattle",
-  "contractName": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.contractName/__",
+  "contractName": "Tournament of Champions II",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 2,
   "difficultyUIModifier": 0,
@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.shortDescription/__",
-  "longDescription": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.longDescription/__",
+  "shortDescription": "Welcome to the final round of my Tournament, Commander. Today, your two finest pilots will face off against the cream of the Frontier MechWarrior community. This will be a battle like no other, a clash between veritable <i>gods</i>. I wish your fighters luck, Commander—and I promise you, they will need it.",
+  "longDescription": "Horvat's going to stack the odds against us, just like Agent Jones said. If we're going to do this, our MechWarriors will have to be ready.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -67,8 +67,8 @@
       "objective": {
         "EncounterObjectGuid": "d5ee674b-8993-4804-9fa2-b0a73be466e4"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective0.title/__",
-      "description": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective0.description/__",
+      "title": "Defeat Tournament Finalists",
+      "description": "ATTN ANDREW",
       "isPrimary": true,
       "OnSuccessResults": [],
       "OnFailureResults": [],
@@ -79,8 +79,8 @@
       "objective": {
         "EncounterObjectGuid": "cb9c173c-89b3-4447-b3a0-26193cbeb601"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective1.title/__",
-      "description": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective1.description/__",
+      "title": "Defeat Professor Mencius Horvat",
+      "description": "hostile to all",
       "isPrimary": true,
       "OnSuccessResults": [],
       "OnFailureResults": [],
@@ -91,7 +91,7 @@
       "objective": {
         "EncounterObjectGuid": "13912235-2a9a-4917-82be-ae2638ab753f"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective2.title/__",
+      "title": "Objective_Empty_HiddenFlag_HostileToAllChunkActive",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -103,7 +103,7 @@
       "objective": {
         "EncounterObjectGuid": "4b18da74-682d-467c-bd41-103e525d91f0"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective3.title/__",
+      "title": "Hidden Hostile to All Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -115,7 +115,7 @@
       "objective": {
         "EncounterObjectGuid": "efd78ca4-a05b-4281-8b0a-245bf436a4aa"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective4.title/__",
+      "title": "Hidden Hostile to ALL AI Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -127,7 +127,7 @@
       "objective": {
         "EncounterObjectGuid": "49d5a311-1507-4c2b-8485-46ba1ea99d43"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective5.title/__",
+      "title": "Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -165,7 +165,7 @@
       "objective": {
         "EncounterObjectGuid": "cbee541c-3104-4bc4-829a-dc396601f4c8"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective6.title/__",
+      "title": "Objective_Empty_HostileToAll_Flag_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -177,7 +177,7 @@
       "objective": {
         "EncounterObjectGuid": "234238e2-31c2-4594-ab52-3621df45e2ac"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective7.title/__",
+      "title": "Hidden Hostile to All Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -189,7 +189,7 @@
       "objective": {
         "EncounterObjectGuid": "3637411e-ca46-4d4f-bc29-ffee20e63548"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective8.title/__",
+      "title": "Hidden Hostile to ALL AI Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -201,7 +201,7 @@
       "objective": {
         "EncounterObjectGuid": "c02cca7e-6e2c-4a3d-beb0-f9af713a466f"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective9.title/__",
+      "title": "Destroy Additional Enemy Forces",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -213,7 +213,7 @@
       "objective": {
         "EncounterObjectGuid": "103a6c2a-7464-4e11-9409-636ca6fe7a47"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective10.title/__",
+      "title": "Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -225,7 +225,7 @@
       "objective": {
         "EncounterObjectGuid": "a5fe3072-8cc6-4909-815d-25fcc2efa6ec"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective11.title/__",
+      "title": "Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -237,7 +237,7 @@
       "objective": {
         "EncounterObjectGuid": "ec1afdf8-94ac-4091-a3d2-1d82732ffad2"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective12.title/__",
+      "title": "Empty Do Additonal Forces Primary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -249,7 +249,7 @@
       "objective": {
         "EncounterObjectGuid": "4becbae5-72de-451f-8b9b-028e2188fa89"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective13.title/__",
+      "title": "Destroy Additional Enemy Forces",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -287,7 +287,7 @@
       "objective": {
         "EncounterObjectGuid": "f4995165-3394-44af-8401-cbbffcb177b9"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective14.title/__",
+      "title": "Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -299,7 +299,7 @@
       "objective": {
         "EncounterObjectGuid": "55df7bc4-d367-45b7-92f4-ca24673d4e5c"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective15.title/__",
+      "title": "Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -311,7 +311,7 @@
       "objective": {
         "EncounterObjectGuid": "0eefd1b5-f890-4ad2-b28a-d291c059da7e"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective16.title/__",
+      "title": "Empty Do Additonal Forces Secondary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -323,7 +323,7 @@
       "objective": {
         "EncounterObjectGuid": "3d9f8ebf-d0a8-4a95-b59d-1919f3b4f11d"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective17.title/__",
+      "title": "Destroy Additional Enemy Reinforcements",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -335,7 +335,7 @@
       "objective": {
         "EncounterObjectGuid": "aae568ef-1d56-42ef-913c-1af865cc4310"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective18.title/__",
+      "title": "Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -347,7 +347,7 @@
       "objective": {
         "EncounterObjectGuid": "a5be8217-b71c-477c-b7f9-bd8b57fe8411"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective19.title/__",
+      "title": "Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -359,7 +359,7 @@
       "objective": {
         "EncounterObjectGuid": "c1a9059b-4fd1-4def-9419-6dd4a3b3bd4d"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective20.title/__",
+      "title": "Empty Do Additonal Forces 2 Primary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -371,7 +371,7 @@
       "objective": {
         "EncounterObjectGuid": "cc1f3b6c-4611-4936-8b68-ad8d4777fd13"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective21.title/__",
+      "title": "Destroy Additional Enemy Reinforcements",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -409,7 +409,7 @@
       "objective": {
         "EncounterObjectGuid": "04a65aa6-d0f2-49d4-8c8a-c1f90e43f2f9"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective22.title/__",
+      "title": "Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -421,7 +421,7 @@
       "objective": {
         "EncounterObjectGuid": "431ce2f5-dc6a-4daf-9965-ea58cd44c0e6"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective23.title/__",
+      "title": "Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -433,7 +433,7 @@
       "objective": {
         "EncounterObjectGuid": "ddc899c1-eb4e-47a1-a636-d92813c10571"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective24.title/__",
+      "title": "Empty Do Additonal Forces 2 Secondary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -445,7 +445,7 @@
       "objective": {
         "EncounterObjectGuid": "f55ef49e-4035-42eb-97fa-ba0063e1306b"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective25.title/__",
+      "title": "Destroy Additional Enemy Allied Reinforcements",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -457,7 +457,7 @@
       "objective": {
         "EncounterObjectGuid": "85c94315-09ae-4e9b-8fc0-7e198be51510"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective26.title/__",
+      "title": "Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -469,7 +469,7 @@
       "objective": {
         "EncounterObjectGuid": "07dd31b8-82ae-4926-8a2e-84aab3eab8b7"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective27.title/__",
+      "title": "Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -481,7 +481,7 @@
       "objective": {
         "EncounterObjectGuid": "9d26ed13-ed7b-480e-a34d-24e17264eeef"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective28.title/__",
+      "title": "Empty Do Additonal Forces Primary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -493,7 +493,7 @@
       "objective": {
         "EncounterObjectGuid": "12270413-a963-4a1e-947b-9e1282270a5d"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective29.title/__",
+      "title": "Destroy Additional Enemy Allied Reinforcements",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -531,7 +531,7 @@
       "objective": {
         "EncounterObjectGuid": "7fdcb563-ac34-4cf1-a358-d373b4f24050"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective30.title/__",
+      "title": "Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -543,7 +543,7 @@
       "objective": {
         "EncounterObjectGuid": "29a4d1d2-075f-4efe-8e88-f4d32b802f49"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective31.title/__",
+      "title": "Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -555,7 +555,7 @@
       "objective": {
         "EncounterObjectGuid": "76eb94bb-3e37-4ecc-bad6-a5a9543bf670"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective32.title/__",
+      "title": "Empty Do Additonal Forces Secondary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -567,7 +567,7 @@
       "objective": {
         "EncounterObjectGuid": "7b5ce847-7978-459b-97ee-3bf90ef951fb"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective33.title/__",
+      "title": "Destroy the Enemy Allied Forces",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [
@@ -605,7 +605,7 @@
       "objective": {
         "EncounterObjectGuid": "40ade58a-6556-4a37-9333-45be8deb23d9"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective34.title/__",
+      "title": "Objective_Empty_HasSeenEnemyAllyLance_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -617,7 +617,7 @@
       "objective": {
         "EncounterObjectGuid": "99561fc7-e8c8-4ee0-ab41-72ae760c5b71"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective35.title/__",
+      "title": "Destroy the Enemy Allied Forces",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -655,7 +655,7 @@
       "objective": {
         "EncounterObjectGuid": "e4cd3f97-ae4b-416a-8c4b-3ec6288be4fd"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective36.title/__",
+      "title": "Objective_Empty_HasSeenEnemyAllyLance_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -667,7 +667,7 @@
       "objective": {
         "EncounterObjectGuid": "438f6ead-f05c-40d7-9e85-6f18b878782b"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective37.title/__",
+      "title": "All of {COMPANY.CompanyName} Lance must survive",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -679,7 +679,7 @@
       "objective": {
         "EncounterObjectGuid": "cb5625ef-c8c8-4768-b21a-d22abf5b91f9"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective38.title/__",
+      "title": "All of {COMPANY.CompanyName} Lance must survive",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -717,7 +717,7 @@
       "objective": {
         "EncounterObjectGuid": "699fc05a-9514-4058-ba39-7a366a09acbf"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective39.title/__",
+      "title": "Unit one of {COMPANY.CompanyName} must survive",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -729,7 +729,7 @@
       "objective": {
         "EncounterObjectGuid": "ef1d7752-73cf-40bc-9382-d398e80d1e49"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective40.title/__",
+      "title": "Unit one of {COMPANY.CompanyName} must survive",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -767,7 +767,7 @@
       "objective": {
         "EncounterObjectGuid": "48c4aa0a-8408-4549-a9ec-b38e990005ae"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective41.title/__",
+      "title": "Get to the evac zone",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -779,7 +779,7 @@
       "objective": {
         "EncounterObjectGuid": "c0c0e8d1-92f7-4941-b438-91963dbf0fb2"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective42.title/__",
+      "title": "Objective_Empty_FirstContractFlag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -791,7 +791,7 @@
       "objective": {
         "EncounterObjectGuid": "28b3d4e1-8a28-4138-93cf-a56b13ddd7b2"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective43.title/__",
+      "title": "Hidden Open Player Evac Objective",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -803,7 +803,7 @@
       "objective": {
         "EncounterObjectGuid": "5249099f-0b81-4d47-8c04-07aeffd0f4cd"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective44.title/__",
+      "title": "OFF",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -815,7 +815,7 @@
       "objective": {
         "EncounterObjectGuid": "51aa5837-b540-42be-b8be-26b37bfcf976"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective45.title/__",
+      "title": "Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [
@@ -853,7 +853,7 @@
       "objective": {
         "EncounterObjectGuid": "233d3dd3-dd4d-4722-9d79-5e4550c94c67"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective46.title/__",
+      "title": "The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -865,7 +865,7 @@
       "objective": {
         "EncounterObjectGuid": "2f1e0162-3ff4-4f73-99d5-cdb2c0d5396b"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective47.title/__",
+      "title": "Empty_Employer_IsActiveFlag_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -877,7 +877,7 @@
       "objective": {
         "EncounterObjectGuid": "8dd88858-0b5c-47a2-8d48-90daf913c861"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective48.title/__",
+      "title": "OFF",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -889,7 +889,7 @@
       "objective": {
         "EncounterObjectGuid": "ac4199e4-c42e-4a41-ae0e-cf10f7dfcf8a"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective49.title/__",
+      "title": "Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -927,7 +927,7 @@
       "objective": {
         "EncounterObjectGuid": "62fad70b-c2a9-478d-b6a2-cb13ba99a573"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective50.title/__",
+      "title": "The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -965,7 +965,7 @@
       "objective": {
         "EncounterObjectGuid": "25093242-ea45-451c-a189-d3d54f132d26"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective51.title/__",
+      "title": "Empty_Employer_IsActiveFlag_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -977,7 +977,7 @@
       "objective": {
         "EncounterObjectGuid": "b1862952-8197-4347-8c93-94aadd34fbd7"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective52.title/__",
+      "title": "OFF",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -989,7 +989,7 @@
       "objective": {
         "EncounterObjectGuid": "658372a8-8e43-4f74-af9c-f4d60bb103ec"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective53.title/__",
+      "title": "Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -1001,7 +1001,7 @@
       "objective": {
         "EncounterObjectGuid": "bd721209-539f-4c39-afa9-f6d3a83a0b06"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective54.title/__",
+      "title": "Escort friendlies to evac point",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -1013,7 +1013,7 @@
       "objective": {
         "EncounterObjectGuid": "eb2cdf1f-7f49-4fca-9f3c-328d653e5169"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective55.title/__",
+      "title": "Empty_EmployerAlly_IsActiveFlag_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1025,7 +1025,7 @@
       "objective": {
         "EncounterObjectGuid": "5685d07f-ea41-468f-99e6-93f99ed64703"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective56.title/__",
+      "title": "OFF",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1037,7 +1037,7 @@
       "objective": {
         "EncounterObjectGuid": "4222c6f6-975a-45aa-aa3e-cbfaf0c50026"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective57.title/__",
+      "title": "Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -1075,7 +1075,7 @@
       "objective": {
         "EncounterObjectGuid": "5e616f80-706e-43c8-b747-b04122ba5232"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective58.title/__",
+      "title": "Escort friendlies to evac point",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -1113,7 +1113,7 @@
       "objective": {
         "EncounterObjectGuid": "aa4e4b60-369e-43b6-82e3-e9140cfa4d16"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective59.title/__",
+      "title": "Empty_EmployerAlly_IsActiveFlag_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1125,7 +1125,7 @@
       "objective": {
         "EncounterObjectGuid": "b560361d-e4dd-4a94-b9b1-f8d8c283cfc3"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective60.title/__",
+      "title": "AllPrimaryTargetsDestroyedFlag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1137,7 +1137,7 @@
       "objective": {
         "EncounterObjectGuid": "6e17e73a-7403-41f2-b8a0-f88a63c30116"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective61.title/__",
+      "title": "TimerObjective_HostileToAll_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1149,7 +1149,7 @@
       "objective": {
         "EncounterObjectGuid": "969d3cdb-0d1b-4c88-a3bf-42ffa86a445e"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective62.title/__",
+      "title": "TimerObjective_HostileToAll_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1161,7 +1161,7 @@
       "objective": {
         "EncounterObjectGuid": "9aa12439-4225-412d-a4f8-0058e6ef8dc4"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective63.title/__",
+      "title": "TimerObjective_1RoundSafety_AddForces_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1173,7 +1173,7 @@
       "objective": {
         "EncounterObjectGuid": "21da44e2-6d5a-4abb-92b5-cc673009e073"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective64.title/__",
+      "title": "TimerObjective_1RoundSafety_AddForces_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1185,7 +1185,7 @@
       "objective": {
         "EncounterObjectGuid": "b43a75b5-b10c-4987-80a4-c3603401e259"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective65.title/__",
+      "title": "TimerObjective_1RoundSafety_AddForces2_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1197,7 +1197,7 @@
       "objective": {
         "EncounterObjectGuid": "8d55b7bc-1e4a-4772-b363-db2876e8b807"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective66.title/__",
+      "title": "TimerObjective_1RoundSafety_AddForces2_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1209,7 +1209,7 @@
       "objective": {
         "EncounterObjectGuid": "7cbe923d-b6b1-442a-8bd7-3ead2bdf1787"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective67.title/__",
+      "title": "TimerObjective_1RoundSafety_AddForces_EnemyAlly_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1221,7 +1221,7 @@
       "objective": {
         "EncounterObjectGuid": "b62e57a4-31c4-44de-9a27-bcc17d05961b"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective68.title/__",
+      "title": "TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1233,7 +1233,7 @@
       "objective": {
         "EncounterObjectGuid": "380ef189-c85c-4b73-bb4e-05c25c3aa66e"
       },
-      "title": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle.objective69.title/__",
+      "title": "TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1593,7 +1593,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList0.dialogueContent0.words/__",
+          "words": "Challengers! You have already proven your might in the arena. Now, you will show Professor Horvat your fortitude.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1609,7 +1609,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList0.dialogueContent1.words/__",
+          "words": "Indeed they will, Gigante. Indeed they will. Contestants, I call upon you to <i>destroy</i> your rivals! Smash their BattleMechs without hesitation or mercy, for only one of you may be crowned champion!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1634,7 +1634,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList1.dialogueContent0.words/__",
+          "words": "Gods, what a fighter! I yield to you, Commander—never since Calamar Gigante have I seen such awe-inspiring strength!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1650,7 +1650,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList1.dialogueContent1.words/__",
+          "words": "I weep with joy, for I am no longer alone.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1666,7 +1666,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList1.dialogueContent2.words/__",
+          "words": "You've earned your million C-Bills, Commander. More than that, you've earned my <i>respect</i>. Meet me in orbit, that I may grant you your reward.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1691,7 +1691,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList2.dialogueContent0.words/__",
+          "words": "A terrible shame, Commander. Your MechWarriors have been eliminated, their BattleMechs torn to scrap. I'm afraid that your time in the Tournament has come to an end.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1707,7 +1707,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList2.dialogueContent1.words/__",
+          "words": "Can't say I didn't warn you, Commander. Such a shame. We could've taken Horvat down <i>together</i>. Instead, you're walking away with nothing but a couple of dead pilots.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1732,7 +1732,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList3.dialogueContent0.words/__",
+          "words": "PLACEHOLDER. New contacts on sesnors, Commander. These units don't match {TEAM_TAR.FactionDef.ShortName} signatures. We've got a new player on the field.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1757,7 +1757,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList4.dialogueContent0.words/__",
+          "words": "PLACEHOLDER Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1773,7 +1773,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList4.dialogueContent1.words/__",
+          "words": "PLACEHOLDER Grace under fire folks. Lay it on 'em!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1798,7 +1798,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList5.dialogueContent0.words/__",
+          "words": "PLACEHOLDER We lost Quebec Two Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1814,7 +1814,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList5.dialogueContent1.words/__",
+          "words": "PLACEHODLER This is Quebec actual return fire and check your rear arc!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1839,7 +1839,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList6.dialogueContent0.words/__",
+          "words": "PLACEHOLDER, The {TEAM_EMP.FactionDef.Demonym} has been destroyed.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1864,7 +1864,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList7.dialogueContent0.words/__",
+          "words": "PLACEHOLDER our employer's ally forces are lost commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1889,7 +1889,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList8.dialogueContent0.words/__",
+          "words": "PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys are here too. Don't that beat it all. This is the primary objective version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1905,7 +1905,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList8.dialogueContent1.words/__",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1930,7 +1930,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList9.dialogueContent0.words/__",
+          "words": "PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys  are here too. Don't that beat it all. This is the secondary objective version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1946,7 +1946,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList9.dialogueContent1.words/__",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1971,7 +1971,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList10.dialogueContent0.words/__",
+          "words": "PLACEHOLDER Primary targets destroyed Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1987,7 +1987,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList10.dialogueContent1.words/__",
+          "words": "PLACEHOLDER I'm inbound to the LZ Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2012,7 +2012,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList11.dialogueContent0.words/__",
+          "words": "Competitors! You have shown yourselves worthy of the greatest honor this Tournament can bestow: the right to face off against the great man himself, PROFESSOR MENCIUS HORVAT!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2028,7 +2028,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList11.dialogueContent1.words/__",
+          "words": "You've gotta be kiddin' me.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2044,7 +2044,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList11.dialogueContent2.words/__",
+          "words": "This is no joke, Mr. Virtanen! I have taken the field myself to put your warriors to their final test. If they defeat me, the prize purse is yours. Should they fail, I will grant them a most glorious death. En garde, Tournament finalists! Your fur-wreathed doom is at hand!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2069,7 +2069,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList12.dialogueContent0.words/__",
+          "words": "PLACEHOLDER The Hostile to All {TEAM_HOST.FactionDef.Demonym} lance has arrived! This is the Secondary Version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2085,7 +2085,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList12.dialogueContent1.words/__",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2110,7 +2110,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList13.dialogueContent0.words/__",
+          "words": "PLACEHOLDER All our objectives are complete, cover our withdraw Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2135,7 +2135,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList14.dialogueContent0.words/__",
+          "words": "PLACEHOLDER All our objectives are complete, cover our withdraw Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2151,7 +2151,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList14.dialogueContent1.words/__",
+          "words": "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2176,7 +2176,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList15.dialogueContent0.words/__",
+          "words": "PLACEHOLDER Thanks for the assist, we're clear.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2201,7 +2201,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList16.dialogueContent0.words/__",
+          "words": "PLACEHOLDER Thanks for the assist, we're clear.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2226,7 +2226,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList17.dialogueContent0.words/__",
+          "words": "PLACEHOLDER, That's it Commander we did what we came here to do.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2251,7 +2251,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList18.dialogueContent0.words/__",
+          "words": "PLACEHOLDER, That's it Commander we did what we came here to do.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2267,7 +2267,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList18.dialogueContent1.words/__",
+          "words": "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2292,7 +2292,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList19.dialogueContent0.words/__",
+          "words": "PLACEHOLDER, we're clear of the AO, thanks Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2317,7 +2317,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList20.dialogueContent0.words/__",
+          "words": "PLACEHOLDER, we're clear of the AO, thanks Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2342,7 +2342,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList21.dialogueContent0.words/__",
+          "words": "PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Primary Objective version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2358,7 +2358,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList21.dialogueContent1.words/__",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2383,7 +2383,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList22.dialogueContent0.words/__",
+          "words": "PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Secondary Objective version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2399,7 +2399,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList22.dialogueContent1.words/__",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2424,7 +2424,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList23.dialogueContent0.words/__",
+          "words": "PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Primary Objective Version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2440,7 +2440,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList23.dialogueContent1.words/__",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2465,7 +2465,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList24.dialogueContent0.words/__",
+          "words": "PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Secondary Objective Version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2481,7 +2481,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList24.dialogueContent1.words/__",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2506,7 +2506,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList25.dialogueContent0.words/__",
+          "words": "PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Primary Objective Version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2522,7 +2522,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList25.dialogueContent1.words/__",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2547,7 +2547,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList26.dialogueContent0.words/__",
+          "words": "PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Secondary Objective Version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2563,7 +2563,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList26.dialogueContent1.words/__",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2612,7 +2612,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList30.dialogueContent0.words/__",
+          "words": "We've got an unidentified Leopard hanging out in high orbit, Commander. Could be another surprise, like Agent Jones.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2628,7 +2628,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList30.dialogueContent1.words/__",
+          "words": "Could be, but Gigante isn't making any grand announcements this time. That's kind of an alarming change of pace, don't you think?",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2644,7 +2644,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList30.dialogueContent2.words/__",
+          "words": "Maybe. Who knows? Just keep focused on the fight, Commander. We'll deal with any surprises if and when they appear.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2669,7 +2669,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList31.dialogueContent0.words/__",
+          "words": "PLACHEHOLDER (Hostile to All Secondary). In bound hostile Dropship detected, drop zone marked.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2694,7 +2694,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList32.dialogueContent0.words/__",
+          "words": "PLACHEHOLDER (Additional Target Forces Primary). In bound hostile Dropship detected, drop zone marked.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2719,7 +2719,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList33.dialogueContent0.words/__",
+          "words": "PLACHEHOLDER (Additional Target Forces Secondary). In bound hostile Dropship detected, drop zone marked.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2744,7 +2744,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList34.dialogueContent0.words/__",
+          "words": "PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). In bound hostile Dropship detected, drop zone marked.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2769,7 +2769,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList35.dialogueContent0.words/__",
+          "words": "PLACHEHOLDER (Additional Target Forces 2 Secondary). In bound hostile Dropship detected, drop zone marked.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2794,7 +2794,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList36.dialogueContent0.words/__",
+          "words": "PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). In bound hostile Dropship detected, drop zone marked.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2819,7 +2819,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList37.dialogueContent0.words/__",
+          "words": "PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . In bound hostile Dropship detected, drop zone marked.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2844,7 +2844,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList38.dialogueContent0.words/__",
+          "words": "PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Primary version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2860,7 +2860,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList38.dialogueContent1.words/__",
+          "words": "PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2876,7 +2876,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList38.dialogueContent2.words/__",
+          "words": "PLACEHOLDER. Understood Lance leader, glad to have you with us.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2901,7 +2901,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList39.dialogueContent0.words/__",
+          "words": "PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Secondary version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2917,7 +2917,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList39.dialogueContent1.words/__",
+          "words": "PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2933,7 +2933,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList39.dialogueContent2.words/__",
+          "words": "PLACEHOLDER. Understood Lance leader, glad to have you with us.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2958,7 +2958,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList40.dialogueContent0.words/__",
+          "words": "PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2974,7 +2974,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList40.dialogueContent1.words/__",
+          "words": "PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2990,7 +2990,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList40.dialogueContent2.words/__",
+          "words": "PLACEHOLDER. Copy that lance leader.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -3015,7 +3015,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList41.dialogueContent0.words/__",
+          "words": "PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Secondary version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -3031,7 +3031,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList41.dialogueContent1.words/__",
+          "words": "PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -3047,7 +3047,7 @@
           "revealRadius": -1
         },
         {
-          "words": "__/Custom_Ammo_Categories.tournament_a1_3wayBattle..dialogueList41.dialogueContent2.words/__",
+          "words": "PLACEHOLDER. Copy that lance leader.",
           "wordsColor": {
             "r": 1,
             "g": 1,

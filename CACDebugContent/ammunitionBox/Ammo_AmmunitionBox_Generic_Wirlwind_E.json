@@ -7,10 +7,10 @@
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "SRM",
-    "UIName": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_Wirlwind_E.UIName/__",
+    "UIName": "Wirlwind Ammo High Explosion",
     "Id": "Ammo_AmmunitionBox_Generic_Wirlwind_E",
-    "Name": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_Wirlwind_E.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_Wirlwind_E.Details/__",
+    "Name": "Wirlwind Ammo HE",
+    "Details": "Боеприпасы для пусковых установок 'Вихрь'. Боеголовки объемного горения. 40 ракет.",
     "Icon": "uixSvgIcon_ammoBox_Missile"
   },
   "BonusValueA": "",

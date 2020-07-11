@@ -5,10 +5,10 @@
     "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "__/Custom_Ammo_Categories.mechdef_kingcrab_KGC-A.UIName/__",
+    "UIName": "KingCrab KGC-A",
     "Id": "mechdef_kingcrab_KGC-A",
-    "Name": "__/Custom_Ammo_Categories.mechdef_kingcrab_KGC-A.Name/__",
-    "Details": "__/Custom_Ammo_Categories.mechdef_kingcrab_KGC-A.Details/__",
+    "Name": "KingCrab-A",
+    "Details": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab A is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "ChassisID": "chassisdef_kingcrab_KGC-A",

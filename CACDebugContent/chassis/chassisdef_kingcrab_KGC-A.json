@@ -5,14 +5,14 @@
     "Purchasable": false,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "__/Custom_Ammo_Categories.chassisdef_kingcrab_KGC-A.UIName/__",
+    "UIName": "KingCrab-A",
     "Id": "chassisdef_kingcrab_KGC-A",
-    "Name": "__/Custom_Ammo_Categories.chassisdef_kingcrab_KGC-A.Name/__",
-    "Details": "__/Custom_Ammo_Categories.chassisdef_kingcrab_KGC-A.Details/__",
+    "Name": "KingCrab-A",
+    "Details": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "CustomParts": {
-    "FiringArc":360,
+    "FiringArc": 360,
     "Unaffected": {
       "DesignMasks": "false",
       "Pathing": "false",
@@ -55,13 +55,8 @@
           }
         },
         "MechChassisLocation": "RightArm",
-        "RequiredUpgrades": [ ],
-        "RequiredComponents": [
-          {
-            "MechSearchLocations": [ "LeftArm" ],
-            "DefId": "Gear_Actuator_Coventry_Alpha"
-          }
-        ],
+        "RequiredUpgrades": [],
+        "RequiredComponents": [],
         "AnimationType": "SimpleRotator",
         "AnimationData": {
           "speed": -10,
@@ -295,9 +290,11 @@
   ],
   "VariantName": "KGC-A",
   "ChassisTags": {
-    "items": [ "aoe_increased_minor" ],
+    "items": [
+      "aoe_increased_minor"
+    ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "__/Custom_Ammo_Categories.chassisdef_kingcrab_KGC-A.StockRole/__",
-  "YangsThoughts": "__/Custom_Ammo_Categories.chassisdef_kingcrab_KGC-A.YangsThoughts/__"
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance."
 }

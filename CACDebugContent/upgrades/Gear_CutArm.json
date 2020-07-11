@@ -23,10 +23,10 @@
     "Purchasable": true,
     "Manufacturer": "Coventry",
     "Model": "IS",
-    "UIName": "__/CustomActivatableEquipment.Gear_CutArm.UIName/__",
+    "UIName": "Cut Right Arm",
     "Id": "Gear_CutArm",
-    "Name": "__/CustomActivatableEquipment.Gear_CutArm.Name/__",
-    "Details": "__/CustomActivatableEquipment.Gear_CutArm.Details/__",
+    "Name": "Cut Right Arm",
+    "Details": "Cutoff Right Arm",
     "Icon": "uixSvgIcon_equipment_Gyro"
   },
   "BonusValueA": "Cut Right Arm",

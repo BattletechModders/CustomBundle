@@ -32,8 +32,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "TargetModuleLongRangeLRDebuff",
-            "Name": "__/CustomActivatableEquipment.Gear_TargetModule.TargetModuleLongRangeLRDebuff.CAEOFF0.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_TargetModule.TargetModuleLongRangeLRDebuff.CAEOFF0.Details/__",
+            "Name": "Long range",
+            "Details": "Long range.",
             "Icon": "uixSvgIcon_ability_coolantVent"
           },
           "statisticData": {
@@ -60,8 +60,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "TargetModuleLongRangeMRDebuff",
-            "Name": "__/CustomActivatableEquipment.Gear_TargetModule.TargetModuleLongRangeMRDebuff.CAE0.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_TargetModule.TargetModuleLongRangeMRDebuff.CAE0.Details/__",
+            "Name": "Long range",
+            "Details": "Long range.",
             "Icon": "uixSvgIcon_ability_coolantVent"
           },
           "statisticData": {
@@ -86,8 +86,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "TargetModuleLongRangeSRDebuff",
-            "Name": "__/CustomActivatableEquipment.Gear_TargetModule.TargetModuleLongRangeSRDebuff.CAE1.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_TargetModule.TargetModuleLongRangeSRDebuff.CAE1.Details/__",
+            "Name": "Long range",
+            "Details": "Long range.",
             "Icon": "uixSvgIcon_ability_coolantVent"
           },
           "statisticData": {
@@ -112,8 +112,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "TargetModuleLongRangeLRBuff",
-            "Name": "__/CustomActivatableEquipment.Gear_TargetModule.TargetModuleLongRangeLRBuff.CAE2.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_TargetModule.TargetModuleLongRangeLRBuff.CAE2.Details/__",
+            "Name": "Long range",
+            "Details": "Long range.",
             "Icon": "uixSvgIcon_ability_coolantVent"
           },
           "statisticData": {
@@ -136,10 +136,10 @@
     "Purchasable": true,
     "Manufacturer": "Coventry",
     "Model": "Generic",
-    "UIName": "__/CustomActivatableEquipment.Gear_TargetModule.UIName/__",
+    "UIName": "Target module",
     "Id": "Gear_TargetModule",
-    "Name": "__/CustomActivatableEquipment.Gear_TargetModule.Name/__",
-    "Details": "__/CustomActivatableEquipment.Gear_TargetModule.Details/__",
+    "Name": "Target module",
+    "Details": "Target module",
     "Icon": "uixSvgIcon_ability_coolantVent"
   },
   "BonusValueA": "",

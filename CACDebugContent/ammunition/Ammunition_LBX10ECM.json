@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_LBX10ECM",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_LBX10ECM.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_LBX10ECM.UIName/__",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_LBX10ECM.Details/__",
+    "Name": "LBX/10 ECM Ammo",
+    "UIName": "ECM",
+    "Details": "Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
@@ -49,8 +49,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "AbilityDefPPC",
-        "Name": "__/Custom_Ammo_Categories.Ammunition_LBX10ECM.AbilityDefPPC.effect0.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Ammunition_LBX10ECM.AbilityDefPPC.effect0.Details/__",
+        "Name": "SENSORS IMPAIRED",
+        "Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
         "Icon": "uixSvgIcon_status_sensorsImpaired"
       },
       "nature": "Debuff",

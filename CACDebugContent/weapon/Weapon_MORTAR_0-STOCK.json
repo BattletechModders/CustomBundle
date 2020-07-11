@@ -54,10 +54,10 @@
     "Purchasable": true,
     "Manufacturer": "Kas",
     "Model": "MMM-3 Mortar",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_MORTAR_0-STOCK.UIName/__",
+    "UIName": "MORTAR",
     "Id": "Weapon_MORTAR_0-STOCK",
-    "Name": "__/Custom_Ammo_Categories.Weapon_MORTAR_0-STOCK.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_MORTAR_0-STOCK.Details/__",
+    "Name": "Warhead Launcher",
+    "Details": "This custom made contraption which resembles a mortar can fire special rounds, described simply as large caliber warheads. It has two modes but the secondary mode is technically just forcing the cooldown mechanism to fail and hope it don't jam.\r\n\r\n<color=#d80404><b>Caution! The amount of damage and stability is ammo specific and in some cases could cause harm to allies in the area of impact.</b></color>\r\n\r\n<b>Firing modes:</b>\r\n<b>Normal:</b> <i>default mode</i>\r\n<color=#ffcc00>   +1 cooldown turn<i>(penalty)</i></color>\r\n<b>Force:</b><i> this mode attempts to bypass the cooldown</i>\r\n<color=#ffcc00>   +4 Recoil <i>(penalty)</i></color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.</b></color>",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
   "BonusValueA": "Safety",

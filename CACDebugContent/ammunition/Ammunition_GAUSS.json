@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_GAUSS",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_GAUSS.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_GAUSS.UIName/__",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_GAUSS.Details/__",
+    "Name": "Gauss Ammo",
+    "UIName": "Norm.",
+    "Details": "GAUSS Ammo",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

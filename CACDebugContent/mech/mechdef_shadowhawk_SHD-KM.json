@@ -26,10 +26,10 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "__/Custom_Ammo_Categories.mechdef_shadowhawk_SHD-KM.UIName/__",
+    "UIName": "Shadow Hawk SHD-KM",
     "Id": "mechdef_shadowhawk_SHD-KM",
-    "Name": "__/Custom_Ammo_Categories.mechdef_shadowhawk_SHD-KM.Name/__",
-    "Details": "__/Custom_Ammo_Categories.mechdef_shadowhawk_SHD-KM.Details/__",
+    "Name": "Shadow Hawk",
+    "Details": "The Shadow Hawk KM is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so… I guess you can be the judge.",
     "Icon": "uixTxrIcon_shadowhawk"
   },
   "simGameMechPartCost": 620000,

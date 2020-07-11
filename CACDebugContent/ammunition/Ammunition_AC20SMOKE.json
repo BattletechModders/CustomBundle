@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_AC20SMOKE",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_AC20SMOKE.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_AC20SMOKE.UIName/__",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_AC20SMOKE.Details/__",
+    "Name": "AC/20 AOE Smoke Ammo",
+    "UIName": "Smoke",
+    "Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

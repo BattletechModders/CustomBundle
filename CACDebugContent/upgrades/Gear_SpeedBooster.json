@@ -40,8 +40,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-MASC-WalkSpeedDouble",
-            "Name": "__/CustomActivatableEquipment.Gear_SpeedBooster.StatusEffect-MASC-WalkSpeedDouble.CAE0.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_SpeedBooster.StatusEffect-MASC-WalkSpeedDouble.CAE0.Details/__",
+            "Name": "DOUBLE SPEED",
+            "Details": "Speed doubled",
             "Icon": "uixSvgIcon_equipment_Gyro"
           },
           "nature": "Buff",
@@ -91,8 +91,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-MASC-RunSpeedDouble",
-            "Name": "__/CustomActivatableEquipment.Gear_SpeedBooster.StatusEffect-MASC-RunSpeedDouble.CAE1.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_SpeedBooster.StatusEffect-MASC-RunSpeedDouble.CAE1.Details/__",
+            "Name": "DOUBLE SPEED",
+            "Details": "Speed doubled",
             "Icon": "uixSvgIcon_equipment_Gyro"
           },
           "nature": "Buff",
@@ -129,10 +129,10 @@
     "Purchasable": false,
     "Manufacturer": "Akkatran",
     "Model": "T-X",
-    "UIName": "__/CustomActivatableEquipment.Gear_SpeedBooster.UIName/__",
+    "UIName": "Ferrum fibres",
     "Id": "Gear_SpeedBooster",
-    "Name": "__/CustomActivatableEquipment.Gear_SpeedBooster.Name/__",
-    "Details": "__/CustomActivatableEquipment.Gear_SpeedBooster.Details/__",
+    "Name": "Ferrum fibres",
+    "Details": "English description",
     "Icon": "uixSvgIcon_equipment_Gyro"
   },
   "BonusValueA": "x3 Скрорость",

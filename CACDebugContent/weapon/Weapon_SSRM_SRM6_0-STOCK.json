@@ -34,10 +34,10 @@
     "Purchasable": true,
     "Manufacturer": "TharHes",
     "Model": "Short-Range Missile Launcher",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_SSRM_SRM6_0-STOCK.UIName/__",
+    "UIName": "SSRM6",
     "Id": "Weapon_SSRM_SRM6_0-STOCK",
-    "Name": "__/Custom_Ammo_Categories.Weapon_SSRM_SRM6_0-STOCK.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_SSRM_SRM6_0-STOCK.Details/__",
+    "Name": "SSRM6",
+    "Details": "SSRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
   "BonusValueA": "",

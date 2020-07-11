@@ -7,10 +7,10 @@
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "SRM",
-    "UIName": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_SSRM.UIName/__",
+    "UIName": "Shells SRM Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_SSRM",
-    "Name": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_SSRM.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_SSRM.Details/__",
+    "Name": "Shells SRM Ammo",
+    "Details": "Shells SRM",
     "Icon": "uixSvgIcon_ammoBox_Missile"
   },
   "BonusValueA": "",

@@ -30,7 +30,7 @@
   "ImprovedBallistic": true,
   "EjectWeapon": true,
   "blockWeaponsInInstalledLocation": true,
-  "CanBeBlocked":false,
+  "CanBeBlocked": false,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM10",
   "Description": {
     "Cost": 150000,

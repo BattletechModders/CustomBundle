@@ -1,14 +1,14 @@
 {
   "Description": {
     "Id": "pilot_ronin_Zombie",
-    "Name": "__/Custom_Ammo_Categories.pilot_ronin_Zombie.Name/__",
+    "Name": "Zombie",
     "FirstName": "Zombie",
     "LastName": "NONE",
     "Callsign": "Zombie",
     "Gender": "Male",
     "Faction": "Davion",
     "Age": "380",
-    "Details": "__/Custom_Ammo_Categories.pilot_ronin_Zombie.Details/__",
+    "Details": "Zombie",
     "Icon": "Buckshot"
   },
   "BaseGunnery": "5",

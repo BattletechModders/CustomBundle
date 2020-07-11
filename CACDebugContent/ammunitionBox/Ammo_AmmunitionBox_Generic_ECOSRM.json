@@ -7,10 +7,10 @@
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "SRM",
-    "UIName": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_ECOSRM.UIName/__",
+    "UIName": "Lava SRM Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_ECOSRM",
-    "Name": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_ECOSRM.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Ammo_AmmunitionBox_Generic_ECOSRM.Details/__",
+    "Name": "Lava SRM Ammo",
+    "Details": "This missiles is full of lava.",
     "Icon": "uixSvgIcon_ammoBox_Missile"
   },
   "BonusValueA": "",

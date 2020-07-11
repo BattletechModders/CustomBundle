@@ -35,10 +35,10 @@
     "Purchasable": true,
     "Manufacturer": "Skylight",
     "Model": "Heat Damage Flamethrower",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_Flamer_Flamer_0-STOCK.UIName/__",
+    "UIName": "Flamer",
     "Id": "Weapon_Flamer_Flamer_0-STOCK",
-    "Name": "__/Custom_Ammo_Categories.Weapon_Flamer_Flamer_0-STOCK.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_Flamer_Flamer_0-STOCK.Details/__",
+    "Name": "Flamer",
+    "Details": "Flamer weapons are unique in that they deal little physical damage but instead expel superheated plasma, applying substantial heat to their target. When done properly, this can hamper enemy return fire or even cause the targeted unit to shut down from overheating.",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "BonusValueA": "* 4 Ammo",

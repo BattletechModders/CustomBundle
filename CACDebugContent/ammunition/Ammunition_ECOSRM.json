@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_ECOSRM",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_ECOSRM.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_ECOSRM.UIName/__",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_ECOSRM.Details/__",
+    "Name": "Lava SRM Ammo",
+    "UIName": "Lava",
+    "Details": "This missile is full of lava.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

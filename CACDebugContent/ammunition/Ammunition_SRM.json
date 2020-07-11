@@ -3,7 +3,7 @@
     "Id": "Ammunition_SRM",
     "Name": "SRM",
     "UIName": "SRM",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_SRM.Details/__",
+    "Details": "Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

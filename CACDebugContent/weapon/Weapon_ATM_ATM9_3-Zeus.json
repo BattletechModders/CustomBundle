@@ -116,7 +116,7 @@
       "LongRange": 0,
       "MaxRange": 0,
       "isBaseMode": true,
-      "ColorChangeRule":"t0"
+      "ColorChangeRule": "t0"
     },
     {
       "Id": "SRM",
@@ -131,7 +131,7 @@
       "LongRange": -360,
       "MaxRange": -360,
       "isBaseMode": false,
-      "ColorChangeRule":"t5"
+      "ColorChangeRule": "t5"
     }
   ],
   "ComponentTags": {

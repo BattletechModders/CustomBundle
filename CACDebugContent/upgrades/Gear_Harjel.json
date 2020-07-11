@@ -36,10 +36,10 @@
     "Purchasable": true,
     "Manufacturer": "Coventry",
     "Model": "Generic",
-    "UIName": "__/CustomActivatableEquipment.Gear_Harjel.UIName/__",
+    "UIName": "Harjel",
     "Id": "Gear_Harjel",
-    "Name": "__/CustomActivatableEquipment.Gear_Harjel.Name/__",
-    "Details": "__/CustomActivatableEquipment.Gear_Harjel.Details/__",
+    "Name": "Harjel",
+    "Details": "Harjel",
     "Icon": "uixSvgIcon_ability_coolantVent"
   },
   "BonusValueA": "+50 Heat dissipation on activation",

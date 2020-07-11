@@ -2,7 +2,9 @@
   "name": "tex_voicepack_soundbank",
   "filename": "tex_voicepack.bnk",
   "type": "Voice",
-  "volumeRTPCIds":[254523064],
+  "volumeRTPCIds": [
+    254523064
+  ],
   "volumeShift": 0,
   "events": {
     "Play_tex__chatter__": 173332688,
@@ -80,6 +82,6 @@
     "Play_tex__target_missed__": 4115818270,
     "Play_tex__sensor_lock_onthem__": 4150081719,
     "Play_tex__retreat__": 4269144686,
-    "Play_tex__generic__bad": 4277808685,
+    "Play_tex__generic__bad": 4277808685
   }
 }

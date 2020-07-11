@@ -51,8 +51,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-MeleeWeapon-TSM",
-            "Name": "__/CustomActivatableEquipment.Gear_TSM.StatusEffect-MeleeWeapon-TSM.CAE0.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_TSM.StatusEffect-MeleeWeapon-TSM.CAE0.Details/__",
+            "Name": "Melee DAMAGE DOUBLED",
+            "Details": "Melee attacks have doubled damage.",
             "Icon": "uixSvgIcon_equipment_Gyro"
           },
           "nature": "Buff",
@@ -102,8 +102,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-TSM-WalkSpeedDouble",
-            "Name": "__/CustomActivatableEquipment.Gear_TSM.StatusEffect-TSM-WalkSpeedDouble.CAE1.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_TSM.StatusEffect-TSM-WalkSpeedDouble.CAE1.Details/__",
+            "Name": "TSM DOUBLE SPEED",
+            "Details": "Speed doubled",
             "Icon": "uixSvgIcon_equipment_Gyro"
           },
           "nature": "Buff",
@@ -153,8 +153,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-TSM-RunSpeedDouble",
-            "Name": "__/CustomActivatableEquipment.Gear_TSM.StatusEffect-TSM-RunSpeedDouble.CAE2.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_TSM.StatusEffect-TSM-RunSpeedDouble.CAE2.Details/__",
+            "Name": "TSM DOUBLE SPEED",
+            "Details": "Speed doubled",
             "Icon": "uixSvgIcon_equipment_Gyro"
           },
           "nature": "Buff",
@@ -191,10 +191,10 @@
     "Purchasable": true,
     "Manufacturer": "Coventry",
     "Model": "IS",
-    "UIName": "__/CustomActivatableEquipment.Gear_TSM.UIName/__",
+    "UIName": "TSM",
     "Id": "Gear_TSM",
-    "Name": "__/CustomActivatableEquipment.Gear_TSM.Name/__",
-    "Details": "__/CustomActivatableEquipment.Gear_TSM.Details/__",
+    "Name": "TSM",
+    "Details": "Triple Strength Myomer",
     "Icon": "uixSvgIcon_equipment_Gyro"
   },
   "BonusValueA": "TSM",

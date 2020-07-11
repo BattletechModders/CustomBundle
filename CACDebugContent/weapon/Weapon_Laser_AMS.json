@@ -60,10 +60,10 @@
     "Purchasable": true,
     "Manufacturer": "DS Aero",
     "Model": "Beamsplitter",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_Laser_AMS.UIName/__",
+    "UIName": "Laser AMS",
     "Id": "Weapon_Laser_AMS",
-    "Name": "__/Custom_Ammo_Categories.Weapon_Laser_AMS.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_Laser_AMS.Details/__",
+    "Name": "Laser Anti Missile System",
+    "Details": "The Laser Anti-Missile System (LAMS) is an advanced variation of the standard Anti-Missile Systems. While the standard system utilizes a machine gun linked to specialized tracking systems, the LAMS uses a Small Pulse Laser, ensuring that the system never runs out of ammunition.  \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
   "BonusValueA": "",

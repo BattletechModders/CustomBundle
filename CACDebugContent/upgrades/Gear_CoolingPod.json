@@ -42,8 +42,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "CoolantPod",
-            "Name": "__/CustomActivatableEquipment.Gear_CoolingPod.CoolantPod.CAE0.Name/__",
-            "Details": "__/CustomActivatableEquipment.Gear_CoolingPod.CoolantPod.CAE0.Details/__",
+            "Name": "COOLANT Pod",
+            "Details": "Remove 50 extra heat.",
             "Icon": "uixSvgIcon_ability_coolantVent"
           },
           "statisticData": {
@@ -66,10 +66,10 @@
     "Purchasable": true,
     "Manufacturer": "Coventry",
     "Model": "Generic",
-    "UIName": "__/CustomActivatableEquipment.Gear_CoolingPod.UIName/__",
+    "UIName": "Cooling pod",
     "Id": "Gear_CollingPod",
-    "Name": "__/CustomActivatableEquipment.Gear_CoolingPod.Name/__",
-    "Details": "__/CustomActivatableEquipment.Gear_CoolingPod.Details/__",
+    "Name": "Cooling pod",
+    "Details": "Cooling pod",
     "Icon": "uixSvgIcon_ability_coolantVent"
   },
   "BonusValueA": "+50 Heat dissipation on activation",

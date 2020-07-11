@@ -1,0 +1,1044 @@
+"AbilityDef_EWS_Ping.Description.Name";"EWS PING";"EWS PING";;
+"AbilityDef_EWS_Ping.Description.Details";"ACTION: Perform a Sensor Lock on all enemies within [FloatParam1] meters, and generates [FloatParam2] Heat for the user. There is a [ActivationCooldown] round cooldown.";"ACTION: Perform a Sensor Lock on all enemies within [FloatParam1] meters, and generates [FloatParam2] Heat for the user. There is a [ActivationCooldown] round cooldown.";;
+"Ammo_FGAUSS.Description.UIName";"buck";"buck";;
+"Ammo_FGAUSS.Description.Name";"Боеприпасы рельсотрона";"Боеприпасы рельсотрона";;
+"Ammo_HGAUSS.Description.UIName";"slug";"slug";;
+"Ammo_HGAUSS.Description.Name";"Боеприпасы рельсотрона";"Боеприпасы рельсотрона";;
+"Ammunition_AC10.Description.UIName";"Norm.";"Norm.";;
+"Ammunition_AC10.Description.Name";"AC/10 Ammo";"AC/10 Ammo";;
+"Ammunition_AC10.Description.Details";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an AC/10.";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an AC/10.";;
+"Ammunition_AC2.Description.UIName";"Norm.";"Norm.";;
+"Ammunition_AC2.Description.Name";"AC/2 Ammo";"AC/2 Ammo";;
+"Ammunition_AC2.Description.Details";"Small caliber ammunition designed for long range fire in an AC/2.";"Small caliber ammunition designed for long range fire in an AC/2.";;
+"Ammunition_AC20.Description.UIName";"Norm.";"Norm.";;
+"Ammunition_AC20.Description.Name";"AC/20 Ammo";"AC/20 Ammo";;
+"Ammunition_AC20.Description.Details";"Massive rounds, designed for devastating impact, to be used in an AC/20.";"Massive rounds, designed for devastating impact, to be used in an AC/20.";;
+"Ammunition_AC20AOE.Description.UIName";"Dmg";"Dmg";;
+"Ammunition_AC20AOE.Description.Name";"AC/20 AOE Ammo";"AC/20 AOE Ammo";;
+"Ammunition_AC20AOE.Description.Details";"Massive rounds, designed for maximum AOE impact damage, to be used in a mortar.";"Massive rounds, designed for maximum AOE impact damage, to be used in a mortar.";;
+"Ammunition_AC20IAOE.Description.UIName";"Inferno";"Inferno";;
+"Ammunition_AC20IAOE.Description.Name";"AC/20 AOE Inferno Ammo";"AC/20 AOE Inferno Ammo";;
+"Ammunition_AC20IAOE.Description.Details";"Massive rounds, designed for devastating impact, to be used in an AC/20.";"Massive rounds, designed for devastating impact, to be used in an AC/20.";;
+"Ammunition_AC20SMOKE.Description.UIName";"Smoke";"Smoke";;
+"Ammunition_AC20SMOKE.Description.Name";"AC/20 AOE Smoke Ammo";"AC/20 AOE Smoke Ammo";;
+"Ammunition_AC20SMOKE.Description.Details";"Massive rounds, designed for devastating impact, to be used in an AC/20.";"Massive rounds, designed for devastating impact, to be used in an AC/20.";;
+"Ammunition_AC5.Description.UIName";"Norm.";"Norm.";;
+"Ammunition_AC5.Description.Name";"AC/5 Ammo";"AC/5 Ammo";;
+"Ammunition_AC5.Description.Details";"Moderate caliber rounds, suitable for long range fire in an AC/5.";"Moderate caliber rounds, suitable for long range fire in an AC/5.";;
+"Ammunition_AMS.Description.UIName";"Norm.";"Norm.";;
+"Ammunition_AMS.Description.Name";"AMS Ammo";"AMS Ammo";;
+"Ammunition_ECOSRM.Description.UIName";"Lava";"Lava";;
+"Ammunition_ECOSRM.Description.Name";"Lava SRM Ammo";"Lava SRM Ammo";;
+"Ammunition_ECOSRM.Description.Details";"This missile is full of lava.";"This missile is full of lava.";;
+"Ammunition_Flamer.Description.UIName";"Norm.";"Norm.";;
+"Ammunition_Flamer.Description.Name";"Flamer Ammo";"Flamer Ammo";;
+"Ammunition_Flamer.Description.Details";"Flamer Ammo. SHOULD NOT BE PURCHASABLE OR AVAILABLE!!! Flamers should have internal ammo only.";"Flamer Ammo. SHOULD NOT BE PURCHASABLE OR AVAILABLE!!! Flamers should have internal ammo only.";;
+"Ammunition_GAUSS.Description.UIName";"Norm.";"Norm.";;
+"Ammunition_GAUSS.Description.Name";"Gauss Ammo";"Gauss Ammo";;
+"Ammunition_GAUSS.Description.Details";"GAUSS Ammo";"GAUSS Ammo";;
+"Ammunition_ILRM.Description.UIName";"iLRM";"iLRM";;
+"Ammunition_ILRM.Description.Name";"iLRM";"iLRM";;
+"Ammunition_ILRM.Description.Details";"Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.";"Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.";;
+"Ammunition_intBeacon.Description.UIName";"beacon";"beacon";;
+"Ammunition_intBeacon.Description.Name";"beacon";"beacon";;
+"Ammunition_intBeacon.Description.Details";"beacon";"beacon";;
+"Ammunition_intBeacon.Effect_MortarAttackInitiativeReduced0.Name";"NUCLEAR BLAST AFFECTING INITIATIVE";"NUCLEAR BLAST AFFECTING INITIATIVE";;
+"Ammunition_intBeacon.Effect_MortarAttackAccuracyReduced1.Name";"NUCLEAR BLAST AFFECTING ACCURACY";"NUCLEAR BLAST AFFECTING ACCURACY";;
+"Ammunition_intBeacon.DesignMaskRadiation2.Name";"RADIATION";"RADIATION";;
+"Ammunition_intBeacon.Effect_MortarAttackInitiativeReduced0.Details";"Баллистический шок, тепловая волна волна от взрыва, презагрузка БЦВМ из-за электромагнитной волны, перспектива лучевой болезни пугают пилота. Потеря инициативы [AMT] на один ход.";"Баллистический шок, тепловая волна волна от взрыва, презагрузка БЦВМ из-за электромагнитной волны, перспектива лучевой болезни пугают пилота. Потеря инициативы [AMT] на один ход.";;
+"Ammunition_intBeacon.Effect_MortarAttackAccuracyReduced1.Details";"Баллистический шок, тепловая волна волна от взрыва, презагрузка БЦВМ из-за электромагнитной волны, перспектива лучевой болезни пугают пилота. Штраф к точности [AMT] на два хода.";"Баллистический шок, тепловая волна волна от взрыва, презагрузка БЦВМ из-за электромагнитной волны, перспектива лучевой болезни пугают пилота. Штраф к точности [AMT] на два хода.";;
+"Ammunition_intBeacon.DesignMaskRadiation2.Details";"Вторичная радиация от взрыва вызывает проблемы в системе охлаждения. Штраф к способности теплорассеивания [AMT].";"Вторичная радиация от взрыва вызывает проблемы в системе охлаждения. Штраф к способности теплорассеивания [AMT].";;
+"Ammunition_intLRM.Description.UIName";"LRM";"LRM";;
+"Ammunition_intLRM.Description.Name";"LRM";"LRM";;
+"Ammunition_intLRM.Description.Details";"Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.";"Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.";;
+"Ammunition_intSRM - Copy.Description.UIName";"SRM";"SRM";;
+"Ammunition_intSRM - Copy.Description.Name";"SRM";"SRM";;
+"Ammunition_intSRM - Copy.Description.Details";"Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.";"Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.";;
+"Ammunition_intSRM.Description.UIName";"SRM";"SRM";;
+"Ammunition_intSRM.Description.Name";"SRM";"SRM";;
+"Ammunition_intSRM.Description.Details";"Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.";"Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.";;
+"Ammunition_ISRM.Description.UIName";"iSRM";"iSRM";;
+"Ammunition_ISRM.Description.Name";"iSRM";"iSRM";;
+"Ammunition_ISRM.Description.Details";"Short range missiles, inferno.";"Short range missiles, inferno.";;
+"Ammunition_LaserAmmo.Description.UIName";"Acid";"Acid";;
+"Ammunition_LaserAmmo.Description.Name";"Laser Ammo";"Laser Ammo";;
+"Ammunition_LaserAmmo.Description.Details";"Chemical Laser Ammo";"Chemical Laser Ammo";;
+"Ammunition_LaserAmmo2.Description.UIName";"Ice";"Ice";;
+"Ammunition_LaserAmmo2.Description.Name";"Laser Ammo";"Laser Ammo";;
+"Ammunition_LaserAmmo2.Description.Details";"Chemical Laser Ammo";"Chemical Laser Ammo";;
+"Ammunition_LB10X.Description.UIName";"Slug";"Slug";;
+"Ammunition_LB10X.Description.Name";"LBX/10 Slug Ammo";"LBX/10 Slug Ammo";;
+"Ammunition_LB10X.Description.Details";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.";;
+"Ammunition_LB10XBuck.Description.UIName";"Buck.";"Buck.";;
+"Ammunition_LB10XBuck.Description.Name";"LBX/10 Buckshot Ammo";"LBX/10 Buckshot Ammo";;
+"Ammunition_LB10XBuck.Description.Details";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.";;
+"Ammunition_LB2X.Description.Name";"LB 2-X Ammo";"LB 2-X Ammo";;
+"Ammunition_LB2X.Description.Details";"Small caliber cluster ammunition designed for long range fire in an LB 2-X.";"Small caliber cluster ammunition designed for long range fire in an LB 2-X.";;
+"Ammunition_LBX10.Description.UIName";"Slug";"Slug";;
+"Ammunition_LBX10.Description.Name";"LBX/10 Slug Ammo";"LBX/10 Slug Ammo";;
+"Ammunition_LBX10.Description.Details";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.";;
+"Ammunition_LBX10Buck.Description.UIName";"Buck.";"Buck.";;
+"Ammunition_LBX10Buck.Description.Name";"LBX/10 Buckshot Ammo";"LBX/10 Buckshot Ammo";;
+"Ammunition_LBX10Buck.Description.Details";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.";;
+"Ammunition_LBX10ECM.Description.UIName";"ECM";"ECM";;
+"Ammunition_LBX10ECM.Description.Name";"LBX/10 ECM Ammo";"LBX/10 ECM Ammo";;
+"Ammunition_LBX10ECM.Description.Details";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/10.";;
+"Ammunition_LBX2Buck.Description.UIName";"Buck.";"Buck.";;
+"Ammunition_LBX2Buck.Description.Name";"LBX/2 Buckshot Ammo";"LBX/2 Buckshot Ammo";;
+"Ammunition_LBX2Buck.Description.Details";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/2.";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/2.";;
+"Ammunition_LBX2Slug.Description.UIName";"Slug.";"Slug.";;
+"Ammunition_LBX2Slug.Description.Name";"LBX/2 Slug Ammo";"LBX/2 Slug Ammo";;
+"Ammunition_LBX2Slug.Description.Details";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/2.";"Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/2.";;
+"Ammunition_LGAUSS.Description.UIName";"Normal";"Normal";;
+"Ammunition_LGAUSS.Description.Name";"Light Gauss Ammo";"Light Gauss Ammo";;
+"Ammunition_LRM.Description.UIName";"LRM";"LRM";;
+"Ammunition_LRM.Description.Name";"LRM";"LRM";;
+"Ammunition_LRM.Description.Details";"Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.";"Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.";;
+"Ammunition_LRMAOE.Description.UIName";"AOE";"AOE";;
+"Ammunition_LRMAOE.Description.Name";"LRM AOE Ammo";"LRM AOE Ammo";;
+"Ammunition_LRMAOE.Description.Details";"Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.";"Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.";;
+"Ammunition_LRSRM.Description.UIName";"ER";"ER";;
+"Ammunition_LRSRM.Description.Name";"Extend range SRM Ammo";"Extend range SRM Ammo";;
+"Ammunition_LRSRM.Description.Details";"Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.";"Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.";;
+"Ammunition_MG.Description.UIName";"Norm.";"Norm.";;
+"Ammunition_MG.Description.Name";"MG Ammo";"MG Ammo";;
+"Ammunition_MG.Description.Details";"Large bore belted ammunition for 'Mech-mounted machine guns.";"Large bore belted ammunition for 'Mech-mounted machine guns.";;
+"Ammunition_MORTAR.Description.UIName";"nuke";"nuke";;
+"Ammunition_MORTAR.Description.Name";"Tactical Nuclear Ammo";"Tactical Nuclear Ammo";;
+"Ammunition_MORTAR.Description.Details";"Боеприпас для нанесения тактического ядерного удара по крупным целям и скоплениям сил противника. Наиболее эффективное и разрушительное средство, доступное артиллерии.";"Боеприпас для нанесения тактического ядерного удара по крупным целям и скоплениям сил противника. Наиболее эффективное и разрушительное средство, доступное артиллерии.";;
+"Ammunition_Narc.Description.UIName";"NARC";"NARC";;
+"Ammunition_Narc.Description.Name";"NARC";"NARC";;
+"Ammunition_Narc.Description.Details";"NARC";"NARC";;
+"Ammunition_SRM.Description.UIName";"SRM";"SRM";;
+"Ammunition_SRM.Description.Name";"SRM";"SRM";;
+"Ammunition_SRM.Description.Details";"Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.";"Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.";;
+"Ammunition_SSRM.Description.UIName";"Shells";"Shells";;
+"Ammunition_SSRM.Description.Name";"Separated SRM Ammo";"Separated SRM Ammo";;
+"Ammunition_SSRM.Description.Details";"Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.";"Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.";;
+"Ammunition_Thunder.Description.UIName";"Thunder";"Thunder";;
+"Ammunition_Thunder.Description.Name";"Thunder Ammo";"Thunder Ammo";;
+"Ammunition_Thunder.Description.Details";"Thunder";"Thunder";;
+"Ammunition_WIRLWIND.Description.UIName";"frag";"frag";;
+"Ammunition_WIRLWIND.Description.Name";"WIRLWIND Ammo";"WIRLWIND Ammo";;
+"Ammunition_WIRLWIND.Description.Details";"Oсколочные ракеты к пусковым установкам 'Вихрь'.";"Oсколочные ракеты к пусковым установкам 'Вихрь'.";;
+"Ammunition_WIRLWIND_E.Description.UIName";"expl";"expl";;
+"Ammunition_WIRLWIND_E.Description.Name";"WIRLWIND Ammo";"WIRLWIND Ammo";;
+"Ammunition_WIRLWIND_E.Description.Details";"Oсколочные ракеты к пусковым установкам 'Вихрь'.";"Oсколочные ракеты к пусковым установкам 'Вихрь'.";;
+"LRMInternal.Description.UIName";"LRM";"LRM";;
+"LRMInternal.Description.Name";"LRM";"LRM";;
+"LRMInternal.Description.Details";"Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.";"Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.";;
+"Ammo_AmmunitionBox_FGAUSS.Description.UIName";"Railgun ammo. Buckshot";"Railgun ammo. Buckshot";;
+"Ammo_AmmunitionBox_FGAUSS.Description.Name";"Railgun ammo. Buckshot";"Railgun ammo. Buckshot";;
+"Ammo_AmmunitionBox_FGAUSS.Description.Details";"Боеприпасы рельсотрона. 16 зарядов. В каждом заряде 6 частей.";"Боеприпасы рельсотрона. 16 зарядов. В каждом заряде 6 частей.";;
+"Ammo_AmmunitionBox_Generic_AC20AOE.Description.UIName";"AC/20 AOE Ammo";"AC/20 AOE Ammo";;
+"Ammo_AmmunitionBox_Generic_AC20AOE.Description.Name";"AC/20 AOE Ammo";"AC/20 AOE Ammo";;
+"Ammo_AmmunitionBox_Generic_AC20AOE.Description.Details";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. AC/20 Ammo Bins each contain 5 rounds and may feed multiple weapons.";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. AC/20 Ammo Bins each contain 5 rounds and may feed multiple weapons.";;
+"Ammo_AmmunitionBox_Generic_AC20IAOE.Description.UIName";"AC/20 AOE Inferno Ammo";"AC/20 AOE Inferno Ammo";;
+"Ammo_AmmunitionBox_Generic_AC20IAOE.Description.Name";"AC/20 AOE Inferno Ammo";"AC/20 AOE Inferno Ammo";;
+"Ammo_AmmunitionBox_Generic_AC20IAOE.Description.Details";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. AC/20 Ammo Bins each contain 5 rounds and may feed multiple weapons.";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. AC/20 Ammo Bins each contain 5 rounds and may feed multiple weapons.";;
+"Ammo_AmmunitionBox_Generic_AC20SMOKE.Description.UIName";"AC/20 AOE Smoke Ammo";"AC/20 AOE Smoke Ammo";;
+"Ammo_AmmunitionBox_Generic_AC20SMOKE.Description.Name";"AC/20 AOE Smoke Ammo";"AC/20 AOE Smoke Ammo";;
+"Ammo_AmmunitionBox_Generic_AC20SMOKE.Description.Details";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. AC/20 Ammo Bins each contain 5 rounds and may feed multiple weapons.";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. AC/20 Ammo Bins each contain 5 rounds and may feed multiple weapons.";;
+"Ammo_AmmunitionBox_Generic_ECOSRM.Description.UIName";"Lava SRM Ammo";"Lava SRM Ammo";;
+"Ammo_AmmunitionBox_Generic_ECOSRM.Description.Name";"Lava SRM Ammo";"Lava SRM Ammo";;
+"Ammo_AmmunitionBox_Generic_ECOSRM.Description.Details";"This missiles is full of lava.";"This missiles is full of lava.";;
+"Ammo_AmmunitionBox_Generic_ILRM.Description.UIName";"iLRM";"iLRM";;
+"Ammo_AmmunitionBox_Generic_ILRM.Description.Name";"Inferno LRM Ammo";"Inferno LRM Ammo";;
+"Ammo_AmmunitionBox_Generic_ILRM.Description.Details";"Inferno LRM";"Inferno LRM";;
+"Ammo_AmmunitionBox_Generic_ISRM.Description.UIName";"iSRM";"iSRM";;
+"Ammo_AmmunitionBox_Generic_ISRM.Description.Name";"Inferno SRM Ammo";"Inferno SRM Ammo";;
+"Ammo_AmmunitionBox_Generic_ISRM.Description.Details";"Inferno SRM";"Inferno SRM";;
+"Ammo_AmmunitionBox_Generic_Laser.Description.UIName";"Chemical Laser Ammo";"Chemical Laser Ammo";;
+"Ammo_AmmunitionBox_Generic_Laser.Description.Name";"Chemical Laser Ammo";"Chemical Laser Ammo";;
+"Ammo_AmmunitionBox_Generic_Laser.Description.Details";"An ammo bin modified to be a chemical resevoir for a laser that obtains its energy from a chemical reaction. Chemical laser ammo bins each contain <color=#F79232><b>25 rounds</b></color> and may feed multiple weapons.
+
+Targets hit by these lasers will receive 20% more damage for 2 turns.
+
+<color=#d9d9d9><b>Ammunition type can be changed by clicking the center of the weapons activation panel during combat.</b></color>.";"An ammo bin modified to be a chemical resevoir for a laser that obtains its energy from a chemical reaction. Chemical laser ammo bins each contain <color=#F79232><b>25 rounds</b></color> and may feed multiple weapons.
+
+Targets hit by these lasers will receive 20% more damage for 2 turns.
+
+<color=#d9d9d9><b>Ammunition type can be changed by clicking the center of the weapons activation panel during combat.</b></color>.";;
+"Ammo_AmmunitionBox_Generic_Laser2.Description.UIName";"Cryo Laser Ammo";"Cryo Laser Ammo";;
+"Ammo_AmmunitionBox_Generic_Laser2.Description.Name";"Cryo Laser Ammo";"Cryo Laser Ammo";;
+"Ammo_AmmunitionBox_Generic_Laser2.Description.Details";"An ammo bin modified to be a chemical resevoir for a laser that obtains its energy from a chemical reaction. Chemical laser ammo bins each contain <color=#F79232><b>25 rounds</b></color> and may feed multiple weapons.
+
+Targets hit by these lasers will have reduced movement speed for 2 turns.
+
+<color=#d9d9d9><b>Ammunition type can be changed by clicking the center of the weapons activation panel during combat.</b></color>.";"An ammo bin modified to be a chemical resevoir for a laser that obtains its energy from a chemical reaction. Chemical laser ammo bins each contain <color=#F79232><b>25 rounds</b></color> and may feed multiple weapons.
+
+Targets hit by these lasers will have reduced movement speed for 2 turns.
+
+<color=#d9d9d9><b>Ammunition type can be changed by clicking the center of the weapons activation panel during combat.</b></color>.";;
+"Ammo_AmmunitionBox_Generic_LB10X.Description.UIName";"LB10X slug ammo";"LB10X slug ammo";;
+"Ammo_AmmunitionBox_Generic_LB10X.Description.Name";"LB10X slug ammo";"LB10X slug ammo";;
+"Ammo_AmmunitionBox_Generic_LB10X.Description.Details";"LB10X slug ammo";"LB10X slug ammo";;
+"Ammo_AmmunitionBox_Generic_LB10XBuck.Description.UIName";"LB10X buckshot ammo";"LB10X buckshot ammo";;
+"Ammo_AmmunitionBox_Generic_LB10XBuck.Description.Name";"LB10X buckshot ammo";"LB10X buckshot ammo";;
+"Ammo_AmmunitionBox_Generic_LB10XBuck.Description.Details";"LB10X buckshot ammo";"LB10X buckshot ammo";;
+"Ammo_AmmunitionBox_Generic_LBX10.Description.UIName";"LBX10 Slug Ammo";"LBX10 Slug Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX10.Description.Name";"LBX10 Slug Ammo";"LBX10 Slug Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX10.Description.Details";"LBX10 Slug Ammo";"LBX10 Slug Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX10Buck.Description.UIName";"LBX10 Buckshot Ammo";"LBX10 Buckshot Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX10Buck.Description.Name";"LBX10 Buckshot Ammo";"LBX10 Buckshot Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX10Buck.Description.Details";"LBX10 Buckshot Ammo";"LBX10 Buckshot Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX10ECM.Description.UIName";"LBX10 ECM Ammo";"LBX10 ECM Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX10ECM.Description.Name";"LBX10 ECM Ammo";"LBX10 ECM Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX10ECM.Description.Details";"LBX10 ECM Ammo";"LBX10 ECM Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX2.Description.UIName";"LBX2 Slug Ammo";"LBX2 Slug Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX2.Description.Name";"LBX2 Slug Ammo";"LBX2 Slug Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX2.Description.Details";"LBX2 Slug Ammo";"LBX2 Slug Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX2Buck.Description.UIName";"LBX2 Buckshot Ammo";"LBX2 Buckshot Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX2Buck.Description.Name";"LBX2 Buckshot Ammo";"LBX2 Buckshot Ammo";;
+"Ammo_AmmunitionBox_Generic_LBX2Buck.Description.Details";"LBX2 Buckshot Ammo";"LBX2 Buckshot Ammo";;
+"Ammo_AmmunitionBox_Generic_LGAUSS.Description.UIName";"Light Gauss Ammo";"Light Gauss Ammo";;
+"Ammo_AmmunitionBox_Generic_LGAUSS.Description.Name";"Light Gauss Ammo";"Light Gauss Ammo";;
+"Ammo_AmmunitionBox_Generic_LGAUSS.Description.Details";"Light Gauss Ammo. 16.";"Light Gauss Ammo. 16.";;
+"Ammo_AmmunitionBox_Generic_LRM.Description.UIName";"LRM Ammo";"LRM Ammo";;
+"Ammo_AmmunitionBox_Generic_LRM.Description.Name";"LRM Ammo";"LRM Ammo";;
+"Ammo_AmmunitionBox_Generic_LRM.Description.Details";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.
+
+LRM Ammo Bins each contain 120 rounds and may feed multiple weapons.";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.
+
+LRM Ammo Bins each contain 120 rounds and may feed multiple weapons.";;
+"Ammo_AmmunitionBox_Generic_LRMAOE.Description.UIName";"AOE LRM AMMO";"AOE LRM AMMO";;
+"Ammo_AmmunitionBox_Generic_LRMAOE.Description.Name";"AOE LRM Ammo";"AOE LRM Ammo";;
+"Ammo_AmmunitionBox_Generic_LRMAOE.Description.Details";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. SRM Ammo Bins each contain 100 rounds and may feed multiple weapons.";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. SRM Ammo Bins each contain 100 rounds and may feed multiple weapons.";;
+"Ammo_AmmunitionBox_Generic_LRSRM.Description.UIName";"Extended range SRM Ammo";"Extended range SRM Ammo";;
+"Ammo_AmmunitionBox_Generic_LRSRM.Description.Name";"ER SRM Ammo";"ER SRM Ammo";;
+"Ammo_AmmunitionBox_Generic_LRSRM.Description.Details";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. SRM Ammo Bins each contain 100 rounds and may feed multiple weapons.";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. SRM Ammo Bins each contain 100 rounds and may feed multiple weapons.";;
+"Ammo_AmmunitionBox_Generic_MORTAR.Description.UIName";"Tactical Nuclear Ammo";"Tactical Nuclear Ammo";;
+"Ammo_AmmunitionBox_Generic_MORTAR.Description.Name";"Tactical Nuclear Ammo";"Tactical Nuclear Ammo";;
+"Ammo_AmmunitionBox_Generic_MORTAR.Description.Details";"Боеприпас для нанесения тактического ядерного удара по крупным целям и скоплениям сил противника. Наиболее эффективное и разрушительное средство, доступное артиллерии. Используется артустановками Hellhammer. 10 зарядов.";"Боеприпас для нанесения тактического ядерного удара по крупным целям и скоплениям сил противника. Наиболее эффективное и разрушительное средство, доступное артиллерии. Используется артустановками Hellhammer. 10 зарядов.";;
+"Ammo_AmmunitionBox_Generic_SRM.Description.UIName";"SRM Ammo";"SRM Ammo";;
+"Ammo_AmmunitionBox_Generic_SRM.Description.Name";"SRM Ammo";"SRM Ammo";;
+"Ammo_AmmunitionBox_Generic_SRM.Description.Details";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. SRM Ammo Bins each contain 100 rounds and may feed multiple weapons.";"Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. SRM Ammo Bins each contain 100 rounds and may feed multiple weapons.";;
+"Ammo_AmmunitionBox_Generic_SSRM.Description.UIName";"Shells SRM Ammo";"Shells SRM Ammo";;
+"Ammo_AmmunitionBox_Generic_SSRM.Description.Name";"Shells SRM Ammo";"Shells SRM Ammo";;
+"Ammo_AmmunitionBox_Generic_SSRM.Description.Details";"Shells SRM";"Shells SRM";;
+"Ammo_AmmunitionBox_Generic_Thunder.Description.UIName";"Thunder Ammo";"Thunder Ammo";;
+"Ammo_AmmunitionBox_Generic_Thunder.Description.Name";"Thunder Ammo";"Thunder Ammo";;
+"Ammo_AmmunitionBox_Generic_Thunder.Description.Details";"Thunder";"Thunder";;
+"Ammo_AmmunitionBox_Generic_Wirlwind.Description.UIName";"Wirlwind Ammo";"Wirlwind Ammo";;
+"Ammo_AmmunitionBox_Generic_Wirlwind.Description.Name";"Wirlwind Ammo";"Wirlwind Ammo";;
+"Ammo_AmmunitionBox_Generic_Wirlwind.Description.Details";"Боеприпасы для пусковых установок 'Вихрь'. 120 ракет.";"Боеприпасы для пусковых установок 'Вихрь'. 120 ракет.";;
+"Ammo_AmmunitionBox_Generic_Wirlwind_E.Description.UIName";"Wirlwind Ammo High Explosion";"Wirlwind Ammo High Explosion";;
+"Ammo_AmmunitionBox_Generic_Wirlwind_E.Description.Name";"Wirlwind Ammo HE";"Wirlwind Ammo HE";;
+"Ammo_AmmunitionBox_Generic_Wirlwind_E.Description.Details";"Боеприпасы для пусковых установок 'Вихрь'. Боеголовки объемного горения. 40 ракет.";"Боеприпасы для пусковых установок 'Вихрь'. Боеголовки объемного горения. 40 ракет.";;
+"Ammo_AmmunitionBox_HGAUSS.Description.UIName";"Railgun ammo";"Railgun ammo";;
+"Ammo_AmmunitionBox_HGAUSS.Description.Name";"Railgun ammo";"Railgun ammo";;
+"Ammo_AmmunitionBox_HGAUSS.Description.Details";"Боеприпасы рельсотрона. 16 болванок";"Боеприпасы рельсотрона. 16 болванок";;
+"chassisdef_kingcrab_KGC-A.Description.Details";"One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.";"One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.";;
+"chassisdef_kingcrab_KGC-A.StockRole";"Juggernaut & Close Assault";"Juggernaut & Close Assault";;
+"chassisdef_kingcrab_KGC-A.YangsThoughts";"One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.";"One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.";;
+"chassisdef_panther_PNT-9S.Description.Details";"Panther 9Rs are solid all-around 'Mechs, if a bit on the slow side. They make up for it with Jump Jets, considerable armor, and a hefty punch from their trademark PPC. They've even been used in physical slugging matches to good effect.";"Panther 9Rs are solid all-around 'Mechs, if a bit on the slow side. They make up for it with Jump Jets, considerable armor, and a hefty punch from their trademark PPC. They've even been used in physical slugging matches to good effect.";;
+"chassisdef_panther_PNT-9S.StockRole";"Sniper & Light Brawler";"Sniper & Light Brawler";;
+"chassisdef_panther_PNT-9S.YangsThoughts";"Panther 9Rs are solid all-around 'Mechs, if a bit on the slow side. They make up for it with Jump Jets, considerable armor, and a hefty punch from their trademark PPC. They've even been used in physical slugging matches to good effect.";"Panther 9Rs are solid all-around 'Mechs, if a bit on the slow side. They make up for it with Jump Jets, considerable armor, and a hefty punch from their trademark PPC. They've even been used in physical slugging matches to good effect.";;
+"chassisdef_shadowhawk_SHD-KM.Description.Details";"The Shadow Hawk KM is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so… I guess you can be the judge.";"The Shadow Hawk KM is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so… I guess you can be the judge.";;
+"chassisdef_shadowhawk_SHD-KM.StockRole";"Striker Cavalry";"Striker Cavalry";;
+"chassisdef_shadowhawk_SHD-KM.YangsThoughts";"The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so… I guess you can be the judge.";"The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so… I guess you can be the judge.";;
+"chassisdef_urbanmech_UM-KM.Description.Details";"The UM-KM 'SuburbanMech' adapts the traditional UrbanMech R60 into an energy weapon platform for higher performance. Because its weapons aren't limited by ammunition concerns, the R90 is better-suited to longer engagements.";"The UM-KM 'SuburbanMech' adapts the traditional UrbanMech R60 into an energy weapon platform for higher performance. Because its weapons aren't limited by ammunition concerns, the R90 is better-suited to longer engagements.";;
+"chassisdef_urbanmech_UM-KM.StockRole";"Heavy Defender";"Heavy Defender";;
+"chassisdef_urbanmech_UM-KM.YangsThoughts";"This is an UrbanMech variant I've never even heard of before. It's got the same armor as a standard R60, but this R90 is armed entirely with energy weapons, including a PPC for long-range power. I'm not sure why nobody thought of this sooner.";"This is an UrbanMech variant I've never even heard of before. It's got the same armor as a standard R60, but this R90 is armed entirely with energy weapons, including a PPC for long-range power. I'm not sure why nobody thought of this sooner.";;
+"tournament_1_3wayBattle.contractName";"Tournament of Champions";"Tournament of Champions";;
+"tournament_1_3wayBattle.shortDescription";"Welcome to my Tournament, Commander. Here you will prove your mettle against the Periphery's fiercest champions. Today, your MechWarriors will demonstrate their worth using only the simplest of tools: the UM-R60 UrbanMech. Like a huntsman's spear, it is an instrument with a single purpose. Wield it skillfully, and ascend into triumph.";"Welcome to my Tournament, Commander. Here you will prove your mettle against the Periphery's fiercest champions. Today, your MechWarriors will demonstrate their worth using only the simplest of tools: the UM-R60 UrbanMech. Like a huntsman's spear, it is an instrument with a single purpose. Wield it skillfully, and ascend into triumph.";;
+"tournament_1_3wayBattle.longDescription";"An Urbie is basically a walking dustbin with a mounted AC/10. That autocannon packs a hell of a punch, but it's got only 8 shots. Keep an eye on those ammo counters, {COMMANDER.FirstName}.";"An Urbie is basically a walking dustbin with a mounted AC/10. That autocannon packs a hell of a punch, but it's got only 8 shots. Keep an eye on those ammo counters, {COMMANDER.FirstName}.";;
+"tournament_1_3wayBattle.objectiveList0.title";"Eliminate ""Limpet"" Saito and his brother Jake";"Eliminate ""Limpet"" Saito and his brother Jake";;
+"tournament_1_3wayBattle.objectiveList1.title";"Eliminate Alexa ""Jackhammer"" Jones";"Eliminate Alexa ""Jackhammer"" Jones";;
+"tournament_1_3wayBattle.objectiveList2.title";"Objective_Empty_HiddenFlag_HostileToAllChunkActive";"Objective_Empty_HiddenFlag_HostileToAllChunkActive";;
+"tournament_1_3wayBattle.objectiveList3.title";"Hidden Hostile to All Drop Timer";"Hidden Hostile to All Drop Timer";;
+"tournament_1_3wayBattle.objectiveList4.title";"Hidden Hostile to ALL AI Timer";"Hidden Hostile to ALL AI Timer";;
+"tournament_1_3wayBattle.objectiveList5.title";"Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces";"Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces";;
+"tournament_1_3wayBattle.objectiveList6.title";"Objective_Empty_HostileToAll_Flag_Secondary";"Objective_Empty_HostileToAll_Flag_Secondary";;
+"tournament_1_3wayBattle.objectiveList7.title";"Hidden Hostile to All Drop Timer";"Hidden Hostile to All Drop Timer";;
+"tournament_1_3wayBattle.objectiveList8.title";"Hidden Hostile to ALL AI Timer";"Hidden Hostile to ALL AI Timer";;
+"tournament_1_3wayBattle.objectiveList9.title";"Destroy Additional Enemy Forces";"Destroy Additional Enemy Forces";;
+"tournament_1_3wayBattle.objectiveList10.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_1_3wayBattle.objectiveList11.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_1_3wayBattle.objectiveList12.title";"Empty Do Additonal Forces Primary Autocomplete Flag";"Empty Do Additonal Forces Primary Autocomplete Flag";;
+"tournament_1_3wayBattle.objectiveList13.title";"Destroy Additional Enemy Forces";"Destroy Additional Enemy Forces";;
+"tournament_1_3wayBattle.objectiveList14.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_1_3wayBattle.objectiveList15.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_1_3wayBattle.objectiveList16.title";"Empty Do Additonal Forces Secondary Autocomplete Flag";"Empty Do Additonal Forces Secondary Autocomplete Flag";;
+"tournament_1_3wayBattle.objectiveList17.title";"Destroy Additional Enemy Reinforcements";"Destroy Additional Enemy Reinforcements";;
+"tournament_1_3wayBattle.objectiveList18.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_1_3wayBattle.objectiveList19.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_1_3wayBattle.objectiveList20.title";"Empty Do Additonal Forces 2 Primary Autocomplete Flag";"Empty Do Additonal Forces 2 Primary Autocomplete Flag";;
+"tournament_1_3wayBattle.objectiveList21.title";"Destroy Additional Enemy Reinforcements";"Destroy Additional Enemy Reinforcements";;
+"tournament_1_3wayBattle.objectiveList22.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_1_3wayBattle.objectiveList23.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_1_3wayBattle.objectiveList24.title";"Empty Do Additonal Forces 2 Secondary Autocomplete Flag";"Empty Do Additonal Forces 2 Secondary Autocomplete Flag";;
+"tournament_1_3wayBattle.objectiveList25.title";"Destroy Additional Enemy Allied Reinforcements";"Destroy Additional Enemy Allied Reinforcements";;
+"tournament_1_3wayBattle.objectiveList26.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_1_3wayBattle.objectiveList27.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_1_3wayBattle.objectiveList28.title";"Empty Do Additonal Forces Primary Autocomplete Flag";"Empty Do Additonal Forces Primary Autocomplete Flag";;
+"tournament_1_3wayBattle.objectiveList29.title";"Destroy Additional Enemy Allied Reinforcements";"Destroy Additional Enemy Allied Reinforcements";;
+"tournament_1_3wayBattle.objectiveList30.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_1_3wayBattle.objectiveList31.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_1_3wayBattle.objectiveList32.title";"Empty Do Additonal Forces Secondary Autocomplete Flag";"Empty Do Additonal Forces Secondary Autocomplete Flag";;
+"tournament_1_3wayBattle.objectiveList33.title";"Eliminate Basilisk Jackson and ""Whispers"" Aganos";"Eliminate Basilisk Jackson and ""Whispers"" Aganos";;
+"tournament_1_3wayBattle.objectiveList34.title";"Objective_Empty_HasSeenEnemyAllyLance_Primary";"Objective_Empty_HasSeenEnemyAllyLance_Primary";;
+"tournament_1_3wayBattle.objectiveList35.title";"Destroy the Enemy Allied Forces";"Destroy the Enemy Allied Forces";;
+"tournament_1_3wayBattle.objectiveList36.title";"Objective_Empty_HasSeenEnemyAllyLance_Secondary";"Objective_Empty_HasSeenEnemyAllyLance_Secondary";;
+"tournament_1_3wayBattle.objectiveList37.title";"All of {COMPANY.CompanyName} Lance must survive";"All of {COMPANY.CompanyName} Lance must survive";;
+"tournament_1_3wayBattle.objectiveList38.title";"All of {COMPANY.CompanyName} Lance must survive";"All of {COMPANY.CompanyName} Lance must survive";;
+"tournament_1_3wayBattle.objectiveList39.title";"Unit one of {COMPANY.CompanyName} must survive";"Unit one of {COMPANY.CompanyName} must survive";;
+"tournament_1_3wayBattle.objectiveList40.title";"Unit one of {COMPANY.CompanyName} must survive";"Unit one of {COMPANY.CompanyName} must survive";;
+"tournament_1_3wayBattle.objectiveList41.title";"Get to the evac zone";"Get to the evac zone";;
+"tournament_1_3wayBattle.objectiveList42.title";"Objective_Empty_FirstContractFlag";"Objective_Empty_FirstContractFlag";;
+"tournament_1_3wayBattle.objectiveList43.title";"Hidden Open Player Evac Objective";"Hidden Open Player Evac Objective";;
+"tournament_1_3wayBattle.objectiveList44.title";"OFF";"OFF";;
+"tournament_1_3wayBattle.objectiveList45.title";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_1_3wayBattle.objectiveList46.title";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";;
+"tournament_1_3wayBattle.objectiveList47.title";"Empty_Employer_IsActiveFlag_Primary";"Empty_Employer_IsActiveFlag_Primary";;
+"tournament_1_3wayBattle.objectiveList48.title";"OFF";"OFF";;
+"tournament_1_3wayBattle.objectiveList49.title";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_1_3wayBattle.objectiveList50.title";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";;
+"tournament_1_3wayBattle.objectiveList51.title";"Empty_Employer_IsActiveFlag_Secondary";"Empty_Employer_IsActiveFlag_Secondary";;
+"tournament_1_3wayBattle.objectiveList52.title";"OFF";"OFF";;
+"tournament_1_3wayBattle.objectiveList53.title";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_1_3wayBattle.objectiveList54.title";"Escort friendlies to evac point";"Escort friendlies to evac point";;
+"tournament_1_3wayBattle.objectiveList55.title";"Empty_EmployerAlly_IsActiveFlag_Primary";"Empty_EmployerAlly_IsActiveFlag_Primary";;
+"tournament_1_3wayBattle.objectiveList56.title";"OFF";"OFF";;
+"tournament_1_3wayBattle.objectiveList57.title";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_1_3wayBattle.objectiveList58.title";"Escort friendlies to evac point";"Escort friendlies to evac point";;
+"tournament_1_3wayBattle.objectiveList59.title";"Empty_EmployerAlly_IsActiveFlag_Secondary";"Empty_EmployerAlly_IsActiveFlag_Secondary";;
+"tournament_1_3wayBattle.objectiveList60.title";"AllPrimaryTargetsDestroyedFlag";"AllPrimaryTargetsDestroyedFlag";;
+"tournament_1_3wayBattle.objectiveList61.title";"TimerObjective_HostileToAll_Primary";"TimerObjective_HostileToAll_Primary";;
+"tournament_1_3wayBattle.objectiveList62.title";"TimerObjective_HostileToAll_Secondary";"TimerObjective_HostileToAll_Secondary";;
+"tournament_1_3wayBattle.objectiveList63.title";"TimerObjective_1RoundSafety_AddForces_Primary";"TimerObjective_1RoundSafety_AddForces_Primary";;
+"tournament_1_3wayBattle.objectiveList64.title";"TimerObjective_1RoundSafety_AddForces_Secondary";"TimerObjective_1RoundSafety_AddForces_Secondary";;
+"tournament_1_3wayBattle.objectiveList65.title";"TimerObjective_1RoundSafety_AddForces2_Primary";"TimerObjective_1RoundSafety_AddForces2_Primary";;
+"tournament_1_3wayBattle.objectiveList66.title";"TimerObjective_1RoundSafety_AddForces2_Secondary";"TimerObjective_1RoundSafety_AddForces2_Secondary";;
+"tournament_1_3wayBattle.objectiveList67.title";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Primary";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Primary";;
+"tournament_1_3wayBattle.objectiveList68.title";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";;
+"tournament_1_3wayBattle.objectiveList69.title";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";;
+"tournament_1_3wayBattle.objectiveList0.description";"ATTN ANDREW";"ATTN ANDREW";;
+"tournament_1_3wayBattle.objectiveList1.description";"ATTN ANDREW (this is hostile to all)";"ATTN ANDREW (this is hostile to all)";;
+"tournament_1_3wayBattle.objectiveList33.description";"ATTN ANDREW";"ATTN ANDREW";;
+"tournament_1_3wayBattle.dialogueList0.dialogueContent0.words";"MECHWARRIORS! You stand alone in the carcass of an abandoned city. This sepulchre of commerce is now reborn as a hunting ground and field of battle, all at the command of my master, PROFESSOR MENCIUS HORVAT!";"MECHWARRIORS! You stand alone in the carcass of an abandoned city. This sepulchre of commerce is now reborn as a hunting ground and field of battle, all at the command of my master, PROFESSOR MENCIUS HORVAT!";;
+"tournament_1_3wayBattle.dialogueList0.dialogueContent1.words";"You honor me, Gigante! I am pleased. To our guests, I bid you welcome! Ready yourselves to test your might in my TOURNAMENT OF CHAMPIONS!";"You honor me, Gigante! I am pleased. To our guests, I bid you welcome! Ready yourselves to test your might in my TOURNAMENT OF CHAMPIONS!";;
+"tournament_1_3wayBattle.dialogueList0.dialogueContent2.words";"Commander {COMMANDER.LastName}, today your lance will face off against four of the deadliest killers the Rimward Periphery has to offer. Two of these terrors stand before you now; the rest lurk in the shadows like predators on the hunt, waiting for an exposed flank or a bared throat. If you drop your guard, they'll eat you alive.";"Commander {COMMANDER.LastName}, today your lance will face off against four of the deadliest killers the Rimward Periphery has to offer. Two of these terrors stand before you now; the rest lurk in the shadows like predators on the hunt, waiting for an exposed flank or a bared throat. If you drop your guard, they'll eat you alive.";;
+"tournament_1_3wayBattle.dialogueList0.dialogueContent3.words";"They won't get the chance, Professor Horvat. I will butcher these amateurs before your ""lurking predators"" even show their faces. I am the Terror of Fronc! The <i>Scourge of Sacromonte</i>! I AM ""LIMPET"" SAITO!";"They won't get the chance, Professor Horvat. I will butcher these amateurs before your ""lurking predators"" even show their faces. I am the Terror of Fronc! The <i>Scourge of Sacromonte</i>! I AM ""LIMPET"" SAITO!";;
+"tournament_1_3wayBattle.dialogueList0.dialogueContent4.words";"And I'm his brother, Jake!";"And I'm his brother, Jake!";;
+"tournament_1_3wayBattle.dialogueList0.dialogueContent5.words";"Gods. This is like something out of a Brock Armstrong flick.";"Gods. This is like something out of a Brock Armstrong flick.";;
+"tournament_1_3wayBattle.dialogueList0.dialogueContent6.words";"I know! It's great!";"I know! It's great!";;
+"tournament_1_3wayBattle.dialogueList0.dialogueContent7.words";"And so, the table is set. At one end, Commander {COMMANDER.LastName}'s battle-hardened mercenaries. At the other, a throng of deadly lone wolves, each bound to the other by their shared lust for victory! Let the air be filled with the bark of autocannon fire! Let the ground THUNDER with your approach! LET THE TOURNAMENT BEGIN!";"And so, the table is set. At one end, Commander {COMMANDER.LastName}'s battle-hardened mercenaries. At the other, a throng of deadly lone wolves, each bound to the other by their shared lust for victory! Let the air be filled with the bark of autocannon fire! Let the ground THUNDER with your approach! LET THE TOURNAMENT BEGIN!";;
+"tournament_1_3wayBattle.dialogueList1.dialogueContent0.words";"Well done, Commander {COMMANDER.LastName}! Very well done indeed. You have taken this round and vanquished your foes.";"Well done, Commander {COMMANDER.LastName}! Very well done indeed. You have taken this round and vanquished your foes.";;
+"tournament_1_3wayBattle.dialogueList1.dialogueContent1.words";"I haven't tapped out yet, Horvat! You'll never hear me yield!";"I haven't tapped out yet, Horvat! You'll never hear me yield!";;
+"tournament_1_3wayBattle.dialogueList1.dialogueContent2.words";"You don't need to yield. You've lost. And you'll be spending the remainder of this tournament in a holding cell.";"You don't need to yield. You've lost. And you'll be spending the remainder of this tournament in a holding cell.";;
+"tournament_1_3wayBattle.dialogueList1.dialogueContent3.words";"Thank you, Gigante. To this round's victors, I invite you to bask in your triumph, but prepare yourselves. Tomorrow, you face the ultimate challenge. Tomorrow, your true test begins!";"Thank you, Gigante. To this round's victors, I invite you to bask in your triumph, but prepare yourselves. Tomorrow, you face the ultimate challenge. Tomorrow, your true test begins!";;
+"tournament_1_3wayBattle.dialogueList2.dialogueContent0.words";"A terrible shame, Commander. Your MechWarriors have been eliminated. Your time in this contest is over.";"A terrible shame, Commander. Your MechWarriors have been eliminated. Your time in this contest is over.";;
+"tournament_1_3wayBattle.dialogueList3.dialogueContent0.words";"PLACEHOLDER. New contacts on sesnors, Commander. These units don't match {TEAM_TAR.FactionDef.ShortName} signatures. We've got a new player on the field.";"PLACEHOLDER. New contacts on sesnors, Commander. These units don't match {TEAM_TAR.FactionDef.ShortName} signatures. We've got a new player on the field.";;
+"tournament_1_3wayBattle.dialogueList4.dialogueContent0.words";"PLACEHOLDER Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.";"PLACEHOLDER Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.";;
+"tournament_1_3wayBattle.dialogueList4.dialogueContent1.words";"PLACEHOLDER Grace under fire folks. Lay it on 'em!";"PLACEHOLDER Grace under fire folks. Lay it on 'em!";;
+"tournament_1_3wayBattle.dialogueList5.dialogueContent0.words";"PLACEHOLDER We lost Quebec Two Commander.";"PLACEHOLDER We lost Quebec Two Commander.";;
+"tournament_1_3wayBattle.dialogueList5.dialogueContent1.words";"PLACEHODLER This is Quebec actual return fire and check your rear arc!";"PLACEHODLER This is Quebec actual return fire and check your rear arc!";;
+"tournament_1_3wayBattle.dialogueList6.dialogueContent0.words";"PLACEHOLDER, The {TEAM_EMP.FactionDef.Demonym} has been destroyed.";"PLACEHOLDER, The {TEAM_EMP.FactionDef.Demonym} has been destroyed.";;
+"tournament_1_3wayBattle.dialogueList7.dialogueContent0.words";"PLACEHOLDER our employer's ally forces are lost commander.";"PLACEHOLDER our employer's ally forces are lost commander.";;
+"tournament_1_3wayBattle.dialogueList8.dialogueContent0.words";"Behold, Commander {COMMANDER.LastName}! The stalking predators reveal themselves!";"Behold, Commander {COMMANDER.LastName}! The stalking predators reveal themselves!";;
+"tournament_1_3wayBattle.dialogueList8.dialogueContent1.words";"You've got that right, Professor. I'm Basilisk Jackson, and I'm the meanest MechJock on this or any other planet! I'm gonna put these fools in the ground!";"You've got that right, Professor. I'm Basilisk Jackson, and I'm the meanest MechJock on this or any other planet! I'm gonna put these fools in the ground!";;
+"tournament_1_3wayBattle.dialogueList8.dialogueContent2.words";"[Unintelligible whispering.]";"[Unintelligible whispering.]";;
+"tournament_1_3wayBattle.dialogueList8.dialogueContent3.words";"Wow. Don't know about you, but I'm quaking in my boots. Let's light 'em up!";"Wow. Don't know about you, but I'm quaking in my boots. Let's light 'em up!";;
+"tournament_1_3wayBattle.dialogueList9.dialogueContent0.words";"PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys  are here too. Don't that beat it all. This is the secondary objective version.";"PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys  are here too. Don't that beat it all. This is the secondary objective version.";;
+"tournament_1_3wayBattle.dialogueList9.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_1_3wayBattle.dialogueList10.dialogueContent0.words";"PLACEHOLDER Primary targets destroyed Commander.";"PLACEHOLDER Primary targets destroyed Commander.";;
+"tournament_1_3wayBattle.dialogueList10.dialogueContent1.words";"PLACEHOLDER I'm inbound to the LZ Commander.";"PLACEHOLDER I'm inbound to the LZ Commander.";;
+"tournament_1_3wayBattle.dialogueList11.dialogueContent0.words";"Heads up, Commander. That Drop Pod must belong to the ""wild card"" contestant that Horvat warned us about.";"Heads up, Commander. That Drop Pod must belong to the ""wild card"" contestant that Horvat warned us about.";;
+"tournament_1_3wayBattle.dialogueList11.dialogueContent1.words";"Very perceptive, Ms. Meyer! I caught this young lady snooping around the tournament grounds. She claims that I'm responsible for the death of her father.";"Very perceptive, Ms. Meyer! I caught this young lady snooping around the tournament grounds. She claims that I'm responsible for the death of her father.";;
+"tournament_1_3wayBattle.dialogueList11.dialogueContent2.words";"You <i>are</i> responsible, you son of a bitch! And by my hand, he will be <i>avenged</i>!";"You <i>are</i> responsible, you son of a bitch! And by my hand, he will be <i>avenged</i>!";;
+"tournament_1_3wayBattle.dialogueList11.dialogueContent3.words";"I admire your grit, Ms. Jones. But if you want a shot at me, you'll need to fight your way out of the arena first. Kill or be killed! Let the games continue!";"I admire your grit, Ms. Jones. But if you want a shot at me, you'll need to fight your way out of the arena first. Kill or be killed! Let the games continue!";;
+"tournament_1_3wayBattle.dialogueList12.dialogueContent0.words";"PLACEHOLDER The Hostile to All {TEAM_HOST.FactionDef.Demonym} lance has arrived! This is the Secondary Version.";"PLACEHOLDER The Hostile to All {TEAM_HOST.FactionDef.Demonym} lance has arrived! This is the Secondary Version.";;
+"tournament_1_3wayBattle.dialogueList12.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_1_3wayBattle.dialogueList13.dialogueContent0.words";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";;
+"tournament_1_3wayBattle.dialogueList14.dialogueContent0.words";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";;
+"tournament_1_3wayBattle.dialogueList14.dialogueContent1.words";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";;
+"tournament_1_3wayBattle.dialogueList15.dialogueContent0.words";"PLACEHOLDER Thanks for the assist, we're clear.";"PLACEHOLDER Thanks for the assist, we're clear.";;
+"tournament_1_3wayBattle.dialogueList16.dialogueContent0.words";"PLACEHOLDER Thanks for the assist, we're clear.";"PLACEHOLDER Thanks for the assist, we're clear.";;
+"tournament_1_3wayBattle.dialogueList17.dialogueContent0.words";"PLACEHOLDER, That's it Commander we did what we came here to do.";"PLACEHOLDER, That's it Commander we did what we came here to do.";;
+"tournament_1_3wayBattle.dialogueList18.dialogueContent0.words";"PLACEHOLDER, That's it Commander we did what we came here to do.";"PLACEHOLDER, That's it Commander we did what we came here to do.";;
+"tournament_1_3wayBattle.dialogueList18.dialogueContent1.words";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";;
+"tournament_1_3wayBattle.dialogueList19.dialogueContent0.words";"PLACEHOLDER, we're clear of the AO, thanks Commander.";"PLACEHOLDER, we're clear of the AO, thanks Commander.";;
+"tournament_1_3wayBattle.dialogueList20.dialogueContent0.words";"PLACEHOLDER, we're clear of the AO, thanks Commander.";"PLACEHOLDER, we're clear of the AO, thanks Commander.";;
+"tournament_1_3wayBattle.dialogueList21.dialogueContent0.words";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Primary Objective version.";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Primary Objective version.";;
+"tournament_1_3wayBattle.dialogueList21.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_1_3wayBattle.dialogueList22.dialogueContent0.words";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Secondary Objective version.";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Secondary Objective version.";;
+"tournament_1_3wayBattle.dialogueList22.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_1_3wayBattle.dialogueList23.dialogueContent0.words";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Primary Objective Version.";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Primary Objective Version.";;
+"tournament_1_3wayBattle.dialogueList23.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_1_3wayBattle.dialogueList24.dialogueContent0.words";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Secondary Objective Version.";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Secondary Objective Version.";;
+"tournament_1_3wayBattle.dialogueList24.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_1_3wayBattle.dialogueList25.dialogueContent0.words";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Primary Objective Version.";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Primary Objective Version.";;
+"tournament_1_3wayBattle.dialogueList25.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_1_3wayBattle.dialogueList26.dialogueContent0.words";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Secondary Objective Version.";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Secondary Objective Version.";;
+"tournament_1_3wayBattle.dialogueList26.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_1_3wayBattle.dialogueList30.dialogueContent0.words";"Your attention please! We have a latecomer en route to join our Tournament. Consider her a wild card, if you will; when her Drop Pod hits the ground, I expect that she'll attempt to butcher the lot of you. I advise you to deny her the opportunity! Kill her before she kills you!";"Your attention please! We have a latecomer en route to join our Tournament. Consider her a wild card, if you will; when her Drop Pod hits the ground, I expect that she'll attempt to butcher the lot of you. I advise you to deny her the opportunity! Kill her before she kills you!";;
+"tournament_1_3wayBattle.dialogueList31.dialogueContent0.words";"PLACHEHOLDER (Hostile to All Secondary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Hostile to All Secondary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_1_3wayBattle.dialogueList32.dialogueContent0.words";"PLACHEHOLDER (Additional Target Forces Primary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Target Forces Primary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_1_3wayBattle.dialogueList33.dialogueContent0.words";"PLACHEHOLDER (Additional Target Forces Secondary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Target Forces Secondary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_1_3wayBattle.dialogueList34.dialogueContent0.words";"PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_1_3wayBattle.dialogueList35.dialogueContent0.words";"PLACHEHOLDER (Additional Target Forces 2 Secondary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Target Forces 2 Secondary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_1_3wayBattle.dialogueList36.dialogueContent0.words";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_1_3wayBattle.dialogueList37.dialogueContent0.words";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . In bound hostile Dropship detected, drop zone marked.";;
+"tournament_1_3wayBattle.dialogueList38.dialogueContent0.words";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Primary version.";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Primary version.";;
+"tournament_1_3wayBattle.dialogueList38.dialogueContent1.words";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";;
+"tournament_1_3wayBattle.dialogueList38.dialogueContent2.words";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";;
+"tournament_1_3wayBattle.dialogueList39.dialogueContent0.words";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Secondary version.";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Secondary version.";;
+"tournament_1_3wayBattle.dialogueList39.dialogueContent1.words";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";;
+"tournament_1_3wayBattle.dialogueList39.dialogueContent2.words";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";;
+"tournament_1_3wayBattle.dialogueList40.dialogueContent0.words";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.";;
+"tournament_1_3wayBattle.dialogueList40.dialogueContent1.words";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";;
+"tournament_1_3wayBattle.dialogueList40.dialogueContent2.words";"PLACEHOLDER. Copy that lance leader.";"PLACEHOLDER. Copy that lance leader.";;
+"tournament_1_3wayBattle.dialogueList41.dialogueContent0.words";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Secondary version.";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Secondary version.";;
+"tournament_1_3wayBattle.dialogueList41.dialogueContent1.words";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";;
+"tournament_1_3wayBattle.dialogueList41.dialogueContent2.words";"PLACEHOLDER. Copy that lance leader.";"PLACEHOLDER. Copy that lance leader.";;
+"tournament_1_3wayBattle.dialogueList42.dialogueContent0.words";"Let the people of Fronc sleep easy! THE BROTHERS SAITO ARE DEAD!";"Let the people of Fronc sleep easy! THE BROTHERS SAITO ARE DEAD!";;
+"tournament_1_3wayBattle.dialogueList43.dialogueContent0.words";"My master's would-be assassin has fallen, but still she lives! Her ejection pod has saved her… but <i>for how long</i>?";"My master's would-be assassin has fallen, but still she lives! Her ejection pod has saved her… but <i>for how long</i>?";;
+"tournament_1_3wayBattle.dialogueList44.dialogueContent0.words";"Behold, Professor! Basilisk Jackson and his silent partner are down, their BattleMechs shattered, their bodies torn to bloody rags!";"Behold, Professor! Basilisk Jackson and his silent partner are down, their BattleMechs shattered, their bodies torn to bloody rags!";;
+"tournament_1_3wayBattle.dialogueList44.dialogueContent1.words";"It's glorious, Gigante. A display fit for a king.";"It's glorious, Gigante. A display fit for a king.";;
+"tournament_a1_3wayBattle.contractName";"Tournament of Champions II";"Tournament of Champions II";;
+"tournament_a1_3wayBattle.shortDescription";"Welcome to the final round of my Tournament, Commander. Today, your two finest pilots will face off against the cream of the Frontier MechWarrior community. This will be a battle like no other, a clash between veritable <i>gods</i>. I wish your fighters luck, Commander—and I promise you, they will need it.";"Welcome to the final round of my Tournament, Commander. Today, your two finest pilots will face off against the cream of the Frontier MechWarrior community. This will be a battle like no other, a clash between veritable <i>gods</i>. I wish your fighters luck, Commander—and I promise you, they will need it.";;
+"tournament_a1_3wayBattle.longDescription";"Horvat's going to stack the odds against us, just like Agent Jones said. If we're going to do this, our MechWarriors will have to be ready.";"Horvat's going to stack the odds against us, just like Agent Jones said. If we're going to do this, our MechWarriors will have to be ready.";;
+"tournament_a1_3wayBattle.objectiveList0.title";"Defeat Tournament Finalists";"Defeat Tournament Finalists";;
+"tournament_a1_3wayBattle.objectiveList1.title";"Defeat Professor Mencius Horvat";"Defeat Professor Mencius Horvat";;
+"tournament_a1_3wayBattle.objectiveList2.title";"Objective_Empty_HiddenFlag_HostileToAllChunkActive";"Objective_Empty_HiddenFlag_HostileToAllChunkActive";;
+"tournament_a1_3wayBattle.objectiveList3.title";"Hidden Hostile to All Drop Timer";"Hidden Hostile to All Drop Timer";;
+"tournament_a1_3wayBattle.objectiveList4.title";"Hidden Hostile to ALL AI Timer";"Hidden Hostile to ALL AI Timer";;
+"tournament_a1_3wayBattle.objectiveList5.title";"Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces";"Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces";;
+"tournament_a1_3wayBattle.objectiveList6.title";"Objective_Empty_HostileToAll_Flag_Secondary";"Objective_Empty_HostileToAll_Flag_Secondary";;
+"tournament_a1_3wayBattle.objectiveList7.title";"Hidden Hostile to All Drop Timer";"Hidden Hostile to All Drop Timer";;
+"tournament_a1_3wayBattle.objectiveList8.title";"Hidden Hostile to ALL AI Timer";"Hidden Hostile to ALL AI Timer";;
+"tournament_a1_3wayBattle.objectiveList9.title";"Destroy Additional Enemy Forces";"Destroy Additional Enemy Forces";;
+"tournament_a1_3wayBattle.objectiveList10.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_a1_3wayBattle.objectiveList11.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_a1_3wayBattle.objectiveList12.title";"Empty Do Additonal Forces Primary Autocomplete Flag";"Empty Do Additonal Forces Primary Autocomplete Flag";;
+"tournament_a1_3wayBattle.objectiveList13.title";"Destroy Additional Enemy Forces";"Destroy Additional Enemy Forces";;
+"tournament_a1_3wayBattle.objectiveList14.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_a1_3wayBattle.objectiveList15.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_a1_3wayBattle.objectiveList16.title";"Empty Do Additonal Forces Secondary Autocomplete Flag";"Empty Do Additonal Forces Secondary Autocomplete Flag";;
+"tournament_a1_3wayBattle.objectiveList17.title";"Destroy Additional Enemy Reinforcements";"Destroy Additional Enemy Reinforcements";;
+"tournament_a1_3wayBattle.objectiveList18.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_a1_3wayBattle.objectiveList19.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_a1_3wayBattle.objectiveList20.title";"Empty Do Additonal Forces 2 Primary Autocomplete Flag";"Empty Do Additonal Forces 2 Primary Autocomplete Flag";;
+"tournament_a1_3wayBattle.objectiveList21.title";"Destroy Additional Enemy Reinforcements";"Destroy Additional Enemy Reinforcements";;
+"tournament_a1_3wayBattle.objectiveList22.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_a1_3wayBattle.objectiveList23.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_a1_3wayBattle.objectiveList24.title";"Empty Do Additonal Forces 2 Secondary Autocomplete Flag";"Empty Do Additonal Forces 2 Secondary Autocomplete Flag";;
+"tournament_a1_3wayBattle.objectiveList25.title";"Destroy Additional Enemy Allied Reinforcements";"Destroy Additional Enemy Allied Reinforcements";;
+"tournament_a1_3wayBattle.objectiveList26.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_a1_3wayBattle.objectiveList27.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_a1_3wayBattle.objectiveList28.title";"Empty Do Additonal Forces Primary Autocomplete Flag";"Empty Do Additonal Forces Primary Autocomplete Flag";;
+"tournament_a1_3wayBattle.objectiveList29.title";"Destroy Additional Enemy Allied Reinforcements";"Destroy Additional Enemy Allied Reinforcements";;
+"tournament_a1_3wayBattle.objectiveList30.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_a1_3wayBattle.objectiveList31.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_a1_3wayBattle.objectiveList32.title";"Empty Do Additonal Forces Secondary Autocomplete Flag";"Empty Do Additonal Forces Secondary Autocomplete Flag";;
+"tournament_a1_3wayBattle.objectiveList33.title";"Destroy the Enemy Allied Forces";"Destroy the Enemy Allied Forces";;
+"tournament_a1_3wayBattle.objectiveList34.title";"Objective_Empty_HasSeenEnemyAllyLance_Primary";"Objective_Empty_HasSeenEnemyAllyLance_Primary";;
+"tournament_a1_3wayBattle.objectiveList35.title";"Destroy the Enemy Allied Forces";"Destroy the Enemy Allied Forces";;
+"tournament_a1_3wayBattle.objectiveList36.title";"Objective_Empty_HasSeenEnemyAllyLance_Secondary";"Objective_Empty_HasSeenEnemyAllyLance_Secondary";;
+"tournament_a1_3wayBattle.objectiveList37.title";"All of {COMPANY.CompanyName} Lance must survive";"All of {COMPANY.CompanyName} Lance must survive";;
+"tournament_a1_3wayBattle.objectiveList38.title";"All of {COMPANY.CompanyName} Lance must survive";"All of {COMPANY.CompanyName} Lance must survive";;
+"tournament_a1_3wayBattle.objectiveList39.title";"Unit one of {COMPANY.CompanyName} must survive";"Unit one of {COMPANY.CompanyName} must survive";;
+"tournament_a1_3wayBattle.objectiveList40.title";"Unit one of {COMPANY.CompanyName} must survive";"Unit one of {COMPANY.CompanyName} must survive";;
+"tournament_a1_3wayBattle.objectiveList41.title";"Get to the evac zone";"Get to the evac zone";;
+"tournament_a1_3wayBattle.objectiveList42.title";"Objective_Empty_FirstContractFlag";"Objective_Empty_FirstContractFlag";;
+"tournament_a1_3wayBattle.objectiveList43.title";"Hidden Open Player Evac Objective";"Hidden Open Player Evac Objective";;
+"tournament_a1_3wayBattle.objectiveList44.title";"OFF";"OFF";;
+"tournament_a1_3wayBattle.objectiveList45.title";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_a1_3wayBattle.objectiveList46.title";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";;
+"tournament_a1_3wayBattle.objectiveList47.title";"Empty_Employer_IsActiveFlag_Primary";"Empty_Employer_IsActiveFlag_Primary";;
+"tournament_a1_3wayBattle.objectiveList48.title";"OFF";"OFF";;
+"tournament_a1_3wayBattle.objectiveList49.title";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_a1_3wayBattle.objectiveList50.title";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";;
+"tournament_a1_3wayBattle.objectiveList51.title";"Empty_Employer_IsActiveFlag_Secondary";"Empty_Employer_IsActiveFlag_Secondary";;
+"tournament_a1_3wayBattle.objectiveList52.title";"OFF";"OFF";;
+"tournament_a1_3wayBattle.objectiveList53.title";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_a1_3wayBattle.objectiveList54.title";"Escort friendlies to evac point";"Escort friendlies to evac point";;
+"tournament_a1_3wayBattle.objectiveList55.title";"Empty_EmployerAlly_IsActiveFlag_Primary";"Empty_EmployerAlly_IsActiveFlag_Primary";;
+"tournament_a1_3wayBattle.objectiveList56.title";"OFF";"OFF";;
+"tournament_a1_3wayBattle.objectiveList57.title";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_a1_3wayBattle.objectiveList58.title";"Escort friendlies to evac point";"Escort friendlies to evac point";;
+"tournament_a1_3wayBattle.objectiveList59.title";"Empty_EmployerAlly_IsActiveFlag_Secondary";"Empty_EmployerAlly_IsActiveFlag_Secondary";;
+"tournament_a1_3wayBattle.objectiveList60.title";"AllPrimaryTargetsDestroyedFlag";"AllPrimaryTargetsDestroyedFlag";;
+"tournament_a1_3wayBattle.objectiveList61.title";"TimerObjective_HostileToAll_Primary";"TimerObjective_HostileToAll_Primary";;
+"tournament_a1_3wayBattle.objectiveList62.title";"TimerObjective_HostileToAll_Secondary";"TimerObjective_HostileToAll_Secondary";;
+"tournament_a1_3wayBattle.objectiveList63.title";"TimerObjective_1RoundSafety_AddForces_Primary";"TimerObjective_1RoundSafety_AddForces_Primary";;
+"tournament_a1_3wayBattle.objectiveList64.title";"TimerObjective_1RoundSafety_AddForces_Secondary";"TimerObjective_1RoundSafety_AddForces_Secondary";;
+"tournament_a1_3wayBattle.objectiveList65.title";"TimerObjective_1RoundSafety_AddForces2_Primary";"TimerObjective_1RoundSafety_AddForces2_Primary";;
+"tournament_a1_3wayBattle.objectiveList66.title";"TimerObjective_1RoundSafety_AddForces2_Secondary";"TimerObjective_1RoundSafety_AddForces2_Secondary";;
+"tournament_a1_3wayBattle.objectiveList67.title";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Primary";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Primary";;
+"tournament_a1_3wayBattle.objectiveList68.title";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";;
+"tournament_a1_3wayBattle.objectiveList69.title";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";;
+"tournament_a1_3wayBattle.objectiveList0.description";"ATTN ANDREW";"ATTN ANDREW";;
+"tournament_a1_3wayBattle.objectiveList1.description";"hostile to all";"hostile to all";;
+"tournament_a1_3wayBattle.dialogueList0.dialogueContent0.words";"Challengers! You have already proven your might in the arena. Now, you will show Professor Horvat your fortitude.";"Challengers! You have already proven your might in the arena. Now, you will show Professor Horvat your fortitude.";;
+"tournament_a1_3wayBattle.dialogueList0.dialogueContent1.words";"Indeed they will, Gigante. Indeed they will. Contestants, I call upon you to <i>destroy</i> your rivals! Smash their BattleMechs without hesitation or mercy, for only one of you may be crowned champion!";"Indeed they will, Gigante. Indeed they will. Contestants, I call upon you to <i>destroy</i> your rivals! Smash their BattleMechs without hesitation or mercy, for only one of you may be crowned champion!";;
+"tournament_a1_3wayBattle.dialogueList1.dialogueContent0.words";"Gods, what a fighter! I yield to you, Commander—never since Calamar Gigante have I seen such awe-inspiring strength!";"Gods, what a fighter! I yield to you, Commander—never since Calamar Gigante have I seen such awe-inspiring strength!";;
+"tournament_a1_3wayBattle.dialogueList1.dialogueContent1.words";"I weep with joy, for I am no longer alone.";"I weep with joy, for I am no longer alone.";;
+"tournament_a1_3wayBattle.dialogueList1.dialogueContent2.words";"You've earned your million C-Bills, Commander. More than that, you've earned my <i>respect</i>. Meet me in orbit, that I may grant you your reward.";"You've earned your million C-Bills, Commander. More than that, you've earned my <i>respect</i>. Meet me in orbit, that I may grant you your reward.";;
+"tournament_a1_3wayBattle.dialogueList2.dialogueContent0.words";"A terrible shame, Commander. Your MechWarriors have been eliminated, their BattleMechs torn to scrap. I'm afraid that your time in the Tournament has come to an end.";"A terrible shame, Commander. Your MechWarriors have been eliminated, their BattleMechs torn to scrap. I'm afraid that your time in the Tournament has come to an end.";;
+"tournament_a1_3wayBattle.dialogueList2.dialogueContent1.words";"Can't say I didn't warn you, Commander. Such a shame. We could've taken Horvat down <i>together</i>. Instead, you're walking away with nothing but a couple of dead pilots.";"Can't say I didn't warn you, Commander. Such a shame. We could've taken Horvat down <i>together</i>. Instead, you're walking away with nothing but a couple of dead pilots.";;
+"tournament_a1_3wayBattle.dialogueList3.dialogueContent0.words";"PLACEHOLDER. New contacts on sesnors, Commander. These units don't match {TEAM_TAR.FactionDef.ShortName} signatures. We've got a new player on the field.";"PLACEHOLDER. New contacts on sesnors, Commander. These units don't match {TEAM_TAR.FactionDef.ShortName} signatures. We've got a new player on the field.";;
+"tournament_a1_3wayBattle.dialogueList4.dialogueContent0.words";"PLACEHOLDER Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.";"PLACEHOLDER Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.";;
+"tournament_a1_3wayBattle.dialogueList4.dialogueContent1.words";"PLACEHOLDER Grace under fire folks. Lay it on 'em!";"PLACEHOLDER Grace under fire folks. Lay it on 'em!";;
+"tournament_a1_3wayBattle.dialogueList5.dialogueContent0.words";"PLACEHOLDER We lost Quebec Two Commander.";"PLACEHOLDER We lost Quebec Two Commander.";;
+"tournament_a1_3wayBattle.dialogueList5.dialogueContent1.words";"PLACEHODLER This is Quebec actual return fire and check your rear arc!";"PLACEHODLER This is Quebec actual return fire and check your rear arc!";;
+"tournament_a1_3wayBattle.dialogueList6.dialogueContent0.words";"PLACEHOLDER, The {TEAM_EMP.FactionDef.Demonym} has been destroyed.";"PLACEHOLDER, The {TEAM_EMP.FactionDef.Demonym} has been destroyed.";;
+"tournament_a1_3wayBattle.dialogueList7.dialogueContent0.words";"PLACEHOLDER our employer's ally forces are lost commander.";"PLACEHOLDER our employer's ally forces are lost commander.";;
+"tournament_a1_3wayBattle.dialogueList8.dialogueContent0.words";"PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys are here too. Don't that beat it all. This is the primary objective version.";"PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys are here too. Don't that beat it all. This is the primary objective version.";;
+"tournament_a1_3wayBattle.dialogueList8.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_a1_3wayBattle.dialogueList9.dialogueContent0.words";"PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys  are here too. Don't that beat it all. This is the secondary objective version.";"PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys  are here too. Don't that beat it all. This is the secondary objective version.";;
+"tournament_a1_3wayBattle.dialogueList9.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_a1_3wayBattle.dialogueList10.dialogueContent0.words";"PLACEHOLDER Primary targets destroyed Commander.";"PLACEHOLDER Primary targets destroyed Commander.";;
+"tournament_a1_3wayBattle.dialogueList10.dialogueContent1.words";"PLACEHOLDER I'm inbound to the LZ Commander.";"PLACEHOLDER I'm inbound to the LZ Commander.";;
+"tournament_a1_3wayBattle.dialogueList11.dialogueContent0.words";"Competitors! You have shown yourselves worthy of the greatest honor this Tournament can bestow: the right to face off against the great man himself, PROFESSOR MENCIUS HORVAT!";"Competitors! You have shown yourselves worthy of the greatest honor this Tournament can bestow: the right to face off against the great man himself, PROFESSOR MENCIUS HORVAT!";;
+"tournament_a1_3wayBattle.dialogueList11.dialogueContent1.words";"You've gotta be kiddin' me.";"You've gotta be kiddin' me.";;
+"tournament_a1_3wayBattle.dialogueList11.dialogueContent2.words";"This is no joke, Mr. Virtanen! I have taken the field myself to put your warriors to their final test. If they defeat me, the prize purse is yours. Should they fail, I will grant them a most glorious death. En garde, Tournament finalists! Your fur-wreathed doom is at hand!";"This is no joke, Mr. Virtanen! I have taken the field myself to put your warriors to their final test. If they defeat me, the prize purse is yours. Should they fail, I will grant them a most glorious death. En garde, Tournament finalists! Your fur-wreathed doom is at hand!";;
+"tournament_a1_3wayBattle.dialogueList12.dialogueContent0.words";"PLACEHOLDER The Hostile to All {TEAM_HOST.FactionDef.Demonym} lance has arrived! This is the Secondary Version.";"PLACEHOLDER The Hostile to All {TEAM_HOST.FactionDef.Demonym} lance has arrived! This is the Secondary Version.";;
+"tournament_a1_3wayBattle.dialogueList12.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_a1_3wayBattle.dialogueList13.dialogueContent0.words";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";;
+"tournament_a1_3wayBattle.dialogueList14.dialogueContent0.words";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";;
+"tournament_a1_3wayBattle.dialogueList14.dialogueContent1.words";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";;
+"tournament_a1_3wayBattle.dialogueList15.dialogueContent0.words";"PLACEHOLDER Thanks for the assist, we're clear.";"PLACEHOLDER Thanks for the assist, we're clear.";;
+"tournament_a1_3wayBattle.dialogueList16.dialogueContent0.words";"PLACEHOLDER Thanks for the assist, we're clear.";"PLACEHOLDER Thanks for the assist, we're clear.";;
+"tournament_a1_3wayBattle.dialogueList17.dialogueContent0.words";"PLACEHOLDER, That's it Commander we did what we came here to do.";"PLACEHOLDER, That's it Commander we did what we came here to do.";;
+"tournament_a1_3wayBattle.dialogueList18.dialogueContent0.words";"PLACEHOLDER, That's it Commander we did what we came here to do.";"PLACEHOLDER, That's it Commander we did what we came here to do.";;
+"tournament_a1_3wayBattle.dialogueList18.dialogueContent1.words";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";;
+"tournament_a1_3wayBattle.dialogueList19.dialogueContent0.words";"PLACEHOLDER, we're clear of the AO, thanks Commander.";"PLACEHOLDER, we're clear of the AO, thanks Commander.";;
+"tournament_a1_3wayBattle.dialogueList20.dialogueContent0.words";"PLACEHOLDER, we're clear of the AO, thanks Commander.";"PLACEHOLDER, we're clear of the AO, thanks Commander.";;
+"tournament_a1_3wayBattle.dialogueList21.dialogueContent0.words";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Primary Objective version.";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Primary Objective version.";;
+"tournament_a1_3wayBattle.dialogueList21.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_a1_3wayBattle.dialogueList22.dialogueContent0.words";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Secondary Objective version.";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Secondary Objective version.";;
+"tournament_a1_3wayBattle.dialogueList22.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_a1_3wayBattle.dialogueList23.dialogueContent0.words";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Primary Objective Version.";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Primary Objective Version.";;
+"tournament_a1_3wayBattle.dialogueList23.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_a1_3wayBattle.dialogueList24.dialogueContent0.words";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Secondary Objective Version.";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Secondary Objective Version.";;
+"tournament_a1_3wayBattle.dialogueList24.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_a1_3wayBattle.dialogueList25.dialogueContent0.words";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Primary Objective Version.";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Primary Objective Version.";;
+"tournament_a1_3wayBattle.dialogueList25.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_a1_3wayBattle.dialogueList26.dialogueContent0.words";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Secondary Objective Version.";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Secondary Objective Version.";;
+"tournament_a1_3wayBattle.dialogueList26.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_a1_3wayBattle.dialogueList30.dialogueContent0.words";"We've got an unidentified Leopard hanging out in high orbit, Commander. Could be another surprise, like Agent Jones.";"We've got an unidentified Leopard hanging out in high orbit, Commander. Could be another surprise, like Agent Jones.";;
+"tournament_a1_3wayBattle.dialogueList30.dialogueContent1.words";"Could be, but Gigante isn't making any grand announcements this time. That's kind of an alarming change of pace, don't you think?";"Could be, but Gigante isn't making any grand announcements this time. That's kind of an alarming change of pace, don't you think?";;
+"tournament_a1_3wayBattle.dialogueList30.dialogueContent2.words";"Maybe. Who knows? Just keep focused on the fight, Commander. We'll deal with any surprises if and when they appear.";"Maybe. Who knows? Just keep focused on the fight, Commander. We'll deal with any surprises if and when they appear.";;
+"tournament_a1_3wayBattle.dialogueList31.dialogueContent0.words";"PLACHEHOLDER (Hostile to All Secondary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Hostile to All Secondary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_a1_3wayBattle.dialogueList32.dialogueContent0.words";"PLACHEHOLDER (Additional Target Forces Primary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Target Forces Primary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_a1_3wayBattle.dialogueList33.dialogueContent0.words";"PLACHEHOLDER (Additional Target Forces Secondary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Target Forces Secondary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_a1_3wayBattle.dialogueList34.dialogueContent0.words";"PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_a1_3wayBattle.dialogueList35.dialogueContent0.words";"PLACHEHOLDER (Additional Target Forces 2 Secondary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Target Forces 2 Secondary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_a1_3wayBattle.dialogueList36.dialogueContent0.words";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_a1_3wayBattle.dialogueList37.dialogueContent0.words";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . In bound hostile Dropship detected, drop zone marked.";;
+"tournament_a1_3wayBattle.dialogueList38.dialogueContent0.words";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Primary version.";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Primary version.";;
+"tournament_a1_3wayBattle.dialogueList38.dialogueContent1.words";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";;
+"tournament_a1_3wayBattle.dialogueList38.dialogueContent2.words";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";;
+"tournament_a1_3wayBattle.dialogueList39.dialogueContent0.words";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Secondary version.";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Secondary version.";;
+"tournament_a1_3wayBattle.dialogueList39.dialogueContent1.words";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";;
+"tournament_a1_3wayBattle.dialogueList39.dialogueContent2.words";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";;
+"tournament_a1_3wayBattle.dialogueList40.dialogueContent0.words";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.";;
+"tournament_a1_3wayBattle.dialogueList40.dialogueContent1.words";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";;
+"tournament_a1_3wayBattle.dialogueList40.dialogueContent2.words";"PLACEHOLDER. Copy that lance leader.";"PLACEHOLDER. Copy that lance leader.";;
+"tournament_a1_3wayBattle.dialogueList41.dialogueContent0.words";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Secondary version.";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Secondary version.";;
+"tournament_a1_3wayBattle.dialogueList41.dialogueContent1.words";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";;
+"tournament_a1_3wayBattle.dialogueList41.dialogueContent2.words";"PLACEHOLDER. Copy that lance leader.";"PLACEHOLDER. Copy that lance leader.";;
+"tournament_b1_3wayBattle.contractName";"Tournament of Champions II";"Tournament of Champions II";;
+"tournament_b1_3wayBattle.shortDescription";"Professor Mencius Horvat is waiting for you in the Tournament arena. He expects you to play by his rules—to let him lead a pair of your MechWarriors like lambs to the slaughter. Instead, you're going to show him the kind of firepower that your company can really bring down. Destroy him, and the MIIO will reward you accordingly.";"Professor Mencius Horvat is waiting for you in the Tournament arena. He expects you to play by his rules—to let him lead a pair of your MechWarriors like lambs to the slaughter. Instead, you're going to show him the kind of firepower that your company can really bring down. Destroy him, and the MIIO will reward you accordingly.";;
+"tournament_b1_3wayBattle.longDescription";"She got through that entire briefing without saying, ""The hunter will become the hunted."" I'm pleasantly surprised.";"She got through that entire briefing without saying, ""The hunter will become the hunted."" I'm pleasantly surprised.";;
+"tournament_b1_3wayBattle.objectiveList0.title";"Defeat Tournament Finalists";"Defeat Tournament Finalists";;
+"tournament_b1_3wayBattle.objectiveList1.title";"Destroy Professor Horvat's Lance";"Destroy Professor Horvat's Lance";;
+"tournament_b1_3wayBattle.objectiveList2.title";"Objective_Empty_HiddenFlag_HostileToAllChunkActive";"Objective_Empty_HiddenFlag_HostileToAllChunkActive";;
+"tournament_b1_3wayBattle.objectiveList3.title";"Hidden Hostile to All Drop Timer";"Hidden Hostile to All Drop Timer";;
+"tournament_b1_3wayBattle.objectiveList4.title";"Hidden Hostile to ALL AI Timer";"Hidden Hostile to ALL AI Timer";;
+"tournament_b1_3wayBattle.objectiveList5.title";"Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces";"Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces";;
+"tournament_b1_3wayBattle.objectiveList6.title";"Objective_Empty_HostileToAll_Flag_Secondary";"Objective_Empty_HostileToAll_Flag_Secondary";;
+"tournament_b1_3wayBattle.objectiveList7.title";"Hidden Hostile to All Drop Timer";"Hidden Hostile to All Drop Timer";;
+"tournament_b1_3wayBattle.objectiveList8.title";"Hidden Hostile to ALL AI Timer";"Hidden Hostile to ALL AI Timer";;
+"tournament_b1_3wayBattle.objectiveList9.title";"Destroy Additional Enemy Forces";"Destroy Additional Enemy Forces";;
+"tournament_b1_3wayBattle.objectiveList10.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_b1_3wayBattle.objectiveList11.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_b1_3wayBattle.objectiveList12.title";"Empty Do Additonal Forces Primary Autocomplete Flag";"Empty Do Additonal Forces Primary Autocomplete Flag";;
+"tournament_b1_3wayBattle.objectiveList13.title";"Eliminate Pirate Reinforcements";"Eliminate Pirate Reinforcements";;
+"tournament_b1_3wayBattle.objectiveList14.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_b1_3wayBattle.objectiveList15.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_b1_3wayBattle.objectiveList16.title";"Empty Do Additonal Forces Secondary Autocomplete Flag";"Empty Do Additonal Forces Secondary Autocomplete Flag";;
+"tournament_b1_3wayBattle.objectiveList17.title";"Destroy Additional Enemy Reinforcements";"Destroy Additional Enemy Reinforcements";;
+"tournament_b1_3wayBattle.objectiveList18.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_b1_3wayBattle.objectiveList19.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_b1_3wayBattle.objectiveList20.title";"Empty Do Additonal Forces 2 Primary Autocomplete Flag";"Empty Do Additonal Forces 2 Primary Autocomplete Flag";;
+"tournament_b1_3wayBattle.objectiveList21.title";"Destroy Additional Enemy Reinforcements";"Destroy Additional Enemy Reinforcements";;
+"tournament_b1_3wayBattle.objectiveList22.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_b1_3wayBattle.objectiveList23.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_b1_3wayBattle.objectiveList24.title";"Empty Do Additonal Forces 2 Secondary Autocomplete Flag";"Empty Do Additonal Forces 2 Secondary Autocomplete Flag";;
+"tournament_b1_3wayBattle.objectiveList25.title";"Destroy Additional Enemy Allied Reinforcements";"Destroy Additional Enemy Allied Reinforcements";;
+"tournament_b1_3wayBattle.objectiveList26.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_b1_3wayBattle.objectiveList27.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_b1_3wayBattle.objectiveList28.title";"Empty Do Additonal Forces Primary Autocomplete Flag";"Empty Do Additonal Forces Primary Autocomplete Flag";;
+"tournament_b1_3wayBattle.objectiveList29.title";"Destroy Additional Enemy Allied Reinforcements";"Destroy Additional Enemy Allied Reinforcements";;
+"tournament_b1_3wayBattle.objectiveList30.title";"Hidden Target Primary Drop Timer";"Hidden Target Primary Drop Timer";;
+"tournament_b1_3wayBattle.objectiveList31.title";"Hidden Target Primary AI Swap Timer";"Hidden Target Primary AI Swap Timer";;
+"tournament_b1_3wayBattle.objectiveList32.title";"Empty Do Additonal Forces Secondary Autocomplete Flag";"Empty Do Additonal Forces Secondary Autocomplete Flag";;
+"tournament_b1_3wayBattle.objectiveList33.title";"Destroy the Enemy Allied Forces";"Destroy the Enemy Allied Forces";;
+"tournament_b1_3wayBattle.objectiveList34.title";"Objective_Empty_HasSeenEnemyAllyLance_Primary";"Objective_Empty_HasSeenEnemyAllyLance_Primary";;
+"tournament_b1_3wayBattle.objectiveList35.title";"Destroy the Enemy Allied Forces";"Destroy the Enemy Allied Forces";;
+"tournament_b1_3wayBattle.objectiveList36.title";"Objective_Empty_HasSeenEnemyAllyLance_Secondary";"Objective_Empty_HasSeenEnemyAllyLance_Secondary";;
+"tournament_b1_3wayBattle.objectiveList37.title";"All of {COMPANY.CompanyName} Lance must survive";"All of {COMPANY.CompanyName} Lance must survive";;
+"tournament_b1_3wayBattle.objectiveList38.title";"All of {COMPANY.CompanyName} Lance must survive";"All of {COMPANY.CompanyName} Lance must survive";;
+"tournament_b1_3wayBattle.objectiveList39.title";"Unit one of {COMPANY.CompanyName} must survive";"Unit one of {COMPANY.CompanyName} must survive";;
+"tournament_b1_3wayBattle.objectiveList40.title";"Unit one of {COMPANY.CompanyName} must survive";"Unit one of {COMPANY.CompanyName} must survive";;
+"tournament_b1_3wayBattle.objectiveList41.title";"Get to the evac zone";"Get to the evac zone";;
+"tournament_b1_3wayBattle.objectiveList42.title";"Objective_Empty_FirstContractFlag";"Objective_Empty_FirstContractFlag";;
+"tournament_b1_3wayBattle.objectiveList43.title";"Hidden Open Player Evac Objective";"Hidden Open Player Evac Objective";;
+"tournament_b1_3wayBattle.objectiveList44.title";"OFF";"OFF";;
+"tournament_b1_3wayBattle.objectiveList45.title";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_b1_3wayBattle.objectiveList46.title";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";;
+"tournament_b1_3wayBattle.objectiveList47.title";"Empty_Employer_IsActiveFlag_Primary";"Empty_Employer_IsActiveFlag_Primary";;
+"tournament_b1_3wayBattle.objectiveList48.title";"OFF";"OFF";;
+"tournament_b1_3wayBattle.objectiveList49.title";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_b1_3wayBattle.objectiveList50.title";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";"The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone";;
+"tournament_b1_3wayBattle.objectiveList51.title";"Empty_Employer_IsActiveFlag_Secondary";"Empty_Employer_IsActiveFlag_Secondary";;
+"tournament_b1_3wayBattle.objectiveList52.title";"OFF";"OFF";;
+"tournament_b1_3wayBattle.objectiveList53.title";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_b1_3wayBattle.objectiveList54.title";"Escort friendlies to evac point";"Escort friendlies to evac point";;
+"tournament_b1_3wayBattle.objectiveList55.title";"Empty_EmployerAlly_IsActiveFlag_Primary";"Empty_EmployerAlly_IsActiveFlag_Primary";;
+"tournament_b1_3wayBattle.objectiveList56.title";"OFF";"OFF";;
+"tournament_b1_3wayBattle.objectiveList57.title";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";"Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.";;
+"tournament_b1_3wayBattle.objectiveList58.title";"Escort friendlies to evac point";"Escort friendlies to evac point";;
+"tournament_b1_3wayBattle.objectiveList59.title";"Empty_EmployerAlly_IsActiveFlag_Secondary";"Empty_EmployerAlly_IsActiveFlag_Secondary";;
+"tournament_b1_3wayBattle.objectiveList60.title";"AllPrimaryTargetsDestroyedFlag";"AllPrimaryTargetsDestroyedFlag";;
+"tournament_b1_3wayBattle.objectiveList61.title";"TimerObjective_HostileToAll_Primary";"TimerObjective_HostileToAll_Primary";;
+"tournament_b1_3wayBattle.objectiveList62.title";"TimerObjective_HostileToAll_Secondary";"TimerObjective_HostileToAll_Secondary";;
+"tournament_b1_3wayBattle.objectiveList63.title";"TimerObjective_1RoundSafety_AddForces_Primary";"TimerObjective_1RoundSafety_AddForces_Primary";;
+"tournament_b1_3wayBattle.objectiveList64.title";"TimerObjective_1RoundSafety_AddForces_Secondary";"TimerObjective_1RoundSafety_AddForces_Secondary";;
+"tournament_b1_3wayBattle.objectiveList65.title";"TimerObjective_1RoundSafety_AddForces2_Primary";"TimerObjective_1RoundSafety_AddForces2_Primary";;
+"tournament_b1_3wayBattle.objectiveList66.title";"TimerObjective_1RoundSafety_AddForces2_Secondary";"TimerObjective_1RoundSafety_AddForces2_Secondary";;
+"tournament_b1_3wayBattle.objectiveList67.title";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Primary";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Primary";;
+"tournament_b1_3wayBattle.objectiveList68.title";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";;
+"tournament_b1_3wayBattle.objectiveList69.title";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";"TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary";;
+"tournament_b1_3wayBattle.objectiveList0.description";"ATTN ANDREW";"ATTN ANDREW";;
+"tournament_b1_3wayBattle.objectiveList1.description";"ATTN ANDREW";"ATTN ANDREW";;
+"tournament_b1_3wayBattle.objectiveList13.description";"ATTN ANDREW";"ATTN ANDREW";;
+"tournament_b1_3wayBattle.dialogueList0.dialogueContent0.words";"So, {COMMANDER.Callsign}. You have elected to violate the rules of my Tournament. You've decided to kill me, perhaps? To take on the great hunter in his den?";"So, {COMMANDER.Callsign}. You have elected to violate the rules of my Tournament. You've decided to kill me, perhaps? To take on the great hunter in his den?";;
+"tournament_b1_3wayBattle.dialogueList0.dialogueContent1.words";"Something like that.";"Something like that.";;
+"tournament_b1_3wayBattle.dialogueList0.dialogueContent2.words";"What a welcome diversion this is! Truly glorious. I had <i>intended</i> to challenge your MechWarriors when the Tournament was finished, as is my custom—to put them to the final test. Instead, you've provided me with a <i>full lance</i> of quarry to hunt down and slaughter. We'll enjoy this, won't we, Gigante?";"What a welcome diversion this is! Truly glorious. I had <i>intended</i> to challenge your MechWarriors when the Tournament was finished, as is my custom—to put them to the final test. Instead, you've provided me with a <i>full lance</i> of quarry to hunt down and slaughter. We'll enjoy this, won't we, Gigante?";;
+"tournament_b1_3wayBattle.dialogueList0.dialogueContent3.words";"As you say, Professor Horvat. When we enter the arena, I will personally rend these overconfident fools limb from quivering limb.";"As you say, Professor Horvat. When we enter the arena, I will personally rend these overconfident fools limb from quivering limb.";;
+"tournament_b1_3wayBattle.dialogueList0.dialogueContent4.words";"There you have it, Commander. Something to look forward to. Between now and then, I present you with the remaining contestants of the Tournament of Champions. I'm sure that they'll keep you occupied until our Drop Pods arrive.";"There you have it, Commander. Something to look forward to. Between now and then, I present you with the remaining contestants of the Tournament of Champions. I'm sure that they'll keep you occupied until our Drop Pods arrive.";;
+"tournament_b1_3wayBattle.dialogueList1.dialogueContent0.words";"You've done well, Commander. There's a small army of Federation freight captains out there who'll sleep a whole a lot easier tonight.";"You've done well, Commander. There's a small army of Federation freight captains out there who'll sleep a whole a lot easier tonight.";;
+"tournament_b1_3wayBattle.dialogueList1.dialogueContent1.words";"Always a pleasure to do work for the MIIO. Speaking of which, I believe that you owe us a substantial amount of money.";"Always a pleasure to do work for the MIIO. Speaking of which, I believe that you owe us a substantial amount of money.";;
+"tournament_b1_3wayBattle.dialogueList1.dialogueContent2.words";"Yes, ma'am, I do. And as soon as the MIIO finishes springing me from this prison cell, I'll be happy to settle up.";"Yes, ma'am, I do. And as soon as the MIIO finishes springing me from this prison cell, I'll be happy to settle up.";;
+"tournament_b1_3wayBattle.dialogueList2.dialogueContent0.words";"Your MechWarriors lie dead at my feet, just as I promised! Now take the rest of your pathetic company and go. I have tested you, Commander, and you have been found <i>wanting</i>.";"Your MechWarriors lie dead at my feet, just as I promised! Now take the rest of your pathetic company and go. I have tested you, Commander, and you have been found <i>wanting</i>.";;
+"tournament_b1_3wayBattle.dialogueList3.dialogueContent0.words";"PLACEHOLDER. New contacts on sesnors, Commander. These units don't match {TEAM_TAR.FactionDef.ShortName} signatures. We've got a new player on the field.";"PLACEHOLDER. New contacts on sesnors, Commander. These units don't match {TEAM_TAR.FactionDef.ShortName} signatures. We've got a new player on the field.";;
+"tournament_b1_3wayBattle.dialogueList4.dialogueContent0.words";"PLACEHOLDER Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.";"PLACEHOLDER Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.";;
+"tournament_b1_3wayBattle.dialogueList4.dialogueContent1.words";"PLACEHOLDER Grace under fire folks. Lay it on 'em!";"PLACEHOLDER Grace under fire folks. Lay it on 'em!";;
+"tournament_b1_3wayBattle.dialogueList5.dialogueContent0.words";"PLACEHOLDER We lost Quebec Two Commander.";"PLACEHOLDER We lost Quebec Two Commander.";;
+"tournament_b1_3wayBattle.dialogueList5.dialogueContent1.words";"PLACEHODLER This is Quebec actual return fire and check your rear arc!";"PLACEHODLER This is Quebec actual return fire and check your rear arc!";;
+"tournament_b1_3wayBattle.dialogueList6.dialogueContent0.words";"PLACEHOLDER, The {TEAM_EMP.FactionDef.Demonym} has been destroyed.";"PLACEHOLDER, The {TEAM_EMP.FactionDef.Demonym} has been destroyed.";;
+"tournament_b1_3wayBattle.dialogueList7.dialogueContent0.words";"PLACEHOLDER our employer's ally forces are lost commander.";"PLACEHOLDER our employer's ally forces are lost commander.";;
+"tournament_b1_3wayBattle.dialogueList8.dialogueContent0.words";"PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys are here too. Don't that beat it all. This is the primary objective version.";"PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys are here too. Don't that beat it all. This is the primary objective version.";;
+"tournament_b1_3wayBattle.dialogueList8.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_b1_3wayBattle.dialogueList9.dialogueContent0.words";"PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys  are here too. Don't that beat it all. This is the secondary objective version.";"PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys  are here too. Don't that beat it all. This is the secondary objective version.";;
+"tournament_b1_3wayBattle.dialogueList9.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_b1_3wayBattle.dialogueList10.dialogueContent0.words";"PLACEHOLDER Primary targets destroyed Commander.";"PLACEHOLDER Primary targets destroyed Commander.";;
+"tournament_b1_3wayBattle.dialogueList10.dialogueContent1.words";"PLACEHOLDER I'm inbound to the LZ Commander.";"PLACEHOLDER I'm inbound to the LZ Commander.";;
+"tournament_b1_3wayBattle.dialogueList11.dialogueContent0.words";"Say goodbye to your MechWarriors, Commander. We'll bleed them like lambs, Gigante and I.";"Say goodbye to your MechWarriors, Commander. We'll bleed them like lambs, Gigante and I.";;
+"tournament_b1_3wayBattle.dialogueList12.dialogueContent0.words";"PLACEHOLDER The Hostile to All {TEAM_HOST.FactionDef.Demonym} lance has arrived! This is the Secondary Version.";"PLACEHOLDER The Hostile to All {TEAM_HOST.FactionDef.Demonym} lance has arrived! This is the Secondary Version.";;
+"tournament_b1_3wayBattle.dialogueList12.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_b1_3wayBattle.dialogueList13.dialogueContent0.words";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";;
+"tournament_b1_3wayBattle.dialogueList14.dialogueContent0.words";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";"PLACEHOLDER All our objectives are complete, cover our withdraw Commander.";;
+"tournament_b1_3wayBattle.dialogueList14.dialogueContent1.words";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";;
+"tournament_b1_3wayBattle.dialogueList15.dialogueContent0.words";"PLACEHOLDER Thanks for the assist, we're clear.";"PLACEHOLDER Thanks for the assist, we're clear.";;
+"tournament_b1_3wayBattle.dialogueList16.dialogueContent0.words";"PLACEHOLDER Thanks for the assist, we're clear.";"PLACEHOLDER Thanks for the assist, we're clear.";;
+"tournament_b1_3wayBattle.dialogueList17.dialogueContent0.words";"PLACEHOLDER, That's it Commander we did what we came here to do.";"PLACEHOLDER, That's it Commander we did what we came here to do.";;
+"tournament_b1_3wayBattle.dialogueList18.dialogueContent0.words";"PLACEHOLDER, That's it Commander we did what we came here to do.";"PLACEHOLDER, That's it Commander we did what we came here to do.";;
+"tournament_b1_3wayBattle.dialogueList18.dialogueContent1.words";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";"PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.";;
+"tournament_b1_3wayBattle.dialogueList19.dialogueContent0.words";"PLACEHOLDER, we're clear of the AO, thanks Commander.";"PLACEHOLDER, we're clear of the AO, thanks Commander.";;
+"tournament_b1_3wayBattle.dialogueList20.dialogueContent0.words";"PLACEHOLDER, we're clear of the AO, thanks Commander.";"PLACEHOLDER, we're clear of the AO, thanks Commander.";;
+"tournament_b1_3wayBattle.dialogueList21.dialogueContent0.words";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Primary Objective version.";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Primary Objective version.";;
+"tournament_b1_3wayBattle.dialogueList21.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_b1_3wayBattle.dialogueList22.dialogueContent0.words";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Secondary Objective version.";"PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Secondary Objective version.";;
+"tournament_b1_3wayBattle.dialogueList22.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_b1_3wayBattle.dialogueList23.dialogueContent0.words";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Primary Objective Version.";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Primary Objective Version.";;
+"tournament_b1_3wayBattle.dialogueList23.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_b1_3wayBattle.dialogueList24.dialogueContent0.words";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Secondary Objective Version.";"PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Secondary Objective Version.";;
+"tournament_b1_3wayBattle.dialogueList24.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_b1_3wayBattle.dialogueList25.dialogueContent0.words";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Primary Objective Version.";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Primary Objective Version.";;
+"tournament_b1_3wayBattle.dialogueList25.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";"PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.";;
+"tournament_b1_3wayBattle.dialogueList26.dialogueContent0.words";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Secondary Objective Version.";"PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Secondary Objective Version.";;
+"tournament_b1_3wayBattle.dialogueList26.dialogueContent1.words";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";"PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.";;
+"tournament_b1_3wayBattle.dialogueList30.dialogueContent0.words";"You're about to have company, Commander. Horvat and Gigante—their Drop Pods have almost reached the AO.";"You're about to have company, Commander. Horvat and Gigante—their Drop Pods have almost reached the AO.";;
+"tournament_b1_3wayBattle.dialogueList31.dialogueContent0.words";"PLACHEHOLDER (Hostile to All Secondary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Hostile to All Secondary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_b1_3wayBattle.dialogueList32.dialogueContent0.words";"PLACHEHOLDER (Additional Target Forces Primary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Target Forces Primary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_b1_3wayBattle.dialogueList33.dialogueContent0.words";"PLACHEHOLDER (Additional Target Forces Secondary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Target Forces Secondary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_b1_3wayBattle.dialogueList34.dialogueContent0.words";"PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_b1_3wayBattle.dialogueList35.dialogueContent0.words";"PLACHEHOLDER (Additional Target Forces 2 Secondary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Target Forces 2 Secondary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_b1_3wayBattle.dialogueList36.dialogueContent0.words";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). In bound hostile Dropship detected, drop zone marked.";;
+"tournament_b1_3wayBattle.dialogueList37.dialogueContent0.words";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . In bound hostile Dropship detected, drop zone marked.";"PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . In bound hostile Dropship detected, drop zone marked.";;
+"tournament_b1_3wayBattle.dialogueList38.dialogueContent0.words";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Primary version.";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Primary version.";;
+"tournament_b1_3wayBattle.dialogueList38.dialogueContent1.words";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";;
+"tournament_b1_3wayBattle.dialogueList38.dialogueContent2.words";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";;
+"tournament_b1_3wayBattle.dialogueList39.dialogueContent0.words";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Secondary version.";"PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Secondary version.";;
+"tournament_b1_3wayBattle.dialogueList39.dialogueContent1.words";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";"PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.";;
+"tournament_b1_3wayBattle.dialogueList39.dialogueContent2.words";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";"PLACEHOLDER. Understood Lance leader, glad to have you with us.";;
+"tournament_b1_3wayBattle.dialogueList40.dialogueContent0.words";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.";;
+"tournament_b1_3wayBattle.dialogueList40.dialogueContent1.words";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";;
+"tournament_b1_3wayBattle.dialogueList40.dialogueContent2.words";"PLACEHOLDER. Copy that lance leader.";"PLACEHOLDER. Copy that lance leader.";;
+"tournament_b1_3wayBattle.dialogueList41.dialogueContent0.words";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Secondary version.";"PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Secondary version.";;
+"tournament_b1_3wayBattle.dialogueList41.dialogueContent1.words";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";"PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.";;
+"tournament_b1_3wayBattle.dialogueList41.dialogueContent2.words";"PLACEHOLDER. Copy that lance leader.";"PLACEHOLDER. Copy that lance leader.";;
+"Gear_HeatSink_Generic_Double.Description.UIName";"Heat Sink (D)";"Heat Sink (D)";;
+"Gear_HeatSink_Generic_Double.Description.Name";"Double Heat Sink (D)";"Double Heat Sink (D)";;
+"Gear_HeatSink_Generic_Double.Description.Details";"Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.";"Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.";;
+"Gear_HeatSink_Generic_Thermal-Exchanger-III.Description.UIName";"Exchanger + +";"Exchanger + +";;
+"Gear_HeatSink_Generic_Thermal-Exchanger-III.Description.Name";"Thermal Exchanger III";"Thermal Exchanger III";;
+"Gear_HeatSink_Generic_Thermal-Exchanger-III.Description.Details";"Thermal Exchangers reduce the overall heat generated from weapon attacks by a fixed percentage. Unlike Heat Sink components, Thermal Exchangers are not impacted by the surrounding environment.";"Thermal Exchangers reduce the overall heat generated from weapon attacks by a fixed percentage. Unlike Heat Sink components, Thermal Exchangers are not impacted by the surrounding environment.";;
+"mechdef_javelin_JVN-10A.Description.Details";"The Javelin 10A has strong jumping capabilities and can pump out considerable damage with its LRMs. Taken together, these qualities make the 10A a superb harasser and fire support unit, though it is prone to running out of ammo.";"The Javelin 10A has strong jumping capabilities and can pump out considerable damage with its LRMs. Taken together, these qualities make the 10A a superb harasser and fire support unit, though it is prone to running out of ammo.";;
+"mechdef_kingcrab_KGC-A.Description.Details";"One of the most heavily armed and armored 'Mechs ever constructed, the King Crab A is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.";"One of the most heavily armed and armored 'Mechs ever constructed, the King Crab A is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.";;
+"mechdef_panther_PNT-9S.Description.Details";"Panther 9Rs are solid all-around 'Mechs, if a bit on the slow side. They make up for it with Jump Jets, considerable armor, and a hefty punch from their trademark PPC. They've even been used in physical slugging matches to good effect.";"Panther 9Rs are solid all-around 'Mechs, if a bit on the slow side. They make up for it with Jump Jets, considerable armor, and a hefty punch from their trademark PPC. They've even been used in physical slugging matches to good effect.";;
+"mechdef_shadowhawk_SHD-KM.Description.Details";"The Shadow Hawk KM is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so… I guess you can be the judge.";"The Shadow Hawk KM is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so… I guess you can be the judge.";;
+"mechdef_urbanmech_UM-KM.Description.Details";"The UM-KM 'SuburbanMech' adapts the traditional UrbanMech R60 into an energy weapon platform for higher performance. Because its weapons aren't limited by ammunition concerns, the R90 is better-suited to longer engagements.";"The UM-KM 'SuburbanMech' adapts the traditional UrbanMech R60 into an energy weapon platform for higher performance. Because its weapons aren't limited by ammunition concerns, the R90 is better-suited to longer engagements.";;
+"pilot_kbeta_bulwark.Description.Name";"Fining";"Fining";;
+"pilot_kbeta_bulwark.Description.Details";"An expert pilot, capable of tremendous feats in a jump-capable 'Mech. He favors flanking attacks, leaping into positions of advantage to set up multiple crossfires.
+
+<u>Preferred BattleMechs</u>: <b>Jenner JR7-D</b>, <b>Vindicator VND-1R</b>, <b>Griffin GRF-1S</b>";"An expert pilot, capable of tremendous feats in a jump-capable 'Mech. He favors flanking attacks, leaping into positions of advantage to set up multiple crossfires.
+
+<u>Preferred BattleMechs</u>: <b>Jenner JR7-D</b>, <b>Vindicator VND-1R</b>, <b>Griffin GRF-1S</b>";;
+"pilot_kbeta_bulwark.Description.FirstName";"Fining";"Fining";;
+"pilot_kbeta_bulwark.Description.LastName";"Fining";"Fining";;
+"pilot_kbeta_bulwark.Description.Callsign";"Fining";"Fining";;
+"pilot_kbeta_paradise.Description.Name";"Tex";"Tex";;
+"pilot_kbeta_paradise.Description.Details";"Tex";"Tex";;
+"pilot_kbeta_paradise.Description.FirstName";"Tex";"Tex";;
+"pilot_kbeta_paradise.Description.LastName";"Tex";"Tex";;
+"pilot_kbeta_paradise.Description.Callsign";"Tex";"Tex";;
+"pilot_MrTex.Description.Name";"Tex";"Tex";;
+"pilot_MrTex.Description.Details";"Hailing from the Lyran Commonwealth is 'Tex' a somewhat hotheaded but private Mechwarrior. In a more typical Mercenary fashion a rowdy, but reliable when hes Paid. A professor of Inner Sphere history with a strong dislike of Clanner society. A veteran of many campaigns, he's demonstrated how to survive to payday";"Hailing from the Lyran Commonwealth is 'Tex' a somewhat hotheaded but private Mechwarrior. In a more typical Mercenary fashion a rowdy, but reliable when hes Paid. A professor of Inner Sphere history with a strong dislike of Clanner society. A veteran of many campaigns, he's demonstrated how to survive to payday";;
+"pilot_MrTex.Description.FirstName";"Randolph";"Randolph";;
+"pilot_MrTex.Description.LastName";"Checkers";"Checkers";;
+"pilot_MrTex.Description.Callsign";"Tex";"Tex";;
+"pilot_ronin_Zombie.Description.Name";"Zombie";"Zombie";;
+"pilot_ronin_Zombie.Description.Details";"Zombie";"Zombie";;
+"pilot_ronin_Zombie.Description.FirstName";"Zombie";"Zombie";;
+"pilot_ronin_Zombie.Description.LastName";"NONE";"NONE";;
+"pilot_ronin_Zombie.Description.Callsign";"Zombie";"Zombie";;
+"pilot_tank_crew1.Description.Name";"v.crew";"v.crew";;
+"pilot_tank_crew1.Description.Details";"Tank crew";"Tank crew";;
+"pilot_tank_crew1.Description.FirstName";"v.crew";"v.crew";;
+"pilot_tank_crew1.Description.LastName";"v.crew";"v.crew";;
+"pilot_tank_crew1.Description.Callsign";"v.crew";"v.crew";;
+"pilot_tank_crew2.Description.Name";"v.crew";"v.crew";;
+"pilot_tank_crew2.Description.Details";"Tank crew";"Tank crew";;
+"pilot_tank_crew2.Description.FirstName";"v.crew";"v.crew";;
+"pilot_tank_crew2.Description.LastName";"v.crew";"v.crew";;
+"pilot_tank_crew2.Description.Callsign";"v.crew";"v.crew";;
+"pilot_tank_crew3.Description.Name";"v.crew";"v.crew";;
+"pilot_tank_crew3.Description.Details";"Tank crew";"Tank crew";;
+"pilot_tank_crew3.Description.FirstName";"v.crew";"v.crew";;
+"pilot_tank_crew3.Description.LastName";"v.crew";"v.crew";;
+"pilot_tank_crew3.Description.Callsign";"v.crew";"v.crew";;
+"Gear_Cockpit_CPU.Description.UIName";"Machine Spirit";"Machine Spirit";;
+"Gear_Cockpit_CPU.Description.Name";"Machine Spirit";"Machine Spirit";;
+"Gear_Cockpit_CPU.Description.Details";"English description";"English description";;
+"Gear_Cockpit_Majesty_M_M_MagestrixAlpha.Description.UIName";"Rangefinder + + +";"Rangefinder + + +";;
+"Gear_Cockpit_Majesty_M_M_MagestrixAlpha.Description.Name";"Majesty M M Magestrix Rangefinder";"Majesty M M Magestrix Rangefinder";;
+"Gear_Cockpit_Majesty_M_M_MagestrixAlpha.Description.Details";"All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. Rangefinders increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.";"All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. Rangefinders increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.";;
+"Gear_Cockpit_StarCorps_Dalban.Description.UIName";"Comms System + + +";"Comms System + + +";;
+"Gear_Cockpit_StarCorps_Dalban.Description.Name";"StarCorps Dalban Comms System";"StarCorps Dalban Comms System";;
+"Gear_Cockpit_StarCorps_Dalban.Description.Details";"All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. Comms System upgrades allow for better lance cohesion during combat, increasing the Morale generated.";"All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. Comms System upgrades allow for better lance cohesion during combat, increasing the Morale generated.";;
+"Gear_CoolingPod.Description.UIName";"Cooling pod";"Cooling pod";;
+"Gear_CoolingPod.Description.Name";"Cooling pod";"Cooling pod";;
+"Gear_CoolingPod.Description.Details";"Cooling pod";"Cooling pod";;
+"Gear_CoolingPod.CoolantPod.CAE0.Name";"COOLANT Pod";"COOLANT Pod";;
+"Gear_CoolingPod.CoolantPod.CAE0.Details";"Remove 50 extra heat.";"Remove 50 extra heat.";;
+"Gear_CutArm.Description.UIName";"Cut Right Arm";"Cut Right Arm";;
+"Gear_CutArm.Description.Name";"Cut Right Arm";"Cut Right Arm";;
+"Gear_CutArm.Description.Details";"Cutoff Right Arm";"Cutoff Right Arm";;
+"Gear_ECM.Description.UIName";"ECM";"ECM";;
+"Gear_ECM.Description.Name";"ECM";"ECM";;
+"Gear_ECM.Description.Details";"ECM";"ECM";;
+"Gear_ECM.ECMEffect_IndirectImmunity.CAE0.Name";"ECM MISSILE DEFENSE";"ECM MISSILE DEFENSE";;
+"Gear_ECM.ECMEffect_MissileDefense.CAE1.Name";"ECM MISSILE DEFENSE";"ECM MISSILE DEFENSE";;
+"Gear_ECM.ECMStealth_GhostEffect_Allies.CAE2.Name";"STEALTH CHARGE";"STEALTH CHARGE";;
+"Gear_ECM.ECMStealth_GhostEffect.CAE3.Name";"ECM CARRIER";"ECM CARRIER";;
+"Gear_ECM.ECMCounter_GhostSpotterEffect.CAE4.Name";"STEALTH SPOTTER";"STEALTH SPOTTER";;
+"Gear_ECM.ActiveProbe_Ping.CAE5.Name";"ACTIVE PROBE PING";"ACTIVE PROBE PING";;
+"Gear_ECM.ECMEffect_IndirectImmunity.CAE0.Details";"Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.";"Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.";;
+"Gear_ECM.ECMEffect_MissileDefense.CAE1.Details";"Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.";"Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.";;
+"Gear_ECM.ECMStealth_GhostEffect_Allies.CAE2.Details";"Units within an ECM field gain a Stealth Charge?and cannot be targeted.
+
+Firing a weapon, using an activated ability, or an enemy penetrating the ECM field removes a Stealth Charge. Being Sensor Locked removes all Stealth Charges.";"Units within an ECM field gain a Stealth Charge?and cannot be targeted.
+
+Firing a weapon, using an activated ability, or an enemy penetrating the ECM field removes a Stealth Charge. Being Sensor Locked removes all Stealth Charges.";;
+"Gear_ECM.ECMStealth_GhostEffect.CAE3.Details";"PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.
+
+ECM carriers also receive a bonus Stealth Charge.";"PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.
+
+ECM carriers also receive a bonus Stealth Charge.";;
+"Gear_ECM.ECMCounter_GhostSpotterEffect.CAE4.Details";"This unit is spotting against an enemy ECM field, reducing Stealth Charges by 1 each round for all visible enemies within the field.";"This unit is spotting against an enemy ECM field, reducing Stealth Charges by 1 each round for all visible enemies within the field.";;
+"Gear_ECM.ActiveProbe_Ping.CAE5.Details";"Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.";"Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.";;
+"Gear_EngineCore.Description.UIName";"TestEngineCore";"TestEngineCore";;
+"Gear_EngineCore.Description.Name";"Test Engine Core";"Test Engine Core";;
+"Gear_EngineCore.Description.Details";"Test Engine Core";"Test Engine Core";;
+"Gear_EngineType.Description.UIName";"TestEngineType";"TestEngineType";;
+"Gear_EngineType.Description.Name";"Test Engine Type";"Test Engine Type";;
+"Gear_EngineType.Description.Details";"Test Engine Type";"Test Engine Type";;
+"Gear_EngineType.StatusEffect-CoreProtectVFX.CAE0.Name";"ENGINE CORE PROTECTED";"ENGINE CORE PROTECTED";;
+"Gear_EngineType.StatusEffect-CoreProtectDamage.CAE1.Name";"ENGINE CORE PROTECTED";"ENGINE CORE PROTECTED";;
+"Gear_EngineType.StatusEffect-CoreProtectStatusEffects.CAE2.Name";"ENGINE CORE PROTECTED";"ENGINE CORE PROTECTED";;
+"Gear_EngineType.StatusEffect-CoreProtectVFX.CAE0.Details";"Protect engine core";"Protect engine core";;
+"Gear_EngineType.StatusEffect-CoreProtectDamage.CAE1.Details";"Protect engine core";"Protect engine core";;
+"Gear_EngineType.StatusEffect-CoreProtectStatusEffects.CAE2.Details";"Protect engine core";"Protect engine core";;
+"Gear_Harjel.Description.UIName";"Harjel";"Harjel";;
+"Gear_Harjel.Description.Name";"Harjel";"Harjel";;
+"Gear_Harjel.Description.Details";"Harjel";"Harjel";;
+"Gear_MASC.Description.UIName";"M.A.S.C.(IS) Assault";"M.A.S.C.(IS) Assault";;
+"Gear_MASC.Description.Name";"M.A.S.C.(IS) Assault";"M.A.S.C.(IS) Assault";;
+"Gear_MASC.Description.Details";"Myomer Accelerator Signal Circuitry Inner Sphere Assault";"Myomer Accelerator Signal Circuitry Inner Sphere Assault";;
+"Gear_MASC.StatusEffect-MASC-WalkSpeedDouble.CAE0.Name";"MASC DOUBLE SPEED";"MASC DOUBLE SPEED";;
+"Gear_MASC.StatusEffect-MASC-RunSpeedDouble.CAE1.Name";"MASC DOUBLE SPEED";"MASC DOUBLE SPEED";;
+"Gear_MASC.StatusEffect-MASC-WalkSpeedDouble.CAE0.Details";"Speed doubled";"Speed doubled";;
+"Gear_MASC.StatusEffect-MASC-RunSpeedDouble.CAE1.Details";"Speed doubled";"Speed doubled";;
+"Gear_Sensor_Prototype_ECM.Description.UIName";"X-1 ECM Equipment";"X-1 ECM Equipment";;
+"Gear_Sensor_Prototype_ECM.Description.Name";"Prototype Electronic Countermeasures";"Prototype Electronic Countermeasures";;
+"Gear_Sensor_Prototype_ECM.Description.Details";"This prototype electronic warfare component recreates the capabilities of the LosTech Guardian ECM. Friendly units within its ECM field gain Missile Defense and receive a +4 bonus against missiles plus immunity to Indirect Fire. Friendly units within an ECM field are effectively cloaked and cannot be targeted. This component cannot be mounted along with the Active Probe component.";"This prototype electronic warfare component recreates the capabilities of the LosTech Guardian ECM. Friendly units within its ECM field gain Missile Defense and receive a +4 bonus against missiles plus immunity to Indirect Fire. Friendly units within an ECM field are effectively cloaked and cannot be targeted. This component cannot be mounted along with the Active Probe component.";;
+"Gear_Sensor_Prototype_EWE.Description.UIName";"X-1 EW Equipment";"X-1 EW Equipment";;
+"Gear_Sensor_Prototype_EWE.Description.Name";"EW SUITE (Prototype)";"EW SUITE (Prototype)";;
+"Gear_Sensor_Prototype_EWE.Description.Details";"Prototype Electronic Warfare component. Adds an ECM field that provides a passive defense against missiles and immunity to indirect fire. Friendly units in the ECM field also gain Stealth Charges and cannot be targeted by direct fire unless spotted by enemy units within the ECM field or sensor locked. The ECM carrier gains an additional Stealth Charge.
+
+The EW Suite also adds the Active Probe ability to unit's weapons panel. Active Probe is a triggered ability that uses the firing action and performs a Sensor Lock against all enemies within range. Note: you can only equip one Prototype component on most 'Mechs.";"Prototype Electronic Warfare component. Adds an ECM field that provides a passive defense against missiles and immunity to indirect fire. Friendly units in the ECM field also gain Stealth Charges and cannot be targeted by direct fire unless spotted by enemy units within the ECM field or sensor locked. The ECM carrier gains an additional Stealth Charge.
+
+The EW Suite also adds the Active Probe ability to unit's weapons panel. Active Probe is a triggered ability that uses the firing action and performs a Sensor Lock against all enemies within range. Note: you can only equip one Prototype component on most 'Mechs.";;
+"Gear_Sensor_Prototype_EWE3.Description.UIName";"X-3 EW Equipment";"X-3 EW Equipment";;
+"Gear_Sensor_Prototype_EWE3.Description.Name";"EW SUITE (Prototype)";"EW SUITE (Prototype)";;
+"Gear_Sensor_Prototype_EWE3.Description.Details";"Prototype Electronic Warfare component. Adds an ECM field that provides a passive defence against missiles and immunity to indirect fire. Friendly units in the ECM field also gain Stealth Charges and cannot be targeted by direct fire unless spotted by enemy units within the ECM field or sensor locked. The ECM carrier gains an additional Stealth Charge.
+
+The EW Suite also adds the Active Probe ability to unit's weapons panel. Active Probe is a triggered ability that uses the firing action and performs a Sensor Lock against all enemies within range. Note: you can only equip one Prototype component on most Mechs.";"Prototype Electronic Warfare component. Adds an ECM field that provides a passive defence against missiles and immunity to indirect fire. Friendly units in the ECM field also gain Stealth Charges and cannot be targeted by direct fire unless spotted by enemy units within the ECM field or sensor locked. The ECM carrier gains an additional Stealth Charge.
+
+The EW Suite also adds the Active Probe ability to unit's weapons panel. Active Probe is a triggered ability that uses the firing action and performs a Sensor Lock against all enemies within range. Note: you can only equip one Prototype component on most Mechs.";;
+"Gear_Sensor_Prototype_EWE3.ECMStealth_GhostEffect.CAE0.Name";"ECM CARRIER";"ECM CARRIER";;
+"Gear_Sensor_Prototype_EWE3.ECMStealth_GhostEffect.CAE0.Details";"PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.
+
+ECM carriers also receive a bonus Stealth Charge.";"PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.
+
+ECM carriers also receive a bonus Stealth Charge.";;
+"Gear_SpeedBooster.Description.UIName";"Ferrum fibres";"Ferrum fibres";;
+"Gear_SpeedBooster.Description.Name";"Ferrum fibres";"Ferrum fibres";;
+"Gear_SpeedBooster.Description.Details";"English description";"English description";;
+"Gear_SpeedBooster.StatusEffect-MASC-WalkSpeedDouble.CAE0.Name";"DOUBLE SPEED";"DOUBLE SPEED";;
+"Gear_SpeedBooster.StatusEffect-MASC-RunSpeedDouble.CAE1.Name";"DOUBLE SPEED";"DOUBLE SPEED";;
+"Gear_SpeedBooster.StatusEffect-MASC-WalkSpeedDouble.CAE0.Details";"Speed doubled";"Speed doubled";;
+"Gear_SpeedBooster.StatusEffect-MASC-RunSpeedDouble.CAE1.Details";"Speed doubled";"Speed doubled";;
+"Gear_TargetingTrackingSystem_Kallon_Omni.Description.UIName";"TTS Omni";"TTS Omni";;
+"Gear_TargetingTrackingSystem_Kallon_Omni.Description.Name";"Kallon Omni TTS";"Kallon Omni TTS";;
+"Gear_TargetingTrackingSystem_Kallon_Omni.Description.Details";"All 'Mechs come equipped with a stock targeting and tracking system—or TTS—which can be upgraded for improved performance. Upgrades increase accuracy when attacking with Ballistic, Energy, and Missile weaponry.";"All 'Mechs come equipped with a stock targeting and tracking system—or TTS—which can be upgraded for improved performance. Upgrades increase accuracy when attacking with Ballistic, Energy, and Missile weaponry.";;
+"Gear_TargetModule.Description.UIName";"Target module";"Target module";;
+"Gear_TargetModule.Description.Name";"Target module";"Target module";;
+"Gear_TargetModule.Description.Details";"Target module";"Target module";;
+"Gear_TargetModule.TargetModuleLongRangeMRDebuff.CAE0.Name";"Long range";"Long range";;
+"Gear_TargetModule.TargetModuleLongRangeSRDebuff.CAE1.Name";"Long range";"Long range";;
+"Gear_TargetModule.TargetModuleLongRangeLRBuff.CAE2.Name";"Long range";"Long range";;
+"Gear_TargetModule.TargetModuleLongRangeMRDebuff.CAE0.Details";"Long range.";"Long range.";;
+"Gear_TargetModule.TargetModuleLongRangeSRDebuff.CAE1.Details";"Long range.";"Long range.";;
+"Gear_TargetModule.TargetModuleLongRangeLRBuff.CAE2.Details";"Long range.";"Long range.";;
+"Gear_TargetModule.TargetModuleLongRangeLRDebuff.CAE0.Name";"Long range";"Long range";;
+"Gear_TargetModule.TargetModuleLongRangeLRDebuff.CAE0.Details";"Long range.";"Long range.";;
+"Gear_TSM.Description.UIName";"TSM";"TSM";;
+"Gear_TSM.Description.Name";"TSM";"TSM";;
+"Gear_TSM.Description.Details";"Triple Strength Myomer";"Triple Strength Myomer";;
+"Gear_TSM.StatusEffect-MeleeWeapon-TSM.CAE0.Name";"Melee DAMAGE DOUBLED";"Melee DAMAGE DOUBLED";;
+"Gear_TSM.StatusEffect-TSM-WalkSpeedDouble.CAE1.Name";"TSM DOUBLE SPEED";"TSM DOUBLE SPEED";;
+"Gear_TSM.StatusEffect-TSM-RunSpeedDouble.CAE2.Name";"TSM DOUBLE SPEED";"TSM DOUBLE SPEED";;
+"Gear_TSM.StatusEffect-MeleeWeapon-TSM.CAE0.Details";"Melee attacks have doubled damage.";"Melee attacks have doubled damage.";;
+"Gear_TSM.StatusEffect-TSM-WalkSpeedDouble.CAE1.Details";"Speed doubled";"Speed doubled";;
+"Gear_TSM.StatusEffect-TSM-RunSpeedDouble.CAE2.Details";"Speed doubled";"Speed doubled";;
+"vehicledef_DEMOLISHER.Description.Details";"This is test DEMOLISHER vehicle description";"This is test DEMOLISHER vehicle description";;
+"vehiclechassisdef_DEMOLISHER.Description.Details";"This is test DEMOLISHER chassis description";"This is test DEMOLISHER chassis description";;
+"Weapon_ATM_ATM9_3-Zeus.Description.UIName";"ATM9";"ATM9";;
+"Weapon_ATM_ATM9_3-Zeus.Description.Name";"ATM9";"ATM9";;
+"Weapon_ATM_ATM9_3-Zeus.Description.Details";"ATM9 details";"ATM9 details";;
+"Weapon_ATM_iATM9_3-Zeus.Description.UIName";"iATM9";"iATM9";;
+"Weapon_ATM_iATM9_3-Zeus.Description.Name";"iATM9";"iATM9";;
+"Weapon_ATM_iATM9_3-Zeus.Description.Details";"iATM9 details";"iATM9 details";;
+"Weapon_Autocannon_AC10_0-STOCK.Description.UIName";"AC/10";"AC/10";;
+"Weapon_Autocannon_AC10_0-STOCK.Description.Name";"AC/10";"AC/10";;
+"Weapon_Autocannon_AC10_0-STOCK.Description.Details";"One of the most powerful and efficient weapons mounted in combat, AC/10s are known for their heavy damage and ability to stagger opponents. Like all Autocannon weaponry, AC/10s suffer from recoil effects from continuous fire.";"One of the most powerful and efficient weapons mounted in combat, AC/10s are known for their heavy damage and ability to stagger opponents. Like all Autocannon weaponry, AC/10s suffer from recoil effects from continuous fire.";;
+"Weapon_Autocannon_IAC10_0-STOCK.Description.UIName";"Imp.AC/10";"Imp.AC/10";;
+"Weapon_Autocannon_IAC10_0-STOCK.Description.Name";"Imp.AC/10";"Imp.AC/10";;
+"Weapon_Autocannon_IAC10_0-STOCK.Description.Details";"Improved AC/10";"Improved AC/10";;
+"Weapon_Autocannon_LBX10_0-STOCK.Description.UIName";"LBX/10";"LBX/10";;
+"Weapon_Autocannon_LBX10_0-STOCK.Description.Name";"LBX/10";"LBX/10";;
+"Weapon_Autocannon_LBX10_0-STOCK.Description.Details";"LBX AC/10";"LBX AC/10";;
+"Weapon_Autocannon_LBX10_1-STOCK.Description.UIName";"LB10X";"LB10X";;
+"Weapon_Autocannon_LBX10_1-STOCK.Description.Name";"LB10X";"LB10X";;
+"Weapon_Autocannon_LBX10_1-STOCK.Description.Details";"LB10X";"LB10X";;
+"Weapon_Autocannon_LBX2_0-STOCK.Description.UIName";"LBX/2";"LBX/2";;
+"Weapon_Autocannon_LBX2_0-STOCK.Description.Name";"LBX/2";"LBX/2";;
+"Weapon_Autocannon_LBX2_0-STOCK.Description.Details";"Intended for use as supporting fire at very long range, LBX/2s deal moderate damage with low heat and a large ammunition count per ton. Like all Autocannon weaponry, AC/2s suffer from recoil effects from continuous fire.";"Intended for use as supporting fire at very long range, LBX/2s deal moderate damage with low heat and a large ammunition count per ton. Like all Autocannon weaponry, AC/2s suffer from recoil effects from continuous fire.";;
+"Weapon_Autocannon_RAC10_0-STOCK.Description.UIName";"RAC/10";"RAC/10";;
+"Weapon_Autocannon_RAC10_0-STOCK.Description.Name";"RAC/10";"RAC/10";;
+"Weapon_Autocannon_RAC10_0-STOCK.Description.Details";"One of the most powerful and efficient weapons mounted in combat, AC/10s are known for their heavy damage and ability to stagger opponents. Like all Autocannon weaponry, AC/10s suffer from recoil effects from continuous fire.";"One of the most powerful and efficient weapons mounted in combat, AC/10s are known for their heavy damage and ability to stagger opponents. Like all Autocannon weaponry, AC/10s suffer from recoil effects from continuous fire.";;
+"Weapon_Autocannon_UAC10_0-STOCK.Description.UIName";"UAC/10";"UAC/10";;
+"Weapon_Autocannon_UAC10_0-STOCK.Description.Name";"UAC/10";"UAC/10";;
+"Weapon_Autocannon_UAC10_0-STOCK.Description.Details";"Ultra AC/10s improve upon the already impressive capabilities of the standard models. Like all Ultra Autocannon weaponry, UAC/10s suffer from substantial recoil effects from firing and consume two ammo per attack.";"Ultra AC/10s improve upon the already impressive capabilities of the standard models. Like all Ultra Autocannon weaponry, UAC/10s suffer from substantial recoil effects from firing and consume two ammo per attack.";;
+"Weapon_Ballistic_AMS_0-STOCK.Description.UIName";"AMS(b)";"AMS(b)";;
+"Weapon_Ballistic_AMS_0-STOCK.Description.Name";"AMS(b)";"AMS(b)";;
+"Weapon_Ballistic_AMS_0-STOCK.Description.Details";"AMS ballistics";"AMS ballistics";;
+"Weapon_Flamer_Flamer_0-STOCK.Description.UIName";"Flamer";"Flamer";;
+"Weapon_Flamer_Flamer_0-STOCK.Description.Name";"Flamer";"Flamer";;
+"Weapon_Flamer_Flamer_0-STOCK.Description.Details";"Flamer weapons are unique in that they deal little physical damage but instead expel superheated plasma, applying substantial heat to their target. When done properly, this can hamper enemy return fire or even cause the targeted unit to shut down from overheating.";"Flamer weapons are unique in that they deal little physical damage but instead expel superheated plasma, applying substantial heat to their target. When done properly, this can hamper enemy return fire or even cause the targeted unit to shut down from overheating.";;
+"Weapon_Flamer_Flamer_3-Olympus.Description.UIName";"Flamer +++";"Flamer +++";;
+"Weapon_Flamer_Flamer_3-Olympus.Description.Name";"Flamer +++";"Flamer +++";;
+"Weapon_Flamer_Flamer_3-Olympus.Description.Details";"Flamer weapons are unique in that they deal little physical damage but instead expel superheated plasma, applying substantial heat to their target. When done properly, this can hamper enemy return fire or even cause the targeted unit to shut down from overheating.";"Flamer weapons are unique in that they deal little physical damage but instead expel superheated plasma, applying substantial heat to their target. When done properly, this can hamper enemy return fire or even cause the targeted unit to shut down from overheating.";;
+"Weapon_Gauss_DGauss.Description.UIName";"GAUSS DBG";"GAUSS DBG";;
+"Weapon_Gauss_DGauss.Description.Name";"GAUSS DBG";"GAUSS DBG";;
+"Weapon_Gauss_DGauss.Description.Details";"Импульсный скорострельный рельсотрон. Поддреживает возможность стрельбы очередями. Рельсотрон – это линейный ускоритель, который использует сверхпроводящие электроды для того, чтобы придать сплошному снаряду сверхзвуковую скорость. Столкновение снаряда с целью, сопровождаемое выделением огромного количества кинетической энергии, оказывает разрушительный эффект даже на большом расстоянии.";"Импульсный скорострельный рельсотрон. Поддреживает возможность стрельбы очередями. Рельсотрон – это линейный ускоритель, который использует сверхпроводящие электроды для того, чтобы придать сплошному снаряду сверхзвуковую скорость. Столкновение снаряда с целью, сопровождаемое выделением огромного количества кинетической энергии, оказывает разрушительный эффект даже на большом расстоянии.";;
+"Weapon_Gauss_Gauss_0-STOCK.Description.UIName";"Gauss Rifle";"Gauss Rifle";;
+"Weapon_Gauss_Gauss_0-STOCK.Description.Name";"Gauss Rifle";"Gauss Rifle";;
+"Weapon_Gauss_Gauss_0-STOCK.Description.Details";"A Gauss Rifle uses electromagnetic charges to accelerate metallic rounds at extremely high speed, dealing massive damage by kinetic force alone. Unlike Autocannons, Gauss Rifles do not suffer recoil effects from firing and have a baseline bonus to accuracy.";"A Gauss Rifle uses electromagnetic charges to accelerate metallic rounds at extremely high speed, dealing massive damage by kinetic force alone. Unlike Autocannons, Gauss Rifles do not suffer recoil effects from firing and have a baseline bonus to accuracy.";;
+"Weapon_Gauss_Gauss_2-M9.Description.UIName";"Gauss Rifle + +";"Gauss Rifle + +";;
+"Weapon_Gauss_Gauss_2-M9.Description.Name";"Gauss Rifle";"Gauss Rifle";;
+"Weapon_Gauss_Gauss_2-M9.Description.Details";"A Gauss Rifle uses electromagnetic charges to accelerate metallic rounds at extremely high speed, dealing massive damage by kinetic force alone. Unlike Autocannons, Gauss Rifles do not suffer recoil effects from firing and have a baseline bonus to accuracy.";"A Gauss Rifle uses electromagnetic charges to accelerate metallic rounds at extremely high speed, dealing massive damage by kinetic force alone. Unlike Autocannons, Gauss Rifles do not suffer recoil effects from firing and have a baseline bonus to accuracy.";;
+"Weapon_Gauss_IGauss.Description.UIName";"Railgun";"Railgun";;
+"Weapon_Gauss_IGauss.Description.Name";"Railgun";"Railgun";;
+"Weapon_Gauss_IGauss.Description.Details";"Импульсный скорострельный рельсотрон. Поддреживает возможность стрельбы очередями. Рельсотрон – это линейный ускоритель, который использует сверхпроводящие электроды для того, чтобы придать сплошному снаряду сверхзвуковую скорость. Столкновение снаряда с целью, сопровождаемое выделением огромного количества кинетической энергии, оказывает разрушительный эффект даже на большом расстоянии.";"Импульсный скорострельный рельсотрон. Поддреживает возможность стрельбы очередями. Рельсотрон – это линейный ускоритель, который использует сверхпроводящие электроды для того, чтобы придать сплошному снаряду сверхзвуковую скорость. Столкновение снаряда с целью, сопровождаемое выделением огромного количества кинетической энергии, оказывает разрушительный эффект даже на большом расстоянии.";;
+"Weapon_Gauss_LGauss.Description.UIName";"Light Gauss";"Light Gauss";;
+"Weapon_Gauss_LGauss.Description.Name";"Light Gauss Rifle";"Light Gauss Rifle";;
+"Weapon_Gauss_LGauss.Description.Details";"Light Gauss Rifle";"Light Gauss Rifle";;
+"Weapon_Laser_AMS.Description.UIName";"Laser AMS";"Laser AMS";;
+"Weapon_Laser_AMS.Description.Name";"Laser Anti Missile System";"Laser Anti Missile System";;
+"Weapon_Laser_AMS.Description.Details";"The Laser Anti-Missile System (LAMS) is an advanced variation of the standard Anti-Missile Systems. While the standard system utilizes a machine gun linked to specialized tracking systems, the LAMS uses a Small Pulse Laser, ensuring that the system never runs out of ammunition.  
+
+ <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>";"The Laser Anti-Missile System (LAMS) is an advanced variation of the standard Anti-Missile Systems. While the standard system utilizes a machine gun linked to specialized tracking systems, the LAMS uses a Small Pulse Laser, ensuring that the system never runs out of ammunition.  
+
+ <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>";;
+"Weapon_Laser_AMS_0-STOCK.Description.UIName";"LAMS";"LAMS";;
+"Weapon_Laser_AMS_0-STOCK.Description.Name";"LAMS";"LAMS";;
+"Weapon_Laser_AMS_0-STOCK.Description.Details";"LAMS";"LAMS";;
+"Weapon_Laser_ChemicalLaser_0-STOCK.Description.UIName";"ChemLaser";"ChemLaser";;
+"Weapon_Laser_ChemicalLaser_0-STOCK.Description.Name";"Chemical Laser";"Chemical Laser";;
+"Weapon_Laser_ChemicalLaser_0-STOCK.Description.Details";"A chemical laser is a laser that obtains its energy from a chemical reaction. This weapon uses an ammo bin for an internal resevoir to hold the chemicals.
+
+It can also be used as a normal medium laser without ammo.
+
+<b>Firing modes:</b>
+<b>B:</b> <i>default mode (no ammo needed)</i>
+   <color=#ffcc00>+1 Accuracy <i>(normal for all lasers)</i>.</color>
+<b>Rust:</b><i> this mode needs ammo.</i>
+   <color=#ffcc00>+4 Accuracy</color>
+   <color=#ffcc00>damage on the target is increased 20% for 2 turns.
+   will not stack but can be refreshed on the next hit.</color>
+<b>Cryo:</b><i> this mode needs ammo.</i>
+<color=#ffcc00>   +4 Accuracy</color>
+<color=#ffcc00>   +10% chance to jam <i>(for a 5 GunnerySkill pilot)</i></color>
+   <color=#ffcc00>leaves behind a cryogenic substance on the target
+   slows movement to 10%
+   reduces inititive for 2 turns</color>
+
+<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.</b></color>";"A chemical laser is a laser that obtains its energy from a chemical reaction. This weapon uses an ammo bin for an internal resevoir to hold the chemicals.
+
+It can also be used as a normal medium laser without ammo.
+
+<b>Firing modes:</b>
+<b>B:</b> <i>default mode (no ammo needed)</i>
+   <color=#ffcc00>+1 Accuracy <i>(normal for all lasers)</i>.</color>
+<b>Rust:</b><i> this mode needs ammo.</i>
+   <color=#ffcc00>+4 Accuracy</color>
+   <color=#ffcc00>damage on the target is increased 20% for 2 turns.
+   will not stack but can be refreshed on the next hit.</color>
+<b>Cryo:</b><i> this mode needs ammo.</i>
+<color=#ffcc00>   +4 Accuracy</color>
+<color=#ffcc00>   +10% chance to jam <i>(for a 5 GunnerySkill pilot)</i></color>
+   <color=#ffcc00>leaves behind a cryogenic substance on the target
+   slows movement to 10%
+   reduces inititive for 2 turns</color>
+
+<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.</b></color>";;
+"Weapon_Laser_LargeLaser_MediumHeavy.Description.UIName";"M. Heavy Laser (P)";"M. Heavy Laser (P)";;
+"Weapon_Laser_LargeLaser_MediumHeavy.Description.Name";"M H Laser (P)";"M H Laser (P)";;
+"Weapon_Laser_LargeLaser_MediumHeavy.Description.Details";"Whatever this is I don't even know even know where to start, it is as if some Punk heard stories of Heavy Medium Lasers and decided rewiring a PPC Capacitor into a broken down Large Laser does the same..... 
+
+ <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>";"Whatever this is I don't even know even know where to start, it is as if some Punk heard stories of Heavy Medium Lasers and decided rewiring a PPC Capacitor into a broken down Large Laser does the same..... 
+
+ <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>";;
+"Weapon_Laser_MediumLaserPulse_0-STOCK.Description.UIName";"M Pulse";"M Pulse";;
+"Weapon_Laser_MediumLaserPulse_0-STOCK.Description.Name";"M Pulse";"M Pulse";;
+"Weapon_Laser_MediumLaserPulse_0-STOCK.Description.Details";"An improvement upon standard Medium Lasers, Medium Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with increased heat and weight. Like all Lasers, Medium Pulse Lasers enjoy a baseline accuracy bonus over other weapons.";"An improvement upon standard Medium Lasers, Medium Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with increased heat and weight. Like all Lasers, Medium Pulse Lasers enjoy a baseline accuracy bonus over other weapons.";;
+"Weapon_Laser_MediumLaser_0-STOCK.Description.UIName";"M Laser";"M Laser";;
+"Weapon_Laser_MediumLaser_0-STOCK.Description.Name";"M Laser";"M Laser";;
+"Weapon_Laser_MediumLaser_0-STOCK.Description.Details";"Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Like all Lasers, Medium Lasers enjoy a baseline accuracy bonus over other weapons.";"Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Like all Lasers, Medium Lasers enjoy a baseline accuracy bonus over other weapons.";;
+"Weapon_Laser_MediumLaser_1-STOCK.Description.UIName";"Rotary Laser";"Rotary Laser";;
+"Weapon_Laser_MediumLaser_1-STOCK.Description.Name";"Rotary laser";"Rotary laser";;
+"Weapon_Laser_MediumLaser_1-STOCK.Description.Details";"Rotary laser";"Rotary laser";;
+"Weapon_LRM_LRM10_3-Zeus.Description.UIName";"LRM10 + + +";"LRM10 + + +";;
+"Weapon_LRM_LRM10_3-Zeus.Description.Name";"LRM10 + + +";"LRM10 + + +";;
+"Weapon_LRM_LRM10_3-Zeus.Description.Details";"The LRM10 rack of Long-Range Missiles occupies a supporting fire role when mounted on most units, with fairly low damage balanced by low heat and ammunition consumption. Like all LRMs, LRM10s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.";"The LRM10 rack of Long-Range Missiles occupies a supporting fire role when mounted on most units, with fairly low damage balanced by low heat and ammunition consumption. Like all LRMs, LRM10s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.";;
+"Weapon_LRM_LRM1_0-BEACON.Description.UIName";"LOIC Beacon";"LOIC Beacon";;
+"Weapon_LRM_LRM1_0-BEACON.Description.Name";"LOIC Beacon";"LOIC Beacon";;
+"Weapon_LRM_LRM1_0-BEACON.Description.Details";"LOIC Beacon";"LOIC Beacon";;
+"Weapon_LRM_LRM20_0-STOCK.Description.UIName";"LRM20";"LRM20";;
+"Weapon_LRM_LRM20_0-STOCK.Description.Name";"LRM20";"LRM20";;
+"Weapon_LRM_LRM20_0-STOCK.Description.Details";"Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.";"Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.";;
+"Weapon_LRM_LRM20_3-Zeus.Description.UIName";"LRM20 + + +";"LRM20 + + +";;
+"Weapon_LRM_LRM20_3-Zeus.Description.Name";"LRM20 + + +";"LRM20 + + +";;
+"Weapon_LRM_LRM20_3-Zeus.Description.Details";"Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.";"Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.";;
+"Weapon_LRM_LRM20_SPREAD-STOCK.Description.UIName";"LRM40SPR";"LRM40SPR";;
+"Weapon_LRM_LRM20_SPREAD-STOCK.Description.Name";"LRM40SPR";"LRM40SPR";;
+"Weapon_LRM_LRM20_SPREAD-STOCK.Description.Details";"Often found as the secondary weapon on heavier units, LRM40 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.";"Often found as the secondary weapon on heavier units, LRM40 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.";;
+"Weapon_LRM_LRM5_3-Zeus.Description.UIName";"LRM5 + + +";"LRM5 + + +";;
+"Weapon_LRM_LRM5_3-Zeus.Description.Name";"LRM5 + + +";"LRM5 + + +";;
+"Weapon_LRM_LRM5_3-Zeus.Description.Details";"The smallest rack of Long-Range Missiles, LRM5s are efficient and tend to serve as harassment weapons. Like all LRMs, LRM5s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.";"The smallest rack of Long-Range Missiles, LRM5s are efficient and tend to serve as harassment weapons. Like all LRMs, LRM5s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.";;
+"Weapon_MachineGun_AMS_0-STOCK.Description.UIName";"AMS(D)";"AMS(D)";;
+"Weapon_MachineGun_AMS_0-STOCK.Description.Name";"AMS(D)";"AMS(D)";;
+"Weapon_MachineGun_AMS_0-STOCK.Description.Details";"AMS burst ballistic";"AMS burst ballistic";;
+"Weapon_MachineGun_AMS_3-Hydra.Description.UIName";"AMS";"AMS";;
+"Weapon_MachineGun_AMS_3-Hydra.Description.Name";"AMS";"AMS";;
+"Weapon_MachineGun_AMS_3-Hydra.Description.Details";"AMS En detaild";"AMS En detaild";;
+"Weapon_Missile_AMS_3-Hydra.Description.UIName";"AMS";"AMS";;
+"Weapon_Missile_AMS_3-Hydra.Description.Name";"AMS";"AMS";;
+"Weapon_Missile_AMS_3-Hydra.Description.Details";"AMS ballistics";"AMS ballistics";;
+"Weapon_MORTAIR_0-STOCK.Description.UIName";"MORTAIR";"MORTAIR";;
+"Weapon_MORTAIR_0-STOCK.Description.Name";"MORTAIR";"MORTAIR";;
+"Weapon_MORTAIR_0-STOCK.Description.Details";"MORTAIR";"MORTAIR";;
+"Weapon_MORTAR_0-STOCK.Description.UIName";"MORTAR";"MORTAR";;
+"Weapon_MORTAR_0-STOCK.Description.Name";"Warhead Launcher";"Warhead Launcher";;
+"Weapon_MORTAR_0-STOCK.Description.Details";"This custom made contraption which resembles a mortar can fire special rounds, described simply as large caliber warheads. It has two modes but the secondary mode is technically just forcing the cooldown mechanism to fail and hope it don't jam.
+
+<color=#d80404><b>Caution! The amount of damage and stability is ammo specific and in some cases could cause harm to allies in the area of impact.</b></color>
+
+<b>Firing modes:</b>
+<b>Normal:</b> <i>default mode</i>
+<color=#ffcc00>   +1 cooldown turn<i>(penalty)</i></color>
+<b>Force:</b><i> this mode attempts to bypass the cooldown</i>
+<color=#ffcc00>   +4 Recoil <i>(penalty)</i></color>
+
+<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.</b></color>";"This custom made contraption which resembles a mortar can fire special rounds, described simply as large caliber warheads. It has two modes but the secondary mode is technically just forcing the cooldown mechanism to fail and hope it don't jam.
+
+<color=#d80404><b>Caution! The amount of damage and stability is ammo specific and in some cases could cause harm to allies in the area of impact.</b></color>
+
+<b>Firing modes:</b>
+<b>Normal:</b> <i>default mode</i>
+<color=#ffcc00>   +1 cooldown turn<i>(penalty)</i></color>
+<b>Force:</b><i> this mode attempts to bypass the cooldown</i>
+<color=#ffcc00>   +4 Recoil <i>(penalty)</i></color>
+
+<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.</b></color>";;
+"Weapon_MORTAR_3-Hellhammer.Description.UIName";"Hellhammer";"Hellhammer";;
+"Weapon_MORTAR_3-Hellhammer.Description.Name";"Hellhammer";"Hellhammer";;
+"Weapon_MORTAR_3-Hellhammer.Description.Details";"A Hellhammer Siege Cannon is a massive artillery piece deployed by the Imperial Guard that fires large rocket-propelled shells that are capable of destroying most fortified buildings in a single shot. The weapon is very similar in form and function to the Imperial Demolisher Cannon found on the Thunderer Siege Tank and Space Marine Vindicator tanks, with the exception that it is much larger, with a single shell weighing over 180 kilograms. The most common use of the Hellhammer Siege Cannon is as the main weapon on the Stormsword super-heavy tank of the Imperial Guard. ";"A Hellhammer Siege Cannon is a massive artillery piece deployed by the Imperial Guard that fires large rocket-propelled shells that are capable of destroying most fortified buildings in a single shot. The weapon is very similar in form and function to the Imperial Demolisher Cannon found on the Thunderer Siege Tank and Space Marine Vindicator tanks, with the exception that it is much larger, with a single shell weighing over 180 kilograms. The most common use of the Hellhammer Siege Cannon is as the main weapon on the Stormsword super-heavy tank of the Imperial Guard. ";;
+"Weapon_MRM_MRM6_0-STOCK.Description.UIName";"MRM6";"MRM6";;
+"Weapon_MRM_MRM6_0-STOCK.Description.Name";"MRM6";"MRM6";;
+"Weapon_MRM_MRM6_0-STOCK.Description.Details";"MRM6";"MRM6";;
+"Weapon_PPC_LPPCER_3.Description.UIName";"Ion Cannon--
+";"Ion Cannon--
+";;
+"Weapon_PPC_LPPCER_3.Description.Name";"Ion Cannon";"Ion Cannon";;
+"Weapon_PPC_LPPCER_3.Description.Details";"Это оружие стреляет ионным лучом, взрывающимся при контакте с целью. Оно идеально подходит против легкой техники и тяжелобронированной пехоты. Ионная пушка может стрелять в усиленном режиме, производя мощный взрыв, способный нанести больший урон, хотя при этом есть риск перегрузки.";"Это оружие стреляет ионным лучом, взрывающимся при контакте с целью. Оно идеально подходит против легкой техники и тяжелобронированной пехоты. Ионная пушка может стрелять в усиленном режиме, производя мощный взрыв, способный нанести больший урон, хотя при этом есть риск перегрузки.";;
+"Weapon_PPC_LPPCER_4.Description.UIName";"Plasma Lance";"Plasma Lance";;
+"Weapon_PPC_LPPCER_4.Description.Name";"Plasma Lance";"Plasma Lance";;
+"Weapon_PPC_LPPCER_4.Description.Details";"Plasma Lance";"Plasma Lance";;
+"Weapon_SRM_SRM4_0-UNG.Description.UIName";"SRM4";"SRM4";;
+"Weapon_SRM_SRM4_0-UNG.Description.Name";"SRM4";"SRM4";;
+"Weapon_SRM_SRM4_0-UNG.Description.Details";"The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons.";"The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons.";;
+"Weapon_SRM_SRM6_3-Wirlwind.Description.UIName";"LRM6";"LRM6";;
+"Weapon_SRM_SRM6_3-Wirlwind.Description.Name";"LRM6";"LRM6";;
+"Weapon_SRM_SRM6_3-Wirlwind.Description.Details";"Изначально создана как средство мобильной артелерийской поддержики войск Космического Десанта устанавливается на шасси 'Носорог'. Была доработана для установки на боевые мехи. Благодаря системе обнаружения и ведения цели, 'Вихрь' может с поразительной точностью поражать замаскированные и укрепленные объекты. Стандартная комплектация установки включает осколочные ракеты на твердом топливе, выпускаемые по шесть за один программируемый залп. Сложная телеметрическая аппаратура 'Вихря' гарантирует максимальную эффективность артобстрела и дает лучшие результаты, нежели использование обычных осколочных снарядов.";"Изначально создана как средство мобильной артелерийской поддержики войск Космического Десанта устанавливается на шасси 'Носорог'. Была доработана для установки на боевые мехи. Благодаря системе обнаружения и ведения цели, 'Вихрь' может с поразительной точностью поражать замаскированные и укрепленные объекты. Стандартная комплектация установки включает осколочные ракеты на твердом топливе, выпускаемые по шесть за один программируемый залп. Сложная телеметрическая аппаратура 'Вихря' гарантирует максимальную эффективность артобстрела и дает лучшие результаты, нежели использование обычных осколочных снарядов.";;
+"Weapon_SSRM_SRM6_0-STOCK.Description.UIName";"SSRM6";"SSRM6";;
+"Weapon_SSRM_SRM6_0-STOCK.Description.Name";"SSRM6";"SSRM6";;
+"Weapon_SSRM_SRM6_0-STOCK.Description.Details";"SSRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons.";"SSRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons.";;

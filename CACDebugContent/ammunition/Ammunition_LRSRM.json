@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_LRSRM",
-    "Name": "__/Custom_Ammo_Categories.Ammunition_LRSRM.Name/__",
-    "UIName": "__/Custom_Ammo_Categories.Ammunition_LRSRM.UIName/__",
-    "Details": "__/Custom_Ammo_Categories.Ammunition_LRSRM.Details/__",
+    "Name": "Extend range SRM Ammo",
+    "UIName": "ER",
+    "Details": "Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

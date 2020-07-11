@@ -17,14 +17,14 @@
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_Cockpit_CPU.json",
     "Name": "CustomActivatableEquipment.Gear_Cockpit_CPU.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Дух машины. Берет на себя значительную часть работы по тактическом планированию, управлению сенсорикой, работе со связью и микроконтролю миомерных мышц. Крутащиеся шестиренки когитатора радуют пилота и увеличивают храбрость и свирепость. Хотя возможно, дело в распыляемых через систему жизнеобеспечения боевых наркотиках"
+      "CULTURE_RU_RU": "Р”СѓС… РјР°С€РёРЅС‹. Р‘РµСЂРµС‚ РЅР° СЃРµР±СЏ Р·РЅР°С‡РёС‚РµР»СЊРЅСѓСЋ С‡Р°СЃС‚СЊ СЂР°Р±РѕС‚С‹ РїРѕ С‚Р°РєС‚РёС‡РµСЃРєРѕРј РїР»Р°РЅРёСЂРѕРІР°РЅРёСЋ, СѓРїСЂР°РІР»РµРЅРёСЋ СЃРµРЅСЃРѕСЂРёРєРѕР№, СЂР°Р±РѕС‚Рµ СЃРѕ СЃРІСЏР·СЊСЋ Рё РјРёРєСЂРѕРєРѕРЅС‚СЂРѕР»СЋ РјРёРѕРјРµСЂРЅС‹С… РјС‹С€С†. РљСЂСѓС‚Р°С‰РёРµСЃСЏ С€РµСЃС‚РёСЂРµРЅРєРё РєРѕРіРёС‚Р°С‚РѕСЂР° СЂР°РґСѓСЋС‚ РїРёР»РѕС‚Р° Рё СѓРІРµР»РёС‡РёРІР°СЋС‚ С…СЂР°Р±СЂРѕСЃС‚СЊ Рё СЃРІРёСЂРµРїРѕСЃС‚СЊ. РҐРѕС‚СЏ РІРѕР·РјРѕР¶РЅРѕ, РґРµР»Рѕ РІ СЂР°СЃРїС‹Р»СЏРµРјС‹С… С‡РµСЂРµР· СЃРёСЃС‚РµРјСѓ Р¶РёР·РЅРµРѕР±РµСЃРїРµС‡РµРЅРёСЏ Р±РѕРµРІС‹С… РЅР°СЂРєРѕС‚РёРєР°С…"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_Cockpit_CPU.json",
     "Name": "CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-Initiative-CPU.effect0.Name",
     "Localization": {
-      "CULTURE_RU_RU": "ИНИЦИАТИВА"
+      "CULTURE_RU_RU": "РРќРР¦РРђРўРР’Рђ"
     }
   },
   {
@@ -59,14 +59,14 @@
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_Cockpit_CPU.json",
     "Name": "CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-Initiative-CPU.effect0.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Бонус [INVERSE_AMT] инициативы."
+      "CULTURE_RU_RU": "Р‘РѕРЅСѓСЃ [INVERSE_AMT] РёРЅРёС†РёР°С‚РёРІС‹."
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_Cockpit_CPU.json",
     "Name": "CustomActivatableEquipment.Gear_Cockpit_CPU.StatusEffect-AcePilot-CPU.effect1.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Позволяет двигаться после стрельбы, если движений в этом ходу не было."
+      "CULTURE_RU_RU": "РџРѕР·РІРѕР»СЏРµС‚ РґРІРёРіР°С‚СЊСЃСЏ РїРѕСЃР»Рµ СЃС‚СЂРµР»СЊР±С‹, РµСЃР»Рё РґРІРёР¶РµРЅРёР№ РІ СЌС‚РѕРј С…РѕРґСѓ РЅРµ Р±С‹Р»Рѕ."
     }
   },
   {
@@ -297,21 +297,21 @@
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_EngineCore.json",
     "Name": "CustomActivatableEquipment.Gear_EngineCore.Effect_MortarAttackInitiativeReduced.Expl0.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Баллистический шок, тепловая волна волна от взрыва, презагрузка БЦВМ из-за электромагнитной волны, перспектива лучевой болезни пугают пилота. Потеря инициативы [AMT] на один ход."
+      "CULTURE_RU_RU": "Р‘Р°Р»Р»РёСЃС‚РёС‡РµСЃРєРёР№ С€РѕРє, С‚РµРїР»РѕРІР°СЏ РІРѕР»РЅР° РІРѕР»РЅР° РѕС‚ РІР·СЂС‹РІР°, РїСЂРµР·Р°РіСЂСѓР·РєР° Р‘Р¦Р’Рњ РёР·-Р·Р° СЌР»РµРєС‚СЂРѕРјР°РіРЅРёС‚РЅРѕР№ РІРѕР»РЅС‹, РїРµСЂСЃРїРµРєС‚РёРІР° Р»СѓС‡РµРІРѕР№ Р±РѕР»РµР·РЅРё РїСѓРіР°СЋС‚ РїРёР»РѕС‚Р°. РџРѕС‚РµСЂСЏ РёРЅРёС†РёР°С‚РёРІС‹ [AMT] РЅР° РѕРґРёРЅ С…РѕРґ."
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_EngineCore.json",
     "Name": "CustomActivatableEquipment.Gear_EngineCore.Effect_MortarAttackAccuracyReduced.Expl1.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Баллистический шок, тепловая волна волна от взрыва, презагрузка БЦВМ из-за электромагнитной волны, перспектива лучевой болезни пугают пилота. Штраф к точности [AMT] на два хода."
+      "CULTURE_RU_RU": "Р‘Р°Р»Р»РёСЃС‚РёС‡РµСЃРєРёР№ С€РѕРє, С‚РµРїР»РѕРІР°СЏ РІРѕР»РЅР° РІРѕР»РЅР° РѕС‚ РІР·СЂС‹РІР°, РїСЂРµР·Р°РіСЂСѓР·РєР° Р‘Р¦Р’Рњ РёР·-Р·Р° СЌР»РµРєС‚СЂРѕРјР°РіРЅРёС‚РЅРѕР№ РІРѕР»РЅС‹, РїРµСЂСЃРїРµРєС‚РёРІР° Р»СѓС‡РµРІРѕР№ Р±РѕР»РµР·РЅРё РїСѓРіР°СЋС‚ РїРёР»РѕС‚Р°. РЁС‚СЂР°С„ Рє С‚РѕС‡РЅРѕСЃС‚Рё [AMT] РЅР° РґРІР° С…РѕРґР°."
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_EngineCore.json",
     "Name": "CustomActivatableEquipment.Gear_EngineCore.DesignMaskRadiation.Expl2.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Вторичная радиация от взрыва вызывает проблемы в системе охлаждения. Штраф к способности теплорассеивания [AMT]."
+      "CULTURE_RU_RU": "Р’С‚РѕСЂРёС‡РЅР°СЏ СЂР°РґРёР°С†РёСЏ РѕС‚ РІР·СЂС‹РІР° РІС‹Р·С‹РІР°РµС‚ РїСЂРѕР±Р»РµРјС‹ РІ СЃРёСЃС‚РµРјРµ РѕС…Р»Р°Р¶РґРµРЅРёСЏ. РЁС‚СЂР°С„ Рє СЃРїРѕСЃРѕР±РЅРѕСЃС‚Рё С‚РµРїР»РѕСЂР°СЃСЃРµРёРІР°РЅРёСЏ [AMT]."
     }
   },
   {
@@ -388,7 +388,7 @@
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_EngineType.json",
     "Name": "CustomActivatableEquipment.Gear_EngineType.DesignMaskRadiation.Expl0.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Вторичная радиация от взрыва вызывает проблемы в системе охлаждения. Штраф к способности теплорассеивания [AMT]."
+      "CULTURE_RU_RU": "Р’С‚РѕСЂРёС‡РЅР°СЏ СЂР°РґРёР°С†РёСЏ РѕС‚ РІР·СЂС‹РІР° РІС‹Р·С‹РІР°РµС‚ РїСЂРѕР±Р»РµРјС‹ РІ СЃРёСЃС‚РµРјРµ РѕС…Р»Р°Р¶РґРµРЅРёСЏ. РЁС‚СЂР°С„ Рє СЃРїРѕСЃРѕР±РЅРѕСЃС‚Рё С‚РµРїР»РѕСЂР°СЃСЃРµРёРІР°РЅРёСЏ [AMT]."
     }
   },
   {
@@ -556,7 +556,7 @@
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_Sensor_Prototype_EWE3.json",
     "Name": "CustomActivatableEquipment.Gear_Sensor_Prototype_EWE3.ECMStealth_GhostEffect.CAE3.Details",
     "Localization": {
-      "CULTURE_RU_RU": "ПАССИВНО: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.\n\nECM carriers also receive a bonus Stealth Charge."
+      "CULTURE_RU_RU": "РџРђРЎРЎРР’РќРћ: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.\n\nECM carriers also receive a bonus Stealth Charge."
     }
   },
   {
@@ -565,56 +565,56 @@
     "Localization": {
       "CULTURE_EN_US": "This unit is spotting against an enemy ECM field, reducing Stealth Charges by 1 each round for all visible enemies within the field.",
       "CULTURE_DE_DE": "This unit is spotting against an enemy ECM field, reducing Stealth Charges by 1 each round for all visible enemies within the field.",
-      "CULTURE_RU_RU": "Эта боевая единица мешает работе вражеских СРЭБ, уменьшая Заряды Невидимости на 1 каждый раунд для всех видимых врагов в поле действия."
+      "CULTURE_RU_RU": "Р­С‚Р° Р±РѕРµРІР°СЏ РµРґРёРЅРёС†Р° РјРµС€Р°РµС‚ СЂР°Р±РѕС‚Рµ РІСЂР°Р¶РµСЃРєРёС… РЎР Р­Р‘, СѓРјРµРЅСЊС€Р°СЏ Р—Р°СЂСЏРґС‹ РќРµРІРёРґРёРјРѕСЃС‚Рё РЅР° 1 РєР°Р¶РґС‹Р№ СЂР°СѓРЅРґ РґР»СЏ РІСЃРµС… РІРёРґРёРјС‹С… РІСЂР°РіРѕРІ РІ РїРѕР»Рµ РґРµР№СЃС‚РІРёСЏ."
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_SpeedBooster.json",
     "Name": "CustomActivatableEquipment.Gear_SpeedBooster.UIName",
     "Localization": {
-      "CULTURE_RU_RU": "Стальный мышцы"
+      "CULTURE_RU_RU": "РЎС‚Р°Р»СЊРЅС‹Р№ РјС‹С€С†С‹"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_SpeedBooster.json",
     "Name": "CustomActivatableEquipment.Gear_SpeedBooster.Name",
     "Localization": {
-      "CULTURE_RU_RU": "Стальный мышцы"
+      "CULTURE_RU_RU": "РЎС‚Р°Р»СЊРЅС‹Р№ РјС‹С€С†С‹"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_SpeedBooster.json",
     "Name": "CustomActivatableEquipment.Gear_SpeedBooster.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Стальные мускулы снятые с титана класса 'Гончая'. Позволяют, в случае необходимости утроить скорость передвижения"
+      "CULTURE_RU_RU": "РЎС‚Р°Р»СЊРЅС‹Рµ РјСѓСЃРєСѓР»С‹ СЃРЅСЏС‚С‹Рµ СЃ С‚РёС‚Р°РЅР° РєР»Р°СЃСЃР° 'Р“РѕРЅС‡Р°СЏ'. РџРѕР·РІРѕР»СЏСЋС‚, РІ СЃР»СѓС‡Р°Рµ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё СѓС‚СЂРѕРёС‚СЊ СЃРєРѕСЂРѕСЃС‚СЊ РїРµСЂРµРґРІРёР¶РµРЅРёСЏ"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_SpeedBooster.json",
     "Name": "CustomActivatableEquipment.Gear_SpeedBooster.StatusEffect-MASC-WalkSpeedDouble.CAE0.Name",
     "Localization": {
-      "CULTURE_RU_RU": "СКОРОСТЬ УДВОЕНА"
+      "CULTURE_RU_RU": "РЎРљРћР РћРЎРўР¬ РЈР”Р’РћР•РќРђ"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_SpeedBooster.json",
     "Name": "CustomActivatableEquipment.Gear_SpeedBooster.StatusEffect-MASC-RunSpeedDouble.CAE1.Name",
     "Localization": {
-      "CULTURE_RU_RU": "СКОРОСТЬ УДВОЕНА"
+      "CULTURE_RU_RU": "РЎРљРћР РћРЎРўР¬ РЈР”Р’РћР•РќРђ"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_SpeedBooster.json",
     "Name": "CustomActivatableEquipment.Gear_SpeedBooster.StatusEffect-MASC-WalkSpeedDouble.CAE0.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Скорость удвоена"
+      "CULTURE_RU_RU": "РЎРєРѕСЂРѕСЃС‚СЊ СѓРґРІРѕРµРЅР°"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_SpeedBooster.json",
     "Name": "CustomActivatableEquipment.Gear_SpeedBooster.StatusEffect-MASC-RunSpeedDouble.CAE1.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Скорость удвоена"
+      "CULTURE_RU_RU": "РЎРєРѕСЂРѕСЃС‚СЊ СѓРґРІРѕРµРЅР°"
     }
   },
   {
@@ -623,7 +623,7 @@
     "Localization": {
       "CULTURE_EN_US": "Target module",
       "CULTURE_DE_DE": "Target module",
-      "CULTURE_RU_RU": "Прицельный компьютер"
+      "CULTURE_RU_RU": "РџСЂРёС†РµР»СЊРЅС‹Р№ РєРѕРјРїСЊСЋС‚РµСЂ"
     }
   },
   {
@@ -632,7 +632,7 @@
     "Localization": {
       "CULTURE_EN_US": "Target module",
       "CULTURE_DE_DE": "Target module",
-      "CULTURE_RU_RU": "Прицельный компьютер"
+      "CULTURE_RU_RU": "РџСЂРёС†РµР»СЊРЅС‹Р№ РєРѕРјРїСЊСЋС‚РµСЂ"
     }
   },
   {
@@ -641,7 +641,7 @@
     "Localization": {
       "CULTURE_EN_US": "Target module",
       "CULTURE_DE_DE": "Target module",
-      "CULTURE_RU_RU": "Прицельный компьютер"
+      "CULTURE_RU_RU": "РџСЂРёС†РµР»СЊРЅС‹Р№ РєРѕРјРїСЊСЋС‚РµСЂ"
     }
   },
   {
@@ -650,7 +650,7 @@
     "Localization": {
       "CULTURE_EN_US": "Long range",
       "CULTURE_DE_DE": "Long range",
-      "CULTURE_RU_RU": "Большой радиус."
+      "CULTURE_RU_RU": "Р‘РѕР»СЊС€РѕР№ СЂР°РґРёСѓСЃ."
     }
   },
   {
@@ -659,7 +659,7 @@
     "Localization": {
       "CULTURE_EN_US": "Long range",
       "CULTURE_DE_DE": "Long range",
-      "CULTURE_RU_RU": "Большой радиус."
+      "CULTURE_RU_RU": "Р‘РѕР»СЊС€РѕР№ СЂР°РґРёСѓСЃ."
     }
   },
   {
@@ -668,7 +668,7 @@
     "Localization": {
       "CULTURE_EN_US": "Long range",
       "CULTURE_DE_DE": "Long range",
-      "CULTURE_RU_RU": "Большой радиус."
+      "CULTURE_RU_RU": "Р‘РѕР»СЊС€РѕР№ СЂР°РґРёСѓСЃ."
     }
   },
   {
@@ -677,7 +677,7 @@
     "Localization": {
       "CULTURE_EN_US": "Long range.",
       "CULTURE_DE_DE": "Long range.",
-      "CULTURE_RU_RU": "Большой радиус."
+      "CULTURE_RU_RU": "Р‘РѕР»СЊС€РѕР№ СЂР°РґРёСѓСЃ."
     }
   },
   {
@@ -686,7 +686,7 @@
     "Localization": {
       "CULTURE_EN_US": "Long range.",
       "CULTURE_DE_DE": "Long range.",
-      "CULTURE_RU_RU": "Большой радиус."
+      "CULTURE_RU_RU": "Р‘РѕР»СЊС€РѕР№ СЂР°РґРёСѓСЃ."
     }
   },
   {
@@ -695,84 +695,84 @@
     "Localization": {
       "CULTURE_EN_US": "Long range.",
       "CULTURE_DE_DE": "Long range.",
-      "CULTURE_RU_RU": "Большой радиус."
+      "CULTURE_RU_RU": "Р‘РѕР»СЊС€РѕР№ СЂР°РґРёСѓСЃ."
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TargetModule.json",
     "Name": "CustomActivatableEquipment.Gear_TargetModule.TargetModuleLongRangeLRDebuff.CAEOFF0.Name",
     "Localization": {
-      "CULTURE_RU_RU": "Большой радиус."
+      "CULTURE_RU_RU": "Р‘РѕР»СЊС€РѕР№ СЂР°РґРёСѓСЃ."
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TargetModule.json",
     "Name": "CustomActivatableEquipment.Gear_TargetModule.TargetModuleLongRangeLRDebuff.CAEOFF0.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Большой радиус."
+      "CULTURE_RU_RU": "Р‘РѕР»СЊС€РѕР№ СЂР°РґРёСѓСЃ."
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TSM.json",
     "Name": "CustomActivatableEquipment.Gear_TSM.UIName",
     "Localization": {
-      "CULTURE_RU_RU": "МУС"
+      "CULTURE_RU_RU": "РњРЈРЎ"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TSM.json",
     "Name": "CustomActivatableEquipment.Gear_TSM.Name",
     "Localization": {
-      "CULTURE_RU_RU": "МУС"
+      "CULTURE_RU_RU": "РњРЈРЎ"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TSM.json",
     "Name": "CustomActivatableEquipment.Gear_TSM.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Миомер Утроенной Силы"
+      "CULTURE_RU_RU": "РњРёРѕРјРµСЂ РЈС‚СЂРѕРµРЅРЅРѕР№ РЎРёР»С‹"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TSM.json",
     "Name": "CustomActivatableEquipment.Gear_TSM.StatusEffect-MeleeWeapon-TSM.CAE0.Name",
     "Localization": {
-      "CULTURE_RU_RU": "РУКОПАШНАЯ УРОН УДВОЕН"
+      "CULTURE_RU_RU": "Р РЈРљРћРџРђРЁРќРђРЇ РЈР РћРќ РЈР”Р’РћР•Рќ"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TSM.json",
     "Name": "CustomActivatableEquipment.Gear_TSM.StatusEffect-TSM-WalkSpeedDouble.CAE1.Name",
     "Localization": {
-      "CULTURE_RU_RU": "МУС УДВНОИЛ СКОРОСТЬ"
+      "CULTURE_RU_RU": "РњРЈРЎ РЈР”Р’РќРћРР› РЎРљРћР РћРЎРўР¬"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TSM.json",
     "Name": "CustomActivatableEquipment.Gear_TSM.StatusEffect-TSM-RunSpeedDouble.CAE2.Name",
     "Localization": {
-      "CULTURE_RU_RU": "МУС УДВНОИЛ СКОРОСТЬ"
+      "CULTURE_RU_RU": "РњРЈРЎ РЈР”Р’РќРћРР› РЎРљРћР РћРЎРўР¬"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TSM.json",
     "Name": "CustomActivatableEquipment.Gear_TSM.StatusEffect-MeleeWeapon-TSM.CAE0.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Урон в рукопашной удвоен"
+      "CULTURE_RU_RU": "РЈСЂРѕРЅ РІ СЂСѓРєРѕРїР°С€РЅРѕР№ СѓРґРІРѕРµРЅ"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TSM.json",
     "Name": "CustomActivatableEquipment.Gear_TSM.StatusEffect-TSM-WalkSpeedDouble.CAE1.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Скорость удвоена"
+      "CULTURE_RU_RU": "РЎРєРѕСЂРѕСЃС‚СЊ СѓРґРІРѕРµРЅР°"
     }
   },
   {
     "FileName": "C:\\Games\\steamapps\\common\\BATTLETECH\\Mods\\ActivatableEquipment\\upgrades\\Gear_TSM.json",
     "Name": "CustomActivatableEquipment.Gear_TSM.StatusEffect-TSM-RunSpeedDouble.CAE2.Details",
     "Localization": {
-      "CULTURE_RU_RU": "Скорость удвоена"
+      "CULTURE_RU_RU": "РЎРєРѕСЂРѕСЃС‚СЊ СѓРґРІРѕРµРЅР°"
     }
   }
 ]

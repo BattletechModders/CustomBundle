@@ -35,10 +35,10 @@
     "Purchasable": true,
     "Manufacturer": "TharHes",
     "Model": "Short-Range Missile Launcher",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_SRM_SRM4_0-UNG.UIName/__",
+    "UIName": "SRM4",
     "Id": "Weapon_SRM_SRM4_0-UNG",
-    "Name": "__/Custom_Ammo_Categories.Weapon_SRM_SRM4_0-UNG.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_SRM_SRM4_0-UNG.Details/__",
+    "Name": "SRM4",
+    "Details": "The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
   "BonusValueA": "",

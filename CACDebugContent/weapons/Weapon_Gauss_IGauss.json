@@ -34,10 +34,10 @@
     "Purchasable": false,
     "Manufacturer": "Fal'shia",
     "Model": "KV138",
-    "UIName": "__/Custom_Ammo_Categories.Weapon_Gauss_IGauss.UIName/__",
+    "UIName": "Railgun",
     "Id": "Weapon_Gauss_IGauss",
-    "Name": "__/Custom_Ammo_Categories.Weapon_Gauss_IGauss.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Weapon_Gauss_IGauss.Details/__",
+    "Name": "Railgun",
+    "Details": "Импульсный скорострельный рельсотрон. Поддреживает возможность стрельбы очередями. Рельсотрон – это линейный ускоритель, который использует сверхпроводящие электроды для того, чтобы придать сплошному снаряду сверхзвуковую скорость. Столкновение снаряда с целью, сопровождаемое выделением огромного количества кинетической энергии, оказывает разрушительный эффект даже на большом расстоянии.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",

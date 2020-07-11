@@ -6,10 +6,10 @@
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "Thermal Exchanger III",
-    "UIName": "__/Custom_Ammo_Categories.Gear_HeatSink_Generic_Thermal-Exchanger-III.UIName/__",
+    "UIName": "Exchanger + +",
     "Id": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
-    "Name": "__/Custom_Ammo_Categories.Gear_HeatSink_Generic_Thermal-Exchanger-III.Name/__",
-    "Details": "__/Custom_Ammo_Categories.Gear_HeatSink_Generic_Thermal-Exchanger-III.Details/__",
+    "Name": "Thermal Exchanger III",
+    "Details": "Thermal Exchangers reduce the overall heat generated from weapon attacks by a fixed percentage. Unlike Heat Sink components, Thermal Exchangers are not impacted by the surrounding environment.",
     "Icon": "uixSvgIcon_equipment_ThermalExchanger"
   },
   "BonusValueA": " - 20% Weapon Heat",
@@ -49,8 +49,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Heat_GenReduction-T3",
-        "Name": "__/Custom_Ammo_Categories.Gear_HeatSink_Generic_Thermal-Exchanger-III.StatusEffect-Heat_GenReduction-T3.effect0.Name/__",
-        "Details": "__/Custom_Ammo_Categories.Gear_HeatSink_Generic_Thermal-Exchanger-III.StatusEffect-Heat_GenReduction-T3.effect0.Details/__",
+        "Name": "HEAT GENERATION DECREASED",
+        "Details": "Heat generation reduced by [AMT].",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
       "nature": "Buff",
