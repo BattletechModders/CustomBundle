@@ -232,8 +232,8 @@
     "Play_Panic23",
     "Play_Panic22"
   ],
-  "uiIcons":[ "weapon_up", "weapon_down" ],
-  "WeaponPanelBackWidthScale": 1.1,
+  "uiIcons": [ "weapon_up", "weapon_down", "bomb", "land-mine", "weapon_btn" ],
+  "WeaponPanelBackWidthScale": 1.45,
   "OrderButtonWidthScale": 0.5,
   "OrderButtonPaddingScale": 0.3,
   "SidePanelInfoSelfExternal": false,
