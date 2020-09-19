@@ -248,7 +248,7 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
 "NullifyDestoryedLocationDamage": true - if true damage to destroyed locations will be nullified 
 "DestoryedLocationCriticalAllow": true - if false and on hit locations had 0 structure criticals will not be rolled 
 "uiIcons": [ "weapon_up", "weapon_down" ] - some prewarm icons 
-  "WeaponPanelBackWidthScale": 1.45,   - you should avoid change this value
+  "WeaponPanelBackWidthScale": 1.45, - !!you should avoid change this value!!
   "OrderButtonWidthScale": 0.5, - obsolete 
   "OrderButtonPaddingScale": 0.3, - obsolete 
   "SidePanelInfoSelfExternal": false, - if true info side panel content about selected unit is controlled by external mod
