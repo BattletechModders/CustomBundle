@@ -1128,22 +1128,18 @@ Ammo definition
 }
 
 Note on damage modifiers
-you can register your own mode via API
-this functions should be called every combat start
-	void CustAmmoCategories.DamageModifiersCache.EnableExternalMode(this Weapon weapon) - enable external mode ability for weapon 
-	bool CustAmmoCategories.DamageModifiersCache.isExternalMode(this Weapon weapon) - returns true if external mode calculations is enabled for weapon
-	void CustAmmoCategories.DamageModifiersCache.ExternalModeId(this Weapon weapon, int id) - set current external mode id for weapon (exact id value is on your consideration)
-		you should note, changing external mode id also triggers refreshing weapons panel
-	int CustAmmoCategories.DamageModifiersCache.ExternalModeId(this Weapon weapon) - get current external mode id, default 0
-this function should be called once, at game start
-void CustAmmoCategories.DamageModifiersCache.RegisterExternalModes(string id, - id should be unique
-	Func<Weapon, int, string> nameDelegate,                                    - delegate not get name of your modifier base on weapon and exact external mode id
-	                                                                              if you return string.Empty or null next delegates will not be invoked
-	Func<Weapon,int,float> damageDelegate,                                     - delegate for damage. Function should return multiplier
-	Func<Weapon, int, float> apDelegate,                                       - delegate for AP damage. Function should return multiplier
-	Func<Weapon, int, float> heatDelegate,                                     - delegate for heat. Function should return multiplier
-	Func<Weapon, int, float> stabilityDelegate                                 - delegate for stability. Function should return multiplier
-)
+you can register your own modifier via API
+	void CustAmmoCategories.DamageModifiersCache.RegisterExternalModes(string id, - id should be unique
+		Func<Weapon, string> nameDelegate,                                    - delegate not get name of your modifier base on weapon and you internal weapon's state
+																					  if you return string.Empty or null next delegates will not be invoked
+		Func<Weapon,float> damageDelegate,                                     - delegate for damage. Function should return multiplier
+		Func<Weapon, float> apDelegate,                                       - delegate for AP damage. Function should return multiplier
+		Func<Weapon, float> heatDelegate,                                     - delegate for heat. Function should return multiplier
+		Func<Weapon, float> stabilityDelegate                                 - delegate for stability. Function should return multiplier
+	)
+if your internal state for weapon has bee changed you should invoke 
+	void CustAmmoCategories.DamageModifiersCache.ClearDamageCache(this Weapon weapon) to clear damage calculations cache for weapon. 
+    Invoking weapon panel slots refreshing is also your responsibility and should be performed after cache reseting
 
 Note on toHit modifiers
 CustAmmoCategories.ToHitModifiersHelper.registerModifier(
