@@ -6,6 +6,11 @@ this mod allows you next things
 
 main settings in mod.json
 	"DeployManual": true, - allowing manual deploy in random contract.
+	"DeployMaxDistanceFromOriginal": 30 - max distance from original deploy position
+	"DeployMinDistanceFromEnemy": 300 - min distance form enemy unit
+	              NOTE: DeployMaxDistanceFromOriginal and DeployMinDistanceFromEnemy working like OR. Eg. your manual deploy position should be near than <DeployMaxDistanceFromOriginal>
+				  from original spawn point OR farer than <DeployMinDistanceFromEnemy> every enemy
+				  Also no pathing checking performed - if you deploy your lance to deep water or mountain it will be your own damn fault. 
     "fixWaterHeight":true, - whether or not underwater terrain height should be fixed. If false hovers will not be able to move over water/deep water surface
     "maxWaterSteepness":30, - max underwater terrain steepness - if underwater terrain cell will have steepness grater than this value it will be fixed to 0 and cell will be marked as deep water
                               this needed for two things - hovers should not be affected by water cell steepness and not hovers should not be able to pass through this cell

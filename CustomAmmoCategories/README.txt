@@ -261,7 +261,7 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
   "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"], - if mech chassis have this tag incoming heat damage from attacks, land mines, burning terrain, components explosions transferred to normal damage instead.
   "InfoPanelDefaultState": false, - if true side info panel is shown by default
   "AttackLogWrite": false - if true csv attack log will be created in CustomAmmoCatogories/AttacksLogs
-  "ShowAttackGroundButton": false - if false no attack ground button will be shown,
+  "ShowAttackGroundButton": false - obsolete, attack ground button showing always
   "ShowWeaponOrderButtons": false - obsolete, order buttons showing always
   "ToHitSelfJumped":2, - from AIM
   "ToHitMechFromFront":0, - from AIM
@@ -271,9 +271,11 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
   "ToHitVehicleFromSide":-1, - from AIM
   "ToHitVehicleFromRear":-2, - from AIM
   "WeaponPanelWidthScale":0.7, - scale for weapon panel
-  "WeaponPanelHeightScale":0.7 - scale for weapon panel
-  "MinefieldDetectorStatName": "MinefieldDetection" - stat name for actor's landmines detection level (float). Default value 1.
-  "MinefieldIFFStatName": "MinefieldIFF" - stat name for actor landmines IFF ability (float). Default value 0. 
+  "WeaponPanelHeightScale":0.7, - scale for weapon panel
+  "MinefieldDetectorStatName": "MinefieldDetection", - stat name for actor's landmines detection level (float). Default value 1.
+  "MinefieldIFFStatName": "MinefieldIFF", - stat name for actor landmines IFF ability (float). Default value 0. 
+  "AmmoNameInSidePanel": true - if true in side panel AmmunitionDef.Name will be shown instead of AmmunitionDef.UIName
+  "ShowApplyHeatSinkMessage": true - show floatie message on heatsinks appying.
 }
 
 Weapon definition
