@@ -262,7 +262,7 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
   "InfoPanelDefaultState": false, - if true side info panel is shown by default
   "AttackLogWrite": false - if true csv attack log will be created in CustomAmmoCatogories/AttacksLogs
   "ShowAttackGroundButton": false - if false no attack ground button will be shown,
-  "ShowWeaponOrderButtons": false - if false no weapon order buttons will be shown
+  "ShowWeaponOrderButtons": false - obsolete, order buttons showing always
   "ToHitSelfJumped":2, - from AIM
   "ToHitMechFromFront":0, - from AIM
   "ToHitMechFromSide":-1, - from AIM
