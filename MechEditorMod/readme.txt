@@ -44,3 +44,11 @@ note on API
 /ui/* - GET - file from <mod dir>/ui
 
 / - GET - file <mod dir>/ui/index.html
+
+/BattleTechResourceType - GET - list available manifest resource types
+
+/Manifest/<BattleTechResourceType> - GET - list resources of <BattleTechResourceType> from manifest
+
+/LoadManifest/<BattleTechResourceType> - GET - force loading resources of desired type to data manager
+	                                   NOTE! resources content can be get by /get/<list name>/<item id> invocation available only after loading to data manager
+									   either by loading save, opening skirmish mechbay or forcing it to load via this API
