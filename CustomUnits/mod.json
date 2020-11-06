@@ -30,6 +30,9 @@
     "MaxVehicleRandomPilots": 2,
     "CanPilotVehicleProbability": 0.5,
     "CanPilotAlsoMechProbability": 0.5,
+    "SquadStructureIcon": "ba_structure",
+    "SquadArmorOutlineIcon": "ba_armor_outline",
+    "SquadArmorIcon": "ba_armor",
     "LancesIcons": [ "one", "two", "three" ],
     "ShowActiveAbilitiesIcon": "futuristic",
     "ShowPassiveAbilitiesIcon": "ram",
@@ -55,7 +58,8 @@
     ],
     "ArgoBaysFix": 1,
     "ShowVehicleBays": true,
-    "BaysCountExternalControl": false
+    "BaysCountExternalControl": false,
+    "AllowVehiclesEdit": false
   },
 	"Manifest": [
     { "Type": "AssetBundle", "Path": "assetbundles" },	
