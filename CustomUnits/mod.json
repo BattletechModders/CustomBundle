@@ -39,6 +39,7 @@
     "HideActiveAbilitiesIcon": "futuristic",
     "HidePassiveAbilitiesIcon": "ram",
     "overallDeploySize": 4,
+    "ConvoyMaxDistFromRoute": 90,
     "Lances": [
       {
         "size": 6,
@@ -59,7 +60,12 @@
     "ArgoBaysFix": 1,
     "ShowVehicleBays": true,
     "BaysCountExternalControl": false,
-    "AllowVehiclesEdit": false
+    "AllowVehiclesEdit": false,
+    "ConvoyRouteBeaconVFXScale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
   },
 	"Manifest": [
     { "Type": "AssetBundle", "Path": "assetbundles" },	
