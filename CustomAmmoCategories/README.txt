@@ -281,7 +281,8 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
   "MinefieldIFFStatName": "MinefieldIFF", - stat name for actor landmines IFF ability (float). Default value 0. 
   "AmmoNameInSidePanel": true - if true in side panel AmmunitionDef.Name will be shown instead of AmmunitionDef.UIName
   "ShowApplyHeatSinkMessage": true - show floatie message on heatsinks appying.
-  "AMSCantFireFloatie": false - if true if AMS can't fire reason will be shown in floatie message
+  "AMSCantFireFloatie": false, - if true if AMS can't fire reason will be shown in floatie message
+  "ShowJammChance": true - if true side panel will show jam chance calculation formula
 }
 
 Weapon definition
