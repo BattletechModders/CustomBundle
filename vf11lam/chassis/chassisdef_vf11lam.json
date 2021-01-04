@@ -1,0 +1,350 @@
+{
+  "Description": {
+    "Cost": 13121470,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "vf11lam",
+    "Id": "chassisdef_vf11lam",
+    "Name": "vf11lam",
+    "Details": "The vf11lam is a Rasalhague Dominion Assault Class BattleMech produced at the Dominion's Bergan Industries factory on Alshain. The vf11lam's long-range firepower includes a right arm mounted Gauss Rifle and a center torso mounted LRM 10 Launcher. These two weapons give the 'Mech far reaching power, providing it the ability to vf11lametrate an opponent's armor and damage its interior equipment. For its intermediate and short range brackets, the 'Mech is armed with a Large Pulse Laser in its left arm and an ER Medium Laser in each arm, along with a Streak SRM 4 Launchers in each torso. To manage heat, it has been provided with 14 Clan tech Double Heat Sinks. Its hull is protected by 15 tons of standard Clan armor with integrated CASE. ",
+    "Icon": "uixTxrIcon_awesome"
+  },
+  "VariantName": "vf11lam-1",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.0"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "CustomParts": {
+    "AlternateRepresentations": [
+      {
+        "PrefabIdentifier": "chrprfmech_vf11lambase-001",
+        "AdditionalPrefabs": [],
+        "PrefabBase": "vf11lam",
+        "HardpointDataDef":"hardpointdatadef_vf11lam",
+        "Type": "AirMech",
+        "FlyHeight": 15.0,
+        "AirMechVerticalJets":[
+          {
+            "Prefab":"vf11lam_vjets_left_leg",
+            "Attach":"j_LHeel",
+            "JetsAttachPoints":["jetAttachPoint"]
+          },
+          {
+            "Prefab":"vf11lam_vjets_right_leg",
+            "Attach":"j_RHeel",
+            "JetsAttachPoints":["jetAttachPoint"]
+          },
+          {
+            "Prefab":"vf11lam_vjets_torso",
+            "Attach":"j_Spine2",
+            "JetsAttachPoints":["jetAttachPoint"]
+          }
+        ]
+      }
+    ]
+  },
+  "StockRole": "Skirmisher",
+  "YangsThoughts": "The vf11lam is a Rasalhague Dominion Assault Class BattleMech produced at the Dominion's Bergan Industries factory on Alshain. The vf11lam's long-range firepower includes a right arm mounted Gauss Rifle and a center torso mounted LRM 10 Launcher. These two weapons give the 'Mech far reaching power, providing it the ability to vf11lametrate an opponent's armor and damage its interior equipment. For its intermediate and short range brackets, the 'Mech is armed with a Large Pulse Laser in its left arm and an ER Medium Laser in each arm, along with a Streak SRM 4 Launchers in each torso. To manage heat, it has been provided with 14 Clan tech Double Heat Sinks. Its hull is protected by 15 tons of standard Clan armor with integrated CASE. ",
+  "MovementCapDefID": "movedef_kingcrab_KGC-0000",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_atlas",
+  "PrefabIdentifier": "chrPrfMech_atlasBase-001",
+  "PrefabBase": "atlas",
+  "Tonnage": 80,
+  "InitialTonnage": 8,
+  "weightClass": "ASSAULT",
+  "BattleValue": 7718000,
+  "Heatsinks": 0,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 20,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 40,
+  "MeleeInstability": 20,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 80,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 80,
+  "DFAInstability": 40,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
+  "AlwaysPunchIfPossible": false,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "Omni": false,
+          "WeaponMountID": "Energy"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Ballistic"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Missile"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Energy"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Ballistic"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Missile"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "AntiPersonnel"
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 130,
+      "MaxRearArmor": -1,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "Omni": false,
+          "WeaponMountID": "Energy"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Ballistic"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Missile"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Energy"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Ballistic"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Missile"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "AntiPersonnel"
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 170,
+      "MaxRearArmor": 85,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "Omni": false,
+          "WeaponMountID": "Energy"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Ballistic"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Missile"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Energy"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Ballistic"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Missile"
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 15,
+      "MaxArmor": 250,
+      "MaxRearArmor": 125,
+      "InternalStructure": 125
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "Omni": false,
+          "WeaponMountID": "Energy"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Ballistic"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Missile"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Energy"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Ballistic"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Missile"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "AntiPersonnel"
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 170,
+      "MaxRearArmor": 85,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "Omni": false,
+          "WeaponMountID": "Energy"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Ballistic"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Missile"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Energy"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Ballistic"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "Missile"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "AntiPersonnel"
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 130,
+      "MaxRearArmor": -1,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ]
+}

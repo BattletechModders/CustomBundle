@@ -1,0 +1,51 @@
+{
+    "Name": "vf11lam",
+    "Enabled": true,
+	"Version": "2",
+    "Author": "Transient74",	
+	"Manifest": [
+	{ "Type": "AssetBundle", "Path": "assetbundles" },	
+	
+	{ "Type": "HardpointDataDef", "Path": "hardpoints" },
+	{ "Type": "ChassisDef", "Path": "chassis" },
+	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "MovementCapabilitiesDef", "Path": "movement" },
+  { "Type": "Sprite", "Path": "portraits" },
+  { "Type": "UpgradeDef", "Path": "upgrades" },
+	
+	{ "Type": "Prefab", "Path": "assets/characters/prefabs/vf11lam_vjets_left_leg.prefab", "AssetBundleName": "vf11lam_jets" },
+	{ "Type": "Prefab", "Path": "assets/characters/prefabs/vf11lam_vjets_right_leg.prefab", "AssetBundleName": "vf11lam_jets" },
+	{ "Type": "Prefab", "Path": "assets/characters/prefabs/vf11lam_vjets_torso.prefab", "AssetBundleName": "vf11lam_jets" },
+
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/components/vf11lam/chrPrfComp_vf11lam_simgame.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/chrprfmech_vf11lambase-001.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },		
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/components/vf11lam/chrPrfComp_vf11lam_centertorso_jumpjet.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_lefttorso_laser_eh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_lefttorso_laser_eh2.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_lefttorso_lrm5_mh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_lefttorso_lrm5_mh2.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_lefttorso_lrm5_mh3.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_lefttorso_ac2_bh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+		
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_leftarm_laser_eh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_leftarm_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_leftarm_flamer_eh2.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },	
+		
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_righttorso_laser_eh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_righttorso_laser_eh2.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_righttorso_lrm5_mh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_righttorso_lrm5_mh2.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_righttorso_ac2_bh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_righttorso_lrm5_mh3.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },	
+		
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_rightarm_laser_eh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_rightarm_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_rightarm_flamer_eh2.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },	
+
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_centertorso_laser_eh1.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
+	{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/vf11lam/chrprfweap_vf11lam_centertorso_laser_eh2.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" }
+	
+
+    ]
+}
