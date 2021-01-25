@@ -1,0 +1,54 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8803415704568378056
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7925183561751238448
+  },
+  "m_Name": "",
+  "weight": 1.0,
+  "solver": {
+    "layers": {
+      "m_Bits": 6656
+    },
+    "maxStep": 6.0,
+    "heightOffset": 0.0,
+    "footSpeed": 3.0,
+    "footRadius": 0.4,
+    "prediction": 0.0,
+    "footRotationWeight": 1.0,
+    "footRotationSpeed": 7.0,
+    "maxFootRotationAngle": 45.0,
+    "rotateSolver": 1,
+    "pelvisSpeed": 20.0,
+    "pelvisDamper": 0.0,
+    "lowerPelvisWeight": 1.0,
+    "liftPelvisWeight": 0.0,
+    "rootSphereCastRadius": 0.3,
+    "quality": 2
+  },
+  "legs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5701785853092133919
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 938662876723940577
+    }
+  ],
+  "pelvis": {
+    "m_FileID": 0,
+    "m_PathID": 5704794233867341803
+  },
+  "characterRoot": {
+    "m_FileID": 0,
+    "m_PathID": -3951659919252284287
+  },
+  "rootRotationWeight": 0.0,
+  "rootRotationSpeed": 5.0,
+  "maxRootRotationAngle": 20.0
+}

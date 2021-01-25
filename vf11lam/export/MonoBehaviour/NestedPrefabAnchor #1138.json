@@ -1,0 +1,43 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4252920508955600057
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2699530887530597934
+  },
+  "m_Name": "",
+  "managedPrefabs": [
+    {
+      "instantiatedObject": {
+        "m_FileID": 0,
+        "m_PathID": 5759371099396994960
+      },
+      "isVisible": 1,
+      "assetGUID": "2ccc5a2d237d360409355ff148b68550",
+      "siblingDepth": 0,
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    }
+  ]
+}

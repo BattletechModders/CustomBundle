@@ -1,0 +1,56 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3778234978598398851
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5058181728223137647
+  },
+  "m_Name": "",
+  "thisGameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "thisTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "thisCharacterController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "thisAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "thisIKController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "parentTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "renderers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6568022573521263929
+    }
+  ],
+  "vfxTransforms": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8052682808476249562
+    }
+  ],
+  "windZone": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

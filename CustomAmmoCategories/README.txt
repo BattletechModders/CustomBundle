@@ -1090,10 +1090,11 @@ Ammo definition
 								   		  "name" - audio event name 
 										  "none" - none additional sound for this type name doesn't matter
 							 may be set per ammo, mode and weapon. Mode have priority than ammo than weapon
-   "ChassisTagsAccuracyModifiers":{ - Accuracy for mods tags (mechs - MechTags, Vehicles - VehicleTags, Turrets - turret tags) AIM aware
+   "ChassisTagsAccuracyModifiers":{ - Accuracy for mods tags (mechs - MechTags and ChassisTags, Vehicles - VehicleTags, Turrets - TurretTags)
       "unit_assault":-10,
       "unit_mech":10,
    },
+   Note: all unit types also use EncounterTags. This tags listed at contract definitions. Also alternate representation switching can alter unit EncounterTags
    "statusEffects" : [   - will be applied on weapon hit (only "OnHit" effectTriggerType)
         {
             "durationData" : {

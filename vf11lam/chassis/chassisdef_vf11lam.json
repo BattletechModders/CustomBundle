@@ -27,6 +27,9 @@
         "HardpointDataDef":"hardpointdatadef_vf11lam",
         "Type": "AirMech",
         "FlyHeight": 15.0,
+        "HoveringSoundStart": "jet_start",
+        "HoveringSoundEnd": "jet_end",
+        "additionalEncounterTags": [ "tag_aircraft" ],
         "AirMechVerticalJets":[
           {
             "Prefab":"vf11lam_vjets_left_leg",

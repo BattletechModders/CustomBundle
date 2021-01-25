@@ -1,0 +1,158 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 9176900176666556243
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -956281259751284515
+  },
+  "m_Name": "",
+  "timeStep": 0.0,
+  "fixTransforms": 1,
+  "solver": {
+    "IKPosition": {
+      "x": -2.49987221,
+      "y": 1.14160347,
+      "z": 0.240370333
+    },
+    "IKPositionWeight": 1.0,
+    "root": {
+      "m_FileID": 0,
+      "m_PathID": 5132458379448926477
+    },
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "IKRotationWeight": 1.0,
+    "IKRotation": {
+      "x": 0.00516050775,
+      "y": -0.000165263191,
+      "z": 0.9999868,
+      "w": 0.000156138893
+    },
+    "bendNormal": {
+      "x": 7.46710443,
+      "y": -0.235510781,
+      "z": 0.109599859
+    },
+    "bone1": {
+      "transform": {
+        "m_FileID": 0,
+        "m_PathID": -3887246217598616817
+      },
+      "weight": 1.0,
+      "solverPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "solverRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "defaultLocalPosition": {
+        "x": 2.2737367E-15,
+        "y": 1.16527736,
+        "z": 4.61852761E-16
+      },
+      "defaultLocalRotation": {
+        "x": 0.121913262,
+        "y": 0.130994126,
+        "z": 0.6966795,
+        "w": 0.694705367
+      },
+      "length": 0.0,
+      "sqrMag": 0.0,
+      "axis": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "bone2": {
+      "transform": {
+        "m_FileID": 0,
+        "m_PathID": 4060539823229869452
+      },
+      "weight": 1.0,
+      "solverPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "solverRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "defaultLocalPosition": {
+        "x": 0.0,
+        "y": 3.249624,
+        "z": 1.13686835E-15
+      },
+      "defaultLocalRotation": {
+        "x": -0.287950248,
+        "y": 0.00050836755,
+        "z": 0.00753791025,
+        "w": 0.9576156
+      },
+      "length": 0.0,
+      "sqrMag": 0.0,
+      "axis": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "bone3": {
+      "transform": {
+        "m_FileID": 0,
+        "m_PathID": -4620833187682993241
+      },
+      "weight": 1.0,
+      "solverPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "solverRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "defaultLocalPosition": {
+        "x": 5.684342E-16,
+        "y": 4.167679,
+        "z": -8.52651264E-16
+      },
+      "defaultLocalRotation": {
+        "x": 0.112131663,
+        "y": -0.00142983429,
+        "z": 0.0126698688,
+        "w": 0.9936116
+      },
+      "length": 0.0,
+      "sqrMag": 0.0,
+      "axis": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "goal": 0,
+    "bendModifier": 0,
+    "maintainRotationWeight": 0.0,
+    "bendModifierWeight": 1.0,
+    "bendGoal": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  }
+}

@@ -12,7 +12,8 @@
 	{ "Type": "MovementCapabilitiesDef", "Path": "movement" },
   { "Type": "Sprite", "Path": "portraits" },
   { "Type": "UpgradeDef", "Path": "upgrades" },
-	
+	{ "Type": "SoundBankDef", "Path": "soundbanks" },
+
 	{ "Type": "Prefab", "Path": "assets/characters/prefabs/vf11lam_vjets_left_leg.prefab", "AssetBundleName": "vf11lam_jets" },
 	{ "Type": "Prefab", "Path": "assets/characters/prefabs/vf11lam_vjets_right_leg.prefab", "AssetBundleName": "vf11lam_jets" },
 	{ "Type": "Prefab", "Path": "assets/characters/prefabs/vf11lam_vjets_torso.prefab", "AssetBundleName": "vf11lam_jets" },

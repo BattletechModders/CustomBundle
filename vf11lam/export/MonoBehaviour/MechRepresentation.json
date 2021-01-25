@@ -1,0 +1,201 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5460751480353213640
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1974265218404394457
+  },
+  "m_Name": "",
+  "thisGameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "thisTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "thisCharacterController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "thisAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "thisIKController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "parentTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "renderers": [],
+  "vfxTransforms": [],
+  "windZone": {
+    "m_FileID": 0,
+    "m_PathID": -5244035055346167696
+  },
+  "BlipObjectUnknown": {
+    "m_FileID": 0,
+    "m_PathID": 3091784299959400463
+  },
+  "BlipObjectIdentified": {
+    "m_FileID": 0,
+    "m_PathID": -2702811548747258132
+  },
+  "BlipObjectGhostWeak": {
+    "m_FileID": 0,
+    "m_PathID": -922909184715198367
+  },
+  "BlipObjectGhostStrong": {
+    "m_FileID": 0,
+    "m_PathID": -4806089296457267397
+  },
+  "VisibleObject": {
+    "m_FileID": 0,
+    "m_PathID": 4674978007904428925
+  },
+  "VisibleObjectLight": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "VFXCollider": {
+    "m_FileID": 0,
+    "m_PathID": 8475012449089911251
+  },
+  "twistTransform": {
+    "m_FileID": 0,
+    "m_PathID": -8634241158434978122
+  },
+  "currentTwistAngle": 0.0,
+  "miscComponentReps": [],
+  "weaponReps": [],
+  "LeftArmAttach": {
+    "m_FileID": 0,
+    "m_PathID": -7720028191086043159
+  },
+  "RightArmAttach": {
+    "m_FileID": 0,
+    "m_PathID": 6823216601998368171
+  },
+  "TorsoAttach": {
+    "m_FileID": 0,
+    "m_PathID": 5310014258154989587
+  },
+  "LeftLegAttach": {
+    "m_FileID": 0,
+    "m_PathID": 4060539823229869452
+  },
+  "RightLegAttach": {
+    "m_FileID": 0,
+    "m_PathID": 9153279925852923184
+  },
+  "vfxCenterTorsoTransform": {
+    "m_FileID": 0,
+    "m_PathID": -8634241158434978122
+  },
+  "vfxLeftTorsoTransform": {
+    "m_FileID": 0,
+    "m_PathID": -9154549216057687875
+  },
+  "vfxRightTorsoTransform": {
+    "m_FileID": 0,
+    "m_PathID": 4204324818587526687
+  },
+  "vfxHeadTransform": {
+    "m_FileID": 0,
+    "m_PathID": 5310014258154989587
+  },
+  "vfxLeftArmTransform": {
+    "m_FileID": 0,
+    "m_PathID": -7720028191086043159
+  },
+  "vfxRightArmTransform": {
+    "m_FileID": 0,
+    "m_PathID": 6823216601998368171
+  },
+  "vfxLeftLegTransform": {
+    "m_FileID": 0,
+    "m_PathID": 4060539823229869452
+  },
+  "vfxRightLegTransform": {
+    "m_FileID": 0,
+    "m_PathID": 9153279925852923184
+  },
+  "vfxLeftShoulderTransform": {
+    "m_FileID": 0,
+    "m_PathID": -9154549216057687875
+  },
+  "vfxRightShoulderTransform": {
+    "m_FileID": 0,
+    "m_PathID": 4204324818587526687
+  },
+  "ikLeftFootLimb": {
+    "m_FileID": 0,
+    "m_PathID": -5701785853092133919
+  },
+  "ikLeftFootTarget": {
+    "m_FileID": 0,
+    "m_PathID": 2997588189562172985
+  },
+  "ikRightFootLimb": {
+    "m_FileID": 0,
+    "m_PathID": 938662876723940577
+  },
+  "ikRightFootTarget": {
+    "m_FileID": 0,
+    "m_PathID": 7966983993400902742
+  },
+  "useBirdFoot": 0,
+  "leftFootTransform": {
+    "m_FileID": 0,
+    "m_PathID": -6111932068582991354
+  },
+  "rightFootTransform": {
+    "m_FileID": 0,
+    "m_PathID": -663159670057099896
+  },
+  "headDestructible": {
+    "m_FileID": 0,
+    "m_PathID": -76973978203203913
+  },
+  "centerTorsoDestructible": {
+    "m_FileID": 0,
+    "m_PathID": -4235374494638821648
+  },
+  "leftTorsoDestructible": {
+    "m_FileID": 0,
+    "m_PathID": -457016505388366790
+  },
+  "rightTorsoDestructible": {
+    "m_FileID": 0,
+    "m_PathID": 1608163710230079961
+  },
+  "leftArmDestructible": {
+    "m_FileID": 0,
+    "m_PathID": -2989828869823673299
+  },
+  "rightArmDestructible": {
+    "m_FileID": 0,
+    "m_PathID": -8505877185325805025
+  },
+  "leftLegDestructible": {
+    "m_FileID": 0,
+    "m_PathID": -3532560397940967835
+  },
+  "rightLegDestructible": {
+    "m_FileID": 0,
+    "m_PathID": 1521926526753839456
+  },
+  "IsOnLimpingLeg": 0,
+  "HasCalledOutLimping": 0,
+  "needsToRefreshCombinedMesh": 0
+}

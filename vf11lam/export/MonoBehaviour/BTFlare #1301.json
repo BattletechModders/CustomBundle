@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7225900645726320641
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4224241727634213260
+  },
+  "m_Name": "",
+  "intensity": 0.2,
+  "color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "useCone": 1,
+  "innerAngle": 0.0,
+  "outerAngle": 30.0
+}

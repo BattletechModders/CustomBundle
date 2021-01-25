@@ -1,0 +1,118 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2601483191489899553
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -825646952133191953
+  },
+  "m_Name": "",
+  "prefabName": "",
+  "rootTransform": {
+    "m_FileID": 0,
+    "m_PathID": -6896896104414801643
+  },
+  "thisAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mechCustomization": {
+    "m_FileID": 0,
+    "m_PathID": 3564738039384800255
+  },
+  "LeftArmAttach": {
+    "m_FileID": 0,
+    "m_PathID": 8692897662216820935
+  },
+  "RightArmAttach": {
+    "m_FileID": 0,
+    "m_PathID": -5265813809648227836
+  },
+  "TorsoAttach": {
+    "m_FileID": 0,
+    "m_PathID": 7761166308802128197
+  },
+  "LeftLegAttach": {
+    "m_FileID": 0,
+    "m_PathID": -192317139264201555
+  },
+  "RightLegAttach": {
+    "m_FileID": 0,
+    "m_PathID": 1227358960174546586
+  },
+  "vfxCenterTorsoTransform": {
+    "m_FileID": 0,
+    "m_PathID": -2166797657141418072
+  },
+  "vfxLeftTorsoTransform": {
+    "m_FileID": 0,
+    "m_PathID": -2953824150011935059
+  },
+  "vfxRightTorsoTransform": {
+    "m_FileID": 0,
+    "m_PathID": 1331843049454465087
+  },
+  "vfxHeadTransform": {
+    "m_FileID": 0,
+    "m_PathID": 7761166308802128197
+  },
+  "vfxLeftArmTransform": {
+    "m_FileID": 0,
+    "m_PathID": 8692897662216820935
+  },
+  "vfxRightArmTransform": {
+    "m_FileID": 0,
+    "m_PathID": -5265813809648227836
+  },
+  "vfxLeftLegTransform": {
+    "m_FileID": 0,
+    "m_PathID": -192317139264201555
+  },
+  "vfxRightLegTransform": {
+    "m_FileID": 0,
+    "m_PathID": 1227358960174546586
+  },
+  "vfxLeftShoulderTransform": {
+    "m_FileID": 0,
+    "m_PathID": -2953824150011935059
+  },
+  "vfxRightShoulderTransform": {
+    "m_FileID": 0,
+    "m_PathID": 1331843049454465087
+  },
+  "headDestructible": {
+    "m_FileID": 0,
+    "m_PathID": 6160819419017546635
+  },
+  "centerTorsoDestructible": {
+    "m_FileID": 0,
+    "m_PathID": -536262119352191234
+  },
+  "leftTorsoDestructible": {
+    "m_FileID": 0,
+    "m_PathID": 8547585789304936230
+  },
+  "rightTorsoDestructible": {
+    "m_FileID": 0,
+    "m_PathID": 2049294147503208249
+  },
+  "leftArmDestructible": {
+    "m_FileID": 0,
+    "m_PathID": 360676303884157389
+  },
+  "rightArmDestructible": {
+    "m_FileID": 0,
+    "m_PathID": 3857522774624758378
+  },
+  "leftLegDestructible": {
+    "m_FileID": 0,
+    "m_PathID": -598857442739014737
+  },
+  "rightLegDestructible": {
+    "m_FileID": 0,
+    "m_PathID": -7458562580597347267
+  },
+  "componentReps": []
+}

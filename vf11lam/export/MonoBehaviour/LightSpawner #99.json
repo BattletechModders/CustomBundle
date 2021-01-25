@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4022054888822107632
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1152053099036341012
+  },
+  "m_Name": "",
+  "type": 1,
+  "size": 0,
+  "color": 4,
+  "colorTemp": 1,
+  "useColorTemp": 0,
+  "castShadows": 0,
+  "usePointFlare": 0,
+  "spawnedLight": {
+    "m_FileID": 0,
+    "m_PathID": -6725151542299753332
+  },
+  "spawnedFlare": {
+    "m_FileID": 0,
+    "m_PathID": -8366441836150226188
+  }
+}

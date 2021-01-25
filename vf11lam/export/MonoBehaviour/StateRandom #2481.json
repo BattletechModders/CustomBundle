@@ -1,0 +1,15 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3250611911965640965
+  },
+  "m_Name": "",
+  "indexName": "RandomDeath",
+  "maxIndex": 3,
+  "chance": 1.0
+}

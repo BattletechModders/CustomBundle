@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5460751480353213640
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1476011541644531917
+  },
+  "m_Name": "",
+  "propertyManager": {
+    "m_FileID": 0,
+    "m_PathID": -5822850031264388408
+  },
+  "sceneInstancesBaked": 0,
+  "creep": {
+    "m_FileID": 0,
+    "m_PathID": 3692972478855200326
+  }
+}

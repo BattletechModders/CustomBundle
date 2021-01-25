@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6211949734406986675
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6750694253667793376
+  },
+  "m_Name": "",
+  "decalMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 2226430536195945072
+  },
+  "decalMeshFilter": {
+    "m_FileID": 0,
+    "m_PathID": -5075835808198425860
+  },
+  "decalMeshRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 419183381046553892
+  },
+  "sheetXCoord": 0,
+  "sheetYCoord": 0,
+  "alpha": 1.0,
+  "priority": 100
+}

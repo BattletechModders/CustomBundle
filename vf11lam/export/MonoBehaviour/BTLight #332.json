@@ -1,0 +1,41 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4022054888822107632
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4160003299092837378
+  },
+  "m_Name": "",
+  "radius": 40.0,
+  "intensity": 40000.0,
+  "attenuationOffset": 0.0,
+  "lightColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "lightTemperature": 4000.0,
+  "useTemperature": 0,
+  "contributeVolumetrics": 1,
+  "volumetricsMultiplier": 1000.0,
+  "maximumSmoothness": 1.0,
+  "spotlightAngleInner": 0.0,
+  "spotlightAngleOuter": 30.0,
+  "castShadows": 0,
+  "contributeSpecular": 1,
+  "lightType": 1,
+  "length": 1.0,
+  "shadowBias": 0.0005,
+  "shadowNearPlane": 0.005,
+  "shadowFarPlane": 1.0,
+  "isNightLight": 0,
+  "layerMask": {
+    "m_Bits": 4294967295
+  },
+  "quality": 0,
+  "distanceBehavior": 0
+}
