@@ -38,12 +38,13 @@
     "ShowPassiveAbilitiesIcon": "ram",
     "HideActiveAbilitiesIcon": "futuristic",
     "HidePassiveAbilitiesIcon": "ram",
-    "overallDeploySize": 4,
+    "overallDeploySize": 6,
+    "CountContractMaxUnits4AsUnlimited": true,
     "ConvoyMaxDistFromRoute": 90,
     "DeployManual": true,
     "Lances": [
       {
-        "size": 6,
+        "size": 4,
         "allow": 5,
         "is_vehicle": false
       },
