@@ -1,4 +1,22 @@
 {
+	"Custom": {
+		"Category" : [
+			{ "CategoryID" : "a/a/g/gaussrifle" }
+		],
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"Doubled"
+			]
+		},
+		"InventorySorter": {
+			"SortKey": "000027"
+		}
+	},
   "AmmoID": "Ammo_FGAUSS",
   "Capacity": 16,
   "Description": {

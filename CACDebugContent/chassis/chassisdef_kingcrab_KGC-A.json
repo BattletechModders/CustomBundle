@@ -19,6 +19,9 @@
       "Fire": "false",
       "Landmines": "false"
     },
+    "MeleeWeaponOverride":{
+      "DefaultWeapon": "Weapon_MeleeAttackEx"
+    },
     "MoveCostModPerBiome": {
       "DesignMaskBiomeMartianVacuum": 1.0,
       "DesignMaskBiomeLunarVacuum": 1.0

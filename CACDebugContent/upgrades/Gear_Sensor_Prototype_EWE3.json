@@ -4,7 +4,8 @@
       "ButtonName": "ECM",
       "CanNotBeActivatedManualy": false,
       "ActiveByDefault": true,
-      "FailFlatChance": 0.5,
+      "FailFlatChance": 0.0,
+      "SafeActivation": true,
       "statusEffects": [
         {
           "durationData": {

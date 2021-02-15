@@ -141,6 +141,10 @@
       "Type": "Prefab",
       "Path": "assets/chainsaw_hardpoint_prefab.prefab",
       "AssetBundleName": "custom_kingkrab_hardpoints"
+    },
+    {
+        "Type": "ContractOverride",
+        "Path": "contracts"
     }
   ]
 }

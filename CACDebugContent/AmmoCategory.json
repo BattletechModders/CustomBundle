@@ -182,6 +182,19 @@
       "FallbackUIColor": null,
       "Icon": "BallisticHardpointIcon",
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
+    },
+    {
+      "Name": "LBX20",
+      "FriendlyName": "LB 20-X",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
     }
   ]
 }

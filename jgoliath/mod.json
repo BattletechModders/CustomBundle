@@ -1,0 +1,21 @@
+{
+    "Name": "jgoliath",
+    "Enabled": true,
+	"Version": "2",
+    "Author": "Transient74",	
+    "DependsOn":["CustomUnits"],
+	"Manifest": [
+	{ "Type": "AssetBundle", "Path": "assetbundles" },	
+
+  
+  { "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/jgoliath_turret.prefab", "AssetBundleName": "jgoliath_parts" },	
+  { "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/jgoliathbody.prefab", "AssetBundleName": "jgoliath_parts" },	
+  { "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/jgoliath_center_turret_ac10_1.prefab", "AssetBundleName": "jgoliath_parts" },	
+	
+	{ "Type": "HardpointDataDef", "Path": "hardpoints" },
+	{ "Type": "ChassisDef", "Path": "chassis" },
+	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "MovementCapabilitiesDef", "Path": "movement" },
+    { "Type": "Sprite", "Path": "portraits" }		
+    ]
+}

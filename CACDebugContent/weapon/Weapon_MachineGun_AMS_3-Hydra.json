@@ -85,6 +85,16 @@
       "ShotsWhenFired": 3,
       "IsAMS": false,
       "IsAAMS": false
+    },
+    {
+      "Id": "l",
+      "UIName": "l",
+      "isBaseMode": false,
+      "ShotsWhenFired": 10,
+      "AMSHitChance": 0.8,
+      "IsAMS": true,
+      "IsAAMS": true,
+      "WeaponEffectID": "WeaponEffect-Weapon_Laser_Medium"
     }
   ],
   "statusEffects": [],

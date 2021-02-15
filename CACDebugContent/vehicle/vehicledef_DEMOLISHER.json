@@ -29,9 +29,9 @@
     },
     {
       "Location": "Left",
-      "CurrentArmor": 150,
+      "CurrentArmor": 140,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 150,
+      "AssignedArmor": 140,
       "DamageLevel": "Functional"
     },
     {
@@ -50,9 +50,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 200,
+      "CurrentArmor": 199,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 200,
+      "AssignedArmor": 199,
       "DamageLevel": "Functional"
     }
   ],

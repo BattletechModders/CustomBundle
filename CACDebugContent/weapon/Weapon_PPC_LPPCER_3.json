@@ -21,7 +21,7 @@
   "HeatDamage": 0,
   "isHeatVariation": true,
   "DistantVariance": 0.3,
-  "AccuracyModifier": -5,
+  "AccuracyModifier": -10,
   "CriticalChanceMultiplier": 1,
   "AOECapable": false,
   "IndirectFireCapable": false,
@@ -70,7 +70,7 @@
     "Purchasable": false,
     "Manufacturer": "Fal'shia",
     "Model": "XV88",
-    "UIName": "Ion Cannon--\n",
+    "UIName": "Ion Cannon",
     "Id": "Weapon_PPC_LPPCER_3",
     "Name": "Ion Cannon",
     "Details": "Это оружие стреляет ионным лучом, взрывающимся при контакте с целью. Оно идеально подходит против легкой техники и тяжелобронированной пехоты. Ионная пушка может стрелять в усиленном режиме, производя мощный взрыв, способный нанести больший урон, хотя при этом есть риск перегрузки.",
@@ -97,7 +97,7 @@
       "Id": "overload",
       "UIName": "purple",
       "isBaseMode": false,
-      "DamagePerShot": 30,
+      "DamagePerShot": 10,
       "FireDelayMultiplier": 1,
       "WeaponEffectID": "WeaponEffect-Weapon_PPC",
       "ProjectileScale": {
@@ -110,12 +110,8 @@
       "ProjectileSpeedMultiplier": 0.5,
       "ShotsWhenFired": 1,
       "ColorSpeedChange": 7,
-      "HeatGenerated": 1,
-      "evasivePipsMods": {
-        "Damage": -0.5,
-        "Heat": -0.5,
-        "FlatJammingChance": -0.5
-      }
+      "HeatGenerated": 50,
+      "HeatDamagePerShot": 50
     }
   ],
   "statusEffects": [

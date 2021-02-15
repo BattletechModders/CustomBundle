@@ -17,7 +17,7 @@
   "DamageMultiplier": 1.0,
   "AIBattleValue": 150,
   "ShotsWhenFired": 0,
-  "ProjectilesPerShot": 10,
+  "ProjectilesPerShot": 9,
   "HeatGenerated": 0,
   "HeatGeneratedModifier": 1,
   "ArmorDamageModifier": 2,

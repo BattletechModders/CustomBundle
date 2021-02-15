@@ -1,0 +1,33 @@
+{
+  "Description": {
+    "Id": "Ammunition_LBX20Buck",
+    "Name": "LBX/20 Buckshot Ammo",
+    "UIName": "Buck.",
+    "Details": "Large caliber rounds capable of dealing heavy damage, and designed to be used in an LBX/20.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "LBX20",
+  "AccuracyModifier": -1,
+  "CriticalChanceMultiplier": 0.5,
+  "DamagePerShot": 0.0,
+  "DamageMultiplier": 1.0,
+  "AIBattleValue": 150,
+  "ShotsWhenFired": 0,
+  "ProjectilesPerShot": 19,
+  "HeatGenerated": 0,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 2,
+  "ISDamageModifier": 0.5,
+  "CriticalDamageModifier": 1,
+  "CanBeExhaustedAt": 0.5,
+  "HasShells": true,
+  "UnseparatedDamageMult": 0.8,
+  "MinShellsDistance": 30,
+  "MaxShellsDistance": 100,
+  "IndirectFireCapable": false,
+  "AlwaysIndirectVisuals": false
+}

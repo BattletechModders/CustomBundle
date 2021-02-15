@@ -57,6 +57,20 @@
   "CriticalComponent": false,
   "ImprovedBallistic": true,
   "statusEffects": [],
+  "Modes": [
+    {
+      "Id": "Ind",
+      "UIName": "Ind",
+      "IndirectFireCapable": true,
+      "isBaseMode": true
+    },
+    {
+      "Id": "Dir",
+      "UIName": "Dir",
+      "DamagePerShot": 2,
+      "IndirectFireCapable": false
+    }
+  ],
   "ComponentTags": {
     "items": [
       "component_type_stock",

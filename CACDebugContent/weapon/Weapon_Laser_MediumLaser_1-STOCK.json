@@ -12,18 +12,18 @@
   "ammoCategoryID": "NotSet",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 12,
-  "Damage": 25,
+  "Damage": 1,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
   "DamageVariance": 0,
   "HeatDamage": 0,
-  "AccuracyModifier": -1,
+  "AccuracyModifier": -10,
   "CriticalChanceMultiplier": 1,
   "AOECapable": false,
   "IndirectFireCapable": false,
   "RefireModifier": 0,
-  "ShotsWhenFired": 3,
+  "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "BallisticDamagePerPallet": true,
   "AttackRecoil": 1,
@@ -70,7 +70,7 @@
     "Purchasable": true,
     "Manufacturer": "Hellion",
     "Model": "Medium Laser",
-    "UIName": "Rotary Laser",
+    "UIName": "Acid Laser",
     "Id": "Weapon_Laser_MediumLaser_1-STOCK",
     "Name": "Rotary laser",
     "Details": "Rotary laser",
@@ -80,14 +80,52 @@
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
-  "PrefabIdentifier": "rotatelaser",
+  "PrefabIdentifier": "laser",
   "BattleValue": 0,
   "InventorySize": 1,
   "Tonnage": 1,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 2,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": -1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 2,
+        "specialRules": "NotSet",
+        "effectTargetType": "NotSet",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "Effect_AcidSRM",
+        "Name": "Acid",
+        "Details": "This unit is coated with corrosive Acid. It will take increased Damage.",
+        "Icon": "uixSvgIcon_biome_Heated"
+      },
+      "statisticData": {
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Add",
+        "modValue": "0.1",
+        "modType": "System.Single"
+      },
+      "nature": "Debuff"
+    }
+  ],
   "ComponentTags": {
     "items": [
       "component_type_stock",

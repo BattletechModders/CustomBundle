@@ -73,6 +73,9 @@
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "statusEffects": [],
+  "ChassisTagsAccuracyModifiers": {
+    "tag_aircraft": -20,
+  },
   "ComponentTags": {
     "items": [
       "component_type_stock",
