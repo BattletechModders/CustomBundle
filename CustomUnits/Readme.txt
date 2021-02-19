@@ -220,7 +220,12 @@ VehicleChassis/Chassis
     "FiringArc":60, - if set and > 10 means vehicle firing arc in degrees and vehicle have to rotate toward target to fire. 
                       Working for mechs too, but you should note - direction decal will not been changed. 
     "Unaffected":{  
-      "MoveClamp": 0.3,       - this value controls inertia of unit. Unit move distance can't be greater [move distance prev. round] + MoveClamp*Speed 
+      "AllowPartialMovement": true - if true partial movement for this unit is allowed. Default value true, corresponding stat name "CUAllowPartialMovement"
+	                                 NOTE: partial movement means if you holding left shift while setting move destination point,
+									 it will place waypoint this position instead of destination point allowing you set more complicated trajectory
+									 i strongly suggest you to forbid partial movement for VTOLs and LAMs in airmech mode
+									 NOTE: it would not be able to set new waypoint if you have less than PartialMovementGuardDistance (default 15.0) movepoints left
+	  "MoveClamp": 0.3,       - this value controls inertia of unit. Unit move distance can't be greater [move distance prev. round] + MoveClamp*Speed 
                                 and less [move distance prev. round] - MoveClamp*Speed. Only for AI. For Pathing: true value should be between 0.2 and 0.5. 
                                 For Pathing: true default value 0.2. For others  default 0 (mean not apply at all).
       "DesignMasks":"true",   - if true chassis will be unaffected to all terrain design masks effects except move cost. Can be altered runtime via CUDesignMasksUnaffected actor's statistic value (boolean)

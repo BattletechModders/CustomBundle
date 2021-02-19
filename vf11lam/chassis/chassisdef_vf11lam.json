@@ -29,6 +29,12 @@
         "FlyHeight": 15.0,
         "HoveringSoundStart": "jet_start",
         "HoveringSoundEnd": "jet_end",
+        "MoveStartSound": "engine_start",
+        "MoveStopSound": "engine_end",
+        "NoJumpjetsBlock": true,
+        "MinJumpDistance": 0.9,
+        "TransformationSound": "play_transform",
+        "MoveClamp":0.3,
         "additionalEncounterTags": [ "tag_aircraft" ],
         "AirMechVerticalJets":[
           {

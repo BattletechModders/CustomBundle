@@ -5,6 +5,7 @@
       "ActivationMessage": "LAM",
       "DeactivationMessage": "MECH",
       "CanNotBeActivatedManualy": false,
+      "SwitchOffOnFail":true,
       "activateSound": "enum:AudioEventList_ui.ui_ecm_start",
       "statusEffects": [
         {
@@ -194,6 +195,33 @@
             "operation": "Set",
             "modValue": "360",
             "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1,
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "forcePathRebuild": true,
+            "showInStatusPanel": true
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "StatusEffect-LAM-AirMech-AllowPartial",
+            "Name": "AirMech mode",
+            "Details": "AirMech mode",
+            "Icon": null
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "effectsPersistAfterDestruction": false,
+            "statName": "CUAllowPartialMovement",
+            "operation": "Set",
+            "modValue": "False",
+            "modType": "System.Boolean"
           }
         }
       ]
