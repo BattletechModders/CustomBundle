@@ -5,6 +5,12 @@ this mod allows you next things
 4. Add custom animated hardpoints
 
 main settings in mod.json
+	"PartialMovementOnlyWalkByDefault": true, - if true and AllowPartialSprint is not overridden via value in Unaffected section or CUAllowPartialSprint stat value, 
+	                                            units allow partial movement only walk not sprint
+	"AllowRotateWhileJumpByDefault": true, - if false and player units will not be able to rotate while normal jumping unless overridden by unit CUAllowRotateWhileJump stat value 
+												or Unaffected.AllowRotateWhileJump
+											if true player unit will be able to rotate while normal jumping  unless overridden by unit CUAllowRotateWhileJump stat value 
+												or Unaffected.AllowRotateWhileJump
 	"ConvoyRouteBeaconVFX":"vfxPrfPrtl_artillerySmokeSignal_loop", - VFX for convoy route points
 	"ConvoyRouteBeaconVFXScale":{"x":1,"y":1,"z":1}, - VFX scale for convoy route points
 	"DeployManual": true, - allowing manual deploy in random contract.
@@ -225,6 +231,13 @@ VehicleChassis/Chassis
 									 it will place waypoint this position instead of destination point allowing you set more complicated trajectory
 									 i strongly suggest you to forbid partial movement for VTOLs and LAMs in airmech mode
 									 NOTE: it would not be able to set new waypoint if you have less than PartialMovementGuardDistance (default 15.0) movepoints left
+      "AllowPartialSprint": true - if true partial movement for this unit is allowed while sprinting. Default value <!PartialMovementOnlyWalkByDefault>,
+									corresponding stat name "CUAllowPartialSprint".
+									NOTE: if AllowPartialSprint is false and AllowPartialMovement is true unit allowed to partial move only while walking
+									if AllowPartialSprint is not set and PartialMovementOnlyWalkByDefault is true allowed to partial move only while walking
+									if AllowPartialSprint is not set and PartialMovementOnlyWalkByDefault is false allowed to partial move only while walking and sprinting
+      "AllowRotateWhileJump": true - if true unit is allowed to rotate while jumping. Default value <AllowRotateWhileJumpByDefault>,
+									corresponding stat name "CUAllowRotateWhileJump".
 	  "MoveClamp": 0.3,       - this value controls inertia of unit. Unit move distance can't be greater [move distance prev. round] + MoveClamp*Speed 
                                 and less [move distance prev. round] - MoveClamp*Speed. Only for AI. For Pathing: true value should be between 0.2 and 0.5. 
                                 For Pathing: true default value 0.2. For others  default 0 (mean not apply at all).
