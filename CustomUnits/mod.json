@@ -69,6 +69,7 @@
       "z": 1
     }
   },
+  "CustomResourceTypes": ["CustomMechRepresentationDef"],
 	"Manifest": [
     { "Type": "AssetBundle", "Path": "assetbundles" },	
     { "Type": "SVGAsset", "Path": "icons" },
