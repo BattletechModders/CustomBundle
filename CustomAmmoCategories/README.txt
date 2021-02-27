@@ -342,7 +342,8 @@ new fields
   "TrooperSquadDamageModifier":1, - weapon damage modifier if target is trooper squad
   "AirMechDamageModifier":1,      - weapon damage modifier if target is in air mech mode
   "VTOLDamageModifier":1,         - weapon damage modifier if target is VTOL (unaffected by pathing and flying height > 1m)
-	                       NOTE: this modifiers multiplicative for weapon, ammo, mode. Default value - 1.0
+	                       NOTE: to make this modifiers work you should also have CustomUnits mod enabled
+						   NOTE: this modifiers multiplicative for weapon, ammo, mode. Default value - 1.0
 						   NOTE: this modifiers affects all damage types - normal, ap, heat, stability
 						   NOTE: this modifiers multiplicative per target type. Quad is still a mech so it will have both modifiers. 
 						         VTOL is still vehicle, mech in air mech mode is still mech.
