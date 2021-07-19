@@ -25,7 +25,7 @@
     "AIOverheatCoeffCoeff": 0.6,
     "StartupByHeatControl": false,
     "StartupMinHeatRatio": 0.4,
-    "StoodUpPilotingRoll": true,
+    "StoodUpPilotingRoll": false,
     "StoodUpPilotingRollCoeff": 0.1,
     "DefaultArmsAbsenceStoodUpMod": -0.1,
     "LegAbsenceStoodUpMod": -0.1,

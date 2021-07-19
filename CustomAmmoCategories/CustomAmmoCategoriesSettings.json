@@ -19,7 +19,7 @@
     "nuka",
     "glow",
     "burnedtrees",
-	"floatiemessage"
+    "floatiemessage"
   ],
   "NoForestBiomes": [
     "DesignMaskBiomeMartianVacuum",
@@ -238,19 +238,25 @@
   "OrderButtonPaddingScale": 0.3,
   "SidePanelInfoSelfExternal": false,
   "SidePanelInfoTargetExternal": false,
-  "MechHasNoStabilityTag": ["mech_no_stability"],
-  "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"],
+  "MechHasNoStabilityTag": [ "mech_no_stability" ],
+  "TransferHeatDamageToNormalTag": [ "heat_damage_to_normal" ],
   "AttackLogWrite": true,
   "ShowAttackGroundButton": true,
   "ShowWeaponOrderButtons": true,
   "InfoPanelDefaultState": true,
-  "ToHitSelfJumped":2,
-  "ToHitMechFromFront":0,
-  "ToHitMechFromSide":-1,
-  "ToHitMechFromRear":-2,
-  "ToHitVehicleFromFront":0,
-  "ToHitVehicleFromSide":-1,
-  "ToHitVehicleFromRear":-2,
-  "WeaponPanelWidthScale":1,
-  "WeaponPanelHeightScale":1
+  "ToHitSelfJumped": 2,
+  "ToHitMechFromFront": 0,
+  "ToHitMechFromSide": -1,
+  "ToHitMechFromRear": -2,
+  "ToHitVehicleFromFront": 0,
+  "ToHitVehicleFromSide": -1,
+  "ToHitVehicleFromRear": -2,
+  "WeaponPanelWidthScale": 1,
+  "WeaponPanelHeightScale": 1,
+  "DefaultMoveCosts": {
+    "Naval": {
+      "moveCost": 9999.9,
+      "SprintMultiplier": 9999.9
+    }
+  }
 }

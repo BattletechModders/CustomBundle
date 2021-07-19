@@ -82,11 +82,21 @@ AI related mod settings
 			"FailISDamage":10,  - Damage to inner structure on fail
 			"FailCrit":true, - if true fail inflicts critical rolls.
 			"SelfCrit": false - if true make crit hit to self.
-			"FailDamageLocations":["LeftLeg","RightLeg"], - list of locations to crit rolls. 
-			                              Avaible values Head,LeftArm, LeftTorso , CenterTorso,RightTorso,RightArm,LeftLeg,RightLeg. ONLY this values.
-							Fail damage notes: if FailCrit is true crit is always inflicted. Random roll is just for component. 
-							Crits hits only occupied slots (instead of vanilla logic) no matter if component is destroyed. 
-							So have lone ammo boxes in FailDamageLocations without other crit-traps is a bad idea as showed in demo video.
+			"FailDamageLocations":["LeftLeg","RightLeg"], - list of locations to damage. 
+			                              Available values Head,LeftArm, LeftTorso, CenterTorso, RightTorso,RightArm,LeftLeg,RightLeg. ONLY this values.
+			"FailDamageVehicleLocations":["Front","Left"], - list of locations to damage. Used if component installed on vehicle
+			                             Avaible values Front,Left,Right,Rear,Turret. If vehicle is turret-less damage will not be inflicted.
+							Fail damage notes: if FailCrit is true crit is always inflicted. Random roll is just for detect target component. 
+							Crits hits only occupied slots (instead of vanilla logic), if component is destroyed it is skipped from roll. 
+			"FailCritComponents": false - if true fail inflicts critical rolls, but logic is different from "FailCrit".
+			"FailCritLocations":["LeftLeg","RightLeg"], - list of locations to crit rolls. 
+			"FailCritVehicleLocations": ["Front","Left"] - list of locations to crit rolls. 
+			                              if "FailCrit" is true all fail damage to locations inflicts crit roll to detect which component 
+										  will be targeted. Eg. if FailDamageLocations array contains three locations three crit roll will be preformed
+										  But if FailCritComponents is true, fail results only one crit roll. It will list all components from FailCritLocations
+										  and than choose one to crit.
+			"FailCritExcludeComponentsTags" : [], - if component have one of tag from this list it will be excluded from fail damage crit roll both (FailCrit and FailCritComponents) methods
+			"FailCritOnlyComponentsTags" : [], - if not empty only component having at least one tag from this list will be used to drit roll crit roll both (FailCrit and FailCritComponents) methods
 			"MechTonnageWeightMult" : 20 - installed chassis tonnage restriction multiplier. Tonnage restriction from (Component.Tonnage-1)*(MechTonnageWeightMult)+1 to (Component.Tonnage)*(MechTonnageWeightMult)
 			                                with component tonnage - 5 and MechTonnageWeightMult - 20 chassis tonnage restriction will be from (5-1)*20 + 1 = 81 to 5*20 = 100
 			"MechTonnageSlotsMult" : 20  - installed chassis tonnage restriction multiplier.
